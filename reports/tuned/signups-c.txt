@@ -1,0 +1,14 @@
+Hi,
+
+Here is the signups note for the week of Oct 12 to Oct 18. We got 317 signups from real customers, and 137 of them finished setup, so overall activation was 43%.
+
+Activation rises with the plan people chose: Free was 37%, Starter 48% and Team 68%. The higher-value plans are finishing setup far more often.
+
+Top sources:
+- Organic search was the biggest, with 98 signups.
+- Paid search came next with 81.
+- Direct was third with 60.
+
+Paid search is the only paid channel in the export, and it accounted for 26% of all signups. Referral (53) and Partner (25) made up the rest.
+
+By country, the US led with 141 signups, or 44% of the total, followed by the UK with 46 and France with 33. Germany, South Korea, Canada and Australia were each smaller.

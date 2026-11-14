@@ -1,0 +1,14 @@
+Hi, here is the hiring pipeline update from the October 18 export.
+
+We have 751 candidates in the pipeline data, after taking out 17 rows flagged as duplicates. Most have already been closed out: 532 rejected, 102 withdrawn and 34 hired. The remaining 83 are still active: 32 at Applied, 27 at Screen, 20 at Interview and 4 at Offer.
+
+Offers accepted: 34. A further 10 offers were marked as not accepted.
+
+Top sources:
+- LinkedIn: 281 candidates
+- Careers page: 219
+- Referral: 105
+
+Backend Engineer has the most candidates at 197, followed by Support Specialist at 170 and Account Executive at 158.
+
+Application volume is steady. We received 67 applications in the last seven days (Oct 12 to 18) against 64 the week before, an increase of 3, or 4.7%.

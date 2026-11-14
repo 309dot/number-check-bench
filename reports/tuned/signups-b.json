@@ -1,0 +1,80 @@
+[
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Number of rows flagged Test account = Yes (all 4 are internal.test, Team plan, Direct), Oct 12-18.",
+  "left_out": "none (counted, then removed from everything else)"
+ },
+ {
+  "quote": "317",
+  "value": 317,
+  "definition": "Number of signup rows Oct 12-18 with Test account blank.",
+  "left_out": "the 4 rows with Test account = Yes (internal.test domain), as they are internal, not real signups"
+ },
+ {
+  "quote": "43%",
+  "value": 0.43217665615141954,
+  "definition": "Share of the 317 real signups with Finished setup = Yes.",
+  "left_out": "the 4 rows with Test account = Yes (internal.test domain), as they are internal, not real signups"
+ },
+ {
+  "quote": "37%",
+  "value": 0.37185929648241206,
+  "definition": "Share of Free-plan signups (excluding test accounts) with Finished setup = Yes (74 of 199).",
+  "left_out": "the 4 rows with Test account = Yes (internal.test domain), as they are internal, not real signups"
+ },
+ {
+  "quote": "48%",
+  "value": 0.47619047619047616,
+  "definition": "Share of Starter-plan signups (excluding test accounts) with Finished setup = Yes (40 of 84).",
+  "left_out": "the 4 rows with Test account = Yes (internal.test domain), as they are internal, not real signups"
+ },
+ {
+  "quote": "68%",
+  "value": 0.6764705882352942,
+  "definition": "Share of Team-plan signups (excluding test accounts) with Finished setup = Yes (23 of 34).",
+  "left_out": "the 4 test accounts, all Team plan and all finished setup; including them would show 27 of 38 (71%)"
+ },
+ {
+  "quote": "98",
+  "value": 98,
+  "definition": "Signups (excluding test accounts) with Source = Organic search.",
+  "left_out": "the 4 rows with Test account = Yes (internal.test domain), as they are internal, not real signups"
+ },
+ {
+  "quote": "81",
+  "value": 81,
+  "definition": "Signups (excluding test accounts) with Source = Paid search.",
+  "left_out": "the 4 rows with Test account = Yes (internal.test domain), as they are internal, not real signups"
+ },
+ {
+  "quote": "60",
+  "value": 60,
+  "definition": "Signups (excluding test accounts) with Source = Direct.",
+  "left_out": "the 4 test accounts (all Direct); raw Direct is 64"
+ },
+ {
+  "quote": "26%",
+  "value": 0.2555205047318612,
+  "definition": "Share of the 317 real signups with Source = Paid search (81 of 317); Paid search is treated as the only paid channel, Referral/Partner/Direct/Organic as unpaid.",
+  "left_out": "the 4 rows with Test account = Yes (internal.test domain), as they are internal, not real signups"
+ },
+ {
+  "quote": "45%",
+  "value": 0.444794952681388,
+  "definition": "Share of the 317 real signups with Country = US (141 of 317).",
+  "left_out": "the 4 test accounts (all US)"
+ },
+ {
+  "quote": "15%",
+  "value": 0.14511041009463724,
+  "definition": "Share of the 317 real signups with Country = UK (46 of 317).",
+  "left_out": "the 4 rows with Test account = Yes (internal.test domain), as they are internal, not real signups"
+ },
+ {
+  "quote": "10%",
+  "value": 0.10410094637223975,
+  "definition": "Share of the 317 real signups with Country = FR (33 of 317).",
+  "left_out": "the 4 rows with Test account = Yes (internal.test domain), as they are internal, not real signups"
+ }
+]

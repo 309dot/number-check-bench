@@ -1,0 +1,10 @@
+Last week (Oct 12-18) we handled 227 tickets and closed 214. That leaves out 17 spam or merged-duplicate tickets opened in the week. The week before, we handled 225 and closed 202.
+
+- First response: median 5.9 hours, down from 6.2 the week before.
+- SLA breaches: 69 tickets, or 30.4% of those handled, against 67 (29.8%) the week before. Basically flat.
+- Customer satisfaction: 92.2% of rated tickets were Good (47 of 51), up from 88.9%. Only 51 customers rated last week versus 108 the week before, so I would not read too much into the improvement.
+- Busiest channel: Email with 110 tickets, ahead of Chat at 86 and Phone at 31.
+
+Maya closed the most, 48 tickets, followed by Hana with 43. Theo closed 18, the fewest.
+
+Overall volume is steady and we closed a little fewer than we took in. The SLA breach rate is the thing to watch.

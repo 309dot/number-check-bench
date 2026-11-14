@@ -1,0 +1,164 @@
+[
+ {
+  "quote": "317",
+  "value": 317,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Number of signup rows, excluding test accounts.",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Rows flagged Test account = Yes.",
+  "left_out": "none"
+ },
+ {
+  "quote": "137",
+  "value": 137,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Real signups with Finished setup = Yes.",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "43%",
+  "value": 43.217665615141954,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Share of real signups with Finished setup = Yes (137/317).",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "37%",
+  "value": 37.185929648241206,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Share of Free-plan real signups that finished setup.",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "74",
+  "value": 74,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Free-plan real signups with Finished setup = Yes.",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "199",
+  "value": 199,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Free-plan real signups.",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "48%",
+  "value": 47.61904761904762,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Share of Starter-plan real signups that finished setup.",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "40",
+  "value": 40,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Starter-plan real signups with Finished setup = Yes.",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "84",
+  "value": 84,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Starter-plan real signups.",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "68%",
+  "value": 67.6470588235294,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Share of Team-plan real signups that finished setup.",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "23",
+  "value": 23,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Team-plan real signups with Finished setup = Yes.",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "34",
+  "value": 34,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Team-plan real signups (38 raw minus 4 test accounts).",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "98",
+  "value": 98,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Real signups with Source = Organic search.",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "31%",
+  "value": 30.914826498422713,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Organic search share of real signups.",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "81",
+  "value": 81,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Real signups with Source = Paid search (the only paid-looking source in the export).",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "26%",
+  "value": 25.55205047318612,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Paid search share of real signups.",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "60",
+  "value": 60,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Real signups with Source = Direct (raw 64 minus 4 test accounts).",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "a quarter",
+  "value": 25.55205047318612,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Paid search share of real signups (25.6%), described in words.",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "141",
+  "value": 141,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Real signups with Country = US.",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "44%",
+  "value": 44.4794952681388,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. US share of real signups.",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "46",
+  "value": 46,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Real signups with Country = UK.",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "33",
+  "value": 33,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Real signups with Country = FR.",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "29",
+  "value": 29,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Real signups with Country = DE.",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "23",
+  "value": 23,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Real signups with Country = KR (South Korea).",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "23",
+  "value": 23,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Real signups with Country = CA (Canada).",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ },
+ {
+  "quote": "22",
+  "value": 22,
+  "definition": "Period: signups created 2026-10-12 to 2026-10-18. Real signups with Country = AU.",
+  "left_out": "4 rows with Test account = Yes (domain internal.test), excluded as internal test accounts"
+ }
+]

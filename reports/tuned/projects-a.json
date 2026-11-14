@@ -1,0 +1,92 @@
+[
+ {
+  "quote": "18",
+  "value": 18,
+  "definition": "Count of Active projects = rows with Archived='No' and no Done date (18 rows), as of the 2026-10-18 export.",
+  "left_out": "Excluded the Total summary row (not a project), 2 archived projects (Intranet refresh, Legacy CMS shutdown) and 4 completed projects with a Done date (Vendor portal, Office move, Help center, Supplier onboarding)."
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Active projects whose Due date is before 2026-10-18 (none have a Done date).",
+  "left_out": "Excluded the Total summary row (not a project), 2 archived projects (Intranet refresh, Legacy CMS shutdown) and 4 completed projects with a Done date (Vendor portal, Office move, Help center, Supplier onboarding)."
+ },
+ {
+  "quote": "9",
+  "value": 9,
+  "definition": "Active projects with Status = Green.",
+  "left_out": "Excluded the Total summary row (not a project), 2 archived projects (Intranet refresh, Legacy CMS shutdown) and 4 completed projects with a Done date (Vendor portal, Office move, Help center, Supplier onboarding)."
+ },
+ {
+  "quote": "6",
+  "value": 6,
+  "definition": "Active projects with Status = Amber.",
+  "left_out": "Excluded the Total summary row (not a project), 2 archived projects (Intranet refresh, Legacy CMS shutdown) and 4 completed projects with a Done date (Vendor portal, Office move, Help center, Supplier onboarding)."
+ },
+ {
+  "quote": "3",
+  "value": 3,
+  "definition": "Active projects with Status = Red.",
+  "left_out": "Excluded the Total summary row (not a project), 2 archived projects (Intranet refresh, Legacy CMS shutdown) and 4 completed projects with a Done date (Vendor portal, Office move, Help center, Supplier onboarding)."
+ },
+ {
+  "quote": "$3.34M",
+  "value": 3340000,
+  "definition": "Sum of the Budget column over active projects.",
+  "left_out": "Excluded the Total summary row (not a project), 2 archived projects (Intranet refresh, Legacy CMS shutdown) and 4 completed projects with a Done date (Vendor portal, Office move, Help center, Supplier onboarding). The sheet Total row (3,880,000) includes those excluded rows."
+ },
+ {
+  "quote": "$2.54M",
+  "value": 2541640,
+  "definition": "Sum of the Spend column over active projects.",
+  "left_out": "Excluded the Total summary row (not a project), 2 archived projects (Intranet refresh, Legacy CMS shutdown) and 4 completed projects with a Done date (Vendor portal, Office move, Help center, Supplier onboarding). The sheet Total row (3,010,110) includes those excluded rows."
+ },
+ {
+  "quote": "76%",
+  "value": 76.09700598802395,
+  "definition": "Active-project Spend divided by active-project Budget, as a percentage.",
+  "left_out": "Excluded the Total summary row (not a project), 2 archived projects (Intranet refresh, Legacy CMS shutdown) and 4 completed projects with a Done date (Vendor portal, Office move, Help center, Supplier onboarding)."
+ },
+ {
+  "quote": "3",
+  "value": 3,
+  "definition": "Active projects where Spend is greater than Budget.",
+  "left_out": "Excluded the Total summary row (not a project), 2 archived projects (Intranet refresh, Legacy CMS shutdown) and 4 completed projects with a Done date (Vendor portal, Office move, Help center, Supplier onboarding)."
+ },
+ {
+  "quote": "$33,600",
+  "value": 33600,
+  "definition": "Data warehouse Spend minus Budget (453,600 - 420,000).",
+  "left_out": "none"
+ },
+ {
+  "quote": "$18,400",
+  "value": 18400,
+  "definition": "Billing revamp Spend minus Budget (248,400 - 230,000).",
+  "left_out": "none"
+ },
+ {
+  "quote": "$10,130",
+  "value": 10130,
+  "definition": "CRM migration Spend minus Budget (270,130 - 260,000).",
+  "left_out": "none"
+ },
+ {
+  "quote": "3",
+  "value": 3,
+  "definition": "Active projects in the Marketing department; Product also has 3 (a tie for most, no other department has more than 2).",
+  "left_out": "Excluded the Total summary row (not a project), 2 archived projects (Intranet refresh, Legacy CMS shutdown) and 4 completed projects with a Done date (Vendor portal, Office move, Help center, Supplier onboarding)."
+ },
+ {
+  "quote": "$490,000",
+  "value": 490000,
+  "definition": "Sum of Budget for active Product-department projects.",
+  "left_out": "Excluded the Total summary row (not a project), 2 archived projects (Intranet refresh, Legacy CMS shutdown) and 4 completed projects with a Done date (Vendor portal, Office move, Help center, Supplier onboarding)."
+ },
+ {
+  "quote": "$440,000",
+  "value": 440000,
+  "definition": "Sum of Budget for active Marketing-department projects.",
+  "left_out": "Excluded the Total summary row (not a project), 2 archived projects (Intranet refresh, Legacy CMS shutdown) and 4 completed projects with a Done date (Vendor portal, Office move, Help center, Supplier onboarding)."
+ }
+]

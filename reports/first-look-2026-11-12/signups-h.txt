@@ -1,0 +1,14 @@
+Paid search converts best and Partner worst. Excluding 4 internal test accounts, there were 317 signups this week and 137 finished setup (43%).
+
+By source, signups and finished setup:
+- Paid search: 81, 38 (47%)
+- Referral: 53, 23 (43%)
+- Direct: 60, 26 (43%)
+- Organic search: 98, 42 (43%)
+- Partner: 25, 8 (32%)
+
+Plan mix: 199 Free (63%), 84 Starter (26%), 34 Team (11%).
+
+Busiest day was Monday with 57 signups, with Tuesday right behind at 55.
+
+Odd: the 4 test accounts all came from internal.test, were Team plan, Direct source and marked finished. Left in, they'd have inflated Team and Direct. Partner's sample is small, so don't over-read 32%.

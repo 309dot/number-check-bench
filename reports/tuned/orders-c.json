@@ -1,0 +1,134 @@
+[
+ {
+  "quote": "1,342",
+  "value": 1342,
+  "definition": "Orders in the export excluding rows with Status 'Cancelled' and rows with Test order = 'Yes' (rows 4-1384 only), month to date Oct 1-18 2026.",
+  "left_out": "The 'Total' footer row; 35 Cancelled orders (never fulfilled, no revenue); 4 rows flagged Test order = Yes (internal $1 test orders)"
+ },
+ {
+  "quote": "$131,957",
+  "value": 131956.92,
+  "definition": "Sum of Order total (gross, before refunds) over the valid orders, Oct 1-18 2026.",
+  "left_out": "The 'Total' footer row; 35 Cancelled orders (never fulfilled, no revenue); 4 rows flagged Test order = Yes (internal $1 test orders)"
+ },
+ {
+  "quote": "$98.33",
+  "value": 98.32855439642326,
+  "definition": "Gross revenue divided by valid order count.",
+  "left_out": "The 'Total' footer row; 35 Cancelled orders (never fulfilled, no revenue); 4 rows flagged Test order = Yes (internal $1 test orders)"
+ },
+ {
+  "quote": "35",
+  "value": 35,
+  "definition": "Rows with Status 'Cancelled' (none were test orders).",
+  "left_out": "none; these are the exclusions being described"
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Rows with Test order = 'Yes'.",
+  "left_out": "none; these are the exclusions being described"
+ },
+ {
+  "quote": "45",
+  "value": 45,
+  "definition": "Valid orders with Status 'Refunded'.",
+  "left_out": "The 'Total' footer row; 35 Cancelled orders (never fulfilled, no revenue); 4 rows flagged Test order = Yes (internal $1 test orders)"
+ },
+ {
+  "quote": "3.4%",
+  "value": 0.03353204172876304,
+  "definition": "Refunded orders divided by valid orders (share of orders, not of dollars).",
+  "left_out": "The 'Total' footer row; 35 Cancelled orders (never fulfilled, no revenue); 4 rows flagged Test order = Yes (internal $1 test orders)"
+ },
+ {
+  "quote": "$4,039",
+  "value": 4039.29,
+  "definition": "Sum of Refund amount over valid orders (equals the file's own total row).",
+  "left_out": "The 'Total' footer row; 35 Cancelled orders (never fulfilled, no revenue); 4 rows flagged Test order = Yes (internal $1 test orders)"
+ },
+ {
+  "quote": "$65,608",
+  "value": 65608.48,
+  "definition": "Sum of Order total for valid orders with Channel = Web.",
+  "left_out": "The 'Total' footer row; 35 Cancelled orders (never fulfilled, no revenue); 4 rows flagged Test order = Yes (internal $1 test orders)"
+ },
+ {
+  "quote": "49.7%",
+  "value": 0.49719620615576654,
+  "definition": "Web order total divided by total gross revenue of valid orders.",
+  "left_out": "The 'Total' footer row; 35 Cancelled orders (never fulfilled, no revenue); 4 rows flagged Test order = Yes (internal $1 test orders)"
+ },
+ {
+  "quote": "$40,398",
+  "value": 40397.85,
+  "definition": "Sum of Order total for valid orders with Region = North.",
+  "left_out": "The 'Total' footer row; 35 Cancelled orders (never fulfilled, no revenue); 4 rows flagged Test order = Yes (internal $1 test orders)"
+ },
+ {
+  "quote": "30.6%",
+  "value": 0.30614423252679734,
+  "definition": "North order total divided by total gross revenue of valid orders.",
+  "left_out": "The 'Total' footer row; 35 Cancelled orders (never fulfilled, no revenue); 4 rows flagged Test order = Yes (internal $1 test orders)"
+ },
+ {
+  "quote": "770",
+  "value": 770,
+  "definition": "Valid orders with Customer type = Returning (counts orders, not unique customers; no customer ID in export).",
+  "left_out": "The 'Total' footer row; 35 Cancelled orders (never fulfilled, no revenue); 4 rows flagged Test order = Yes (internal $1 test orders)"
+ },
+ {
+  "quote": "57.4%",
+  "value": 0.5737704918032787,
+  "definition": "Returning orders divided by valid orders.",
+  "left_out": "The 'Total' footer row; 35 Cancelled orders (never fulfilled, no revenue); 4 rows flagged Test order = Yes (internal $1 test orders)"
+ },
+ {
+  "quote": "572",
+  "value": 572,
+  "definition": "Valid orders with Customer type = New (counts orders, not unique customers).",
+  "left_out": "The 'Total' footer row; 35 Cancelled orders (never fulfilled, no revenue); 4 rows flagged Test order = Yes (internal $1 test orders)"
+ },
+ {
+  "quote": "42.6%",
+  "value": 0.4262295081967213,
+  "definition": "New orders divided by valid orders.",
+  "left_out": "The 'Total' footer row; 35 Cancelled orders (never fulfilled, no revenue); 4 rows flagged Test order = Yes (internal $1 test orders)"
+ },
+ {
+  "quote": "500",
+  "value": 500,
+  "definition": "Valid orders dated Oct 12-18 2026 (Mon-Sun, last full week).",
+  "left_out": "The 'Total' footer row; 35 Cancelled orders (never fulfilled, no revenue); 4 rows flagged Test order = Yes (internal $1 test orders)"
+ },
+ {
+  "quote": "$50,874",
+  "value": 50873.74,
+  "definition": "Gross Order total of valid orders dated Oct 12-18 2026.",
+  "left_out": "The 'Total' footer row; 35 Cancelled orders (never fulfilled, no revenue); 4 rows flagged Test order = Yes (internal $1 test orders)"
+ },
+ {
+  "quote": "525",
+  "value": 525,
+  "definition": "Valid orders dated Oct 5-11 2026 (week before).",
+  "left_out": "The 'Total' footer row; 35 Cancelled orders (never fulfilled, no revenue); 4 rows flagged Test order = Yes (internal $1 test orders)"
+ },
+ {
+  "quote": "$51,483",
+  "value": 51483.11,
+  "definition": "Gross Order total of valid orders dated Oct 5-11 2026.",
+  "left_out": "The 'Total' footer row; 35 Cancelled orders (never fulfilled, no revenue); 4 rows flagged Test order = Yes (internal $1 test orders)"
+ },
+ {
+  "quote": "4.8%",
+  "value": -0.047619047619047616,
+  "definition": "Percent change in valid order count, Oct 12-18 vs Oct 5-11 (value shown is signed change).",
+  "left_out": "The 'Total' footer row; 35 Cancelled orders (never fulfilled, no revenue); 4 rows flagged Test order = Yes (internal $1 test orders)"
+ },
+ {
+  "quote": "1.2%",
+  "value": -0.01183630903416679,
+  "definition": "Percent change in gross revenue, Oct 12-18 vs Oct 5-11 (value shown is signed change).",
+  "left_out": "The 'Total' footer row; 35 Cancelled orders (never fulfilled, no revenue); 4 rows flagged Test order = Yes (internal $1 test orders)"
+ }
+]

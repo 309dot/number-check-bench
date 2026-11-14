@@ -1,0 +1,110 @@
+[
+ {
+  "quote": "1,342",
+  "value": 1342,
+  "definition": "Count of order rows dated Oct 1-18, 2026, excluding test and cancelled orders (refunded orders are kept).",
+  "left_out": "4 test orders (Test order = Yes, $1 each) and 35 cancelled orders (Status = Cancelled); also the blank row and Total row at the bottom of the sheet"
+ },
+ {
+  "quote": "$131,957",
+  "value": 131956.92,
+  "definition": "Sum of Order total (gross, before refunds) over the 1,342 valid orders, Oct 1-18.",
+  "left_out": "4 test orders (Test order = Yes, $1 each) and 35 cancelled orders (Status = Cancelled); also the blank row and Total row at the bottom of the sheet"
+ },
+ {
+  "quote": "$98.33",
+  "value": 98.32855439642326,
+  "definition": "Gross revenue divided by valid order count, Oct 1-18.",
+  "left_out": "4 test orders (Test order = Yes, $1 each) and 35 cancelled orders (Status = Cancelled); also the blank row and Total row at the bottom of the sheet"
+ },
+ {
+  "quote": "3.4%",
+  "value": 0.03353204172876304,
+  "definition": "Orders with Status = Refunded divided by valid orders, Oct 1-18.",
+  "left_out": "4 test orders (Test order = Yes, $1 each) and 35 cancelled orders (Status = Cancelled); also the blank row and Total row at the bottom of the sheet"
+ },
+ {
+  "quote": "45",
+  "value": 45,
+  "definition": "Count of valid orders with Status = Refunded, Oct 1-18.",
+  "left_out": "4 test orders (Test order = Yes, $1 each) and 35 cancelled orders (Status = Cancelled); also the blank row and Total row at the bottom of the sheet"
+ },
+ {
+  "quote": "$65,608",
+  "value": 65608.48000000001,
+  "definition": "Sum of Order total for Web-channel valid orders, Oct 1-18.",
+  "left_out": "4 test orders (Test order = Yes, $1 each) and 35 cancelled orders (Status = Cancelled); also the blank row and Total row at the bottom of the sheet"
+ },
+ {
+  "quote": "50%",
+  "value": 0.49719620615576665,
+  "definition": "Web channel revenue as share of total valid-order revenue, Oct 1-18.",
+  "left_out": "4 test orders (Test order = Yes, $1 each) and 35 cancelled orders (Status = Cancelled); also the blank row and Total row at the bottom of the sheet"
+ },
+ {
+  "quote": "$40,398",
+  "value": 40397.85000000004,
+  "definition": "Sum of Order total for North-region valid orders, Oct 1-18.",
+  "left_out": "4 test orders (Test order = Yes, $1 each) and 35 cancelled orders (Status = Cancelled); also the blank row and Total row at the bottom of the sheet"
+ },
+ {
+  "quote": "31%",
+  "value": 0.3061442325267977,
+  "definition": "North region revenue as share of total valid-order revenue, Oct 1-18.",
+  "left_out": "4 test orders (Test order = Yes, $1 each) and 35 cancelled orders (Status = Cancelled); also the blank row and Total row at the bottom of the sheet"
+ },
+ {
+  "quote": "572",
+  "value": 572,
+  "definition": "Count of valid orders with Customer type = New, Oct 1-18 (orders, not distinct customers).",
+  "left_out": "4 test orders (Test order = Yes, $1 each) and 35 cancelled orders (Status = Cancelled); also the blank row and Total row at the bottom of the sheet"
+ },
+ {
+  "quote": "43%",
+  "value": 0.4262295081967213,
+  "definition": "New-customer orders as share of valid orders, Oct 1-18.",
+  "left_out": "4 test orders (Test order = Yes, $1 each) and 35 cancelled orders (Status = Cancelled); also the blank row and Total row at the bottom of the sheet"
+ },
+ {
+  "quote": "770",
+  "value": 770,
+  "definition": "Count of valid orders with Customer type = Returning, Oct 1-18.",
+  "left_out": "4 test orders (Test order = Yes, $1 each) and 35 cancelled orders (Status = Cancelled); also the blank row and Total row at the bottom of the sheet"
+ },
+ {
+  "quote": "500",
+  "value": 500,
+  "definition": "Count of valid orders dated Oct 12-18 (Mon-Sun, the last full week).",
+  "left_out": "4 test orders (Test order = Yes, $1 each) and 35 cancelled orders (Status = Cancelled); also the blank row and Total row at the bottom of the sheet; orders before Oct 12"
+ },
+ {
+  "quote": "525",
+  "value": 525,
+  "definition": "Count of valid orders dated Oct 5-11 (Mon-Sun, the week before).",
+  "left_out": "4 test orders (Test order = Yes, $1 each) and 35 cancelled orders (Status = Cancelled); also the blank row and Total row at the bottom of the sheet; orders outside Oct 5-11"
+ },
+ {
+  "quote": "4.8%",
+  "value": -0.04761904761904767,
+  "definition": "Percent change in valid order count, Oct 12-18 vs Oct 5-11 (shown as a decline).",
+  "left_out": "4 test orders (Test order = Yes, $1 each) and 35 cancelled orders (Status = Cancelled); also the blank row and Total row at the bottom of the sheet"
+ },
+ {
+  "quote": "$50,874",
+  "value": 50873.74,
+  "definition": "Sum of Order total for valid orders dated Oct 12-18.",
+  "left_out": "4 test orders (Test order = Yes, $1 each) and 35 cancelled orders (Status = Cancelled); also the blank row and Total row at the bottom of the sheet"
+ },
+ {
+  "quote": "$51,483",
+  "value": 51483.11,
+  "definition": "Sum of Order total for valid orders dated Oct 5-11.",
+  "left_out": "4 test orders (Test order = Yes, $1 each) and 35 cancelled orders (Status = Cancelled); also the blank row and Total row at the bottom of the sheet"
+ },
+ {
+  "quote": "1.2%",
+  "value": -0.01183630903416677,
+  "definition": "Percent change in gross revenue, Oct 12-18 vs Oct 5-11 (shown as a decline).",
+  "left_out": "4 test orders (Test order = Yes, $1 each) and 35 cancelled orders (Status = Cancelled); also the blank row and Total row at the bottom of the sheet"
+ }
+]

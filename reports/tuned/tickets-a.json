@@ -1,0 +1,140 @@
+[
+ {
+  "quote": "227",
+  "value": 227,
+  "definition": "Count of non-spam, non-duplicate tickets with Opened between 2026-10-12 and 2026-10-18 (Mon-Sun, last week).",
+  "left_out": "Rows flagged Spam=Yes or Merged duplicate=Yes (not genuine tickets); also tickets outside the week"
+ },
+ {
+  "quote": "214",
+  "value": 214,
+  "definition": "Count of non-spam, non-duplicate tickets whose Closed date is between 2026-10-12 and 2026-10-18 (status Closed or Solved), regardless of when opened.",
+  "left_out": "Spam and merged-duplicate rows; tickets still Open/Pending (no Closed date)"
+ },
+ {
+  "quote": "17",
+  "value": 17,
+  "definition": "Count of tickets opened 2026-10-12 to 2026-10-18 flagged Spam=Yes or Merged duplicate=Yes, which were removed from all figures.",
+  "left_out": "none (this is the excluded set)"
+ },
+ {
+  "quote": "225",
+  "value": 225,
+  "definition": "Same as handled, for Opened between 2026-10-05 and 2026-10-11 (the week before).",
+  "left_out": "Rows flagged Spam=Yes or Merged duplicate=Yes (not genuine tickets); also tickets outside the week"
+ },
+ {
+  "quote": "202",
+  "value": 202,
+  "definition": "Same as closed, for Closed date between 2026-10-05 and 2026-10-11.",
+  "left_out": "Spam and merged-duplicate rows; tickets with no Closed date"
+ },
+ {
+  "quote": "5.9",
+  "value": 5.9,
+  "definition": "Median of 'First response (hours)' for non-spam, non-duplicate tickets opened 2026-10-12 to 2026-10-18 that have a value (223 of 227).",
+  "left_out": "Spam/duplicate rows; 4 tickets with blank first response; tickets outside the week"
+ },
+ {
+  "quote": "6.2",
+  "value": 6.2,
+  "definition": "Median of 'First response (hours)' for non-spam, non-duplicate tickets opened 2026-10-05 to 2026-10-11.",
+  "left_out": "Spam/duplicate rows; tickets outside the week"
+ },
+ {
+  "quote": "69",
+  "value": 69,
+  "definition": "Count of non-spam, non-duplicate tickets opened 2026-10-12 to 2026-10-18 with SLA breached = Yes.",
+  "left_out": "Rows flagged Spam=Yes or Merged duplicate=Yes (not genuine tickets); also tickets outside the week"
+ },
+ {
+  "quote": "30.4%",
+  "value": 30.396475770925107,
+  "definition": "SLA-breached tickets divided by all handled tickets (opened 2026-10-12 to 2026-10-18, non-spam, non-duplicate), as a percent.",
+  "left_out": "Rows flagged Spam=Yes or Merged duplicate=Yes (not genuine tickets); also tickets outside the week"
+ },
+ {
+  "quote": "67",
+  "value": 67,
+  "definition": "Count of non-spam, non-duplicate tickets opened 2026-10-05 to 2026-10-11 with SLA breached = Yes.",
+  "left_out": "Rows flagged Spam=Yes or Merged duplicate=Yes (not genuine tickets); also tickets outside the week"
+ },
+ {
+  "quote": "29.8%",
+  "value": 29.777777777777775,
+  "definition": "SLA-breached tickets divided by handled tickets for opened 2026-10-05 to 2026-10-11, as a percent.",
+  "left_out": "Rows flagged Spam=Yes or Merged duplicate=Yes (not genuine tickets); also tickets outside the week"
+ },
+ {
+  "quote": "92.2%",
+  "value": 92.15686274509804,
+  "definition": "Tickets with CSAT=Good divided by tickets with CSAT Good or Bad, among non-spam, non-duplicate tickets opened 2026-10-12 to 2026-10-18.",
+  "left_out": "Spam/duplicates; tickets with blank CSAT (not rated)"
+ },
+ {
+  "quote": "47",
+  "value": 47,
+  "definition": "Count of CSAT=Good among non-spam, non-duplicate tickets opened 2026-10-12 to 2026-10-18.",
+  "left_out": "Spam/duplicates; unrated tickets"
+ },
+ {
+  "quote": "51",
+  "value": 51,
+  "definition": "Count of rated (CSAT Good or Bad) non-spam, non-duplicate tickets opened 2026-10-12 to 2026-10-18.",
+  "left_out": "Spam/duplicates; unrated tickets"
+ },
+ {
+  "quote": "88.9%",
+  "value": 88.88888888888889,
+  "definition": "Good / (Good+Bad) among non-spam, non-duplicate tickets opened 2026-10-05 to 2026-10-11.",
+  "left_out": "Spam/duplicates; unrated tickets"
+ },
+ {
+  "quote": "51",
+  "value": 51,
+  "definition": "Count of rated (CSAT Good or Bad) non-spam, non-duplicate tickets opened 2026-10-12 to 2026-10-18.",
+  "left_out": "Spam/duplicates; unrated tickets"
+ },
+ {
+  "quote": "108",
+  "value": 108,
+  "definition": "Count of rated (CSAT Good or Bad) non-spam, non-duplicate tickets opened 2026-10-05 to 2026-10-11.",
+  "left_out": "Spam/duplicates; unrated tickets"
+ },
+ {
+  "quote": "110",
+  "value": 110,
+  "definition": "Count of Channel=Email among non-spam, non-duplicate tickets opened 2026-10-12 to 2026-10-18.",
+  "left_out": "Rows flagged Spam=Yes or Merged duplicate=Yes (not genuine tickets); also tickets outside the week"
+ },
+ {
+  "quote": "86",
+  "value": 86,
+  "definition": "Count of Channel=Chat among non-spam, non-duplicate tickets opened 2026-10-12 to 2026-10-18.",
+  "left_out": "Rows flagged Spam=Yes or Merged duplicate=Yes (not genuine tickets); also tickets outside the week"
+ },
+ {
+  "quote": "31",
+  "value": 31,
+  "definition": "Count of Channel=Phone among non-spam, non-duplicate tickets opened 2026-10-12 to 2026-10-18.",
+  "left_out": "Rows flagged Spam=Yes or Merged duplicate=Yes (not genuine tickets); also tickets outside the week"
+ },
+ {
+  "quote": "48",
+  "value": 48,
+  "definition": "Count of non-spam, non-duplicate tickets with Agent=Maya and Closed date 2026-10-12 to 2026-10-18 (the Agent column is taken as the closer; the export has no separate closer field).",
+  "left_out": "Spam/duplicates; tickets with no Closed date in the week"
+ },
+ {
+  "quote": "43",
+  "value": 43,
+  "definition": "Count of non-spam, non-duplicate tickets with Agent=Hana and Closed date 2026-10-12 to 2026-10-18.",
+  "left_out": "Spam/duplicates; tickets with no Closed date in the week"
+ },
+ {
+  "quote": "18",
+  "value": 18,
+  "definition": "Count of non-spam, non-duplicate tickets with Agent=Theo and Closed date 2026-10-12 to 2026-10-18.",
+  "left_out": "Spam/duplicates; tickets with no Closed date in the week"
+ }
+]

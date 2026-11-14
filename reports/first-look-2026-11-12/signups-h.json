@@ -1,0 +1,176 @@
+[
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Rows in the file (all of 2026-10-12 to 2026-10-18) with Test account = Yes.",
+  "left_out": "none"
+ },
+ {
+  "quote": "317",
+  "value": 317,
+  "definition": "Signups created 2026-10-12 to 2026-10-18 excluding test accounts.",
+  "left_out": "Test account = 'Yes' (4 rows, domain internal.test, all Team/Direct/finished) removed as internal, not real signups"
+ },
+ {
+  "quote": "137",
+  "value": 137,
+  "definition": "Non-test signups in the week with Finished setup = Yes.",
+  "left_out": "Test account = 'Yes' (4 rows, domain internal.test, all Team/Direct/finished) removed as internal, not real signups"
+ },
+ {
+  "quote": "43%",
+  "value": 43.217665615141954,
+  "definition": "Share of non-test signups that finished setup (137/317).",
+  "left_out": "Test account = 'Yes' (4 rows, domain internal.test, all Team/Direct/finished) removed as internal, not real signups"
+ },
+ {
+  "quote": "81",
+  "value": 81,
+  "definition": "Non-test signups with Source = Paid search, week of 10-12 to 10-18.",
+  "left_out": "Test accounts (Test account = Yes) removed; none were in this source"
+ },
+ {
+  "quote": "38",
+  "value": 38,
+  "definition": "Non-test signups with Source = Paid search and Finished setup = Yes.",
+  "left_out": "Test accounts (Test account = Yes) removed; none were in this source"
+ },
+ {
+  "quote": "47%",
+  "value": 46.91358024691358,
+  "definition": "Finished-setup rate for Paid search: finished / signups, non-test rows.",
+  "left_out": "Test accounts (Test account = Yes) removed; none were in this source"
+ },
+ {
+  "quote": "53",
+  "value": 53,
+  "definition": "Non-test signups with Source = Referral, week of 10-12 to 10-18.",
+  "left_out": "Test accounts (Test account = Yes) removed; none were in this source"
+ },
+ {
+  "quote": "23",
+  "value": 23,
+  "definition": "Non-test signups with Source = Referral and Finished setup = Yes.",
+  "left_out": "Test accounts (Test account = Yes) removed; none were in this source"
+ },
+ {
+  "quote": "43%",
+  "value": 43.39622641509434,
+  "definition": "Finished-setup rate for Referral: finished / signups, non-test rows.",
+  "left_out": "Test accounts (Test account = Yes) removed; none were in this source"
+ },
+ {
+  "quote": "60",
+  "value": 60,
+  "definition": "Non-test signups with Source = Direct, week of 10-12 to 10-18.",
+  "left_out": "Test account = 'Yes' (4 rows, domain internal.test, all Team/Direct/finished) removed as internal, not real signups"
+ },
+ {
+  "quote": "26",
+  "value": 26,
+  "definition": "Non-test signups with Source = Direct and Finished setup = Yes.",
+  "left_out": "Test account = 'Yes' (4 rows, domain internal.test, all Team/Direct/finished) removed as internal, not real signups"
+ },
+ {
+  "quote": "43%",
+  "value": 43.333333333333336,
+  "definition": "Finished-setup rate for Direct: finished / signups, non-test rows.",
+  "left_out": "Test account = 'Yes' (4 rows, domain internal.test, all Team/Direct/finished) removed as internal, not real signups"
+ },
+ {
+  "quote": "98",
+  "value": 98,
+  "definition": "Non-test signups with Source = Organic search, week of 10-12 to 10-18.",
+  "left_out": "Test accounts (Test account = Yes) removed; none were in this source"
+ },
+ {
+  "quote": "42",
+  "value": 42,
+  "definition": "Non-test signups with Source = Organic search and Finished setup = Yes.",
+  "left_out": "Test accounts (Test account = Yes) removed; none were in this source"
+ },
+ {
+  "quote": "43%",
+  "value": 42.857142857142854,
+  "definition": "Finished-setup rate for Organic search: finished / signups, non-test rows.",
+  "left_out": "Test accounts (Test account = Yes) removed; none were in this source"
+ },
+ {
+  "quote": "25",
+  "value": 25,
+  "definition": "Non-test signups with Source = Partner, week of 10-12 to 10-18.",
+  "left_out": "Test accounts (Test account = Yes) removed; none were in this source"
+ },
+ {
+  "quote": "8",
+  "value": 8,
+  "definition": "Non-test signups with Source = Partner and Finished setup = Yes.",
+  "left_out": "Test accounts (Test account = Yes) removed; none were in this source"
+ },
+ {
+  "quote": "32%",
+  "value": 32.0,
+  "definition": "Finished-setup rate for Partner: finished / signups, non-test rows.",
+  "left_out": "Test accounts (Test account = Yes) removed; none were in this source"
+ },
+ {
+  "quote": "199",
+  "value": 199,
+  "definition": "Non-test signups on the Free plan in the week.",
+  "left_out": "Test accounts removed; none were on this plan"
+ },
+ {
+  "quote": "63%",
+  "value": 62.77602523659306,
+  "definition": "Free plan share of the 317 non-test signups.",
+  "left_out": "Test accounts removed; none were on this plan"
+ },
+ {
+  "quote": "84",
+  "value": 84,
+  "definition": "Non-test signups on the Starter plan in the week.",
+  "left_out": "Test accounts removed; none were on this plan"
+ },
+ {
+  "quote": "26%",
+  "value": 26.498422712933753,
+  "definition": "Starter plan share of the 317 non-test signups.",
+  "left_out": "Test accounts removed; none were on this plan"
+ },
+ {
+  "quote": "34",
+  "value": 34,
+  "definition": "Non-test signups on the Team plan in the week.",
+  "left_out": "Test account = 'Yes' (4 rows, domain internal.test, all Team/Direct/finished) removed as internal, not real signups"
+ },
+ {
+  "quote": "11%",
+  "value": 10.725552050473187,
+  "definition": "Team plan share of the 317 non-test signups.",
+  "left_out": "Test account = 'Yes' (4 rows, domain internal.test, all Team/Direct/finished) removed as internal, not real signups"
+ },
+ {
+  "quote": "57",
+  "value": 57,
+  "definition": "Non-test signups created on Monday 2026-10-12 (only Monday in the file).",
+  "left_out": "Test account = 'Yes' (4 rows, domain internal.test, all Team/Direct/finished) removed as internal, not real signups"
+ },
+ {
+  "quote": "55",
+  "value": 55,
+  "definition": "Non-test signups created on Tuesday 2026-10-13.",
+  "left_out": "Test account = 'Yes' (4 rows, domain internal.test, all Team/Direct/finished) removed as internal, not real signups"
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Count of test accounts (same as first 4): Test account = Yes rows.",
+  "left_out": "none (this is the excluded set)"
+ },
+ {
+  "quote": "32%",
+  "value": 32.0,
+  "definition": "Partner finished-setup rate (8/25), non-test rows.",
+  "left_out": "none"
+ }
+]

@@ -1,0 +1,116 @@
+[
+ {
+  "quote": "227",
+  "value": 227,
+  "definition": "Count of non-spam, non-duplicate tickets with Opened date 2026-10-12 to 2026-10-18 (last full Mon-Sun week).",
+  "left_out": "Spam=Yes rows (52) and Merged duplicate=Yes rows (74; 2 overlap, 124 distinct) dropped as not real handled work; CSAT blank rows are unrated"
+ },
+ {
+  "quote": "225",
+  "value": 225,
+  "definition": "Same count for Opened 2026-10-05 to 2026-10-11 (the week before).",
+  "left_out": "Spam=Yes rows (52) and Merged duplicate=Yes rows (74; 2 overlap, 124 distinct) dropped as not real handled work; CSAT blank rows are unrated"
+ },
+ {
+  "quote": "214",
+  "value": 214,
+  "definition": "Non-spam, non-duplicate tickets (Status Closed or Solved) whose Closed date falls 2026-10-12 to 2026-10-18, regardless of open date.",
+  "left_out": "Spam=Yes rows (52) and Merged duplicate=Yes rows (74; 2 overlap, 124 distinct) dropped as not real handled work; CSAT blank rows are unrated; still-open/pending tickets have no Closed date"
+ },
+ {
+  "quote": "202",
+  "value": 202,
+  "definition": "Same closed count with Closed date 2026-10-05 to 2026-10-11.",
+  "left_out": "Spam=Yes rows (52) and Merged duplicate=Yes rows (74; 2 overlap, 124 distinct) dropped as not real handled work; CSAT blank rows are unrated"
+ },
+ {
+  "quote": "6.7",
+  "value": 6.727802690582959,
+  "definition": "Mean of 'First response (hours)' across tickets opened 2026-10-12 to 2026-10-18, hours, rounded to 1 decimal.",
+  "left_out": "Spam=Yes rows (52) and Merged duplicate=Yes rows (74; 2 overlap, 124 distinct) dropped as not real handled work; CSAT blank rows are unrated; tickets with blank first response skipped"
+ },
+ {
+  "quote": "7.4",
+  "value": 7.352444444444444,
+  "definition": "Mean 'First response (hours)' for tickets opened 2026-10-05 to 2026-10-11.",
+  "left_out": "Spam=Yes rows (52) and Merged duplicate=Yes rows (74; 2 overlap, 124 distinct) dropped as not real handled work; CSAT blank rows are unrated; blank first response skipped"
+ },
+ {
+  "quote": "69",
+  "value": 69,
+  "definition": "Tickets opened 2026-10-12 to 2026-10-18 with 'SLA breached' = Yes.",
+  "left_out": "Spam=Yes rows (52) and Merged duplicate=Yes rows (74; 2 overlap, 124 distinct) dropped as not real handled work; CSAT blank rows are unrated"
+ },
+ {
+  "quote": "30%",
+  "value": 30.39647577092511,
+  "definition": "Share of last week's handled tickets (opened 10-12 to 10-18) with SLA breached = Yes: 69 / 227.",
+  "left_out": "Spam=Yes rows (52) and Merged duplicate=Yes rows (74; 2 overlap, 124 distinct) dropped as not real handled work; CSAT blank rows are unrated"
+ },
+ {
+  "quote": "67",
+  "value": 67,
+  "definition": "Tickets opened 2026-10-05 to 2026-10-11 with SLA breached = Yes.",
+  "left_out": "Spam=Yes rows (52) and Merged duplicate=Yes rows (74; 2 overlap, 124 distinct) dropped as not real handled work; CSAT blank rows are unrated"
+ },
+ {
+  "quote": "92%",
+  "value": 92.15686274509804,
+  "definition": "Share of rated tickets (CSAT Good or Bad) opened 2026-10-12 to 2026-10-18 that are Good.",
+  "left_out": "Spam=Yes rows (52) and Merged duplicate=Yes rows (74; 2 overlap, 124 distinct) dropped as not real handled work; CSAT blank rows are unrated; unrated tickets excluded from the denominator"
+ },
+ {
+  "quote": "51",
+  "value": 51,
+  "definition": "Number of tickets opened 2026-10-12 to 2026-10-18 with a CSAT rating (Good or Bad).",
+  "left_out": "Spam=Yes rows (52) and Merged duplicate=Yes rows (74; 2 overlap, 124 distinct) dropped as not real handled work; CSAT blank rows are unrated"
+ },
+ {
+  "quote": "89%",
+  "value": 88.88888888888889,
+  "definition": "Share of rated tickets opened 2026-10-05 to 2026-10-11 that are Good.",
+  "left_out": "Spam=Yes rows (52) and Merged duplicate=Yes rows (74; 2 overlap, 124 distinct) dropped as not real handled work; CSAT blank rows are unrated; unrated excluded"
+ },
+ {
+  "quote": "108",
+  "value": 108,
+  "definition": "Number of tickets opened 2026-10-05 to 2026-10-11 with a CSAT rating (Good or Bad).",
+  "left_out": "Spam=Yes rows (52) and Merged duplicate=Yes rows (74; 2 overlap, 124 distinct) dropped as not real handled work; CSAT blank rows are unrated"
+ },
+ {
+  "quote": "110",
+  "value": 110,
+  "definition": "Email tickets opened 2026-10-12 to 2026-10-18.",
+  "left_out": "Spam=Yes rows (52) and Merged duplicate=Yes rows (74; 2 overlap, 124 distinct) dropped as not real handled work; CSAT blank rows are unrated"
+ },
+ {
+  "quote": "86",
+  "value": 86,
+  "definition": "Chat tickets opened 2026-10-12 to 2026-10-18.",
+  "left_out": "Spam=Yes rows (52) and Merged duplicate=Yes rows (74; 2 overlap, 124 distinct) dropped as not real handled work; CSAT blank rows are unrated"
+ },
+ {
+  "quote": "31",
+  "value": 31,
+  "definition": "Phone tickets opened 2026-10-12 to 2026-10-18.",
+  "left_out": "Spam=Yes rows (52) and Merged duplicate=Yes rows (74; 2 overlap, 124 distinct) dropped as not real handled work; CSAT blank rows are unrated"
+ },
+ {
+  "quote": "48",
+  "value": 48,
+  "definition": "Tickets with Agent = Maya and Closed date 2026-10-12 to 2026-10-18 (highest of any agent).",
+  "left_out": "Spam=Yes rows (52) and Merged duplicate=Yes rows (74; 2 overlap, 124 distinct) dropped as not real handled work; CSAT blank rows are unrated"
+ },
+ {
+  "quote": "43",
+  "value": 43,
+  "definition": "Tickets with Agent = Hana and Closed date 2026-10-12 to 2026-10-18.",
+  "left_out": "Spam=Yes rows (52) and Merged duplicate=Yes rows (74; 2 overlap, 124 distinct) dropped as not real handled work; CSAT blank rows are unrated"
+ },
+ {
+  "quote": "18",
+  "value": 18,
+  "definition": "Tickets with Agent = Theo and Closed date 2026-10-12 to 2026-10-18 (lowest of any agent).",
+  "left_out": "Spam=Yes rows (52) and Merged duplicate=Yes rows (74; 2 overlap, 124 distinct) dropped as not real handled work; CSAT blank rows are unrated"
+ }
+]

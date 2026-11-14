@@ -1,0 +1,13 @@
+Here's where the project money stands across the 22 active projects (archived, closed-out ones left out).
+
+Budget is $3.79M and $2.93M has been spent so far. Operations holds the largest budget at $770K, but Data has spent the most at $504K, which is 98% of its $515K. Sales and Finance are each a hair over budget.
+
+By phase:
+- 11 projects are in Build
+- 5 are in Test
+- 4 are Done
+- 2 are in Launch
+
+On risk, 9 are Low, 8 are Medium and 5 are High.
+
+Maya runs the most projects with 3, and everyone else has fewer.

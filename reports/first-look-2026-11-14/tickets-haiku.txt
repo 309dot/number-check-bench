@@ -1,0 +1,10 @@
+Support update (tickets from 27 Jul to 18 Oct 2026)
+
+- Volume: 2,558 tickets exported. After removing 124 spam or merged duplicates, 2,434 real tickets remain.
+- Still open: 285 tickets are open or pending.
+- SLA: 29.8% of real tickets breached SLA (726 of 2,434). Normal-priority tickets breach most often (40%), then Urgent (39%), High (24%), and Low (5%).
+- First response: average 7.6 hours, median 6.4 hours.
+- Customer satisfaction: 85% good (973 of 1,142 rated tickets), 15% bad.
+- One agent, Theo, has 31% bad ratings (50 of 160). That is the highest on the team and worth a closer look, though the sample is small.
+
+Figures come from the 18 Oct 2026 export.

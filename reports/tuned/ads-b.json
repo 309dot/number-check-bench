@@ -1,0 +1,86 @@
+[
+ {
+  "quote": "70,762",
+  "value": 70762.15,
+  "definition": "Total Spend column summed over all non-test rows dated 2026-08-24 to 2026-10-18.",
+  "left_out": "none of the non-test rows; excluded 56 'QA – Pixel test' rows flagged Test campaign=Yes (internal test traffic)"
+ },
+ {
+  "quote": "1,291",
+  "value": 1291,
+  "definition": "Total Leads column summed over all non-test rows dated 2026-08-24 to 2026-10-18.",
+  "left_out": "none of the non-test rows; excluded 56 'QA – Pixel test' rows flagged Test campaign=Yes (internal test traffic)"
+ },
+ {
+  "quote": "54.81",
+  "value": 54.81189000774593,
+  "definition": "Total Spend divided by total Leads over all non-test rows dated 2026-08-24 to 2026-10-18.",
+  "left_out": "none of the non-test rows; excluded 56 'QA – Pixel test' rows flagged Test campaign=Yes (internal test traffic)"
+ },
+ {
+  "quote": "1.06%",
+  "value": 1.060077790149404,
+  "definition": "Total Clicks divided by total Impressions, times 100, over all non-test rows dated 2026-08-24 to 2026-10-18.",
+  "left_out": "none of the non-test rows; excluded 56 'QA – Pixel test' rows flagged Test campaign=Yes (internal test traffic)"
+ },
+ {
+  "quote": "24.07",
+  "value": 24.067905405405405,
+  "definition": "Spend divided by Leads for campaign 'Harbor & Pine – Brand search', all non-test rows dated 2026-08-24 to 2026-10-18; lowest cost per lead of the 12 real campaigns.",
+  "left_out": "none of the non-test rows; excluded 56 'QA – Pixel test' rows flagged Test campaign=Yes (internal test traffic)"
+ },
+ {
+  "quote": "107.48",
+  "value": 107.48470588235294,
+  "definition": "Spend divided by Leads for campaign 'Harbor & Pine – Lookalike', all non-test rows dated 2026-08-24 to 2026-10-18; highest cost per lead of the 12 real campaigns.",
+  "left_out": "none of the non-test rows; excluded 56 'QA – Pixel test' rows flagged Test campaign=Yes (internal test traffic)"
+ },
+ {
+  "quote": "622",
+  "value": 622,
+  "definition": "Leads summed for rows with Channel = Search, all non-test rows dated 2026-08-24 to 2026-10-18; highest of the three channels (Social 468, Display 201).",
+  "left_out": "none of the non-test rows; excluded 56 'QA – Pixel test' rows flagged Test campaign=Yes (internal test traffic)"
+ },
+ {
+  "quote": "1,291",
+  "value": 1291,
+  "definition": "Total Leads over all non-test rows dated 2026-08-24 to 2026-10-18, used as the denominator for Search's 622.",
+  "left_out": "none of the non-test rows; excluded 56 'QA – Pixel test' rows flagged Test campaign=Yes (internal test traffic)"
+ },
+ {
+  "quote": "311",
+  "value": 311,
+  "definition": "Leads summed for non-test rows dated 2026-09-21 to 2026-10-04 (14 days).",
+  "left_out": "none of the non-test rows; excluded 56 'QA – Pixel test' rows flagged Test campaign=Yes (internal test traffic)"
+ },
+ {
+  "quote": "335",
+  "value": 335,
+  "definition": "Leads summed for non-test rows dated 2026-10-05 to 2026-10-18 (14 days).",
+  "left_out": "none of the non-test rows; excluded 56 'QA – Pixel test' rows flagged Test campaign=Yes (internal test traffic)"
+ },
+ {
+  "quote": "17,041",
+  "value": 17040.9,
+  "definition": "Spend summed for non-test rows dated 2026-09-21 to 2026-10-04.",
+  "left_out": "none of the non-test rows; excluded 56 'QA – Pixel test' rows flagged Test campaign=Yes (internal test traffic)"
+ },
+ {
+  "quote": "18,733",
+  "value": 18733.02,
+  "definition": "Spend summed for non-test rows dated 2026-10-05 to 2026-10-18.",
+  "left_out": "none of the non-test rows; excluded 56 'QA – Pixel test' rows flagged Test campaign=Yes (internal test traffic)"
+ },
+ {
+  "quote": "54.79",
+  "value": 54.793890675241165,
+  "definition": "Spend divided by Leads for non-test rows dated 2026-09-21 to 2026-10-04.",
+  "left_out": "none of the non-test rows; excluded 56 'QA – Pixel test' rows flagged Test campaign=Yes (internal test traffic)"
+ },
+ {
+  "quote": "55.92",
+  "value": 55.919462686567165,
+  "definition": "Spend divided by Leads for non-test rows dated 2026-10-05 to 2026-10-18.",
+  "left_out": "none of the non-test rows; excluded 56 'QA – Pixel test' rows flagged Test campaign=Yes (internal test traffic)"
+ }
+]

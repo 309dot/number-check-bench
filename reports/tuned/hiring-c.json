@@ -1,0 +1,140 @@
+[
+ {
+  "quote": "751",
+  "value": 751,
+  "definition": "Candidate rows in the export after removing flagged duplicates (all applications 27 Jul-18 Oct 2026).",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID)"
+ },
+ {
+  "quote": "17",
+  "value": 17,
+  "definition": "Rows where the Duplicate column is 'Yes'.",
+  "left_out": "none (these are the excluded rows themselves)"
+ },
+ {
+  "quote": "532",
+  "value": 532,
+  "definition": "Non-duplicate candidates whose current Stage is Rejected.",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID)"
+ },
+ {
+  "quote": "102",
+  "value": 102,
+  "definition": "Non-duplicate candidates whose current Stage is Withdrawn.",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID)"
+ },
+ {
+  "quote": "34",
+  "value": 34,
+  "definition": "Non-duplicate candidates whose current Stage is Hired.",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID)"
+ },
+ {
+  "quote": "83",
+  "value": 83,
+  "definition": "Non-duplicate candidates still in process: Stage is Applied, Screen, Interview or Offer.",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID)"
+ },
+ {
+  "quote": "32",
+  "value": 32,
+  "definition": "Non-duplicate candidates at Stage Applied.",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID)"
+ },
+ {
+  "quote": "27",
+  "value": 27,
+  "definition": "Non-duplicate candidates at Stage Screen.",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID)"
+ },
+ {
+  "quote": "20",
+  "value": 20,
+  "definition": "Non-duplicate candidates at Stage Interview.",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID)"
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Non-duplicate candidates at Stage Offer (offer out, not yet accepted).",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID)"
+ },
+ {
+  "quote": "34",
+  "value": 34,
+  "definition": "Non-duplicate candidates with Offer accepted = 'Yes'; all 34 also have Stage Hired.",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID); blank and 'No' values are not counted"
+ },
+ {
+  "quote": "281",
+  "value": 281,
+  "definition": "Non-duplicate candidates with Source = LinkedIn.",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID)"
+ },
+ {
+  "quote": "219",
+  "value": 219,
+  "definition": "Non-duplicate candidates with Source = Careers page.",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID)"
+ },
+ {
+  "quote": "105",
+  "value": 105,
+  "definition": "Non-duplicate candidates with Source = Referral.",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID)"
+ },
+ {
+  "quote": "96",
+  "value": 96,
+  "definition": "Non-duplicate candidates with Source = Agency.",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID)"
+ },
+ {
+  "quote": "50",
+  "value": 50,
+  "definition": "Non-duplicate candidates with Source = Job board.",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID)"
+ },
+ {
+  "quote": "197",
+  "value": 197,
+  "definition": "Non-duplicate candidates with Role = Backend Engineer.",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID)"
+ },
+ {
+  "quote": "170",
+  "value": 170,
+  "definition": "Non-duplicate candidates with Role = Support Specialist.",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID)"
+ },
+ {
+  "quote": "158",
+  "value": 158,
+  "definition": "Non-duplicate candidates with Role = Account Executive.",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID)"
+ },
+ {
+  "quote": "67",
+  "value": 67,
+  "definition": "Non-duplicate candidates with Applied date 2026-10-12 to 2026-10-18 inclusive (the 7 days ending on the export date).",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID)"
+ },
+ {
+  "quote": "64",
+  "value": 64,
+  "definition": "Non-duplicate candidates with Applied date 2026-10-05 to 2026-10-11 inclusive.",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID)"
+ },
+ {
+  "quote": "3",
+  "value": 3,
+  "definition": "Last week's applications minus the prior week's.",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID)"
+ },
+ {
+  "quote": "5%",
+  "value": 4.6875,
+  "definition": "Percentage change in weekly applications, (67-64)/64, rounded to whole percent.",
+  "left_out": "17 rows with Duplicate = 'Yes' (the same people appear again under another ID)"
+ }
+]

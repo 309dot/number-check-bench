@@ -1,0 +1,122 @@
+[
+ {
+  "quote": "70,762",
+  "value": 70762.15,
+  "definition": "Total of the Spend column over all non-test rows, 2026-08-24 to 2026-10-18.",
+  "left_out": "56 rows flagged Test campaign = Yes (campaign 'QA – Pixel test', internal pixel testing, not client delivery)"
+ },
+ {
+  "quote": "1,291",
+  "value": 1291,
+  "definition": "Total of the Leads column over all non-test rows, 2026-08-24 to 2026-10-18.",
+  "left_out": "56 rows flagged Test campaign = Yes (campaign 'QA – Pixel test', internal pixel testing, not client delivery)"
+ },
+ {
+  "quote": "54.81",
+  "value": 54.81189000774593,
+  "definition": "Total spend divided by total leads, all non-test rows, whole period.",
+  "left_out": "56 rows flagged Test campaign = Yes (campaign 'QA – Pixel test', internal pixel testing, not client delivery)"
+ },
+ {
+  "quote": "24.07",
+  "value": 24.067905405405405,
+  "definition": "Spend divided by Leads for campaign 'Harbor & Pine – Brand search' across the whole period; lowest cost per lead of the 12 real campaigns.",
+  "left_out": "56 rows flagged Test campaign = Yes (campaign 'QA – Pixel test', internal pixel testing, not client delivery)"
+ },
+ {
+  "quote": "148",
+  "value": 148,
+  "definition": "Total Leads for 'Harbor & Pine – Brand search', whole period.",
+  "left_out": "56 rows flagged Test campaign = Yes (campaign 'QA – Pixel test', internal pixel testing, not client delivery)"
+ },
+ {
+  "quote": "107.48",
+  "value": 107.48470588235294,
+  "definition": "Spend divided by Leads for campaign 'Harbor & Pine – Lookalike', whole period; highest cost per lead of the 12 real campaigns.",
+  "left_out": "56 rows flagged Test campaign = Yes (campaign 'QA – Pixel test', internal pixel testing, not client delivery)"
+ },
+ {
+  "quote": "51",
+  "value": 51,
+  "definition": "Total Leads for 'Harbor & Pine – Lookalike', whole period.",
+  "left_out": "56 rows flagged Test campaign = Yes (campaign 'QA – Pixel test', internal pixel testing, not client delivery)"
+ },
+ {
+  "quote": "622",
+  "value": 622,
+  "definition": "Total Leads where Channel = Search, whole period (highest of Search, Social, Display).",
+  "left_out": "56 rows flagged Test campaign = Yes (campaign 'QA – Pixel test', internal pixel testing, not client delivery)"
+ },
+ {
+  "quote": "5.15%",
+  "value": 5.149630693936196,
+  "definition": "Search channel Clicks divided by Impressions x 100, whole period (ratio of totals, not average of daily rates).",
+  "left_out": "56 rows flagged Test campaign = Yes (campaign 'QA – Pixel test', internal pixel testing, not client delivery)"
+ },
+ {
+  "quote": "1.06%",
+  "value": 1.060077790149404,
+  "definition": "Total Clicks divided by total Impressions x 100, all channels, whole period.",
+  "left_out": "56 rows flagged Test campaign = Yes (campaign 'QA – Pixel test', internal pixel testing, not client delivery)"
+ },
+ {
+  "quote": "17,041",
+  "value": 17040.9,
+  "definition": "Total Spend, 2026-09-21 to 2026-10-04 (the 14 days before the latest 14).",
+  "left_out": "56 rows flagged Test campaign = Yes (campaign 'QA – Pixel test', internal pixel testing, not client delivery)"
+ },
+ {
+  "quote": "18,733",
+  "value": 18733.02,
+  "definition": "Total Spend, 2026-10-05 to 2026-10-18 (latest 14 days).",
+  "left_out": "56 rows flagged Test campaign = Yes (campaign 'QA – Pixel test', internal pixel testing, not client delivery)"
+ },
+ {
+  "quote": "9.9%",
+  "value": 9.929757231132141,
+  "definition": "Percent change in total Spend, latest 14 days vs previous 14 days.",
+  "left_out": "56 rows flagged Test campaign = Yes (campaign 'QA – Pixel test', internal pixel testing, not client delivery)"
+ },
+ {
+  "quote": "311",
+  "value": 311,
+  "definition": "Total Leads, 2026-09-21 to 2026-10-04.",
+  "left_out": "56 rows flagged Test campaign = Yes (campaign 'QA – Pixel test', internal pixel testing, not client delivery)"
+ },
+ {
+  "quote": "335",
+  "value": 335,
+  "definition": "Total Leads, 2026-10-05 to 2026-10-18.",
+  "left_out": "56 rows flagged Test campaign = Yes (campaign 'QA – Pixel test', internal pixel testing, not client delivery)"
+ },
+ {
+  "quote": "7.7%",
+  "value": 7.717041800643076,
+  "definition": "Percent change in total Leads, latest 14 days vs previous 14 days.",
+  "left_out": "56 rows flagged Test campaign = Yes (campaign 'QA – Pixel test', internal pixel testing, not client delivery)"
+ },
+ {
+  "quote": "54.79",
+  "value": 54.793890675241165,
+  "definition": "Spend divided by Leads, 2026-09-21 to 2026-10-04.",
+  "left_out": "56 rows flagged Test campaign = Yes (campaign 'QA – Pixel test', internal pixel testing, not client delivery)"
+ },
+ {
+  "quote": "55.92",
+  "value": 55.919462686567165,
+  "definition": "Spend divided by Leads, 2026-10-05 to 2026-10-18.",
+  "left_out": "56 rows flagged Test campaign = Yes (campaign 'QA – Pixel test', internal pixel testing, not client delivery)"
+ },
+ {
+  "quote": "1.05%",
+  "value": 1.0503923875215646,
+  "definition": "Clicks divided by Impressions x 100, 2026-09-21 to 2026-10-04.",
+  "left_out": "56 rows flagged Test campaign = Yes (campaign 'QA – Pixel test', internal pixel testing, not client delivery)"
+ },
+ {
+  "quote": "1.08%",
+  "value": 1.0764697952974254,
+  "definition": "Clicks divided by Impressions x 100, 2026-10-05 to 2026-10-18.",
+  "left_out": "56 rows flagged Test campaign = Yes (campaign 'QA – Pixel test', internal pixel testing, not client delivery)"
+ }
+]

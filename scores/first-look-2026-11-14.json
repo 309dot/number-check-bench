@@ -1,0 +1,43 @@
+{
+ "label": "first-look-2026-11-14",
+ "dir": "reports/first-look-2026-11-14",
+ "note": "First run of the checker (as it was before the November 14 fix) over three summaries written by Claude Haiku, Sonnet and Opus from files/tickets-export-2026-10-18.csv. The 2 'differs' were correct numbers (per-agent satisfaction shares) that the checker compared with the overall share; we recounted them from the file by hand. No wrong numbers were planted in this set.",
+ "score": {
+  "reports": 3,
+  "numbers": 113,
+  "match": 96,
+  "other": 2,
+  "differs": 2,
+  "unread": 13
+ },
+ "byReport": {
+  "tickets-haiku": {
+   "numbers": 20,
+   "match": 18,
+   "other": 1,
+   "differs": 0,
+   "unread": 1
+  },
+  "tickets-sonnet": {
+   "numbers": 51,
+   "match": 47,
+   "other": 0,
+   "differs": 0,
+   "unread": 4
+  },
+  "tickets-opus": {
+   "numbers": 42,
+   "match": 31,
+   "other": 1,
+   "differs": 2,
+   "unread": 8
+  }
+ },
+ "afterFix": {
+  "numbers": 113,
+  "match": 98,
+  "other": 2,
+  "differs": 0,
+  "unread": 13
+ }
+}

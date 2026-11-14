@@ -1,0 +1,282 @@
+{
+ "label": "first-look-2026-11-12",
+ "dir": "reports/first-look-2026-11-12",
+ "score": {
+  "reports": 6,
+  "numbers": 118,
+  "match": 89,
+  "other": 1,
+  "differs": 0,
+  "unread": 28,
+  "same": 87,
+  "calc": 1,
+  "off": 1,
+  "none": 0
+ },
+ "planted": {
+  "planted": 393,
+  "passed": 3,
+  "flagged": 7,
+  "caught": 176,
+  "unread": 207
+ },
+ "scopes": {
+  "orders-h": {
+   "minus": [
+    "rows where Status is Cancelled"
+   ]
+  }
+ },
+ "passed": [
+  "signups-h 55 → 57: Most rows on one Created day, in all rows, leaving out Test account",
+  "tickets-h 2.9 → 3.0: Average of First response (hours) in rows where Priority is High, leaving out Spam and Merged duplicate",
+  "tickets-h 6.7 → 7.6: Average of First response (hours) in all rows, leaving out Spam and Merged duplicate"
+ ],
+ "notMatched": [
+  {
+   "name": "ads-h",
+   "raw": "39.47",
+   "start": 337,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Rows of ad-performance-2026-10-18.csv from 2026-08-24 to 2026-10-18, excluding test campaigns, Spend divided by Leads for Brightline Dental on the Social channel (lowest cost per lead of that client's three channels)."
+  },
+  {
+   "name": "hiring-h",
+   "raw": "751",
+   "start": 24,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Applicants in the export (all rows, Applied 2026-07-27 to 2026-10-18) after removing flagged duplicates."
+  },
+  {
+   "name": "hiring-h",
+   "raw": "68",
+   "start": 165,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Non-duplicate applicants whose current Stage is Interview, Offer or Hired, plus those who withdrew after declining an offer (Stage Withdrawn, Offer accepted = No)."
+  },
+  {
+   "name": "hiring-h",
+   "raw": "9%",
+   "start": 214,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of non-duplicate applicants who reached interview or further."
+  },
+  {
+   "name": "hiring-h",
+   "raw": "48",
+   "start": 241,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Offers made: Offer accepted = Yes, plus Offer accepted = No, plus Stage = Offer (still open)."
+  },
+  {
+   "name": "hiring-h",
+   "raw": "10",
+   "start": 267,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Non-duplicate rows with Offer accepted = No (all Stage Withdrawn)."
+  },
+  {
+   "name": "hiring-h",
+   "raw": "4",
+   "start": 290,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Non-duplicate rows with Stage = Offer (no accepted/declined answer yet)."
+  },
+  {
+   "name": "hiring-h",
+   "raw": "34",
+   "start": 315,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Accepted offers (Offer accepted = Yes)."
+  },
+  {
+   "name": "hiring-h",
+   "raw": "44",
+   "start": 325,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Offers with a decision: accepted plus declined; open offers excluded."
+  },
+  {
+   "name": "hiring-h",
+   "raw": "19",
+   "start": 401,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Non-duplicate rows with Source = Referral and Stage = Hired."
+  },
+  {
+   "name": "hiring-h",
+   "raw": "105",
+   "start": 430,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Non-duplicate applicants with Source = Referral."
+  },
+  {
+   "name": "orders-h",
+   "raw": "23",
+   "start": 133,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Refunded orders (Status = Refunded) in the Marketplace channel, same base."
+  },
+  {
+   "name": "orders-h",
+   "raw": "$2,006",
+   "start": 159,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Sum of Refund amount for Marketplace refunded orders, same base."
+  },
+  {
+   "name": "orders-h",
+   "raw": "5.6%",
+   "start": 181,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of channel Marketplace orders (orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders) with Status = Refunded."
+  },
+  {
+   "name": "orders-h",
+   "raw": "4.6%",
+   "start": 286,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of region West orders (orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders) with Status = Refunded."
+  },
+  {
+   "name": "orders-h",
+   "raw": "1.5%",
+   "start": 311,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of region South orders (orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders) with Status = Refunded."
+  },
+  {
+   "name": "orders-h",
+   "raw": "3.7%",
+   "start": 343,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of region North orders (orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders) with Status = Refunded."
+  },
+  {
+   "name": "orders-h",
+   "raw": "3.5%",
+   "start": 352,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of region East orders (orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders) with Status = Refunded."
+  },
+  {
+   "name": "orders-h",
+   "raw": "3.0%",
+   "start": 427,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of customer type New orders (orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders) with Status = Refunded."
+  },
+  {
+   "name": "orders-h",
+   "raw": "$81",
+   "start": 496,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Median Order total over orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders."
+  },
+  {
+   "name": "orders-h",
+   "raw": "3",
+   "start": 505,
+   "verdict": "match",
+   "kind": "mean",
+   "how": "Average of Items in all rows, leaving out Test order and rows where Status is Cancelled",
+   "agree": "off",
+   "writer": "Median Items per order over orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders."
+  },
+  {
+   "name": "projects-h",
+   "raw": "98%",
+   "start": 251,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Active project rows only (Archived=No, excluding the Total row) in sheet Projects, snapshot week ending 2026-10-18; Data department Spend divided by Data Budget, as a percent."
+  },
+  {
+   "name": "projects-h",
+   "raw": "$515K",
+   "start": 262,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Active project rows only (Archived=No, excluding the Total row) in sheet Projects, snapshot week ending 2026-10-18; sum of Budget for Department=Data."
+  },
+  {
+   "name": "signups-h",
+   "raw": "55",
+   "start": 444,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Non-test signups created on Tuesday 2026-10-13."
+  },
+  {
+   "name": "signups-h",
+   "raw": "32%",
+   "start": 647,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Partner finished-setup rate (8/25), non-test rows."
+  },
+  {
+   "name": "tickets-h",
+   "raw": "2,558",
+   "start": 34,
+   "verdict": "other",
+   "kind": "count",
+   "how": "Count of all rows, counting Spam and Merged duplicate rows too",
+   "says": "2,434: Count of all rows, leaving out Spam and Merged duplicate",
+   "agree": null,
+   "writer": "All data rows in the export (tickets opened 2026-07-27 to 2026-10-18); no title or total rows exist."
+  },
+  {
+   "name": "tickets-h",
+   "raw": "6.2",
+   "start": 365,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Median of First response (hours) for Email tickets, all priorities, whole period."
+  },
+  {
+   "name": "tickets-h",
+   "raw": "6.5",
+   "start": 370,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Median of First response (hours) for Chat tickets, all priorities, whole period."
+  },
+  {
+   "name": "tickets-h",
+   "raw": "52",
+   "start": 615,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Rows with Spam=Yes, whole export."
+  },
+  {
+   "name": "tickets-h",
+   "raw": "74",
+   "start": 635,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Rows with Merged duplicate=Yes, whole export."
+  }
+ ]
+}

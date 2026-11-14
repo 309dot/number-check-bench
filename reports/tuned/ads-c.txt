@@ -1,0 +1,16 @@
+Hi,
+
+Here is where the ads stand across all three clients, Aug 24 to Oct 18. I left out our internal QA pixel test, which was not a real campaign.
+
+We spent $70,762 and generated 1,291 leads, so the average cost per lead is $54.81. Overall click-through rate is 1.06%.
+
+- Best campaign: Harbor & Pine – Brand search, at $24.07 per lead.
+- Worst campaign: Harbor & Pine – Lookalike, at $107.48 per lead.
+- Search brings the most leads: 622, at $40.75 each. Social delivered 468 and Display 201.
+
+Last two weeks (Oct 5 to 18) against the two weeks before (Sep 21 to Oct 4):
+- Leads rose from 311 to 335, up 7.7%.
+- Spend rose from $17,041 to $18,733, up 9.9%.
+- Cost per lead edged up from $54.79 to $55.92, and click-through rate moved from 1.05% to 1.08%.
+
+Volume is growing, but spend is growing slightly faster than leads. Shifting budget from the Harbor & Pine Social and Display campaigns toward Search would be the first thing I would try.

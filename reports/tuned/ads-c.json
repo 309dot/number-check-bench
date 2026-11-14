@@ -1,0 +1,122 @@
+[
+ {
+  "quote": "$70,762",
+  "value": 70762.15,
+  "definition": "Total Spend, all clients/channels/campaigns, 2026-08-24 to 2026-10-18, excluding test rows.",
+  "left_out": "the 56 'QA – Pixel test' rows flagged Test campaign = Yes (internal test, not real ad activity)"
+ },
+ {
+  "quote": "1,291",
+  "value": 1291.0,
+  "definition": "Total Leads, same rows and period.",
+  "left_out": "the 56 'QA – Pixel test' rows flagged Test campaign = Yes (internal test, not real ad activity)"
+ },
+ {
+  "quote": "$54.81",
+  "value": 54.81189000774593,
+  "definition": "Total Spend divided by total Leads, same rows and period.",
+  "left_out": "the 56 'QA – Pixel test' rows flagged Test campaign = Yes (internal test, not real ad activity)"
+ },
+ {
+  "quote": "1.06%",
+  "value": 1.060077790149404,
+  "definition": "Total Clicks divided by total Impressions, same rows and period.",
+  "left_out": "the 56 'QA – Pixel test' rows flagged Test campaign = Yes (internal test, not real ad activity)"
+ },
+ {
+  "quote": "$24.07",
+  "value": 24.067905405405405,
+  "definition": "Spend/Leads for campaign 'Harbor & Pine – Brand search' (lowest cost per lead of 12 real campaigns), full period.",
+  "left_out": "the 56 'QA – Pixel test' rows flagged Test campaign = Yes (internal test, not real ad activity)"
+ },
+ {
+  "quote": "$107.48",
+  "value": 107.48470588235294,
+  "definition": "Spend/Leads for campaign 'Harbor & Pine – Lookalike' (highest cost per lead of 12 real campaigns), full period.",
+  "left_out": "the 56 'QA – Pixel test' rows flagged Test campaign = Yes (internal test, not real ad activity)"
+ },
+ {
+  "quote": "622",
+  "value": 622.0,
+  "definition": "Leads in the Search channel (most of any channel), full period.",
+  "left_out": "the 56 'QA – Pixel test' rows flagged Test campaign = Yes (internal test, not real ad activity)"
+ },
+ {
+  "quote": "$40.75",
+  "value": 40.75348874598071,
+  "definition": "Search channel Spend/Leads, full period.",
+  "left_out": "the 56 'QA – Pixel test' rows flagged Test campaign = Yes (internal test, not real ad activity)"
+ },
+ {
+  "quote": "468",
+  "value": 468.0,
+  "definition": "Leads in the Social channel, full period.",
+  "left_out": "the 56 'QA – Pixel test' rows flagged Test campaign = Yes (internal test, not real ad activity)"
+ },
+ {
+  "quote": "201",
+  "value": 201.0,
+  "definition": "Leads in the Display channel, full period.",
+  "left_out": "the 56 'QA – Pixel test' rows flagged Test campaign = Yes (internal test, not real ad activity)"
+ },
+ {
+  "quote": "311",
+  "value": 311.0,
+  "definition": "Leads for 2026-09-21 to 2026-10-04 (the 14 days before the latest 14).",
+  "left_out": "the 56 'QA – Pixel test' rows flagged Test campaign = Yes (internal test, not real ad activity)"
+ },
+ {
+  "quote": "335",
+  "value": 335.0,
+  "definition": "Leads for 2026-10-05 to 2026-10-18 (latest 14 days).",
+  "left_out": "the 56 'QA – Pixel test' rows flagged Test campaign = Yes (internal test, not real ad activity)"
+ },
+ {
+  "quote": "7.7%",
+  "value": 7.717041800643076,
+  "definition": "Percent change in Leads, latest 14 days vs prior 14 days.",
+  "left_out": "the 56 'QA – Pixel test' rows flagged Test campaign = Yes (internal test, not real ad activity)"
+ },
+ {
+  "quote": "$17,041",
+  "value": 17040.9,
+  "definition": "Spend for 2026-09-21 to 2026-10-04.",
+  "left_out": "the 56 'QA – Pixel test' rows flagged Test campaign = Yes (internal test, not real ad activity)"
+ },
+ {
+  "quote": "$18,733",
+  "value": 18733.02,
+  "definition": "Spend for 2026-10-05 to 2026-10-18.",
+  "left_out": "the 56 'QA – Pixel test' rows flagged Test campaign = Yes (internal test, not real ad activity)"
+ },
+ {
+  "quote": "9.9%",
+  "value": 9.929757231132141,
+  "definition": "Percent change in Spend, latest 14 days vs prior 14 days.",
+  "left_out": "the 56 'QA – Pixel test' rows flagged Test campaign = Yes (internal test, not real ad activity)"
+ },
+ {
+  "quote": "$54.79",
+  "value": 54.793890675241165,
+  "definition": "Spend/Leads for 2026-09-21 to 2026-10-04.",
+  "left_out": "the 56 'QA – Pixel test' rows flagged Test campaign = Yes (internal test, not real ad activity)"
+ },
+ {
+  "quote": "$55.92",
+  "value": 55.919462686567165,
+  "definition": "Spend/Leads for 2026-10-05 to 2026-10-18.",
+  "left_out": "the 56 'QA – Pixel test' rows flagged Test campaign = Yes (internal test, not real ad activity)"
+ },
+ {
+  "quote": "1.05%",
+  "value": 1.0503923875215646,
+  "definition": "Clicks/Impressions for 2026-09-21 to 2026-10-04.",
+  "left_out": "the 56 'QA – Pixel test' rows flagged Test campaign = Yes (internal test, not real ad activity)"
+ },
+ {
+  "quote": "1.08%",
+  "value": 1.0764697952974254,
+  "definition": "Clicks/Impressions for 2026-10-05 to 2026-10-18.",
+  "left_out": "the 56 'QA – Pixel test' rows flagged Test campaign = Yes (internal test, not real ad activity)"
+ }
+]

@@ -1,0 +1,116 @@
+[
+ {
+  "quote": "1,342",
+  "value": 1342,
+  "definition": "Number of valid orders, Oct 1-18, 2026: rows with an Order ID that are not test orders and not cancelled (refunded orders are included).",
+  "left_out": "35 orders with Status 'Cancelled', 4 rows flagged Test order = Yes (each $1 internal tests); also the blank row and the 'Total' footer row (not orders)"
+ },
+ {
+  "quote": "$131,957",
+  "value": 131956.92,
+  "definition": "Sum of the Order total column over the valid orders, Oct 1-18, 2026; gross of refunds (refunded orders keep their full total).",
+  "left_out": "35 orders with Status 'Cancelled', 4 rows flagged Test order = Yes (each $1 internal tests); also the blank row and the 'Total' footer row (not orders)"
+ },
+ {
+  "quote": "$98.33",
+  "value": 98.32855439642326,
+  "definition": "Average order value: gross revenue divided by valid order count, Oct 1-18, 2026.",
+  "left_out": "35 orders with Status 'Cancelled', 4 rows flagged Test order = Yes (each $1 internal tests); also the blank row and the 'Total' footer row (not orders)"
+ },
+ {
+  "quote": "35",
+  "value": 35,
+  "definition": "Number of rows with Status = Cancelled (all dates Oct 1-18, 2026).",
+  "left_out": "none (these are the excluded rows themselves)"
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Number of rows with Test order = Yes (each has an order total of $1), Oct 1-18, 2026.",
+  "left_out": "none (these are the excluded rows themselves)"
+ },
+ {
+  "quote": "45",
+  "value": 45,
+  "definition": "Number of valid orders with Status = Refunded, Oct 1-18, 2026.",
+  "left_out": "35 orders with Status 'Cancelled', 4 rows flagged Test order = Yes (each $1 internal tests); also the blank row and the 'Total' footer row (not orders)"
+ },
+ {
+  "quote": "3.4%",
+  "value": 3.3532041728763042,
+  "definition": "Refunded valid orders divided by all valid orders, Oct 1-18, 2026 (by order count, not dollars).",
+  "left_out": "35 orders with Status 'Cancelled', 4 rows flagged Test order = Yes (each $1 internal tests); also the blank row and the 'Total' footer row (not orders)"
+ },
+ {
+  "quote": "$4,039",
+  "value": 4039.29,
+  "definition": "Sum of the Refund amount column over valid orders, Oct 1-18, 2026 (all refunds are full-order refunds).",
+  "left_out": "35 orders with Status 'Cancelled', 4 rows flagged Test order = Yes (each $1 internal tests); also the blank row and the 'Total' footer row (not orders)"
+ },
+ {
+  "quote": "$65,608",
+  "value": 65608.48000000001,
+  "definition": "Sum of Order total for valid orders with Channel = Web, Oct 1-18, 2026; Web is the largest channel by revenue (Marketplace 33,885; Wholesale 32,464) and by orders.",
+  "left_out": "35 orders with Status 'Cancelled', 4 rows flagged Test order = Yes (each $1 internal tests); also the blank row and the 'Total' footer row (not orders)"
+ },
+ {
+  "quote": "$40,398",
+  "value": 40397.85000000004,
+  "definition": "Sum of Order total for valid orders with Region = North, Oct 1-18, 2026; North is the largest region by revenue (East 33,458; South 29,538; West 28,563) and by orders.",
+  "left_out": "35 orders with Status 'Cancelled', 4 rows flagged Test order = Yes (each $1 internal tests); also the blank row and the 'Total' footer row (not orders)"
+ },
+ {
+  "quote": "572",
+  "value": 572,
+  "definition": "Number of valid orders with Customer type = New, Oct 1-18, 2026 (orders, not unique customers).",
+  "left_out": "35 orders with Status 'Cancelled', 4 rows flagged Test order = Yes (each $1 internal tests); also the blank row and the 'Total' footer row (not orders)"
+ },
+ {
+  "quote": "42.6%",
+  "value": 42.62295081967213,
+  "definition": "New-customer valid orders divided by all valid orders, Oct 1-18, 2026.",
+  "left_out": "35 orders with Status 'Cancelled', 4 rows flagged Test order = Yes (each $1 internal tests); also the blank row and the 'Total' footer row (not orders)"
+ },
+ {
+  "quote": "770",
+  "value": 770,
+  "definition": "Number of valid orders with Customer type = Returning, Oct 1-18, 2026 (orders, not unique customers).",
+  "left_out": "35 orders with Status 'Cancelled', 4 rows flagged Test order = Yes (each $1 internal tests); also the blank row and the 'Total' footer row (not orders)"
+ },
+ {
+  "quote": "500",
+  "value": 500,
+  "definition": "Valid orders dated Oct 12-18, 2026 (Mon-Sun, last week).",
+  "left_out": "35 orders with Status 'Cancelled', 4 rows flagged Test order = Yes (each $1 internal tests); also the blank row and the 'Total' footer row (not orders)"
+ },
+ {
+  "quote": "4.8%",
+  "value": 4.761904761904767,
+  "definition": "Percent drop in valid order count, Oct 12-18 versus Oct 5-11, 2026 (1 - 500/525).",
+  "left_out": "35 orders with Status 'Cancelled', 4 rows flagged Test order = Yes (each $1 internal tests); also the blank row and the 'Total' footer row (not orders)"
+ },
+ {
+  "quote": "525",
+  "value": 525,
+  "definition": "Valid orders dated Oct 5-11, 2026 (Mon-Sun, the week before last).",
+  "left_out": "35 orders with Status 'Cancelled', 4 rows flagged Test order = Yes (each $1 internal tests); also the blank row and the 'Total' footer row (not orders)"
+ },
+ {
+  "quote": "$50,874",
+  "value": 50873.74,
+  "definition": "Sum of Order total for valid orders dated Oct 12-18, 2026; gross of refunds.",
+  "left_out": "35 orders with Status 'Cancelled', 4 rows flagged Test order = Yes (each $1 internal tests); also the blank row and the 'Total' footer row (not orders)"
+ },
+ {
+  "quote": "1.2%",
+  "value": 1.183630903416677,
+  "definition": "Percent drop in gross revenue of valid orders, Oct 12-18 versus Oct 5-11, 2026.",
+  "left_out": "35 orders with Status 'Cancelled', 4 rows flagged Test order = Yes (each $1 internal tests); also the blank row and the 'Total' footer row (not orders)"
+ },
+ {
+  "quote": "$51,483",
+  "value": 51483.11,
+  "definition": "Sum of Order total for valid orders dated Oct 5-11, 2026; gross of refunds.",
+  "left_out": "35 orders with Status 'Cancelled', 4 rows flagged Test order = Yes (each $1 internal tests); also the blank row and the 'Total' footer row (not orders)"
+ }
+]

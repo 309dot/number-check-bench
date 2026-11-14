@@ -1,0 +1,10 @@
+Support highlights, helpdesk export (tickets opened 27 Jul to 18 Oct 2026)
+
+The export holds 2,558 rows. We removed 124 that were spam or merged duplicates (52 spam, 74 duplicates, 2 flagged as both), leaving 2,434 real tickets. All figures below use those 2,434.
+
+- Resolved: 2,149 tickets (88%) are Closed or Solved. 193 are still Open and 92 are Pending. Resolved tickets took a median of 4 days from opening to close.
+- Reply speed: median first response was 6.4 hours (mean 7.6 hours). 29% got a reply within 4 hours, and 30% breached SLA.
+- Customer rating: 85% of ratings were Good (973 Good, 169 Bad). Only 47% of tickets got a rating.
+- Channels: Email 1,151 (47%), Chat 934 (38%), Phone 349 (14%). Median first response is about the same on all three (6.2 to 6.7 hours).
+- Categories: the export has no category field. By priority, the biggest groups are Normal 1,360 (56%), Low 516, High 426 and Urgent 132.
+- Top agents: Maya handled the most, 534 tickets with 473 resolved and 89.5% Good. Jonah is next with 448 and 88.8% Good. Priya replies fastest (median 5.6 hours). Theo is the outlier, with a 10.8-hour median reply and 68.8% Good.

@@ -1,0 +1,92 @@
+[
+ {
+  "quote": "21,646",
+  "value": 21645.65,
+  "definition": "Rows of ad-performance-2026-10-18.csv from 2026-08-24 to 2026-10-18, excluding test campaigns, total Spend for client Brightline Dental.",
+  "left_out": "56 rows of the 'QA – Pixel test' campaign (Harbor & Pine, Test campaign = Yes) excluded as test traffic"
+ },
+ {
+  "quote": "515",
+  "value": 515,
+  "definition": "Rows of ad-performance-2026-10-18.csv from 2026-08-24 to 2026-10-18, excluding test campaigns, total Leads for client Brightline Dental.",
+  "left_out": "56 rows of the 'QA – Pixel test' campaign (Harbor & Pine, Test campaign = Yes) excluded as test traffic"
+ },
+ {
+  "quote": "42.03",
+  "value": 42.03038834951457,
+  "definition": "Rows of ad-performance-2026-10-18.csv from 2026-08-24 to 2026-10-18, excluding test campaigns, total Spend divided by total Leads for client Brightline Dental (cost per lead).",
+  "left_out": "56 rows of the 'QA – Pixel test' campaign (Harbor & Pine, Test campaign = Yes) excluded as test traffic"
+ },
+ {
+  "quote": "20,820",
+  "value": 20820.14,
+  "definition": "Rows of ad-performance-2026-10-18.csv from 2026-08-24 to 2026-10-18, excluding test campaigns, total Spend for client Northfield Bikes.",
+  "left_out": "56 rows of the 'QA – Pixel test' campaign (Harbor & Pine, Test campaign = Yes) excluded as test traffic"
+ },
+ {
+  "quote": "379",
+  "value": 379,
+  "definition": "Rows of ad-performance-2026-10-18.csv from 2026-08-24 to 2026-10-18, excluding test campaigns, total Leads for client Northfield Bikes.",
+  "left_out": "56 rows of the 'QA – Pixel test' campaign (Harbor & Pine, Test campaign = Yes) excluded as test traffic"
+ },
+ {
+  "quote": "54.93",
+  "value": 54.934406332453825,
+  "definition": "Rows of ad-performance-2026-10-18.csv from 2026-08-24 to 2026-10-18, excluding test campaigns, total Spend divided by total Leads for client Northfield Bikes (cost per lead).",
+  "left_out": "56 rows of the 'QA – Pixel test' campaign (Harbor & Pine, Test campaign = Yes) excluded as test traffic"
+ },
+ {
+  "quote": "28,296",
+  "value": 28296.36,
+  "definition": "Rows of ad-performance-2026-10-18.csv from 2026-08-24 to 2026-10-18, excluding test campaigns, total Spend for client Harbor & Pine.",
+  "left_out": "56 rows of the 'QA – Pixel test' campaign (Harbor & Pine, Test campaign = Yes) excluded as test traffic"
+ },
+ {
+  "quote": "397",
+  "value": 397,
+  "definition": "Rows of ad-performance-2026-10-18.csv from 2026-08-24 to 2026-10-18, excluding test campaigns, total Leads for client Harbor & Pine.",
+  "left_out": "56 rows of the 'QA – Pixel test' campaign (Harbor & Pine, Test campaign = Yes) excluded as test traffic"
+ },
+ {
+  "quote": "71.28",
+  "value": 71.27546599496222,
+  "definition": "Rows of ad-performance-2026-10-18.csv from 2026-08-24 to 2026-10-18, excluding test campaigns, total Spend divided by total Leads for client Harbor & Pine (cost per lead).",
+  "left_out": "56 rows of the 'QA – Pixel test' campaign (Harbor & Pine, Test campaign = Yes) excluded as test traffic"
+ },
+ {
+  "quote": "39.47",
+  "value": 39.47071428571429,
+  "definition": "Rows of ad-performance-2026-10-18.csv from 2026-08-24 to 2026-10-18, excluding test campaigns, Spend divided by Leads for Brightline Dental on the Social channel (lowest cost per lead of that client's three channels).",
+  "left_out": "56 rows of the 'QA – Pixel test' campaign (Harbor & Pine, Test campaign = Yes) excluded as test traffic"
+ },
+ {
+  "quote": "51.16",
+  "value": 51.157292817679554,
+  "definition": "Rows of ad-performance-2026-10-18.csv from 2026-08-24 to 2026-10-18, excluding test campaigns, Spend divided by Leads for Northfield Bikes on the Search channel (lowest cost per lead of that client's three channels).",
+  "left_out": "56 rows of the 'QA – Pixel test' campaign (Harbor & Pine, Test campaign = Yes) excluded as test traffic"
+ },
+ {
+  "quote": "24.07",
+  "value": 24.067905405405405,
+  "definition": "Rows of ad-performance-2026-10-18.csv from 2026-08-24 to 2026-10-18, excluding test campaigns, Spend divided by Leads for Harbor & Pine on the Search channel (lowest cost per lead of that client's three channels).",
+  "left_out": "56 rows of the 'QA – Pixel test' campaign (Harbor & Pine, Test campaign = Yes) excluded as test traffic"
+ },
+ {
+  "quote": "5.15%",
+  "value": 5.149630693936196,
+  "definition": "Rows of ad-performance-2026-10-18.csv from 2026-08-24 to 2026-10-18, excluding test campaigns, total Clicks divided by total Impressions on the Search channel across all clients, as a percentage.",
+  "left_out": "56 rows of the 'QA – Pixel test' campaign (Harbor & Pine, Test campaign = Yes) excluded as test traffic"
+ },
+ {
+  "quote": "1.29%",
+  "value": 1.2872056794717561,
+  "definition": "Rows of ad-performance-2026-10-18.csv from 2026-08-24 to 2026-10-18, excluding test campaigns, total Clicks divided by total Impressions on the Social channel across all clients, as a percentage.",
+  "left_out": "56 rows of the 'QA – Pixel test' campaign (Harbor & Pine, Test campaign = Yes) excluded as test traffic"
+ },
+ {
+  "quote": "0.60%",
+  "value": 0.604291567887816,
+  "definition": "Rows of ad-performance-2026-10-18.csv from 2026-08-24 to 2026-10-18, excluding test campaigns, total Clicks divided by total Impressions on the Display channel across all clients, as a percentage.",
+  "left_out": "56 rows of the 'QA – Pixel test' campaign (Harbor & Pine, Test campaign = Yes) excluded as test traffic"
+ }
+]

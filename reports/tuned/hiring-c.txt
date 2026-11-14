@@ -1,0 +1,15 @@
+We have 751 candidates in the latest export, after I took out 17 rows flagged as duplicates.
+
+Where they are:
+- 532 rejected
+- 102 withdrew
+- 34 hired
+- 83 still in play: 32 newly applied, 27 at screen, 20 in interviews and 4 holding offers
+
+Offers accepted: 34, and every one of those people is now marked as hired.
+
+Top sources are LinkedIn with 281 candidates and our own careers page with 219. Referrals come third at 105, ahead of agencies at 96 and job boards at 50.
+
+Backend Engineer has the most candidates at 197, followed by Support Specialist at 170 and Account Executive at 158.
+
+Applications are steady. We got 67 in the last week (12 to 18 October) against 64 the week before, up 3 or about 5%.

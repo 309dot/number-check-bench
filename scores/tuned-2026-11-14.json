@@ -1,0 +1,269 @@
+{
+ "label": "tuned-2026-11-14",
+ "dir": "reports/tuned",
+ "score": {
+  "reports": 18,
+  "numbers": 332,
+  "match": 309,
+  "other": 1,
+  "differs": 0,
+  "unread": 22,
+  "same": 295,
+  "calc": 14,
+  "off": 0,
+  "none": 0
+ },
+ "planted": {
+  "planted": 1153,
+  "passed": 15,
+  "flagged": 44,
+  "caught": 495,
+  "unread": 599
+ },
+ "scopes": {
+  "orders-a": {
+   "minus": [
+    "rows where Status is Cancelled"
+   ]
+  },
+  "orders-b": {
+   "minus": [
+    "rows where Status is Cancelled"
+   ]
+  },
+  "orders-c": {
+   "minus": [
+    "rows where Status is Cancelled"
+   ]
+  },
+  "projects-a": {
+   "minus": [
+    "rows where Phase is Done"
+   ]
+  },
+  "projects-b": {
+   "minus": [
+    "rows where Phase is Done"
+   ]
+  },
+  "projects-c": {
+   "minus": [
+    "rows where Phase is Done"
+   ]
+  },
+  "tickets-a": {
+   "minus": [],
+   "period": "Oct 12 to Oct 18"
+  },
+  "tickets-b": {
+   "minus": [],
+   "period": "Oct 12 to Oct 18"
+  }
+ },
+ "passed": [
+  "ads-a 1.05% → 1.08%: Sum of Clicks divided by sum of Impressions, as a percentage, in rows where Date is Oct 5 to Oct 18, leaving out Test campaign",
+  "ads-c 1.05% → 1.08%: Sum of Clicks divided by sum of Impressions, as a percentage, in rows where Date is Oct 5 to Oct 18, leaving out Test campaign",
+  "orders-a 3.4% → 3.1%: Sum of Refund amount divided by sum of Order total, as a percentage, in rows where Order date is Oct 1 to Oct 18, leaving out Test order and rows where Status is Cancelled",
+  "orders-b 3.4% → 3.1%: Sum of Refund amount divided by sum of Order total, as a percentage, in rows where Order date is Oct 1 to Oct 18, leaving out Test order and rows where Status is Cancelled",
+  "orders-c 3.4% → 3.1%: Sum of Refund amount divided by sum of Order total, as a percentage, in rows where Order date is Oct 1 to Oct 18, leaving out Test order and rows where Status is Cancelled",
+  "projects-b 2 → 3: Count of rows where Department is Marketing, leaving out Archived and rows where Phase is Done",
+  "tickets-a 69 → 62: Count of rows where Closed is Oct 12 to Oct 18 and SLA breached is Yes, leaving out Spam and Merged duplicate",
+  "tickets-a 67 → 69: Count of rows where Opened is Oct 12 to Oct 18 and SLA breached is Yes, leaving out Spam and Merged duplicate",
+  "tickets-b 6.7 → 7.6: Average of First response (hours) in all rows, leaving out Spam and Merged duplicate",
+  "tickets-b 7.4 → 6.7: Average of First response (hours) in rows where Opened is Oct 12 to Oct 18, leaving out Spam and Merged duplicate",
+  "tickets-c 7.4 → 6.7: Average of First response (hours) in rows where Opened is Oct 12 to Oct 18, leaving out Spam and Merged duplicate",
+  "tickets-c 69 → 62: Count of rows where Closed is Oct 12 to Oct 18 and SLA breached is Yes, leaving out Spam and Merged duplicate",
+  "tickets-c 67 → 69: Count of rows where Opened is Oct 12 to Oct 18 and SLA breached is Yes, leaving out Spam and Merged duplicate",
+  "tickets-c 31 → 32: Count of rows where Opened is Oct 5 to Oct 11 and Channel is Phone, leaving out Spam and Merged duplicate",
+  "tickets-c 18 → 16: Count of rows where Opened is Oct 5 to Oct 11 and Closed is filled in and Agent is Theo, leaving out Spam and Merged duplicate"
+ ],
+ "notMatched": [
+  {
+   "name": "hiring-a",
+   "raw": "83",
+   "start": 252,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Non-duplicate candidates still in progress: Stage is Applied, Screen, Interview or Offer."
+  },
+  {
+   "name": "hiring-b",
+   "raw": "83",
+   "start": 194,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Candidates still in process: Stage is Applied, Screen, Interview or Offer (not Rejected, Withdrawn or Hired)."
+  },
+  {
+   "name": "hiring-b",
+   "raw": "67",
+   "start": 619,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Candidates with Applied date from 2026-10-12 to 2026-10-18 inclusive (the 7 days ending on the export date)."
+  },
+  {
+   "name": "hiring-b",
+   "raw": "64",
+   "start": 661,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Candidates with Applied date from 2026-10-05 to 2026-10-11 inclusive (the 7 days before that)."
+  },
+  {
+   "name": "hiring-b",
+   "raw": "3",
+   "start": 691,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Applications in the latest 7 days minus the prior 7 days (same duplicate-free rows)."
+  },
+  {
+   "name": "hiring-b",
+   "raw": "5%",
+   "start": 702,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Percentage change in applications, latest 7 days vs prior 7 days: (67-64)/64."
+  },
+  {
+   "name": "hiring-c",
+   "raw": "83",
+   "start": 153,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Non-duplicate candidates still in process: Stage is Applied, Screen, Interview or Offer."
+  },
+  {
+   "name": "hiring-c",
+   "raw": "67",
+   "start": 624,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Non-duplicate candidates with Applied date 2026-10-12 to 2026-10-18 inclusive (the 7 days ending on the export date)."
+  },
+  {
+   "name": "hiring-c",
+   "raw": "3",
+   "start": 694,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Last week's applications minus the prior week's."
+  },
+  {
+   "name": "hiring-c",
+   "raw": "5%",
+   "start": 705,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Percentage change in weekly applications, (67-64)/64, rounded to whole percent."
+  },
+  {
+   "name": "orders-a",
+   "raw": "572",
+   "start": 361,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Count of valid orders with Customer type = New, Oct 1-18 (orders, not distinct customers)."
+  },
+  {
+   "name": "orders-a",
+   "raw": "43%",
+   "start": 373,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "New-customer orders as share of valid orders, Oct 1-18."
+  },
+  {
+   "name": "orders-c",
+   "raw": "4.8%",
+   "start": 701,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Percent change in valid order count, Oct 12-18 vs Oct 5-11 (value shown is signed change)."
+  },
+  {
+   "name": "orders-c",
+   "raw": "1.2%",
+   "start": 726,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Percent change in gross revenue, Oct 12-18 vs Oct 5-11 (value shown is signed change)."
+  },
+  {
+   "name": "projects-b",
+   "raw": "2",
+   "start": 768,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Highest active-project count among the other 7 departments (Data, Sales, People, IT, Finance each have 2)."
+  },
+  {
+   "name": "signups-b",
+   "raw": "43%",
+   "start": 115,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of the 317 real signups with Finished setup = Yes."
+  },
+  {
+   "name": "signups-b",
+   "raw": "37%",
+   "start": 198,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of Free-plan signups (excluding test accounts) with Finished setup = Yes (74 of 199)."
+  },
+  {
+   "name": "signups-b",
+   "raw": "48%",
+   "start": 213,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of Starter-plan signups (excluding test accounts) with Finished setup = Yes (40 of 84)."
+  },
+  {
+   "name": "signups-b",
+   "raw": "68%",
+   "start": 225,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of Team-plan signups (excluding test accounts) with Finished setup = Yes (23 of 34)."
+  },
+  {
+   "name": "signups-b",
+   "raw": "45%",
+   "start": 465,
+   "verdict": "other",
+   "kind": "share",
+   "how": "Rows where Country is US, as a share of all rows, counting Test account rows too",
+   "says": "44.5%: Rows where Country is US, as a share of all rows, leaving out Test account",
+   "agree": null,
+   "writer": "Share of the 317 real signups with Country = US (141 of 317)."
+  },
+  {
+   "name": "tickets-a",
+   "raw": "88.9%",
+   "start": 434,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Good / (Good+Bad) among non-spam, non-duplicate tickets opened 2026-10-05 to 2026-10-11."
+  },
+  {
+   "name": "tickets-b",
+   "raw": "88.1%",
+   "start": 582,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of CSAT=Good among rated tickets whose Closed date is 2026-10-05..2026-10-11 (104 of 118)."
+  },
+  {
+   "name": "tickets-c",
+   "raw": "89%",
+   "start": 397,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of rated tickets opened 2026-10-05 to 2026-10-11 that are Good."
+  }
+ ]
+}

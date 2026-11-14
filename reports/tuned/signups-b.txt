@@ -1,0 +1,12 @@
+We got 317 signups last week (Oct 12-18), after removing 4 internal test accounts from the export.
+
+Activation was 43% overall, meaning those people finished setup. It rises with plan size:
+- Free: 37%
+- Starter: 48%
+- Team: 68%
+
+Organic search was our biggest source with 98 signups, followed by paid search with 81 and direct with 60. Paid search was about 26% of the week, so roughly three in four signups came from unpaid channels.
+
+By country, the US led with 45% of signups, then the UK at 15% and France at 10%. The rest was spread across Germany, South Korea, Canada and Australia.
+
+Free signups are the weakest at activating, so that is where I would look first.

@@ -1,0 +1,86 @@
+[
+ {
+  "quote": "18",
+  "value": 18,
+  "definition": "Count of project rows that are not archived and not in phase Done, as of the 2026-10-18 export.",
+  "left_out": "Total row (sheet row 28, a sum line not a project); 2 archived projects (Intranet refresh, Legacy CMS shutdown); 4 finished projects with phase Done (Vendor portal, Office move, Help center, Supplier onboarding)"
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Count of active projects whose Due date is before 2026-10-18 (all are still not done).",
+  "left_out": "Total row (sheet row 28, a sum line not a project); 2 archived projects (Intranet refresh, Legacy CMS shutdown); 4 finished projects with phase Done (Vendor portal, Office move, Help center, Supplier onboarding) (late is only counted among active projects)"
+ },
+ {
+  "quote": "9",
+  "value": 9,
+  "definition": "Count of active projects with Status = Green.",
+  "left_out": "Total row (sheet row 28, a sum line not a project); 2 archived projects (Intranet refresh, Legacy CMS shutdown); 4 finished projects with phase Done (Vendor portal, Office move, Help center, Supplier onboarding)"
+ },
+ {
+  "quote": "6",
+  "value": 6,
+  "definition": "Count of active projects with Status = Amber.",
+  "left_out": "Total row (sheet row 28, a sum line not a project); 2 archived projects (Intranet refresh, Legacy CMS shutdown); 4 finished projects with phase Done (Vendor portal, Office move, Help center, Supplier onboarding)"
+ },
+ {
+  "quote": "3",
+  "value": 3,
+  "definition": "Count of active projects with Status = Red.",
+  "left_out": "Total row (sheet row 28, a sum line not a project); 2 archived projects (Intranet refresh, Legacy CMS shutdown); 4 finished projects with phase Done (Vendor portal, Office move, Help center, Supplier onboarding)"
+ },
+ {
+  "quote": "$3.34 million",
+  "value": 3340000.0,
+  "definition": "Sum of the Budget column over active projects, in dollars (assumed currency; the export shows no unit).",
+  "left_out": "Total row (sheet row 28, a sum line not a project); 2 archived projects (Intranet refresh, Legacy CMS shutdown); 4 finished projects with phase Done (Vendor portal, Office move, Help center, Supplier onboarding); the sheet's own Total row (3,880,000) covers all 24 projects and is not used"
+ },
+ {
+  "quote": "$2.54 million",
+  "value": 2541640.0,
+  "definition": "Sum of the Spend column over active projects, in dollars (assumed currency).",
+  "left_out": "Total row (sheet row 28, a sum line not a project); 2 archived projects (Intranet refresh, Legacy CMS shutdown); 4 finished projects with phase Done (Vendor portal, Office move, Help center, Supplier onboarding); the sheet's own Total spend (3,010,110) covers all 24 projects and is not used"
+ },
+ {
+  "quote": "76%",
+  "value": 76.09700598802395,
+  "definition": "Active-project Spend divided by active-project Budget, as a percent.",
+  "left_out": "Total row (sheet row 28, a sum line not a project); 2 archived projects (Intranet refresh, Legacy CMS shutdown); 4 finished projects with phase Done (Vendor portal, Office move, Help center, Supplier onboarding)"
+ },
+ {
+  "quote": "3",
+  "value": 3,
+  "definition": "Count of active projects where Spend is greater than Budget (Data warehouse, CRM migration, Billing revamp).",
+  "left_out": "Total row (sheet row 28, a sum line not a project); 2 archived projects (Intranet refresh, Legacy CMS shutdown); 4 finished projects with phase Done (Vendor portal, Office move, Help center, Supplier onboarding); no finished or archived project is over budget anyway"
+ },
+ {
+  "quote": "$33,600",
+  "value": 33600.0,
+  "definition": "Data warehouse Spend (453,600) minus Budget (420,000).",
+  "left_out": "none"
+ },
+ {
+  "quote": "$18,400",
+  "value": 18400.0,
+  "definition": "Billing revamp Spend (248,400) minus Budget (230,000).",
+  "left_out": "none"
+ },
+ {
+  "quote": "$10,130",
+  "value": 10130.0,
+  "definition": "CRM migration Spend (270,130) minus Budget (260,000).",
+  "left_out": "none"
+ },
+ {
+  "quote": "3",
+  "value": 3,
+  "definition": "Count of active projects in Marketing and (separately) in Product; both are tied for the highest of any department.",
+  "left_out": "Total row (sheet row 28, a sum line not a project); 2 archived projects (Intranet refresh, Legacy CMS shutdown); 4 finished projects with phase Done (Vendor portal, Office move, Help center, Supplier onboarding)"
+ },
+ {
+  "quote": "2",
+  "value": 2,
+  "definition": "Highest active-project count among the other 7 departments (Data, Sales, People, IT, Finance each have 2).",
+  "left_out": "Total row (sheet row 28, a sum line not a project); 2 archived projects (Intranet refresh, Legacy CMS shutdown); 4 finished projects with phase Done (Vendor portal, Office move, Help center, Supplier onboarding)"
+ }
+]

@@ -1,0 +1,177 @@
+{
+ "label": "first-look-2026-11-12-rerun-2026-11-14",
+ "dir": "reports/first-look-2026-11-12",
+ "score": {
+  "reports": 6,
+  "numbers": 118,
+  "match": 101,
+  "other": 1,
+  "differs": 0,
+  "unread": 16,
+  "same": 99,
+  "calc": 2,
+  "off": 0,
+  "none": 0
+ },
+ "planted": {
+  "planted": 393,
+  "passed": 4,
+  "flagged": 13,
+  "caught": 114,
+  "unread": 262
+ },
+ "scopes": {
+  "orders-h": {
+   "minus": [
+    "rows where Status is Cancelled"
+   ]
+  }
+ },
+ "passed": [
+  "orders-h 5.6% → 5.8%: Order total in rows where Status is Refunded, as a share of Order total in rows where Channel is Marketplace, leaving out Test order",
+  "orders-h 1.5% → 1.4%: Rows where Status is Refunded, as a share of rows where Region is South, leaving out Test order and rows where Status is Cancelled",
+  "signups-h 55 → 57: Most rows on one Created day, in all rows, leaving out Test account",
+  "tickets-h 6.7 → 7.6: Average of First response (hours) in all rows, leaving out Spam and Merged duplicate"
+ ],
+ "notMatched": [
+  {
+   "name": "ads-h",
+   "raw": "39.47",
+   "start": 337,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Rows of ad-performance-2026-10-18.csv from 2026-08-24 to 2026-10-18, excluding test campaigns, Spend divided by Leads for Brightline Dental on the Social channel (lowest cost per lead of that client's three channels)."
+  },
+  {
+   "name": "hiring-h",
+   "raw": "68",
+   "start": 165,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Non-duplicate applicants whose current Stage is Interview, Offer or Hired, plus those who withdrew after declining an offer (Stage Withdrawn, Offer accepted = No)."
+  },
+  {
+   "name": "hiring-h",
+   "raw": "9%",
+   "start": 214,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of non-duplicate applicants who reached interview or further."
+  },
+  {
+   "name": "hiring-h",
+   "raw": "48",
+   "start": 241,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Offers made: Offer accepted = Yes, plus Offer accepted = No, plus Stage = Offer (still open)."
+  },
+  {
+   "name": "hiring-h",
+   "raw": "10",
+   "start": 267,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Non-duplicate rows with Offer accepted = No (all Stage Withdrawn)."
+  },
+  {
+   "name": "hiring-h",
+   "raw": "4",
+   "start": 290,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Non-duplicate rows with Stage = Offer (no accepted/declined answer yet)."
+  },
+  {
+   "name": "hiring-h",
+   "raw": "34",
+   "start": 315,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Accepted offers (Offer accepted = Yes)."
+  },
+  {
+   "name": "hiring-h",
+   "raw": "44",
+   "start": 325,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Offers with a decision: accepted plus declined; open offers excluded."
+  },
+  {
+   "name": "orders-h",
+   "raw": "4.6%",
+   "start": 286,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of region West orders (orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders) with Status = Refunded."
+  },
+  {
+   "name": "orders-h",
+   "raw": "1.5%",
+   "start": 311,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of region South orders (orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders) with Status = Refunded."
+  },
+  {
+   "name": "orders-h",
+   "raw": "3.7%",
+   "start": 343,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of region North orders (orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders) with Status = Refunded."
+  },
+  {
+   "name": "projects-h",
+   "raw": "98%",
+   "start": 251,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Active project rows only (Archived=No, excluding the Total row) in sheet Projects, snapshot week ending 2026-10-18; Data department Spend divided by Data Budget, as a percent."
+  },
+  {
+   "name": "projects-h",
+   "raw": "$515K",
+   "start": 262,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Active project rows only (Archived=No, excluding the Total row) in sheet Projects, snapshot week ending 2026-10-18; sum of Budget for Department=Data."
+  },
+  {
+   "name": "signups-h",
+   "raw": "55",
+   "start": 444,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Non-test signups created on Tuesday 2026-10-13."
+  },
+  {
+   "name": "signups-h",
+   "raw": "32%",
+   "start": 647,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Partner finished-setup rate (8/25), non-test rows."
+  },
+  {
+   "name": "tickets-h",
+   "raw": "2,558",
+   "start": 34,
+   "verdict": "other",
+   "kind": "count",
+   "how": "Count of all rows, counting Spam and Merged duplicate rows too",
+   "says": "2,434: Count of all rows, leaving out Spam and Merged duplicate",
+   "agree": null,
+   "writer": "All data rows in the export (tickets opened 2026-07-27 to 2026-10-18); no title or total rows exist."
+  },
+  {
+   "name": "tickets-h",
+   "raw": "6.2",
+   "start": 365,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Median of First response (hours) for Email tickets, all priorities, whole period."
+  }
+ ]
+}

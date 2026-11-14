@@ -1,0 +1,9 @@
+Last week (Oct 12-18) we handled 227 tickets, about the same as the 225 the week before. We closed 214, up from 202.
+
+First response averaged 6.7 hours, down from 7.4 hours the week before, so we got a bit quicker. SLA breaches hit 69 tickets, 30% of the week's volume, basically flat against 67 the week before.
+
+Customer satisfaction was 92% positive among the 51 customers who rated us, versus 89% the week before. Treat that as early: last week's figure rests on far fewer ratings than the 108 we had the week before, since surveys on recent tickets are still coming in.
+
+Email is still our busiest channel with 110 tickets, ahead of chat at 86 and phone at 31.
+
+Maya closed the most, 48 tickets, followed by Hana with 43. Theo closed the fewest at 18.

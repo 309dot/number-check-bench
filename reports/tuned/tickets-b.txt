@@ -1,0 +1,17 @@
+Hi,
+
+Here is the support update for last week, compared with the week before. I left out spam and merged duplicates throughout.
+
+We handled 227 tickets, level with the 225 the week before. We closed 214 during the week, up from 202, so the backlog shrank a little.
+
+Speed was a bit better. First response averaged 6.7 hours, down from 7.4 hours.
+
+SLA is flat and still our weak spot. 69 tickets breached, which is 30.4% of those handled, against 67 (29.8%) the week before.
+
+Customer satisfaction held steady. Of the surveyed tickets we closed, 89.1% were rated Good, compared with 88.1% the week before.
+
+Email is our busiest channel with 110 tickets, or 48.5% of the total. Chat and phone follow.
+
+Maya closed the most tickets with 48, just behind her 50 the week before.
+
+Happy to dig into the SLA misses if useful.

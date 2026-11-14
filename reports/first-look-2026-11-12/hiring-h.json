@@ -1,0 +1,152 @@
+[
+ {
+  "quote": "751",
+  "value": 751,
+  "definition": "Applicants in the export (all rows, Applied 2026-07-27 to 2026-10-18) after removing flagged duplicates.",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered)"
+ },
+ {
+  "quote": "17",
+  "value": 17,
+  "definition": "Rows flagged Duplicate = Yes in the export.",
+  "left_out": "none"
+ },
+ {
+  "quote": "197",
+  "value": 197,
+  "definition": "Non-duplicate applicants whose Department is Engineering.",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered)"
+ },
+ {
+  "quote": "170",
+  "value": 170,
+  "definition": "Non-duplicate applicants whose Department is Support.",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered)"
+ },
+ {
+  "quote": "158",
+  "value": 158,
+  "definition": "Non-duplicate applicants whose Department is Sales.",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered)"
+ },
+ {
+  "quote": "118",
+  "value": 118,
+  "definition": "Non-duplicate applicants whose Department is Operations.",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered)"
+ },
+ {
+  "quote": "108",
+  "value": 108,
+  "definition": "Non-duplicate applicants whose Department is Design.",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered)"
+ },
+ {
+  "quote": "68",
+  "value": 68,
+  "definition": "Non-duplicate applicants whose current Stage is Interview, Offer or Hired, plus those who withdrew after declining an offer (Stage Withdrawn, Offer accepted = No).",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered); candidates rejected or withdrawn at screen are not counted because the export only has current stage, so anyone rejected after an interview cannot be identified"
+ },
+ {
+  "quote": "9%",
+  "value": 9.054593874833555,
+  "definition": "Share of non-duplicate applicants who reached interview or further.",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered)"
+ },
+ {
+  "quote": "48",
+  "value": 48,
+  "definition": "Offers made: Offer accepted = Yes, plus Offer accepted = No, plus Stage = Offer (still open).",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered)"
+ },
+ {
+  "quote": "34",
+  "value": 34,
+  "definition": "Non-duplicate rows with Offer accepted = Yes (all have Stage Hired).",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered)"
+ },
+ {
+  "quote": "10",
+  "value": 10,
+  "definition": "Non-duplicate rows with Offer accepted = No (all Stage Withdrawn).",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered)"
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Non-duplicate rows with Stage = Offer (no accepted/declined answer yet).",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered)"
+ },
+ {
+  "quote": "34",
+  "value": 34,
+  "definition": "Accepted offers (Offer accepted = Yes).",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered)"
+ },
+ {
+  "quote": "44",
+  "value": 44,
+  "definition": "Offers with a decision: accepted plus declined; open offers excluded.",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered); 4 open offers (no answer yet)"
+ },
+ {
+  "quote": "77%",
+  "value": 77.27272727272727,
+  "definition": "Accepted offers divided by decided offers.",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered); 4 open offers"
+ },
+ {
+  "quote": "19",
+  "value": 19,
+  "definition": "Non-duplicate rows with Source = Referral and Stage = Hired.",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered)"
+ },
+ {
+  "quote": "34",
+  "value": 34,
+  "definition": "Non-duplicate rows with Stage = Hired.",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered)"
+ },
+ {
+  "quote": "105",
+  "value": 105,
+  "definition": "Non-duplicate applicants with Source = Referral.",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered)"
+ },
+ {
+  "quote": "18%",
+  "value": 18.095238095238095,
+  "definition": "Referral hires divided by Referral applicants.",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered)"
+ },
+ {
+  "quote": "281",
+  "value": 281,
+  "definition": "Non-duplicate applicants with Source = LinkedIn.",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered)"
+ },
+ {
+  "quote": "6",
+  "value": 6,
+  "definition": "Non-duplicate rows with Source = LinkedIn and Stage = Hired.",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered)"
+ },
+ {
+  "quote": "5",
+  "value": 5,
+  "definition": "Non-duplicate rows with Source = Careers page and Stage = Hired.",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered)"
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Non-duplicate rows with Source = Agency and Stage = Hired.",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered)"
+ },
+ {
+  "quote": "50",
+  "value": 50,
+  "definition": "Non-duplicate applicants with Source = Job board (0 hires).",
+  "left_out": "17 rows with Duplicate='Yes' (same person re-entered)"
+ }
+]

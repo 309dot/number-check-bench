@@ -1,0 +1,344 @@
+{
+ "dir": "reports/tuned",
+ "api": "https://everynumber.app/api/agents/check",
+ "ran": "2026-11-14",
+ "total": {
+  "numbers": 332,
+  "matches": 309,
+  "counted_differently": 1,
+  "differs": 0,
+  "not_checked": 22
+ },
+ "reports": [
+  {
+   "report": "ads-a.txt",
+   "file": "ad-performance-2026-10-18.csv",
+   "numbers": 20,
+   "matches": 20,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 0,
+   "not_confirmed": []
+  },
+  {
+   "report": "ads-b.txt",
+   "file": "ad-performance-2026-10-18.csv",
+   "numbers": 14,
+   "matches": 14,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 0,
+   "not_confirmed": []
+  },
+  {
+   "report": "ads-c.txt",
+   "file": "ad-performance-2026-10-18.csv",
+   "numbers": 20,
+   "matches": 20,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 0,
+   "not_confirmed": []
+  },
+  {
+   "report": "hiring-a.txt",
+   "file": "candidates-export-2026-10-18.xlsx",
+   "numbers": 21,
+   "matches": 20,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 1,
+   "not_confirmed": [
+    {
+     "text": "83",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "\u2026ut: 532 rejected, 102 withdrawn and 34 hired. The remaining 83 are still active: 32 at Applied, 27 at Screen, 20 at Interv\u2026"
+    }
+   ]
+  },
+  {
+   "report": "hiring-b.txt",
+   "file": "candidates-export-2026-10-18.xlsx",
+   "numbers": 21,
+   "matches": 16,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 5,
+   "not_confirmed": [
+    {
+     "text": "83",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "\u2026were rejected, 102 withdrew and 34 were hired. That leaves 83 still in play: 32 at Applied, 27 at Screen, 20 at Interview\u2026"
+    },
+    {
+     "text": "67",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "Applications are steady to slightly up. We received 67 in the week ending October 18, against 64 the week before,\u2026"
+    },
+    {
+     "text": "64",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "\u2026y up. We received 67 in the week ending October 18, against 64 the week before, a gain of 3 or about 5%."
+    },
+    {
+     "text": "3",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "\u2026ek ending October 18, against 64 the week before, a gain of 3 or about 5%."
+    },
+    {
+     "text": "5%",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "\u2026ctober 18, against 64 the week before, a gain of 3 or about 5%."
+    }
+   ]
+  },
+  {
+   "report": "hiring-c.txt",
+   "file": "candidates-export-2026-10-18.xlsx",
+   "numbers": 23,
+   "matches": 19,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 4,
+   "not_confirmed": [
+    {
+     "text": "83",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "- 83 still in play: 32 newly applied, 27 at screen, 20 in interv\u2026"
+    },
+    {
+     "text": "67",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "Applications are steady. We got 67 in the last week (12 to 18 October) against 64 the week bef\u2026"
+    },
+    {
+     "text": "3",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "\u2026last week (12 to 18 October) against 64 the week before, up 3 or about 5%."
+    },
+    {
+     "text": "5%",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "\u202612 to 18 October) against 64 the week before, up 3 or about 5%."
+    }
+   ]
+  },
+  {
+   "report": "orders-a.txt",
+   "file": "orders-month-to-date-2026-10-18.xlsx",
+   "numbers": 18,
+   "matches": 16,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 2,
+   "not_confirmed": [
+    {
+     "text": "572",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "On customers, 572 orders (43%) came from new customers and 770 from returning\u2026"
+    },
+    {
+     "text": "43%",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "On customers, 572 orders (43%) came from new customers and 770 from returning ones."
+    }
+   ]
+  },
+  {
+   "report": "orders-b.txt",
+   "file": "orders-month-to-date-2026-10-18.xlsx",
+   "numbers": 19,
+   "matches": 19,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 0,
+   "not_confirmed": []
+  },
+  {
+   "report": "orders-c.txt",
+   "file": "orders-month-to-date-2026-10-18.xlsx",
+   "numbers": 22,
+   "matches": 20,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 2,
+   "not_confirmed": [
+    {
+     "text": "4.8%",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "\u2026nst 525 orders and $51,483 the week before. Orders are down 4.8% and revenue is down 1.2%, so a slight slowdown rather than\u2026"
+    },
+    {
+     "text": "1.2%",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "\u20263 the week before. Orders are down 4.8% and revenue is down 1.2%, so a slight slowdown rather than a drop-off."
+    }
+   ]
+  },
+  {
+   "report": "projects-a.txt",
+   "file": "portfolio-status-2026-10-18.xlsx",
+   "numbers": 15,
+   "matches": 15,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 0,
+   "not_confirmed": []
+  },
+  {
+   "report": "projects-b.txt",
+   "file": "portfolio-status-2026-10-18.xlsx",
+   "numbers": 14,
+   "matches": 13,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 1,
+   "not_confirmed": [
+    {
+     "text": "2",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "\u2026h 3 active projects each. No other department has more than 2."
+    }
+   ]
+  },
+  {
+   "report": "projects-c.txt",
+   "file": "portfolio-status-2026-10-18.xlsx",
+   "numbers": 13,
+   "matches": 13,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 0,
+   "not_confirmed": []
+  },
+  {
+   "report": "signups-a.txt",
+   "file": "signups-week-ending-2026-10-18.csv",
+   "numbers": 25,
+   "matches": 25,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 0,
+   "not_confirmed": []
+  },
+  {
+   "report": "signups-b.txt",
+   "file": "signups-week-ending-2026-10-18.csv",
+   "numbers": 13,
+   "matches": 8,
+   "counted_differently": 1,
+   "differs": 0,
+   "not_checked": 4,
+   "not_confirmed": [
+    {
+     "text": "43%",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "Activation was 43% overall, meaning those people finished setup. It rises with\u2026"
+    },
+    {
+     "text": "37%",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "- Free: 37%"
+    },
+    {
+     "text": "48%",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "- Starter: 48%"
+    },
+    {
+     "text": "68%",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "- Team: 68%"
+    },
+    {
+     "text": "45%",
+     "verdict": "counted_differently",
+     "file_says": [
+      "44.5%"
+     ],
+     "context": "By country, the US led with 45% of signups, then the UK at 15% and France at 10%. The rest\u2026"
+    }
+   ]
+  },
+  {
+   "report": "signups-c.txt",
+   "file": "signups-week-ending-2026-10-18.csv",
+   "numbers": 16,
+   "matches": 16,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 0,
+   "not_confirmed": []
+  },
+  {
+   "report": "tickets-a.txt",
+   "file": "tickets-export-2026-10-18.csv",
+   "numbers": 23,
+   "matches": 22,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 1,
+   "not_confirmed": [
+    {
+     "text": "88.9%",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "\u2026ction: 92.2% of rated tickets were Good (47 of 51), up from 88.9%. Only 51 customers rated last week versus 108 the week befo\u2026"
+    }
+   ]
+  },
+  {
+   "report": "tickets-b.txt",
+   "file": "tickets-export-2026-10-18.csv",
+   "numbers": 16,
+   "matches": 15,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 1,
+   "not_confirmed": [
+    {
+     "text": "88.1%",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "\u2026yed tickets we closed, 89.1% were rated Good, compared with 88.1% the week before."
+    }
+   ]
+  },
+  {
+   "report": "tickets-c.txt",
+   "file": "tickets-export-2026-10-18.csv",
+   "numbers": 19,
+   "matches": 18,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 1,
+   "not_confirmed": [
+    {
+     "text": "89%",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "\u2026as 92% positive among the 51 customers who rated us, versus 89% the week before. Treat that as early: last week's figure re\u2026"
+    }
+   ]
+  }
+ ]
+}

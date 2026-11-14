@@ -1,0 +1,92 @@
+[
+ {
+  "quote": "22",
+  "value": 22,
+  "definition": "Active project rows only (Archived=No, excluding the Total row) in sheet Projects, snapshot week ending 2026-10-18; count of projects.",
+  "left_out": "'Total' summary row (double counts); 2 rows with Archived=Yes (Intranet refresh, Legacy CMS shutdown: closed out before the week)"
+ },
+ {
+  "quote": "$3.79M",
+  "value": 3790000,
+  "definition": "Active project rows only (Archived=No, excluding the Total row) in sheet Projects, snapshot week ending 2026-10-18; sum of Budget column across all departments.",
+  "left_out": "'Total' summary row (double counts); 2 rows with Archived=Yes (Intranet refresh, Legacy CMS shutdown: closed out before the week)"
+ },
+ {
+  "quote": "$2.93M",
+  "value": 2934920,
+  "definition": "Active project rows only (Archived=No, excluding the Total row) in sheet Projects, snapshot week ending 2026-10-18; sum of Spend column (spend to date) across all departments.",
+  "left_out": "'Total' summary row (double counts); 2 rows with Archived=Yes (Intranet refresh, Legacy CMS shutdown: closed out before the week)"
+ },
+ {
+  "quote": "$770K",
+  "value": 770000,
+  "definition": "Active project rows only (Archived=No, excluding the Total row) in sheet Projects, snapshot week ending 2026-10-18; sum of Budget for Department=Operations (3 projects); the largest departmental budget.",
+  "left_out": "'Total' summary row (double counts); 2 rows with Archived=Yes (Intranet refresh, Legacy CMS shutdown: closed out before the week)"
+ },
+ {
+  "quote": "$504K",
+  "value": 504020,
+  "definition": "Active project rows only (Archived=No, excluding the Total row) in sheet Projects, snapshot week ending 2026-10-18; sum of Spend for Department=Data (2 projects); the largest departmental spend.",
+  "left_out": "'Total' summary row (double counts); 2 rows with Archived=Yes (Intranet refresh, Legacy CMS shutdown: closed out before the week)"
+ },
+ {
+  "quote": "98%",
+  "value": 97.86796116504854,
+  "definition": "Active project rows only (Archived=No, excluding the Total row) in sheet Projects, snapshot week ending 2026-10-18; Data department Spend divided by Data Budget, as a percent.",
+  "left_out": "'Total' summary row (double counts); 2 rows with Archived=Yes (Intranet refresh, Legacy CMS shutdown: closed out before the week)"
+ },
+ {
+  "quote": "$515K",
+  "value": 515000,
+  "definition": "Active project rows only (Archived=No, excluding the Total row) in sheet Projects, snapshot week ending 2026-10-18; sum of Budget for Department=Data.",
+  "left_out": "'Total' summary row (double counts); 2 rows with Archived=Yes (Intranet refresh, Legacy CMS shutdown: closed out before the week)"
+ },
+ {
+  "quote": "11",
+  "value": 11,
+  "definition": "Active project rows only (Archived=No, excluding the Total row) in sheet Projects, snapshot week ending 2026-10-18; count with Phase=Build.",
+  "left_out": "'Total' summary row (double counts); 2 rows with Archived=Yes (Intranet refresh, Legacy CMS shutdown: closed out before the week)"
+ },
+ {
+  "quote": "5",
+  "value": 5,
+  "definition": "Active project rows only (Archived=No, excluding the Total row) in sheet Projects, snapshot week ending 2026-10-18; count with Phase=Test.",
+  "left_out": "'Total' summary row (double counts); 2 rows with Archived=Yes (Intranet refresh, Legacy CMS shutdown: closed out before the week)"
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Active project rows only (Archived=No, excluding the Total row) in sheet Projects, snapshot week ending 2026-10-18; count with Phase=Done (not archived).",
+  "left_out": "'Total' summary row (double counts); 2 rows with Archived=Yes (Intranet refresh, Legacy CMS shutdown: closed out before the week)"
+ },
+ {
+  "quote": "2",
+  "value": 2,
+  "definition": "Active project rows only (Archived=No, excluding the Total row) in sheet Projects, snapshot week ending 2026-10-18; count with Phase=Launch.",
+  "left_out": "'Total' summary row (double counts); 2 rows with Archived=Yes (Intranet refresh, Legacy CMS shutdown: closed out before the week)"
+ },
+ {
+  "quote": "9",
+  "value": 9,
+  "definition": "Active project rows only (Archived=No, excluding the Total row) in sheet Projects, snapshot week ending 2026-10-18; count with Risk=Low.",
+  "left_out": "'Total' summary row (double counts); 2 rows with Archived=Yes (Intranet refresh, Legacy CMS shutdown: closed out before the week)"
+ },
+ {
+  "quote": "8",
+  "value": 8,
+  "definition": "Active project rows only (Archived=No, excluding the Total row) in sheet Projects, snapshot week ending 2026-10-18; count with Risk=Medium.",
+  "left_out": "'Total' summary row (double counts); 2 rows with Archived=Yes (Intranet refresh, Legacy CMS shutdown: closed out before the week)"
+ },
+ {
+  "quote": "5",
+  "value": 5,
+  "definition": "Active project rows only (Archived=No, excluding the Total row) in sheet Projects, snapshot week ending 2026-10-18; count with Risk=High.",
+  "left_out": "'Total' summary row (double counts); 2 rows with Archived=Yes (Intranet refresh, Legacy CMS shutdown: closed out before the week)"
+ },
+ {
+  "quote": "3",
+  "value": 3,
+  "definition": "Active project rows only (Archived=No, excluding the Total row) in sheet Projects, snapshot week ending 2026-10-18; number of projects with Owner=Maya, the highest owner count (all others have 2 or 1).",
+  "left_out": "'Total' summary row (double counts); 2 rows with Archived=Yes (Intranet refresh, Legacy CMS shutdown: closed out before the week)"
+ }
+]

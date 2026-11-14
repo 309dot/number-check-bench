@@ -1,0 +1,86 @@
+[
+ {
+  "quote": "18",
+  "value": 18,
+  "definition": "Count of active projects: rows where Archived=='No' and Phase!='Done' and Done date is empty (the 18 active projects in the Projects sheet), as of the 2026-10-18 export.",
+  "left_out": "Excluded the Total row, the 2 rows with Archived=Yes, and the 4 finished projects (Phase=Done with a Done date: Vendor portal, Office move, Help center, Supplier onboarding)"
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Count of active projects whose Due date is before 2026-10-18 and that have no Done date.",
+  "left_out": "Excluded the Total row, the 2 rows with Archived=Yes, and the 4 finished projects (Phase=Done with a Done date: Vendor portal, Office move, Help center, Supplier onboarding)"
+ },
+ {
+  "quote": "9",
+  "value": 9,
+  "definition": "Active projects with Status Green.",
+  "left_out": "Excluded the Total row, the 2 rows with Archived=Yes, and the 4 finished projects (Phase=Done with a Done date: Vendor portal, Office move, Help center, Supplier onboarding)"
+ },
+ {
+  "quote": "6",
+  "value": 6,
+  "definition": "Active projects with Status Amber.",
+  "left_out": "Excluded the Total row, the 2 rows with Archived=Yes, and the 4 finished projects (Phase=Done with a Done date: Vendor portal, Office move, Help center, Supplier onboarding)"
+ },
+ {
+  "quote": "3",
+  "value": 3,
+  "definition": "Active projects with Status Red.",
+  "left_out": "Excluded the Total row, the 2 rows with Archived=Yes, and the 4 finished projects (Phase=Done with a Done date: Vendor portal, Office move, Help center, Supplier onboarding)"
+ },
+ {
+  "quote": "$3.34M",
+  "value": 3340000,
+  "definition": "Sum of the Budget column over active projects, in dollars (assumed dollars; sheet has no currency label).",
+  "left_out": "Excluded the Total row, the 2 rows with Archived=Yes, and the 4 finished projects (Phase=Done with a Done date: Vendor portal, Office move, Help center, Supplier onboarding). The sheet's Total row (3,880,000) was not used because it includes those rows."
+ },
+ {
+  "quote": "$2.54M",
+  "value": 2541640,
+  "definition": "Sum of the Spend column over active projects, as of the export.",
+  "left_out": "Excluded the Total row, the 2 rows with Archived=Yes, and the 4 finished projects (Phase=Done with a Done date: Vendor portal, Office move, Help center, Supplier onboarding). The sheet's Total row (3,010,110) was not used."
+ },
+ {
+  "quote": "76%",
+  "value": 76.09700598802395,
+  "definition": "Active-project spend divided by active-project budget, as a percentage.",
+  "left_out": "Excluded the Total row, the 2 rows with Archived=Yes, and the 4 finished projects (Phase=Done with a Done date: Vendor portal, Office move, Help center, Supplier onboarding)"
+ },
+ {
+  "quote": "3",
+  "value": 3,
+  "definition": "Active projects where Spend is greater than Budget.",
+  "left_out": "Excluded the Total row, the 2 rows with Archived=Yes, and the 4 finished projects (Phase=Done with a Done date: Vendor portal, Office move, Help center, Supplier onboarding)"
+ },
+ {
+  "quote": "$33,600",
+  "value": 33600,
+  "definition": "Data warehouse Spend minus Budget (453,600 - 420,000).",
+  "left_out": "none"
+ },
+ {
+  "quote": "$18,400",
+  "value": 18400,
+  "definition": "Billing revamp Spend minus Budget (248,400 - 230,000).",
+  "left_out": "none"
+ },
+ {
+  "quote": "$10,130",
+  "value": 10130,
+  "definition": "CRM migration Spend minus Budget (270,130 - 260,000).",
+  "left_out": "none"
+ },
+ {
+  "quote": "3",
+  "value": 3,
+  "definition": "Active projects in the Marketing department (tied with Product for the most).",
+  "left_out": "Excluded the Total row, the 2 rows with Archived=Yes, and the 4 finished projects (Phase=Done with a Done date: Vendor portal, Office move, Help center, Supplier onboarding)"
+ },
+ {
+  "quote": "3",
+  "value": 3,
+  "definition": "Active projects in the Product department (tied with Marketing for the most).",
+  "left_out": "Excluded the Total row, the 2 rows with Archived=Yes, and the 4 finished projects (Phase=Done with a Done date: Vendor portal, Office move, Help center, Supplier onboarding)"
+ }
+]

@@ -1,0 +1,104 @@
+[
+ {
+  "quote": "2,558",
+  "value": 2558,
+  "definition": "All data rows in the export (tickets opened 2026-07-27 to 2026-10-18); no title or total rows exist.",
+  "left_out": "none"
+ },
+ {
+  "quote": "124",
+  "value": 124,
+  "definition": "Tickets with Spam=Yes or Merged duplicate=Yes (union, each ticket once), whole export.",
+  "left_out": "none"
+ },
+ {
+  "quote": "2,434",
+  "value": 2434,
+  "definition": "Tickets not flagged as spam and not flagged as merged duplicate; the base for all other figures.",
+  "left_out": "Excluded rows flagged Spam=Yes or Merged duplicate=Yes (124 rows, flagged as noise)"
+ },
+ {
+  "quote": "0.9",
+  "value": 0.9,
+  "definition": "Median of First response (hours) for Urgent-priority tickets, whole period.",
+  "left_out": "Excluded rows flagged Spam=Yes or Merged duplicate=Yes (124 rows, flagged as noise); also tickets with blank first-response hours are skipped for that median"
+ },
+ {
+  "quote": "2.9",
+  "value": 2.9,
+  "definition": "Median of First response (hours) for High-priority tickets, whole period.",
+  "left_out": "Excluded rows flagged Spam=Yes or Merged duplicate=Yes (124 rows, flagged as noise); also tickets with blank first-response hours are skipped for that median"
+ },
+ {
+  "quote": "7.0",
+  "value": 7.0,
+  "definition": "Median of First response (hours) for Normal-priority tickets, whole period.",
+  "left_out": "Excluded rows flagged Spam=Yes or Merged duplicate=Yes (124 rows, flagged as noise); also tickets with blank first-response hours are skipped for that median"
+ },
+ {
+  "quote": "13.5",
+  "value": 13.5,
+  "definition": "Median of First response (hours) for Low-priority tickets, whole period.",
+  "left_out": "Excluded rows flagged Spam=Yes or Merged duplicate=Yes (124 rows, flagged as noise); also tickets with blank first-response hours are skipped for that median"
+ },
+ {
+  "quote": "6.2",
+  "value": 6.2,
+  "definition": "Median of First response (hours) for Email tickets, all priorities, whole period.",
+  "left_out": "Excluded rows flagged Spam=Yes or Merged duplicate=Yes (124 rows, flagged as noise); also tickets with blank first-response hours are skipped for that median"
+ },
+ {
+  "quote": "6.5",
+  "value": 6.5,
+  "definition": "Median of First response (hours) for Chat tickets, all priorities, whole period.",
+  "left_out": "Excluded rows flagged Spam=Yes or Merged duplicate=Yes (124 rows, flagged as noise); also tickets with blank first-response hours are skipped for that median"
+ },
+ {
+  "quote": "6.7",
+  "value": 6.7,
+  "definition": "Median of First response (hours) for Phone tickets, all priorities, whole period.",
+  "left_out": "Excluded rows flagged Spam=Yes or Merged duplicate=Yes (124 rows, flagged as noise); also tickets with blank first-response hours are skipped for that median"
+ },
+ {
+  "quote": "1,151",
+  "value": 1151,
+  "definition": "Count of Email-channel tickets, whole period.",
+  "left_out": "Excluded rows flagged Spam=Yes or Merged duplicate=Yes (124 rows, flagged as noise)"
+ },
+ {
+  "quote": "29.8%",
+  "value": 29.82744453574363,
+  "definition": "Share of tickets with SLA breached=Yes, whole period.",
+  "left_out": "Excluded rows flagged Spam=Yes or Merged duplicate=Yes (124 rows, flagged as noise)"
+ },
+ {
+  "quote": "534",
+  "value": 534,
+  "definition": "Count of tickets assigned to Maya, whole period.",
+  "left_out": "Excluded rows flagged Spam=Yes or Merged duplicate=Yes (124 rows, flagged as noise)"
+ },
+ {
+  "quote": "302",
+  "value": 302,
+  "definition": "Count of tickets assigned to Theo, whole period.",
+  "left_out": "Excluded rows flagged Spam=Yes or Merged duplicate=Yes (124 rows, flagged as noise)"
+ },
+ {
+  "quote": "52",
+  "value": 52,
+  "definition": "Rows with Spam=Yes, whole export.",
+  "left_out": "none"
+ },
+ {
+  "quote": "74",
+  "value": 74,
+  "definition": "Rows with Merged duplicate=Yes, whole export.",
+  "left_out": "none"
+ },
+ {
+  "quote": "two",
+  "value": 2,
+  "definition": "Rows flagged both Spam and Merged duplicate.",
+  "left_out": "none"
+ }
+]

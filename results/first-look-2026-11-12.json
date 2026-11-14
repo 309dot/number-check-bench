@@ -1,0 +1,184 @@
+{
+ "dir": "reports/first-look-2026-11-12",
+ "api": "https://everynumber.app/api/agents/check",
+ "ran": "2026-11-14",
+ "total": {
+  "numbers": 118,
+  "matches": 101,
+  "counted_differently": 1,
+  "differs": 0,
+  "not_checked": 16
+ },
+ "reports": [
+  {
+   "report": "ads-h.txt",
+   "file": "ad-performance-2026-10-18.csv",
+   "numbers": 15,
+   "matches": 14,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 1,
+   "not_confirmed": [
+    {
+     "text": "39.47",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "…channel, judged by cost per lead: Brightline's is Social at 39.47, Northfield's is Search at 51.16, and Harbor & Pine's is Se…"
+    }
+   ]
+  },
+  {
+   "report": "hiring-h.txt",
+   "file": "candidates-export-2026-10-18.xlsx",
+   "numbers": 25,
+   "matches": 18,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 7,
+   "not_confirmed": [
+    {
+     "text": "68",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "68 people made it to interview or further, about 9% of applica…"
+    },
+    {
+     "text": "9%",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "68 people made it to interview or further, about 9% of applicants."
+    },
+    {
+     "text": "48",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "Offers: 48 went out. 34 accepted, 10 turned us down, and 4 are still o…"
+    },
+    {
+     "text": "10",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "Offers: 48 went out. 34 accepted, 10 turned us down, and 4 are still open. That's 34 of the 44 d…"
+    },
+    {
+     "text": "4",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "Offers: 48 went out. 34 accepted, 10 turned us down, and 4 are still open. That's 34 of the 44 decided offers, so roug…"
+    },
+    {
+     "text": "34",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "…4 accepted, 10 turned us down, and 4 are still open. That's 34 of the 44 decided offers, so roughly 77% land."
+    },
+    {
+     "text": "44",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "…, 10 turned us down, and 4 are still open. That's 34 of the 44 decided offers, so roughly 77% land."
+    }
+   ]
+  },
+  {
+   "report": "orders-h.txt",
+   "file": "orders-month-to-date-2026-10-18.xlsx",
+   "numbers": 18,
+   "matches": 15,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 3,
+   "not_confirmed": [
+    {
+     "text": "4.6%",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "By region, West is highest at 4.6% and South lowest at 1.5%. North and East sit around 3.7% an…"
+    },
+    {
+     "text": "1.5%",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "By region, West is highest at 4.6% and South lowest at 1.5%. North and East sit around 3.7% and 3.5%."
+    },
+    {
+     "text": "3.7%",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "…at 4.6% and South lowest at 1.5%. North and East sit around 3.7% and 3.5%."
+    }
+   ]
+  },
+  {
+   "report": "projects-h.txt",
+   "file": "portfolio-status-2026-10-18.xlsx",
+   "numbers": 15,
+   "matches": 13,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 2,
+   "not_confirmed": [
+    {
+     "text": "98%",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "…et at $770K, but Data has spent the most at $504K, which is 98% of its $515K. Sales and Finance are each a hair over budget…"
+    },
+    {
+     "text": "$515K",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "…, but Data has spent the most at $504K, which is 98% of its $515K. Sales and Finance are each a hair over budget."
+    }
+   ]
+  },
+  {
+   "report": "signups-h.txt",
+   "file": "signups-week-ending-2026-10-18.csv",
+   "numbers": 29,
+   "matches": 27,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 2,
+   "not_confirmed": [
+    {
+     "text": "55",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "…ay was Monday with 57 signups, with Tuesday right behind at 55."
+    },
+    {
+     "text": "32%",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "…m and Direct. Partner's sample is small, so don't over-read 32%."
+    }
+   ]
+  },
+  {
+   "report": "tickets-h.txt",
+   "file": "tickets-export-2026-10-18.csv",
+   "numbers": 16,
+   "matches": 14,
+   "counted_differently": 1,
+   "differs": 0,
+   "not_checked": 1,
+   "not_confirmed": [
+    {
+     "text": "2,558",
+     "verdict": "counted_differently",
+     "file_says": [
+      "2,434"
+     ],
+     "context": "Across the whole export there are 2,558 tickets, but 124 of them are flagged as spam or merged dupl…"
+    },
+    {
+     "text": "6.2",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "…e close to identical on speed: Email, Chat and Phone sit at 6.2, 6.5 and 6.7 hours. Email is the biggest at 1,151 tickets.…"
+    }
+   ]
+  }
+ ]
+}

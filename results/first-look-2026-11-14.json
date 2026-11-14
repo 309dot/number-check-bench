@@ -1,0 +1,141 @@
+{
+ "dir": "reports/first-look-2026-11-14",
+ "api": "https://everynumber.app/api/agents/check",
+ "ran": "2026-11-14",
+ "total": {
+  "numbers": 113,
+  "matches": 98,
+  "counted_differently": 2,
+  "differs": 0,
+  "not_checked": 13
+ },
+ "reports": [
+  {
+   "report": "tickets-haiku.txt",
+   "file": "tickets-export-2026-10-18.csv",
+   "numbers": 20,
+   "matches": 18,
+   "counted_differently": 1,
+   "differs": 0,
+   "not_checked": 1,
+   "not_confirmed": [
+    {
+     "text": "2,558",
+     "verdict": "counted_differently",
+     "file_says": [
+      "2,434"
+     ],
+     "context": "- Volume: 2,558 tickets exported. After removing 124 spam or merged duplica…"
+    },
+    {
+     "text": "285",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "- Still open: 285 tickets are open or pending."
+    }
+   ]
+  },
+  {
+   "report": "tickets-opus.txt",
+   "file": "tickets-export-2026-10-18.csv",
+   "numbers": 42,
+   "matches": 33,
+   "counted_differently": 1,
+   "differs": 0,
+   "not_checked": 8,
+   "not_confirmed": [
+    {
+     "text": "2,558",
+     "verdict": "counted_differently",
+     "file_says": [
+      "2,434"
+     ],
+     "context": "The export holds 2,558 rows. We removed 124 that were spam or merged duplicates (5…"
+    },
+    {
+     "text": "2",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "…hat were spam or merged duplicates (52 spam, 74 duplicates, 2 flagged as both), leaving 2,434 real tickets. All figures b…"
+    },
+    {
+     "text": "4",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "…Open and 92 are Pending. Resolved tickets took a median of 4 days from opening to close."
+    },
+    {
+     "text": "29%",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "…peed: median first response was 6.4 hours (mean 7.6 hours). 29% got a reply within 4 hours, and 30% breached SLA."
+    },
+    {
+     "text": "4",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "…onse was 6.4 hours (mean 7.6 hours). 29% got a reply within 4 hours, and 30% breached SLA."
+    },
+    {
+     "text": "6.2",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "…14%). Median first response is about the same on all three (6.2 to 6.7 hours)."
+    },
+    {
+     "text": "6.7",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "…edian first response is about the same on all three (6.2 to 6.7 hours)."
+    },
+    {
+     "text": "473",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "- Top agents: Maya handled the most, 534 tickets with 473 resolved and 89.5% Good. Jonah is next with 448 and 88.8% G…"
+    },
+    {
+     "text": "68.8%",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "…rs). Theo is the outlier, with a 10.8-hour median reply and 68.8% Good."
+    }
+   ]
+  },
+  {
+   "report": "tickets-sonnet.txt",
+   "file": "tickets-export-2026-10-18.csv",
+   "numbers": 51,
+   "matches": 47,
+   "counted_differently": 0,
+   "differs": 0,
+   "not_checked": 4,
+   "not_confirmed": [
+    {
+     "text": "51",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "…Satisfaction looks strong at 92% good, but it rests on only 51 survey responses and the most recent week is not fully clos…"
+    },
+    {
+     "text": "2",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "- Volume: 227 tickets vs 225 (+2). Mix was steady: Email 110, Chat 86, Phone 31; Urgent tick…"
+    },
+    {
+     "text": "120",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "…ing vs 48.0%. Last week has 82 open and 38 pending tickets (120 of 227) versus 18 of 225 the week before, so the CSAT figur…"
+    },
+    {
+     "text": "18",
+     "verdict": "not_checked",
+     "file_says": [],
+     "context": "…week has 82 open and 38 pending tickets (120 of 227) versus 18 of 225 the week before, so the CSAT figure and the backlog…"
+    }
+   ]
+  }
+ ]
+}

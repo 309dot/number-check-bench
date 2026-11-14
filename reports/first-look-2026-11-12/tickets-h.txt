@@ -1,0 +1,13 @@
+Across the whole export there are 2,558 tickets, but 124 of them are flagged as spam or merged duplicates. I left those out, so everything below is based on the 2,434 real tickets.
+
+Median first response by priority:
+- Urgent: 0.9 hours
+- High: 2.9 hours
+- Normal: 7.0 hours
+- Low: 13.5 hours
+
+Channels are close to identical on speed: Email, Chat and Phone sit at 6.2, 6.5 and 6.7 hours. Email is the biggest at 1,151 tickets. Overall, 29.8% of tickets breached SLA, which is the number I'd expect the VP to ask about.
+
+Maya is carrying the most at 534 tickets, while Theo has the lightest load at 302.
+
+On noise: 52 spam tickets and 74 merged duplicates (two are both).

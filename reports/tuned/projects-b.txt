@@ -1,0 +1,14 @@
+Portfolio status for the steering committee, week ending October 18.
+
+We have 18 active projects, meaning everything that is not archived and not yet finished. 4 of them are late, with due dates already behind us: Data warehouse, CRM migration, Billing revamp and SSO rollout.
+
+On status, 9 are green, 6 are amber and 3 are red. The reds are CRM migration, Billing revamp and Field sales app.
+
+The active projects carry a combined budget of $3.34 million and have spent $2.54 million so far, about 76% of it.
+
+3 projects have already spent past their budget:
+- Data warehouse, $33,600 over
+- Billing revamp, $18,400 over
+- CRM migration, $10,130 over
+
+Marketing and Product have the most on their plates, with 3 active projects each. No other department has more than 2.

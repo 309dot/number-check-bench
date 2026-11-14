@@ -1,0 +1,98 @@
+[
+ {
+  "quote": "227",
+  "value": 227,
+  "definition": "Count of non-spam, non-duplicate tickets tickets with Opened date 2026-10-12..2026-10-18 (Mon-Sun).",
+  "left_out": "Rows flagged Spam=Yes (52) or Merged duplicate=Yes (74; 2 are both), 124 distinct rows, removed as non-genuine tickets"
+ },
+ {
+  "quote": "225",
+  "value": 225,
+  "definition": "Count of non-spam, non-duplicate tickets with Opened date 2026-10-05..2026-10-11.",
+  "left_out": "Rows flagged Spam=Yes (52) or Merged duplicate=Yes (74; 2 are both), 124 distinct rows, removed as non-genuine tickets"
+ },
+ {
+  "quote": "214",
+  "value": 214,
+  "definition": "Count of non-spam, non-duplicate tickets whose Closed date falls 2026-10-12..2026-10-18 (Status Closed or Solved), regardless of when opened.",
+  "left_out": "Rows flagged Spam=Yes (52) or Merged duplicate=Yes (74; 2 are both), 124 distinct rows, removed as non-genuine tickets; tickets still Open/Pending have no Closed date"
+ },
+ {
+  "quote": "202",
+  "value": 202,
+  "definition": "Count of non-spam, non-duplicate tickets whose Closed date falls 2026-10-05..2026-10-11.",
+  "left_out": "Rows flagged Spam=Yes (52) or Merged duplicate=Yes (74; 2 are both), 124 distinct rows, removed as non-genuine tickets"
+ },
+ {
+  "quote": "6.7",
+  "value": 6.727802690582959,
+  "definition": "Mean of First response (hours) over tickets with Opened date 2026-10-12..2026-10-18 (Mon-Sun).",
+  "left_out": "Rows flagged Spam=Yes (52) or Merged duplicate=Yes (74; 2 are both), 124 distinct rows, removed as non-genuine tickets; also tickets with blank First response (not yet answered) (4 tickets)"
+ },
+ {
+  "quote": "7.4",
+  "value": 7.352444444444444,
+  "definition": "Mean of First response (hours) over tickets with Opened date 2026-10-05..2026-10-11.",
+  "left_out": "Rows flagged Spam=Yes (52) or Merged duplicate=Yes (74; 2 are both), 124 distinct rows, removed as non-genuine tickets; also tickets with blank First response (not yet answered)"
+ },
+ {
+  "quote": "69",
+  "value": 69,
+  "definition": "Count of tickets with SLA breached = Yes among tickets with Opened date 2026-10-12..2026-10-18 (Mon-Sun).",
+  "left_out": "Rows flagged Spam=Yes (52) or Merged duplicate=Yes (74; 2 are both), 124 distinct rows, removed as non-genuine tickets"
+ },
+ {
+  "quote": "30.4%",
+  "value": 30.39647577092511,
+  "definition": "SLA-breached tickets divided by tickets handled (opened) tickets with Opened date 2026-10-12..2026-10-18 (Mon-Sun), as a percent.",
+  "left_out": "Rows flagged Spam=Yes (52) or Merged duplicate=Yes (74; 2 are both), 124 distinct rows, removed as non-genuine tickets"
+ },
+ {
+  "quote": "67",
+  "value": 67,
+  "definition": "Count of tickets with SLA breached = Yes among tickets with Opened date 2026-10-05..2026-10-11.",
+  "left_out": "Rows flagged Spam=Yes (52) or Merged duplicate=Yes (74; 2 are both), 124 distinct rows, removed as non-genuine tickets"
+ },
+ {
+  "quote": "29.8%",
+  "value": 29.77777777777778,
+  "definition": "SLA-breached tickets divided by tickets with Opened date 2026-10-05..2026-10-11, as a percent.",
+  "left_out": "Rows flagged Spam=Yes (52) or Merged duplicate=Yes (74; 2 are both), 124 distinct rows, removed as non-genuine tickets"
+ },
+ {
+  "quote": "89.1%",
+  "value": 89.10891089108911,
+  "definition": "Share of CSAT=Good among tickets with a CSAT rating (Good or Bad) whose Closed date is 2026-10-12..2026-10-18 (90 of 101).",
+  "left_out": "Rows flagged Spam=Yes (52) or Merged duplicate=Yes (74; 2 are both), 124 distinct rows, removed as non-genuine tickets; tickets with blank CSAT (no survey answer)"
+ },
+ {
+  "quote": "88.1%",
+  "value": 88.13559322033898,
+  "definition": "Share of CSAT=Good among rated tickets whose Closed date is 2026-10-05..2026-10-11 (104 of 118).",
+  "left_out": "Rows flagged Spam=Yes (52) or Merged duplicate=Yes (74; 2 are both), 124 distinct rows, removed as non-genuine tickets; tickets with blank CSAT"
+ },
+ {
+  "quote": "110",
+  "value": 110,
+  "definition": "Count of Email-channel tickets among tickets with Opened date 2026-10-12..2026-10-18 (Mon-Sun); Email is the largest channel (Chat 86, Phone 31).",
+  "left_out": "Rows flagged Spam=Yes (52) or Merged duplicate=Yes (74; 2 are both), 124 distinct rows, removed as non-genuine tickets"
+ },
+ {
+  "quote": "48.5%",
+  "value": 48.458149779735685,
+  "definition": "Email tickets divided by all tickets handled tickets with Opened date 2026-10-12..2026-10-18 (Mon-Sun), as a percent.",
+  "left_out": "Rows flagged Spam=Yes (52) or Merged duplicate=Yes (74; 2 are both), 124 distinct rows, removed as non-genuine tickets"
+ },
+ {
+  "quote": "48",
+  "value": 48,
+  "definition": "Count of Maya's tickets with Closed date 2026-10-12..2026-10-18; highest of all agents (Hana 43, Luis 40).",
+  "left_out": "Rows flagged Spam=Yes (52) or Merged duplicate=Yes (74; 2 are both), 124 distinct rows, removed as non-genuine tickets"
+ },
+ {
+  "quote": "50",
+  "value": 50,
+  "definition": "Count of Maya's tickets with Closed date 2026-10-05..2026-10-11.",
+  "left_out": "Rows flagged Spam=Yes (52) or Merged duplicate=Yes (74; 2 are both), 124 distinct rows, removed as non-genuine tickets"
+ }
+]

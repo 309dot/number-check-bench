@@ -1,0 +1,19 @@
+Hi [Director],
+
+Here is the performance summary for 24 Aug to 18 Oct. We spent 70,762 and generated 1,291 leads, so the average cost per lead was 54.81. Internal QA test traffic is not counted.
+
+Campaigns:
+- Best: Harbor & Pine – Brand search, at 24.07 per lead (148 leads).
+- Worst: Harbor & Pine – Lookalike, at 107.48 per lead (51 leads).
+
+Search brings the most leads, 622 in total, and it also has the strongest click-through rate at 5.15%. Across all channels the click-through rate is 1.06%.
+
+The last two weeks (5 to 18 Oct) against the two before (21 Sep to 4 Oct):
+- Spend rose from 17,041 to 18,733 (up 9.9%).
+- Leads rose from 311 to 335 (up 7.7%).
+- Cost per lead edged up from 54.79 to 55.92.
+- Click-through rate improved slightly, from 1.05% to 1.08%.
+
+Volume is growing a little faster than cost, which is healthy. The Lookalike campaign is the clear one to review first.
+
+Thanks

@@ -1,0 +1,134 @@
+[
+ {
+  "quote": "751",
+  "value": 751,
+  "definition": "Number of candidate rows in the export (data rows below the header) with the Duplicate column not 'Yes'.",
+  "left_out": "17 rows with Duplicate = 'Yes'; title and header rows (rows 1-4) are not data"
+ },
+ {
+  "quote": "17",
+  "value": 17,
+  "definition": "Number of data rows whose Duplicate column is 'Yes'.",
+  "left_out": "none"
+ },
+ {
+  "quote": "532",
+  "value": 532,
+  "definition": "Non-duplicate candidates whose Stage is 'Rejected'.",
+  "left_out": "17 rows with Duplicate = 'Yes'"
+ },
+ {
+  "quote": "102",
+  "value": 102,
+  "definition": "Non-duplicate candidates whose Stage is 'Withdrawn'.",
+  "left_out": "17 rows with Duplicate = 'Yes'"
+ },
+ {
+  "quote": "34",
+  "value": 34,
+  "definition": "Non-duplicate candidates whose Stage is 'Hired'.",
+  "left_out": "17 rows with Duplicate = 'Yes'"
+ },
+ {
+  "quote": "83",
+  "value": 83,
+  "definition": "Non-duplicate candidates still in progress: Stage is Applied, Screen, Interview or Offer.",
+  "left_out": "17 rows with Duplicate = 'Yes'"
+ },
+ {
+  "quote": "32",
+  "value": 32,
+  "definition": "Non-duplicate candidates whose Stage is 'Applied'.",
+  "left_out": "17 rows with Duplicate = 'Yes'"
+ },
+ {
+  "quote": "27",
+  "value": 27,
+  "definition": "Non-duplicate candidates whose Stage is 'Screen'.",
+  "left_out": "17 rows with Duplicate = 'Yes'"
+ },
+ {
+  "quote": "20",
+  "value": 20,
+  "definition": "Non-duplicate candidates whose Stage is 'Interview'.",
+  "left_out": "17 rows with Duplicate = 'Yes'"
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Non-duplicate candidates whose Stage is 'Offer' (offer extended, outcome not yet recorded).",
+  "left_out": "17 rows with Duplicate = 'Yes'"
+ },
+ {
+  "quote": "34",
+  "value": 34,
+  "definition": "Non-duplicate candidates whose 'Offer accepted' column is 'Yes'.",
+  "left_out": "17 rows with Duplicate = 'Yes'"
+ },
+ {
+  "quote": "10",
+  "value": 10,
+  "definition": "Non-duplicate candidates whose 'Offer accepted' column is 'No' (offer made but not accepted).",
+  "left_out": "17 rows with Duplicate = 'Yes'"
+ },
+ {
+  "quote": "281",
+  "value": 281,
+  "definition": "Non-duplicate candidates with Source 'LinkedIn', all application dates.",
+  "left_out": "17 rows with Duplicate = 'Yes'"
+ },
+ {
+  "quote": "219",
+  "value": 219,
+  "definition": "Non-duplicate candidates with Source 'Careers page', all application dates.",
+  "left_out": "17 rows with Duplicate = 'Yes'"
+ },
+ {
+  "quote": "105",
+  "value": 105,
+  "definition": "Non-duplicate candidates with Source 'Referral', all application dates.",
+  "left_out": "17 rows with Duplicate = 'Yes'"
+ },
+ {
+  "quote": "197",
+  "value": 197,
+  "definition": "Non-duplicate candidates with Role 'Backend Engineer', all application dates.",
+  "left_out": "17 rows with Duplicate = 'Yes'"
+ },
+ {
+  "quote": "170",
+  "value": 170,
+  "definition": "Non-duplicate candidates with Role 'Support Specialist', all application dates.",
+  "left_out": "17 rows with Duplicate = 'Yes'"
+ },
+ {
+  "quote": "158",
+  "value": 158,
+  "definition": "Non-duplicate candidates with Role 'Account Executive', all application dates.",
+  "left_out": "17 rows with Duplicate = 'Yes'"
+ },
+ {
+  "quote": "67",
+  "value": 67,
+  "definition": "Non-duplicate candidates with Applied date from 2026-10-12 to 2026-10-18 inclusive (the last 7 days of the export).",
+  "left_out": "17 rows with Duplicate = 'Yes'"
+ },
+ {
+  "quote": "64",
+  "value": 64,
+  "definition": "Non-duplicate candidates with Applied date from 2026-10-05 to 2026-10-11 inclusive (the 7 days before).",
+  "left_out": "17 rows with Duplicate = 'Yes'"
+ },
+ {
+  "quote": "3",
+  "value": 3,
+  "definition": "Last-7-day applications minus prior-7-day applications.",
+  "left_out": "17 rows with Duplicate = 'Yes'"
+ },
+ {
+  "quote": "4.7%",
+  "value": 4.6875,
+  "definition": "Percentage change in applications, last 7 days vs prior 7 days, non-duplicate rows.",
+  "left_out": "17 rows with Duplicate = 'Yes'"
+ }
+]

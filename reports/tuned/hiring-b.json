@@ -1,0 +1,128 @@
+[
+ {
+  "quote": "751",
+  "value": 751,
+  "definition": "Number of candidate rows in the export after removing rows flagged as duplicates.",
+  "left_out": "17 rows flagged Duplicate = Yes (repeat entries of the same candidate)"
+ },
+ {
+  "quote": "532",
+  "value": 532,
+  "definition": "Candidates whose Stage is Rejected.",
+  "left_out": "17 rows flagged Duplicate = Yes (repeat entries of the same candidate)"
+ },
+ {
+  "quote": "102",
+  "value": 102,
+  "definition": "Candidates whose Stage is Withdrawn.",
+  "left_out": "17 rows flagged Duplicate = Yes (repeat entries of the same candidate)"
+ },
+ {
+  "quote": "34",
+  "value": 34,
+  "definition": "Candidates whose Stage is Hired.",
+  "left_out": "17 rows flagged Duplicate = Yes (repeat entries of the same candidate)"
+ },
+ {
+  "quote": "83",
+  "value": 83,
+  "definition": "Candidates still in process: Stage is Applied, Screen, Interview or Offer (not Rejected, Withdrawn or Hired).",
+  "left_out": "17 rows flagged Duplicate = Yes (repeat entries of the same candidate)"
+ },
+ {
+  "quote": "32",
+  "value": 32,
+  "definition": "Candidates whose Stage is Applied.",
+  "left_out": "17 rows flagged Duplicate = Yes (repeat entries of the same candidate)"
+ },
+ {
+  "quote": "27",
+  "value": 27,
+  "definition": "Candidates whose Stage is Screen.",
+  "left_out": "17 rows flagged Duplicate = Yes (repeat entries of the same candidate)"
+ },
+ {
+  "quote": "20",
+  "value": 20,
+  "definition": "Candidates whose Stage is Interview.",
+  "left_out": "17 rows flagged Duplicate = Yes (repeat entries of the same candidate)"
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Candidates whose Stage is Offer.",
+  "left_out": "17 rows flagged Duplicate = Yes (repeat entries of the same candidate)"
+ },
+ {
+  "quote": "34",
+  "value": 34,
+  "definition": "Candidates with Offer accepted = Yes (all are also in stage Hired).",
+  "left_out": "17 rows flagged Duplicate = Yes (repeat entries of the same candidate)"
+ },
+ {
+  "quote": "10",
+  "value": 10,
+  "definition": "Candidates with Offer accepted = No (all have stage Withdrawn).",
+  "left_out": "17 rows flagged Duplicate = Yes (repeat entries of the same candidate)"
+ },
+ {
+  "quote": "281",
+  "value": 281,
+  "definition": "Candidates whose Source is LinkedIn.",
+  "left_out": "17 rows flagged Duplicate = Yes (repeat entries of the same candidate)"
+ },
+ {
+  "quote": "219",
+  "value": 219,
+  "definition": "Candidates whose Source is Careers page.",
+  "left_out": "17 rows flagged Duplicate = Yes (repeat entries of the same candidate)"
+ },
+ {
+  "quote": "105",
+  "value": 105,
+  "definition": "Candidates whose Source is Referral.",
+  "left_out": "17 rows flagged Duplicate = Yes (repeat entries of the same candidate)"
+ },
+ {
+  "quote": "197",
+  "value": 197,
+  "definition": "Candidates whose Role is Backend Engineer.",
+  "left_out": "17 rows flagged Duplicate = Yes (repeat entries of the same candidate)"
+ },
+ {
+  "quote": "170",
+  "value": 170,
+  "definition": "Candidates whose Role is Support Specialist.",
+  "left_out": "17 rows flagged Duplicate = Yes (repeat entries of the same candidate)"
+ },
+ {
+  "quote": "158",
+  "value": 158,
+  "definition": "Candidates whose Role is Account Executive.",
+  "left_out": "17 rows flagged Duplicate = Yes (repeat entries of the same candidate)"
+ },
+ {
+  "quote": "67",
+  "value": 67,
+  "definition": "Candidates with Applied date from 2026-10-12 to 2026-10-18 inclusive (the 7 days ending on the export date).",
+  "left_out": "17 rows flagged Duplicate = Yes (repeat entries of the same candidate)"
+ },
+ {
+  "quote": "64",
+  "value": 64,
+  "definition": "Candidates with Applied date from 2026-10-05 to 2026-10-11 inclusive (the 7 days before that).",
+  "left_out": "17 rows flagged Duplicate = Yes (repeat entries of the same candidate)"
+ },
+ {
+  "quote": "3",
+  "value": 3,
+  "definition": "Applications in the latest 7 days minus the prior 7 days (same duplicate-free rows).",
+  "left_out": "17 rows flagged Duplicate = Yes (repeat entries of the same candidate)"
+ },
+ {
+  "quote": "5%",
+  "value": 4.6875,
+  "definition": "Percentage change in applications, latest 7 days vs prior 7 days: (67-64)/64.",
+  "left_out": "17 rows flagged Duplicate = Yes (repeat entries of the same candidate)"
+ }
+]

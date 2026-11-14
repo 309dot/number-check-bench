@@ -1,0 +1,13 @@
+Hi, here is the October orders update, covering October 1 through 18.
+
+We took 1,342 orders for $131,957 in revenue, so the average order value is $98.33. That leaves out 35 cancelled orders and 4 internal test orders. 45 orders were refunded, which puts the refund rate at 3.4%, or $4,039 handed back.
+
+Web is our biggest channel at $65,608, well ahead of Marketplace and Wholesale. North is the biggest region at $40,398.
+
+By customer type, 572 orders came from new customers (42.6% of the total) and 770 from returning ones.
+
+Last week (October 12 to 18) versus the week before (October 5 to 11):
+- Orders: 500, down 4.8% from 525
+- Revenue: $50,874, down 1.2% from $51,483
+
+Volume slipped a little, but order size held up, so revenue is nearly flat.

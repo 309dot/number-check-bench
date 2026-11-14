@@ -1,0 +1,110 @@
+[
+ {
+  "quote": "45",
+  "value": 45,
+  "definition": "Count of orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders with Status = Refunded.",
+  "left_out": "Title/blank/'Total' rows (not orders); 4 rows flagged Test order=Yes; 35 Cancelled orders (never completed, no refunds)."
+ },
+ {
+  "quote": "1,342",
+  "value": 1342,
+  "definition": "Count of orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders.",
+  "left_out": "Title/blank/'Total' rows (not orders); 4 rows flagged Test order=Yes; 35 Cancelled orders (never completed, no refunds)."
+ },
+ {
+  "quote": "3.4%",
+  "value": 3.3532041728763042,
+  "definition": "Refunded orders divided by all orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders, as a percent.",
+  "left_out": "Title/blank/'Total' rows (not orders); 4 rows flagged Test order=Yes; 35 Cancelled orders (never completed, no refunds)."
+ },
+ {
+  "quote": "$4,039",
+  "value": 4039.29,
+  "definition": "Sum of Refund amount over orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders with Status = Refunded.",
+  "left_out": "Title/blank/'Total' rows (not orders); 4 rows flagged Test order=Yes; 35 Cancelled orders (never completed, no refunds)."
+ },
+ {
+  "quote": "23",
+  "value": 23,
+  "definition": "Refunded orders (Status = Refunded) in the Marketplace channel, same base.",
+  "left_out": "Title/blank/'Total' rows (not orders); 4 rows flagged Test order=Yes; 35 Cancelled orders (never completed, no refunds)."
+ },
+ {
+  "quote": "45",
+  "value": 45,
+  "definition": "Total refunded orders across all channels (denominator for Marketplace's share).",
+  "left_out": "Title/blank/'Total' rows (not orders); 4 rows flagged Test order=Yes; 35 Cancelled orders (never completed, no refunds)."
+ },
+ {
+  "quote": "$2,006",
+  "value": 2006.16,
+  "definition": "Sum of Refund amount for Marketplace refunded orders, same base.",
+  "left_out": "Title/blank/'Total' rows (not orders); 4 rows flagged Test order=Yes; 35 Cancelled orders (never completed, no refunds)."
+ },
+ {
+  "quote": "5.6%",
+  "value": 5.59610705596107,
+  "definition": "Share of channel Marketplace orders (orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders) with Status = Refunded.",
+  "left_out": "Title/blank/'Total' rows (not orders); 4 rows flagged Test order=Yes; 35 Cancelled orders (never completed, no refunds)."
+ },
+ {
+  "quote": "2.4%",
+  "value": 2.4301336573511545,
+  "definition": "Share of channel Web orders (orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders) with Status = Refunded.",
+  "left_out": "Title/blank/'Total' rows (not orders); 4 rows flagged Test order=Yes; 35 Cancelled orders (never completed, no refunds)."
+ },
+ {
+  "quote": "1.9%",
+  "value": 1.8518518518518516,
+  "definition": "Share of channel Wholesale orders (orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders) with Status = Refunded.",
+  "left_out": "Title/blank/'Total' rows (not orders); 4 rows flagged Test order=Yes; 35 Cancelled orders (never completed, no refunds)."
+ },
+ {
+  "quote": "4.6%",
+  "value": 4.545454545454546,
+  "definition": "Share of region West orders (orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders) with Status = Refunded.",
+  "left_out": "Title/blank/'Total' rows (not orders); 4 rows flagged Test order=Yes; 35 Cancelled orders (never completed, no refunds)."
+ },
+ {
+  "quote": "1.5%",
+  "value": 1.4492753623188406,
+  "definition": "Share of region South orders (orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders) with Status = Refunded.",
+  "left_out": "Title/blank/'Total' rows (not orders); 4 rows flagged Test order=Yes; 35 Cancelled orders (never completed, no refunds)."
+ },
+ {
+  "quote": "3.7%",
+  "value": 3.7128712871287126,
+  "definition": "Share of region North orders (orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders) with Status = Refunded.",
+  "left_out": "Title/blank/'Total' rows (not orders); 4 rows flagged Test order=Yes; 35 Cancelled orders (never completed, no refunds)."
+ },
+ {
+  "quote": "3.5%",
+  "value": 3.4574468085106385,
+  "definition": "Share of region East orders (orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders) with Status = Refunded.",
+  "left_out": "Title/blank/'Total' rows (not orders); 4 rows flagged Test order=Yes; 35 Cancelled orders (never completed, no refunds)."
+ },
+ {
+  "quote": "3.6%",
+  "value": 3.6363636363636362,
+  "definition": "Share of customer type Returning orders (orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders) with Status = Refunded.",
+  "left_out": "Title/blank/'Total' rows (not orders); 4 rows flagged Test order=Yes; 35 Cancelled orders (never completed, no refunds)."
+ },
+ {
+  "quote": "3.0%",
+  "value": 2.972027972027972,
+  "definition": "Share of customer type New orders (orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders) with Status = Refunded.",
+  "left_out": "Title/blank/'Total' rows (not orders); 4 rows flagged Test order=Yes; 35 Cancelled orders (never completed, no refunds)."
+ },
+ {
+  "quote": "$81",
+  "value": 81.195,
+  "definition": "Median Order total over orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders.",
+  "left_out": "Title/blank/'Total' rows (not orders); 4 rows flagged Test order=Yes; 35 Cancelled orders (never completed, no refunds)."
+ },
+ {
+  "quote": "3",
+  "value": 3.0,
+  "definition": "Median Items per order over orders in the file dated 2026-10-01 to 2026-10-18 with Status Paid or Refunded, excluding test orders.",
+  "left_out": "Title/blank/'Total' rows (not orders); 4 rows flagged Test order=Yes; 35 Cancelled orders (never completed, no refunds)."
+ }
+]

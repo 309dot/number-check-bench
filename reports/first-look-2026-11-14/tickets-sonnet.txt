@@ -1,0 +1,7 @@
+Support volume was flat last week (Oct 12-18): 227 tickets versus 225 the week before (Oct 5-11), after excluding 6 spam tickets and 11 merged duplicates in each week. Maya handled the most tickets for the second week running (57, up from 47). Median first response improved slightly to 5.9 hours from 6.2, while the SLA breach rate was essentially unchanged at about 30%. Satisfaction looks strong at 92% good, but it rests on only 51 survey responses and the most recent week is not fully closed yet.
+
+- Volume: 227 tickets vs 225 (+2). Mix was steady: Email 110, Chat 86, Phone 31; Urgent tickets 12 vs 15, High 47 vs 36.
+- Workload: Maya 57, Luis 47, Hana 43, Jonah 34, Priya 32, Theo 14. Luis rose from 34 to 47; Jonah fell from 43 to 34 and Priya from 44 to 32.
+- Response times: median first response 5.9h (was 6.2h), 90th percentile 12.0h (was 13.4h). Theo was slowest at a 9.9h median (8.3h the week before); Hana was fastest at 4.8h.
+- SLA: 69 breaches (30.4%) vs 67 (29.8%), so roughly one in three tickets still misses its target.
+- Satisfaction and backlog: 47 of 51 rated tickets were good (92.2%) vs 96 of 108 (88.9%), but only 22.5% of tickets have a rating vs 48.0%. Last week has 82 open and 38 pending tickets (120 of 227) versus 18 of 225 the week before, so the CSAT figure and the backlog both need a recheck once those close.

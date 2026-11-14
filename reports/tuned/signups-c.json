@@ -1,0 +1,98 @@
+[
+ {
+  "quote": "317",
+  "value": 317,
+  "definition": "Count of signup rows in the Oct 12-18 export, excluding test accounts.",
+  "left_out": "Test accounts (4 rows, Test account = Yes, domain internal.test) excluded as internal, not customers."
+ },
+ {
+  "quote": "137",
+  "value": 137,
+  "definition": "Count of non-test signups with Finished setup = Yes.",
+  "left_out": "Test accounts (4 rows, Test account = Yes, domain internal.test) excluded as internal, not customers."
+ },
+ {
+  "quote": "43%",
+  "value": 43.217665615141954,
+  "definition": "Share of non-test signups with Finished setup = Yes (activation rate).",
+  "left_out": "Test accounts (4 rows, Test account = Yes, domain internal.test) excluded as internal, not customers."
+ },
+ {
+  "quote": "37%",
+  "value": 37.185929648241206,
+  "definition": "Share of non-test signups on the Free plan with Finished setup = Yes.",
+  "left_out": "Test accounts (4 rows, Test account = Yes, domain internal.test) excluded as internal, not customers."
+ },
+ {
+  "quote": "48%",
+  "value": 47.61904761904761,
+  "definition": "Share of non-test signups on the Starter plan with Finished setup = Yes.",
+  "left_out": "Test accounts (4 rows, Test account = Yes, domain internal.test) excluded as internal, not customers."
+ },
+ {
+  "quote": "68%",
+  "value": 67.64705882352942,
+  "definition": "Share of non-test signups on the Team plan with Finished setup = Yes.",
+  "left_out": "Test accounts (4 rows, Test account = Yes, domain internal.test) excluded as internal, not customers."
+ },
+ {
+  "quote": "98",
+  "value": 98,
+  "definition": "Count of non-test signups with Source = Organic search.",
+  "left_out": "Test accounts (4 rows, Test account = Yes, domain internal.test) excluded as internal, not customers."
+ },
+ {
+  "quote": "81",
+  "value": 81,
+  "definition": "Count of non-test signups with Source = Paid search.",
+  "left_out": "Test accounts (4 rows, Test account = Yes, domain internal.test) excluded as internal, not customers."
+ },
+ {
+  "quote": "60",
+  "value": 60,
+  "definition": "Count of non-test signups with Source = Direct.",
+  "left_out": "Test accounts (4 rows, Test account = Yes, domain internal.test) excluded as internal, not customers."
+ },
+ {
+  "quote": "26%",
+  "value": 25.55205047318612,
+  "definition": "Share of non-test signups with Source = Paid search (the only paid channel in the data; Referral and Partner not treated as paid).",
+  "left_out": "Test accounts (4 rows, Test account = Yes, domain internal.test) excluded as internal, not customers."
+ },
+ {
+  "quote": "53",
+  "value": 53,
+  "definition": "Count of non-test signups with Source = Referral.",
+  "left_out": "Test accounts (4 rows, Test account = Yes, domain internal.test) excluded as internal, not customers."
+ },
+ {
+  "quote": "25",
+  "value": 25,
+  "definition": "Count of non-test signups with Source = Partner.",
+  "left_out": "Test accounts (4 rows, Test account = Yes, domain internal.test) excluded as internal, not customers."
+ },
+ {
+  "quote": "141",
+  "value": 141,
+  "definition": "Count of non-test signups with Country = US.",
+  "left_out": "Test accounts (4 rows, Test account = Yes, domain internal.test) excluded as internal, not customers."
+ },
+ {
+  "quote": "44%",
+  "value": 44.479495268138805,
+  "definition": "Share of non-test signups with Country = US.",
+  "left_out": "Test accounts (4 rows, Test account = Yes, domain internal.test) excluded as internal, not customers."
+ },
+ {
+  "quote": "46",
+  "value": 46,
+  "definition": "Count of non-test signups with Country = UK.",
+  "left_out": "Test accounts (4 rows, Test account = Yes, domain internal.test) excluded as internal, not customers."
+ },
+ {
+  "quote": "33",
+  "value": 33,
+  "definition": "Count of non-test signups with Country = FR.",
+  "left_out": "Test accounts (4 rows, Test account = Yes, domain internal.test) excluded as internal, not customers."
+ }
+]
