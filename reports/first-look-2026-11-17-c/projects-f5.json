@@ -1,0 +1,332 @@
+[
+  {
+    "quote": "24",
+    "value": 24,
+    "definition": "Count of project rows in the export, excluding the Total row."
+  },
+  {
+    "quote": "3,880,000",
+    "value": 3880000,
+    "definition": "Sum of the Budget column over all 24 project rows, equal to the export Total row (the Total row value itself)."
+  },
+  {
+    "quote": "3,010,110",
+    "value": 3010110,
+    "definition": "Sum of the Spend column over all 24 project rows, equal to the export Total row (the Total row value itself)."
+  },
+  {
+    "quote": "2",
+    "value": 2,
+    "definition": "Count of rows with Archived equal to Yes, which are excluded from the active review."
+  },
+  {
+    "quote": "22",
+    "value": 22,
+    "definition": "Count of rows with Archived equal to No (the active review set)."
+  },
+  {
+    "quote": "4",
+    "value": 4,
+    "definition": "Count of active rows that have a Done date."
+  },
+  {
+    "quote": "18",
+    "value": 18,
+    "definition": "Count of active rows with no Done date."
+  },
+  {
+    "quote": "3,340,000",
+    "value": 3340000,
+    "definition": "Sum of Budget over the open active projects."
+  },
+  {
+    "quote": "2,541,640",
+    "value": 2541640,
+    "definition": "Sum of Spend over the open active projects."
+  },
+  {
+    "quote": "76.1%",
+    "value": 76.09700598802395,
+    "definition": "Open-project spend divided by open-project budget, times 100."
+  },
+  {
+    "quote": "18",
+    "value": 18,
+    "definition": "Count of active rows with no Done date."
+  },
+  {
+    "quote": "9",
+    "value": 9,
+    "definition": "Count of open active projects with Status Green."
+  },
+  {
+    "quote": "50.0%",
+    "value": 50.0,
+    "definition": "Share of open active projects with Status Green, times 100."
+  },
+  {
+    "quote": "3",
+    "value": 3,
+    "definition": "Count of open active projects with Status Red."
+  },
+  {
+    "quote": "16.7%",
+    "value": 16.666666666666664,
+    "definition": "Open active projects with Status Red, divided by all open active projects, times 100."
+  },
+  {
+    "quote": "4",
+    "value": 4,
+    "definition": "Count of open active projects whose Due date is before the as-of date."
+  },
+  {
+    "quote": "22.2%",
+    "value": 22.22222222222222,
+    "definition": "Overdue open projects divided by all open active projects, times 100."
+  },
+  {
+    "quote": "17",
+    "value": 17,
+    "definition": "Median days past due (as-of date minus Due date) over the overdue open active projects."
+  },
+  {
+    "quote": "19",
+    "value": 19,
+    "definition": "Maximum days past due over the overdue open active projects."
+  },
+  {
+    "quote": "3",
+    "value": 3,
+    "definition": "Count of active projects with Spend greater than Budget (all are open)."
+  },
+  {
+    "quote": "16.7%",
+    "value": 16.666666666666664,
+    "definition": "Open active projects with Spend greater than Budget, divided by all open active projects, times 100."
+  },
+  {
+    "quote": "62,130",
+    "value": 62130,
+    "definition": "Sum of (Spend minus Budget) over the active projects where Spend exceeds Budget."
+  },
+  {
+    "quote": "1.5",
+    "value": 1.5,
+    "definition": "Median days by which finished active projects closed before their Due date, computed as Due date minus Done date."
+  },
+  {
+    "quote": "2",
+    "value": 2,
+    "definition": "Median days between the Last update date and the as-of date over the open active projects."
+  },
+  {
+    "quote": "4",
+    "value": 4,
+    "definition": "Maximum days between the Last update date and the as-of date over the open active projects."
+  },
+  {
+    "quote": "8",
+    "value": 8,
+    "definition": "Count of open active projects in the Data, Sales, Finance and IT departments."
+  },
+  {
+    "quote": "50.0%",
+    "value": 50.0,
+    "definition": "Overdue open projects divided by open projects, both restricted to Data, Sales, Finance and IT, times 100."
+  },
+  {
+    "quote": "0.0%",
+    "value": 0.0,
+    "definition": "Overdue open projects divided by open projects, both restricted to departments other than Data, Sales, Finance and IT, times 100."
+  },
+  {
+    "quote": "19",
+    "value": 19,
+    "definition": "Days past due (as-of date minus Due date) for the CRM migration project."
+  },
+  {
+    "quote": "3",
+    "value": 3,
+    "definition": "Count of active Test-phase projects that are overdue."
+  },
+  {
+    "quote": "5",
+    "value": 5,
+    "definition": "Count of active projects in the Test phase."
+  },
+  {
+    "quote": "60.0%",
+    "value": 60.0,
+    "definition": "Overdue Test-phase projects divided by all active Test-phase projects, times 100."
+  },
+  {
+    "quote": "11",
+    "value": 11,
+    "definition": "Count of active projects in the Build phase."
+  },
+  {
+    "quote": "0.0%",
+    "value": 0.0,
+    "definition": "Overdue Build-phase projects divided by all active Build-phase projects, times 100."
+  },
+  {
+    "quote": "33,600",
+    "value": 33600,
+    "definition": "Spend minus Budget for the Data warehouse project."
+  },
+  {
+    "quote": "10,130",
+    "value": 10130,
+    "definition": "Spend minus Budget for the CRM migration project."
+  },
+  {
+    "quote": "18,400",
+    "value": 18400,
+    "definition": "Spend minus Budget for the Billing revamp project."
+  },
+  {
+    "quote": "100.0%",
+    "value": 100.0,
+    "definition": "Over-budget active projects that are also overdue, divided by all over-budget active projects, times 100."
+  },
+  {
+    "quote": "60.0%",
+    "value": 60.0,
+    "definition": "Active Test-phase projects with Spend above Budget, divided by all active Test-phase projects, times 100."
+  },
+  {
+    "quote": "100.1%",
+    "value": 100.11702127659574,
+    "definition": "Total Spend divided by total Budget over all active Sales department projects, times 100."
+  },
+  {
+    "quote": "100.3%",
+    "value": 100.29824561403508,
+    "definition": "Total Spend divided by total Budget over all active Finance department projects, times 100."
+  },
+  {
+    "quote": "97.9%",
+    "value": 97.86796116504854,
+    "definition": "Total Spend divided by total Budget over all active Data department projects, times 100."
+  },
+  {
+    "quote": "89.7%",
+    "value": 89.70769230769231,
+    "definition": "Total Spend divided by total Budget over all active IT department projects, times 100."
+  },
+  {
+    "quote": "700,000",
+    "value": 700000,
+    "definition": "Sum of Budget over open active projects with Status Red."
+  },
+  {
+    "quote": "718,950",
+    "value": 718950,
+    "definition": "Sum of Spend over open active projects with Status Red."
+  },
+  {
+    "quote": "102.7%",
+    "value": 102.70714285714287,
+    "definition": "Spend divided by Budget over open active projects with Status Red, times 100."
+  },
+  {
+    "quote": "15.6%",
+    "value": 15.568862275449103,
+    "definition": "Warehouse robots pilot Budget divided by open active Budget, times 100."
+  },
+  {
+    "quote": "53.0%",
+    "value": 52.96923076923077,
+    "definition": "Spend divided by Budget for the Warehouse robots pilot, times 100."
+  },
+  {
+    "quote": "61.8%",
+    "value": 61.78735648683167,
+    "definition": "Mean of the per-project Spend-to-Budget percentages over open active projects with Status Green."
+  },
+  {
+    "quote": "19",
+    "value": 19,
+    "definition": "Days past due (as-of date minus Due date) for the CRM migration project."
+  },
+  {
+    "quote": "16",
+    "value": 16,
+    "definition": "Days past due (as-of date minus Due date) for the Billing revamp project."
+  },
+  {
+    "quote": "16",
+    "value": 16,
+    "definition": "Days past due (as-of date minus Due date) for the Data warehouse project."
+  },
+  {
+    "quote": "106.8%",
+    "value": 106.82747252747254,
+    "definition": "Pause-rule projects total Spend divided by total Budget, times 100."
+  },
+  {
+    "quote": "38.2%",
+    "value": 38.248138996868164,
+    "definition": "Pause-rule projects total Spend divided by open active Spend, times 100."
+  },
+  {
+    "quote": "27.2%",
+    "value": 27.245508982035926,
+    "definition": "Pause-rule projects total Budget divided by open active Budget, times 100."
+  },
+  {
+    "quote": "95.4%",
+    "value": 95.43809523809523,
+    "definition": "Spend divided by Budget for the Field sales app project, times 100."
+  },
+  {
+    "quote": "32",
+    "value": 32,
+    "definition": "Days from the as-of date to the Field sales app Due date."
+  },
+  {
+    "quote": "18",
+    "value": 18,
+    "definition": "Days past due (as-of date minus Due date) for the SSO rollout project."
+  },
+  {
+    "quote": "98.8%",
+    "value": 98.77333333333334,
+    "definition": "Spend divided by Budget for the SSO rollout project, times 100."
+  },
+  {
+    "quote": "103",
+    "value": 103,
+    "definition": "Days from the as-of date to the Warehouse robots pilot Due date."
+  },
+  {
+    "quote": "5",
+    "value": 5,
+    "definition": "Count of open active projects with a Due date within 30 days after the as-of date."
+  },
+  {
+    "quote": "27.8%",
+    "value": 27.77777777777778,
+    "definition": "Open active projects due within 30 days, divided by all open active projects, times 100."
+  },
+  {
+    "quote": "3",
+    "value": 3,
+    "definition": "Days from the as-of date to the Pricing page tests Due date."
+  },
+  {
+    "quote": "5",
+    "value": 5,
+    "definition": "Count of open active projects with Risk High."
+  },
+  {
+    "quote": "27.8%",
+    "value": 27.77777777777778,
+    "definition": "Open active projects with Risk High, divided by all open active projects, times 100."
+  },
+  {
+    "quote": "3",
+    "value": 3,
+    "definition": "Count of active projects with Status Red and Risk High."
+  }
+]

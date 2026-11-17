@@ -1,0 +1,60 @@
+Subject: Returns and cancellations review, October month to date
+
+To: Head of Fulfillment
+From: Operations analysis
+
+SUMMARY
+
+Among the orders that were refunded or cancelled this month, most of the avoidable loss sits in three places: Marketplace refunds in the North and West, Wholesale cancellations, and West-region Web orders. Details and a proposed fix order follow. Every figure below was computed from the order rows in the export.
+
+WHAT I INCLUDED AND LEFT OUT
+
+- The export holds 1,381 order rows. I removed four rows flagged as test orders (placeholder web orders in East with a token value), plus the blank line and the Total line at the bottom. No order ID appears twice.
+- That leaves 1,377 orders worth $136,305.15.
+- The export has no product or SKU column, so I cannot report by product. As the closest stand-in I use basket size (items per order). A SKU-level cut needs a different extract.
+- Every refund equals the full order total, and cancelled orders carry no refund amount, so cancellations are treated as lost sales rather than money returned.
+
+HEADLINE
+
+- Refunded orders: 45 (3.3% of orders). Cancelled orders: 35 (2.5%). Together that is 80 orders, 5.8% of the total.
+- Refunds returned $4,039.29, or 3.0% of order value. Cancelled orders carried a further $4,348.23 of value (3.2%).
+- The average order is $98.99 and the median is $80.97. The average refunded order is $89.76.
+
+BY CHANNEL
+
+- Marketplace: 420 orders, 5.5% refunded and 2.1% cancelled. It produced $2,006.16 of refunds, which is 49.7% of all refund dollars from 30.5% of orders.
+- Web: 844 orders, 2.4% refunded and 2.5% cancelled. This is the healthiest channel on refunds.
+- Wholesale: 113 orders, only 1.8% refunded but 4.4% cancelled. Cancelled Wholesale value is $2,106.22, which is 48.4% of all cancelled value, because the average Wholesale order is $305.93. Every order with five or more items is a Wholesale order, so basket size and channel overlap there.
+
+BY REGION
+
+- Refunds plus cancellations as a share of orders: West 7.5%, East 6.2%, North 5.4%, South 4.2%.
+- West also has the highest refund rate at 4.4%, against 1.4% in South.
+
+WHERE CHANNEL AND REGION COMBINE
+
+- Marketplace North refunds 6.9% of orders and Marketplace West 8.3%. Together those two segments refund 7.4% of their orders and account for $1,464.59, which is 36.3% of all refund dollars.
+- Marketplace South refunds only 1.2%, so the Marketplace problem is regional rather than channel-wide.
+- Web West has 7.5% refunded or cancelled, driven by cancellations at 4.3%.
+- New versus returning customers: on Marketplace, new customers are refunded or cancelled 8.8% of the time and returning customers 6.8%. On Web it flips for refunds: 1.6% for new customers against 2.9% for returning customers. Wholesale new customers cancel 5.9% of orders.
+
+BY BASKET SIZE (PRODUCT STAND-IN)
+
+- One-item orders number 353, which is 25.6% of orders but 31.1% of refunded orders. Their refund rate is 4.0% and the average order is only $32.73, so each refund is small but the handling cost is not.
+- Cancellations peak in two-item orders at 4.0%, against 1.6% for four-item orders.
+
+TIMING
+
+- In the first nine days there were 683 orders with 4.7% refunded and 7.6% refunded or cancelled. In the last nine days there were 694 orders, with 1.9% refunded and 4.0% refunded or cancelled.
+- Do not read that as a fix. The final four days hold 308 orders with a 0.7% refund rate, and only two refunds. Refunds usually arrive days after the order, so recent weeks are likely incomplete. I would re-run this in a week before crediting any improvement.
+
+WHAT TO FIX FIRST
+
+1. Marketplace North and West refunds. These two segments are the largest controllable dollar leak. Pull the refund reasons for those orders and check carrier, packaging and listing accuracy against Marketplace South, which performs far better.
+2. Wholesale cancellations. There were five cancelled Wholesale orders worth an average of $421.24 each. Check whether stock availability or credit holds are cancelling large orders after acceptance, and add a confirmation step before acceptance.
+3. West-region Web cancellations. Look for stock-outs or payment failures that only show up in West.
+4. One-item orders. Review whether small orders are being refunded for fit or expectation problems that better product pages could prevent.
+
+LIMITS
+
+The export gives no refund or cancellation reasons, no product, and no ship dates, so all of the above shows where the problems are, not why. Segments such as Wholesale West are small, with only a few dozen orders, so single orders move their rates a lot.

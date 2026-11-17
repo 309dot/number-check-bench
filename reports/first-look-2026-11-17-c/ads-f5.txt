@@ -1,0 +1,58 @@
+Monthly channel review: paid ads
+
+To: CEO
+From: Marketing
+Scope: one ad performance export covering 56 days, from late August to mid-October, for all of our clients. The question for next month is where the budget should go.
+
+Bottom line
+- Search is our most efficient channel. It brought 48.2% of leads on 35.8% of spend, at $40.75 per lead against $54.81 overall.
+- Next month, add money to Harbor & Pine brand search, Northfield service booking and Brightline emergency care. Cut Harbor & Pine's lookalike and gift guide campaigns.
+- Keep total spend close to the current pace.
+
+How to read the numbers: cost per lead (CPL) is spend divided by leads for the same rows, so a cheap lead can be compared directly with an expensive one. Each percentage is a share or rate of the rows named in that line, not a sum of percentages.
+
+What I left out
+- 56 rows marked as test (Test campaign = Yes). All of them are "QA – Pixel test" on Harbor & Pine's Display line. They spent $49.01, produced no leads, and by their name are a pixel check, so they are not campaign results. Keeping them would have moved total spend from $70,762.15 to $70,811.16, a difference of 0.1%.
+- I kept the 7 real rows that spent money but produced no leads. Those are real costs, and they belong in the picture even though they make a campaign look worse.
+
+Overall, after exclusions
+- Spend was $70,762.15 across 5,360,833 impressions and 56,829 clicks.
+- Leads came to 1,291. Cost per lead (CPL) was $54.81, click-through rate 1.1% and click-to-lead rate 2.3%.
+- Daily leads had a median of 24, so a typical day produced about two dozen leads.
+
+Clients
+- Brightline Dental: spend $21,645.65 (30.6% of total), 515 leads (39.9% of all leads), CPL $42.03. Its CPL moved little from period to period, and 4.5% of its clicks became leads, the best rate of the three clients.
+- Harbor & Pine: spend $28,296.36 (40.0%), 397 leads (30.8%), CPL $71.28. It has the largest budget and the most expensive leads. Most of its spend went to social and display rather than search.
+- Northfield Bikes: spend $20,820.14 (29.4%), 379 leads (29.4%), CPL $54.93. Its click-through rate is the lowest of the three clients, so its ads need work before more money goes in.
+
+Channels
+- Search: spend $25,348.67 (35.8%), 622 leads, CPL $40.75. 32.9% of search rows produced three or more leads on their own.
+- Social: spend $30,982.17 (43.8%), 468 leads, CPL $66.20. It takes the largest share of the budget, but its CPL sits between Search and Display.
+- Display: spend $14,431.31 (20.4%), 201 leads, CPL $71.80. Display gives the most impressions, but it has the most expensive leads of the three channels, so it is the first place I would look when money is tight.
+
+Campaigns
+Cheapest leads:
+- Harbor & Pine brand search: CPL $24.07, but only 37,213 impressions in total. Volume is small, so extra money may not be absorbed.
+- Northfield service booking: CPL $28.01.
+- Brightline emergency care: CPL $39.75 overall and $35.58 in October, down 15.2% from before October.
+
+Most expensive leads:
+- Harbor & Pine lookalike: CPL $107.48, and 6 of its 56 rows produced no leads.
+- Harbor & Pine gift guide: CPL $99.99.
+- Harbor & Pine fall collection: CPL $95.63 on $11,953.34 of spend, the largest spend of any campaign. Its October CPL rose 17.4% from before October.
+
+Watch list:
+- Brightline retargeting rose 13.8% to $48.88 in October.
+
+Recommendation for next month
+- Budget: hold total spend at about $1,263.61 a day, roughly $37,908.29 for a thirty-day month. Treat this as a run-rate for planning, not a target.
+- Add: Harbor & Pine brand search and Northfield service booking, the two cheapest campaigns, plus Brightline emergency care, which fell in October. Raise them in steps and watch impressions, since brand search has very little reach.
+- Cut: Harbor & Pine lookalike and gift guide together spent $12,780.97 (18.1% of all spend) at $103.07 per lead. Move that money first to the search lines.
+- Hold: Harbor & Pine fall collection at its current level until we understand the October rise.
+- Check: I will repeat this review on the same columns after the first full week of November, so we can see whether the pattern holds before the next budget decision.
+
+Limits
+- The export has leads but no revenue or lead quality, so cost per lead ranks cost, not profit.
+- October covers only 18 days, so October figures are noisy and should not be read alone.
+- The file does not show which leads became customers, so the lead counts are a signal about interest, not about revenue.
+- Percentages are rounded to one decimal place. Totals are exact sums of the rows.

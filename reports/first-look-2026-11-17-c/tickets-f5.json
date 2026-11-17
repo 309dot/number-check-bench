@@ -1,0 +1,372 @@
+[
+ {
+  "quote": "2,558",
+  "value": 2558,
+  "definition": "Total data rows in the export."
+ },
+ {
+  "quote": "52",
+  "value": 52,
+  "definition": "Rows with Spam = Yes."
+ },
+ {
+  "quote": "74",
+  "value": 74,
+  "definition": "Rows with Merged duplicate = Yes."
+ },
+ {
+  "quote": "2,434",
+  "value": 2434,
+  "definition": "Rows left after removing spam and merged-duplicate rows."
+ },
+ {
+  "quote": "726",
+  "value": 726,
+  "definition": "Kept rows with SLA breached = Yes."
+ },
+ {
+  "quote": "29.8%",
+  "value": 29.82744453574363,
+  "definition": "Share of kept rows with SLA breached = Yes."
+ },
+ {
+  "quote": "6.4",
+  "value": 6.4,
+  "definition": "Median first response hours, kept rows with a value."
+ },
+ {
+  "quote": "46.9%",
+  "value": 46.91865242399343,
+  "definition": "Kept rows with CSAT / all kept rows."
+ },
+ {
+  "quote": "14.8%",
+  "value": 14.79859894921191,
+  "definition": "Share of Bad among kept rows with CSAT."
+ },
+ {
+  "quote": "302",
+  "value": 302,
+  "definition": "Kept rows for Theo."
+ },
+ {
+  "quote": "64.9%",
+  "value": 64.90066225165563,
+  "definition": "SLA breach rate among Theo's kept rows."
+ },
+ {
+  "quote": "31.2%",
+  "value": 31.25,
+  "definition": "Bad share among Theo's kept rows with CSAT."
+ },
+ {
+  "quote": "25.8%",
+  "value": 25.84269662921348,
+  "definition": "SLA breach rate among Maya's kept rows."
+ },
+ {
+  "quote": "10.5%",
+  "value": 10.454545454545455,
+  "definition": "Bad share among Maya's kept rows with CSAT."
+ },
+ {
+  "quote": "28.1%",
+  "value": 28.125,
+  "definition": "SLA breach rate among Jonah's kept rows."
+ },
+ {
+  "quote": "11.2%",
+  "value": 11.160714285714286,
+  "definition": "Bad share among Jonah's kept rows with CSAT."
+ },
+ {
+  "quote": "23.8%",
+  "value": 23.846153846153847,
+  "definition": "SLA breach rate among Luis's kept rows."
+ },
+ {
+  "quote": "13.9%",
+  "value": 13.903743315508022,
+  "definition": "Bad share among Luis's kept rows with CSAT."
+ },
+ {
+  "quote": "24.0%",
+  "value": 24.02088772845953,
+  "definition": "SLA breach rate among Priya's kept rows."
+ },
+ {
+  "quote": "15.4%",
+  "value": 15.384615384615385,
+  "definition": "Bad share among Priya's kept rows with CSAT."
+ },
+ {
+  "quote": "21.5%",
+  "value": 21.485411140583555,
+  "definition": "SLA breach rate among Hana's kept rows."
+ },
+ {
+  "quote": "10.1%",
+  "value": 10.059171597633137,
+  "definition": "Bad share among Hana's kept rows with CSAT."
+ },
+ {
+  "quote": "24.9%",
+  "value": 24.859287054409005,
+  "definition": "Breach rate among kept rows of the five other agents."
+ },
+ {
+  "quote": "12.1%",
+  "value": 12.118126272912424,
+  "definition": "Bad share among kept rows with CSAT of the five other agents."
+ },
+ {
+  "quote": "10.8",
+  "value": 10.8,
+  "definition": "Median first response hours for Theo's kept rows."
+ },
+ {
+  "quote": "6.0",
+  "value": 6.0,
+  "definition": "Median first response hours, five other agents."
+ },
+ {
+  "quote": "72.1%",
+  "value": 72.09302325581395,
+  "definition": "Theo breach rate, Normal priority."
+ },
+ {
+  "quote": "35.4%",
+  "value": 35.35353535353536,
+  "definition": "Other agents breach rate, Normal priority."
+ },
+ {
+  "quote": "37.1%",
+  "value": 37.07865168539326,
+  "definition": "Theo Bad share, Normal rows with CSAT."
+ },
+ {
+  "quote": "10.9%",
+  "value": 10.931899641577061,
+  "definition": "Other agents Bad share, Normal rows with CSAT."
+ },
+ {
+  "quote": "45.9%",
+  "value": 45.90163934426229,
+  "definition": "Theo breach rate, Low priority."
+ },
+ {
+  "quote": "0",
+  "value": 0,
+  "definition": "Other agents Low rows breached."
+ },
+ {
+  "quote": "455",
+  "value": 455,
+  "definition": "Other agents Low rows."
+ },
+ {
+  "quote": "0.0%",
+  "value": 0.0,
+  "definition": "Other agents breach rate, Low priority (0 breaches)."
+ },
+ {
+  "quote": "40.3%",
+  "value": 40.32258064516129,
+  "definition": "Theo Bad share, Chat rows with CSAT."
+ },
+ {
+  "quote": "62",
+  "value": 62,
+  "definition": "Theo Chat rows with CSAT."
+ },
+ {
+  "quote": "63.2%",
+  "value": 63.2,
+  "definition": "Theo breach rate, tickets opened in September 2026."
+ },
+ {
+  "quote": "60.5%",
+  "value": 60.46511627906977,
+  "definition": "Theo breach rate, tickets opened in October 2026."
+ },
+ {
+  "quote": "28.6%",
+  "value": 28.58672376873662,
+  "definition": "Breach rate among kept Chat rows."
+ },
+ {
+  "quote": "17.8%",
+  "value": 17.782909930715935,
+  "definition": "Bad share among kept Chat rows with CSAT."
+ },
+ {
+  "quote": "30.2%",
+  "value": 30.234578627280627,
+  "definition": "Breach rate among kept Email rows."
+ },
+ {
+  "quote": "12.4%",
+  "value": 12.430426716141001,
+  "definition": "Bad share among kept Email rows with CSAT."
+ },
+ {
+  "quote": "31.8%",
+  "value": 31.80515759312321,
+  "definition": "Breach rate among kept Phone rows."
+ },
+ {
+  "quote": "14.7%",
+  "value": 14.705882352941176,
+  "definition": "Bad share among kept Phone rows with CSAT."
+ },
+ {
+  "quote": "23.3%",
+  "value": 23.26732673267327,
+  "definition": "Breach rate, Chat rows excluding Theo."
+ },
+ {
+  "quote": "14.0%",
+  "value": 14.016172506738544,
+  "definition": "Bad share, Chat rows with CSAT, excluding Theo."
+ },
+ {
+  "quote": "0.9",
+  "value": 0.9,
+  "definition": "Median first response hours, kept Urgent rows."
+ },
+ {
+  "quote": "38.6%",
+  "value": 38.63636363636363,
+  "definition": "Breach rate among kept Urgent rows."
+ },
+ {
+  "quote": "22.2%",
+  "value": 22.22222222222222,
+  "definition": "Bad share among kept Urgent rows with CSAT."
+ },
+ {
+  "quote": "24.2%",
+  "value": 24.178403755868544,
+  "definition": "Breach rate among kept High rows."
+ },
+ {
+  "quote": "7.0",
+  "value": 7.0,
+  "definition": "Median first response hours, kept Normal rows."
+ },
+ {
+  "quote": "40.0%",
+  "value": 40.0,
+  "definition": "Breach rate among kept Normal rows."
+ },
+ {
+  "quote": "5.4%",
+  "value": 5.426356589147287,
+  "definition": "Breach rate among kept Low rows."
+ },
+ {
+  "quote": "35.4%",
+  "value": 35.35353535353536,
+  "definition": "dup of othnormal"
+ },
+ {
+  "quote": "22.2%",
+  "value": 22.22222222222222,
+  "definition": "Bad share among kept Urgent rows with CSAT."
+ },
+ {
+  "quote": "20.4%",
+  "value": 20.37037037037037,
+  "definition": "Bad share, Urgent rows with CSAT excluding Theo."
+ },
+ {
+  "quote": "65.0%",
+  "value": 65.0,
+  "definition": "SLA breach rate among Jonah's kept Urgent rows."
+ },
+ {
+  "quote": "20",
+  "value": 20,
+  "definition": "Kept Urgent rows for Jonah."
+ },
+ {
+  "quote": "64.7%",
+  "value": 64.70588235294117,
+  "definition": "SLA breach rate among Theo's kept Urgent rows."
+ },
+ {
+  "quote": "17",
+  "value": 17,
+  "definition": "Kept Urgent rows for Theo."
+ },
+ {
+  "quote": "43.5%",
+  "value": 43.47826086956522,
+  "definition": "SLA breach rate among Priya's kept Urgent rows."
+ },
+ {
+  "quote": "36.8%",
+  "value": 36.8421052631579,
+  "definition": "SLA breach rate among Luis's kept Urgent rows."
+ },
+ {
+  "quote": "18.8%",
+  "value": 18.75,
+  "definition": "SLA breach rate among Maya's kept Urgent rows."
+ },
+ {
+  "quote": "19.0%",
+  "value": 19.047619047619047,
+  "definition": "SLA breach rate among Hana's kept Urgent rows."
+ },
+ {
+  "quote": "352",
+  "value": 352,
+  "definition": "Breached kept rows with CSAT."
+ },
+ {
+  "quote": "19.0%",
+  "value": 19.03409090909091,
+  "definition": "Bad share among breached kept rows with CSAT."
+ },
+ {
+  "quote": "12.9%",
+  "value": 12.91139240506329,
+  "definition": "Bad share among non-breached kept rows with CSAT."
+ },
+ {
+  "quote": "285",
+  "value": 285,
+  "definition": "Kept rows with no Closed date (Open or Pending)."
+ },
+ {
+  "quote": "3.8",
+  "value": 3.818054909260121,
+  "definition": "Mean days from Opened to Closed over kept rows with a Closed date."
+ },
+ {
+  "quote": "21.5%",
+  "value": 21.485411140583555,
+  "definition": "See report text; same rows and calculation as the earlier mention."
+ },
+ {
+  "quote": "65.0%",
+  "value": 65.0,
+  "definition": "See report text; same rows and calculation as the earlier mention."
+ },
+ {
+  "quote": "15.4%",
+  "value": 15.384615384615385,
+  "definition": "See report text; same rows and calculation as the earlier mention."
+ },
+ {
+  "quote": "22.2%",
+  "value": 22.22222222222222,
+  "definition": "Priya Bad share among Phone rows with CSAT."
+ },
+ {
+  "quote": "27",
+  "value": 27,
+  "definition": "Priya Phone rows with CSAT."
+ }
+]

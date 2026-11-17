@@ -1,0 +1,367 @@
+[
+ {
+  "quote": "56",
+  "value": 56,
+  "definition": "Number of distinct dates in the file (2026-08-24 to 2026-10-18)."
+ },
+ {
+  "quote": "56",
+  "value": 56,
+  "definition": "Rows flagged Test campaign = Yes (the QA - Pixel test campaign, one row per day)."
+ },
+ {
+  "quote": "$49.01",
+  "value": 49.01,
+  "definition": "Sum of Spend over the 56 test-campaign rows."
+ },
+ {
+  "quote": "672",
+  "value": 672,
+  "definition": "Rows remaining after removing the test-campaign rows (12 campaigns x 56 days)."
+ },
+ {
+  "quote": "12",
+  "value": 12,
+  "definition": "Distinct non-test campaigns."
+ },
+ {
+  "quote": "$70,762.15",
+  "value": 70762.15,
+  "definition": "Sum of Spend, test rows excluded."
+ },
+ {
+  "quote": "1,291",
+  "value": 1291,
+  "definition": "Sum of Leads, test rows excluded."
+ },
+ {
+  "quote": "$54.81",
+  "value": 54.81189000774593,
+  "definition": "Total Spend divided by total Leads, test rows excluded."
+ },
+ {
+  "quote": "1.06%",
+  "value": 1.060077790149404,
+  "definition": "Total Clicks / total Impressions, test rows excluded."
+ },
+ {
+  "quote": "2.27%",
+  "value": 2.2717274630910276,
+  "definition": "Total Leads / total Clicks, test rows excluded."
+ },
+ {
+  "quote": "645",
+  "value": 645,
+  "definition": "Leads in rows dated Aug 24 to Sep 20."
+ },
+ {
+  "quote": "$54.25",
+  "value": 54.24531782945737,
+  "definition": "Spend / Leads for Aug 24 to Sep 20."
+ },
+ {
+  "quote": "646",
+  "value": 646,
+  "definition": "Leads in rows dated Sep 21 to Oct 18."
+ },
+ {
+  "quote": "$55.38",
+  "value": 55.37758513931888,
+  "definition": "Spend / Leads for Sep 21 to Oct 18."
+ },
+ {
+  "quote": "$40.75",
+  "value": 40.75348874598071,
+  "definition": "Spend / Leads over Search rows."
+ },
+ {
+  "quote": "5.15%",
+  "value": 5.149630693936197,
+  "definition": "Clicks / Impressions over Search rows."
+ },
+ {
+  "quote": "5.42%",
+  "value": 5.423315023105763,
+  "definition": "Leads / Clicks over Search rows."
+ },
+ {
+  "quote": "35.8%",
+  "value": 35.82235700865506,
+  "definition": "Search Spend / total Spend."
+ },
+ {
+  "quote": "48.2%",
+  "value": 48.17970565453137,
+  "definition": "Search Leads / total Leads."
+ },
+ {
+  "quote": "$66.20",
+  "value": 66.20121794871794,
+  "definition": "Spend / Leads over Social rows."
+ },
+ {
+  "quote": "1.74%",
+  "value": 1.735004078001038,
+  "definition": "Leads / Clicks over Social rows."
+ },
+ {
+  "quote": "43.8%",
+  "value": 43.78353399380884,
+  "definition": "Social Spend / total Spend."
+ },
+ {
+  "quote": "$71.80",
+  "value": 71.79756218905473,
+  "definition": "Spend / Leads over Display rows."
+ },
+ {
+  "quote": "1.09%",
+  "value": 1.09322310453606,
+  "definition": "Leads / Clicks over Display rows."
+ },
+ {
+  "quote": "$42.03",
+  "value": 42.03038834951457,
+  "definition": "Spend / Leads over Brightline Dental rows."
+ },
+ {
+  "quote": "$21,646",
+  "value": 21645.65,
+  "definition": "Spend over Brightline Dental rows."
+ },
+ {
+  "quote": "4.5%",
+  "value": 4.462351615977818,
+  "definition": "Leads / Clicks over Brightline Dental rows."
+ },
+ {
+  "quote": "$54.93",
+  "value": 54.934406332453825,
+  "definition": "Spend / Leads over Northfield Bikes rows."
+ },
+ {
+  "quote": "2.1%",
+  "value": 2.1022853339250056,
+  "definition": "Leads / Clicks over Northfield Bikes rows."
+ },
+ {
+  "quote": "$71.28",
+  "value": 71.27546599496222,
+  "definition": "Spend / Leads over Harbor & Pine rows."
+ },
+ {
+  "quote": "$28,296",
+  "value": 28296.36,
+  "definition": "Spend over Harbor & Pine rows."
+ },
+ {
+  "quote": "1.5%",
+  "value": 1.4563462949376376,
+  "definition": "Leads / Clicks over Harbor & Pine rows."
+ },
+ {
+  "quote": "$28,826",
+  "value": 28826.36,
+  "definition": "Spend over Fall collection, Gift guide, Lookalike and Commuter banner campaigns."
+ },
+ {
+  "quote": "40.7%",
+  "value": 40.736975911557245,
+  "definition": "Spend of those four campaigns / total Spend."
+ },
+ {
+  "quote": "309",
+  "value": 309,
+  "definition": "Leads over those four campaigns."
+ },
+ {
+  "quote": "23.9%",
+  "value": 23.93493415956623,
+  "definition": "Leads of those four campaigns / total Leads."
+ },
+ {
+  "quote": "$107.48",
+  "value": 107.48470588235294,
+  "definition": "Spend / Leads over Lookalike rows."
+ },
+ {
+  "quote": "$97.89",
+  "value": 97.88785714285714,
+  "definition": "Spend over Lookalike rows divided by its 56 days."
+ },
+ {
+  "quote": "0.9",
+  "value": 0.9107142857142857,
+  "definition": "Leads over Lookalike rows divided by 56 days."
+ },
+ {
+  "quote": "$105.41",
+  "value": 105.40576923076924,
+  "definition": "Spend / Leads over Lookalike rows dated Sep 21 to Oct 18."
+ },
+ {
+  "quote": "$99.99",
+  "value": 99.98972602739725,
+  "definition": "Spend / Leads over Gift guide rows."
+ },
+ {
+  "quote": "0.80%",
+  "value": 0.7993867717915024,
+  "definition": "Leads / Clicks over Gift guide rows."
+ },
+ {
+  "quote": "1,304,572",
+  "value": 1304572,
+  "definition": "Impressions over Gift guide rows."
+ },
+ {
+  "quote": "$95.63",
+  "value": 95.62672,
+  "definition": "Spend / Leads over Fall collection rows."
+ },
+ {
+  "quote": "$90.18",
+  "value": 90.17983333333333,
+  "definition": "Spend / Leads over Fall collection rows dated Aug 24 to Sep 20."
+ },
+ {
+  "quote": "$100.65",
+  "value": 100.65461538461538,
+  "definition": "Spend / Leads over Fall collection rows dated Sep 21 to Oct 18."
+ },
+ {
+  "quote": "$68.20",
+  "value": 68.20083333333334,
+  "definition": "Spend / Leads over Commuter banner rows."
+ },
+ {
+  "quote": "0.50%",
+  "value": 0.5,
+  "definition": "Clicks / Impressions over Commuter banner rows."
+ },
+ {
+  "quote": "0.6%",
+  "value": 0.5952380952380952,
+  "definition": "Display rows with 0 Leads / all Display rows."
+ },
+ {
+  "quote": "7",
+  "value": 7,
+  "definition": "Rows with Leads = 0 (test rows excluded)."
+ },
+ {
+  "quote": "$12,781",
+  "value": 12780.970000000001,
+  "definition": "Spend over Lookalike and Gift guide rows (both full period)."
+ },
+ {
+  "quote": "$24.07",
+  "value": 24.067905405405405,
+  "definition": "Spend / Leads over Brand search rows."
+ },
+ {
+  "quote": "8.0%",
+  "value": 7.997205277725526,
+  "definition": "Clicks / Impressions over Brand search rows."
+ },
+ {
+  "quote": "5.0%",
+  "value": 5.033835178835013,
+  "definition": "Brand search Spend / total Spend."
+ },
+ {
+  "quote": "11.5%",
+  "value": 11.463981409759876,
+  "definition": "Brand search Leads / total Leads."
+ },
+ {
+  "quote": "$28.01",
+  "value": 28.00835164835165,
+  "definition": "Spend / Leads over Service booking rows."
+ },
+ {
+  "quote": "5.7%",
+  "value": 5.68039950062422,
+  "definition": "Leads / Clicks over Service booking rows."
+ },
+ {
+  "quote": "$39.75",
+  "value": 39.74591304347826,
+  "definition": "Spend / Leads over Emergency care rows."
+ },
+ {
+  "quote": "9.1%",
+  "value": 9.05511811023622,
+  "definition": "Leads / Clicks over Emergency care rows."
+ },
+ {
+  "quote": "$3.60",
+  "value": 3.59903937007874,
+  "definition": "Spend / Clicks over Emergency care rows."
+ },
+ {
+  "quote": "$39.47",
+  "value": 39.47071428571429,
+  "definition": "Spend / Leads over New patient offer rows."
+ },
+ {
+  "quote": "$112.55",
+  "value": 112.545,
+  "definition": "Median Spend per row over New patient offer rows."
+ },
+ {
+  "quote": "23.7%",
+  "value": 23.685091535517227,
+  "definition": "Spend of those four campaigns / total Spend."
+ },
+ {
+  "quote": "39.3%",
+  "value": 39.34934159566228,
+  "definition": "Leads of those four campaigns / total Leads."
+ },
+ {
+  "quote": "$12,781",
+  "value": 12780.970000000001,
+  "definition": "Spend over Lookalike and Gift guide rows."
+ },
+ {
+  "quote": "330",
+  "value": 387.39270695605273,
+  "definition": "Freed spend (Lookalike + Gift guide) divided by the blended CPL of the four winning campaigns."
+ },
+ {
+  "quote": "124",
+  "value": 124,
+  "definition": "Leads over Lookalike and Gift guide rows."
+ },
+ {
+  "quote": "$74.56",
+  "value": 74.56344444444444,
+  "definition": "Spend / Leads over E-bike search rows."
+ },
+ {
+  "quote": "$2.20",
+  "value": 2.195912958115183,
+  "definition": "Spend / Clicks over E-bike search rows."
+ },
+ {
+  "quote": "2.95%",
+  "value": 2.945026178010471,
+  "definition": "Leads / Clicks over E-bike search rows."
+ },
+ {
+  "quote": "4.0%",
+  "value": 4.0,
+  "definition": "Clicks / Impressions over E-bike search rows."
+ },
+ {
+  "quote": "$44.70",
+  "value": 44.69870786516854,
+  "definition": "Spend / Leads over Implants search rows."
+ },
+ {
+  "quote": "$44.71",
+  "value": 44.70602941176471,
+  "definition": "Spend / Leads over Retargeting rows."
+ }
+]

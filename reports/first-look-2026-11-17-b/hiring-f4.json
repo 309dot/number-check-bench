@@ -1,0 +1,372 @@
+[
+  {
+    "quote": "768",
+    "value": 768.0,
+    "definition": "Count of all data rows in the Candidates sheet, excluding the title and header lines."
+  },
+  {
+    "quote": "17",
+    "value": 17.0,
+    "definition": "Count of rows where the Duplicate column equals Yes."
+  },
+  {
+    "quote": "751",
+    "value": 751.0,
+    "definition": "Count of raw rows whose Duplicate column is not Yes, which are the rows analyzed."
+  },
+  {
+    "quote": "34",
+    "value": 34.0,
+    "definition": "Count of kept rows whose Stage is Hired."
+  },
+  {
+    "quote": "4.5%",
+    "value": 4.527296937416778,
+    "definition": "Hired count divided by kept rows, times 100."
+  },
+  {
+    "quote": "532",
+    "value": 532.0,
+    "definition": "Count of kept rows whose Stage is Rejected."
+  },
+  {
+    "quote": "70.8%",
+    "value": 70.83888149134488,
+    "definition": "Rejected count divided by kept rows, times 100."
+  },
+  {
+    "quote": "102",
+    "value": 102.0,
+    "definition": "Count of kept rows whose Stage is Withdrawn."
+  },
+  {
+    "quote": "13.6%",
+    "value": 13.581890812250332,
+    "definition": "Withdrawn count divided by kept rows, times 100."
+  },
+  {
+    "quote": "18.1%",
+    "value": 18.095238095238095,
+    "definition": "Hired rows among kept Referral-source rows, divided by all kept Referral-source rows, times 100."
+  },
+  {
+    "quote": "2.3%",
+    "value": 2.321981424148607,
+    "definition": "Hired rows among kept rows whose Source is not Referral, divided by all those rows, times 100."
+  },
+  {
+    "quote": "55.9%",
+    "value": 55.88235294117647,
+    "definition": "Referral hires divided by all kept hires, times 100."
+  },
+  {
+    "quote": "24",
+    "value": 24.0,
+    "definition": "Median of days from Applied to Stage changed across kept Hired rows."
+  },
+  {
+    "quote": "6",
+    "value": 6.0,
+    "definition": "Median of days from Applied to Stage changed across kept Rejected rows."
+  },
+  {
+    "quote": "2.2%",
+    "value": 2.213541666666667,
+    "definition": "Flagged duplicate rows divided by all raw rows, times 100."
+  },
+  {
+    "quote": "7",
+    "value": 7.0,
+    "definition": "Count of flagged duplicate rows whose Role, Source and Applied date exactly match at least one kept row."
+  },
+  {
+    "quote": "10",
+    "value": 10.0,
+    "definition": "Count of flagged duplicate rows with no such matching kept row."
+  },
+  {
+    "quote": "83",
+    "value": 83.0,
+    "definition": "Count of kept rows whose Stage is Applied, Screen, Interview or Offer."
+  },
+  {
+    "quote": "11.1%",
+    "value": 11.051930758988016,
+    "definition": "Open count divided by kept rows, times 100."
+  },
+  {
+    "quote": "32",
+    "value": 32.0,
+    "definition": "Count of kept rows whose Stage is Applied."
+  },
+  {
+    "quote": "27",
+    "value": 27.0,
+    "definition": "Count of kept rows whose Stage is Screen."
+  },
+  {
+    "quote": "20",
+    "value": 20.0,
+    "definition": "Count of kept rows whose Stage is Interview."
+  },
+  {
+    "quote": "4",
+    "value": 4.0,
+    "definition": "Count of kept rows whose Stage is Offer."
+  },
+  {
+    "quote": "48",
+    "value": 48.0,
+    "definition": "Count of kept rows whose Stage is Hired or Offer, plus Withdrawn rows with Offer accepted equal to No."
+  },
+  {
+    "quote": "6.4%",
+    "value": 6.391478029294275,
+    "definition": "Reached-offer count divided by kept rows, times 100."
+  },
+  {
+    "quote": "34",
+    "value": 34.0,
+    "definition": "Count of kept rows whose Offer accepted equal to Yes."
+  },
+  {
+    "quote": "44",
+    "value": 44.0,
+    "definition": "Count of kept rows whose Offer accepted equal to Yes or No."
+  },
+  {
+    "quote": "77.3%",
+    "value": 77.27272727272727,
+    "definition": "Accepted count divided by decided-offer count, times 100."
+  },
+  {
+    "quote": "10",
+    "value": 10.0,
+    "definition": "Count of kept rows whose Offer accepted equal to No."
+  },
+  {
+    "quote": "102",
+    "value": 102.0,
+    "definition": "Count of kept rows whose Stage is Withdrawn."
+  },
+  {
+    "quote": "92",
+    "value": 92.0,
+    "definition": "Count of kept Withdrawn rows with no Offer accepted value."
+  },
+  {
+    "quote": "90.2%",
+    "value": 90.19607843137256,
+    "definition": "Withdrawn rows with no offer divided by all Withdrawn rows, times 100."
+  },
+  {
+    "quote": "24",
+    "value": 24.0,
+    "definition": "Median of days from Applied to Stage changed across kept Hired rows."
+  },
+  {
+    "quote": "24.4",
+    "value": 24.352941176470587,
+    "definition": "Mean of days from Applied to Stage changed across kept Hired rows."
+  },
+  {
+    "quote": "94.1%",
+    "value": 94.11764705882352,
+    "definition": "Share of kept Hired rows with at most 30 days from Applied to Stage changed, times 100."
+  },
+  {
+    "quote": "62.0%",
+    "value": 62.03007518796993,
+    "definition": "Share of kept Rejected rows with at most 7 days from Applied to Stage changed, times 100."
+  },
+  {
+    "quote": "79.5%",
+    "value": 79.51127819548873,
+    "definition": "Share of kept Rejected rows with at most 14 days from Applied to Stage changed, times 100."
+  },
+  {
+    "quote": "14",
+    "value": 14.0,
+    "definition": "Cutoff of 14 days used to compute the rejection share, not a count taken from the rows."
+  },
+  {
+    "quote": "6",
+    "value": 6.0,
+    "definition": "Median of days from Applied to Stage changed across kept Withdrawn rows."
+  },
+  {
+    "quote": "28",
+    "value": 28.0,
+    "definition": "Median of days from Applied to Stage changed across kept rows whose Offer accepted is No."
+  },
+  {
+    "quote": "2",
+    "value": 2.0,
+    "definition": "Median of days from Stage changed to the export date (2026-10-18) across kept open rows."
+  },
+  {
+    "quote": "7",
+    "value": 7.0,
+    "definition": "Count of kept open rows with more than 7 days from Stage changed to the export date."
+  },
+  {
+    "quote": "8.4%",
+    "value": 8.433734939759036,
+    "definition": "Open rows with more than 7 days in stage divided by all open rows, times 100."
+  },
+  {
+    "quote": "4.5",
+    "value": 4.5,
+    "definition": "Median of days from Stage changed to the export date across kept Interview rows."
+  },
+  {
+    "quote": "6",
+    "value": 6.0,
+    "definition": "Count of kept Interview rows with more than 7 days from Stage changed to the export date."
+  },
+  {
+    "quote": "20",
+    "value": 20.0,
+    "definition": "Count of kept rows whose Stage is Interview."
+  },
+  {
+    "quote": "30.0%",
+    "value": 30.0,
+    "definition": "Interview rows with more than 7 days in stage divided by all Interview rows, times 100."
+  },
+  {
+    "quote": "197",
+    "value": 197.0,
+    "definition": "Count of kept rows whose Department is Engineering."
+  },
+  {
+    "quote": "3.0%",
+    "value": 3.0456852791878175,
+    "definition": "Hired rows divided by kept Engineering rows, times 100."
+  },
+  {
+    "quote": "25",
+    "value": 25.0,
+    "definition": "Median of days from Applied to Stage changed across kept Engineering Hired rows."
+  },
+  {
+    "quote": "5.6%",
+    "value": 5.555555555555555,
+    "definition": "Hired rows divided by kept Design rows, times 100."
+  },
+  {
+    "quote": "6.8%",
+    "value": 6.779661016949152,
+    "definition": "Hired rows divided by kept Operations rows, times 100."
+  },
+  {
+    "quote": "4.4%",
+    "value": 4.430379746835443,
+    "definition": "Hired rows divided by kept Sales rows, times 100."
+  },
+  {
+    "quote": "4.1%",
+    "value": 4.117647058823529,
+    "definition": "Hired rows divided by kept Support rows, times 100."
+  },
+  {
+    "quote": "30",
+    "value": 30.0,
+    "definition": "Count of kept Engineering rows whose Stage is Withdrawn."
+  },
+  {
+    "quote": "15.2%",
+    "value": 15.228426395939088,
+    "definition": "Engineering withdrawals divided by kept Engineering rows, times 100."
+  },
+  {
+    "quote": "29.4%",
+    "value": 29.411764705882355,
+    "definition": "Engineering withdrawals divided by all kept Withdrawn rows, times 100."
+  },
+  {
+    "quote": "105",
+    "value": 105.0,
+    "definition": "Count of kept rows whose Source is Referral."
+  },
+  {
+    "quote": "18.1%",
+    "value": 18.095238095238095,
+    "definition": "Hired rows among kept Referral-source rows, divided by all kept Referral-source rows, times 100."
+  },
+  {
+    "quote": "281",
+    "value": 281.0,
+    "definition": "Count of kept rows whose Source is LinkedIn."
+  },
+  {
+    "quote": "2.1%",
+    "value": 2.135231316725979,
+    "definition": "Hired rows divided by kept LinkedIn-source rows, times 100."
+  },
+  {
+    "quote": "2.3%",
+    "value": 2.28310502283105,
+    "definition": "Hired rows divided by kept Careers page-source rows, times 100."
+  },
+  {
+    "quote": "4.2%",
+    "value": 4.166666666666666,
+    "definition": "Hired rows divided by kept Agency-source rows, times 100."
+  },
+  {
+    "quote": "0",
+    "value": 0.0,
+    "definition": "Count of kept Job board-source rows whose Stage is Hired."
+  },
+  {
+    "quote": "50",
+    "value": 50.0,
+    "definition": "Count of kept rows whose Source is Job board."
+  },
+  {
+    "quote": "2",
+    "value": 2.0,
+    "definition": "Count of kept Engineering Referral rows whose Stage is Hired."
+  },
+  {
+    "quote": "25",
+    "value": 25.0,
+    "definition": "Count of kept rows whose Department is Engineering and Source is Referral."
+  },
+  {
+    "quote": "8.0%",
+    "value": 8.0,
+    "definition": "Hired rows divided by kept Engineering Referral rows, times 100."
+  },
+  {
+    "quote": "5.9%",
+    "value": 5.88235294117647,
+    "definition": "Hired rows divided by kept August-applied rows, times 100."
+  },
+  {
+    "quote": "5.8%",
+    "value": 5.752961082910321,
+    "definition": "Hired rows divided by kept rows applied before 2026-10-01, times 100."
+  },
+  {
+    "quote": "591",
+    "value": 591.0,
+    "definition": "Count of kept rows whose Applied date is before 2026-10-01."
+  },
+  {
+    "quote": "160",
+    "value": 160.0,
+    "definition": "Count of kept rows whose Applied date falls in October 2026 up to the export date."
+  },
+  {
+    "quote": "74",
+    "value": 74.0,
+    "definition": "Count of kept October-applied rows whose Stage is still open."
+  },
+  {
+    "quote": "0",
+    "value": 0.0,
+    "definition": "Count of kept October-applied rows whose Stage is Hired."
+  }
+]

@@ -1,0 +1,57 @@
+PORTFOLIO HEALTH REVIEW
+
+To: Steering committee
+From: PMO lead
+Basis: this week's portfolio status export. The export's as-of date is the reference for every overdue and staleness figure.
+
+Scope and data
+
+- The export lists 24 project rows. They add up to a budget of 3,880,000 and a spend of 3,010,110, which matches the export's Total row exactly, so the rows are complete.
+- I left out 2 archived projects, Intranet refresh and Legacy CMS shutdown. Both are finished and closed, and keeping them would flatter the health figures. That leaves 22 active projects: 4 done and 18 open.
+- I found no duplicate project names, no placeholder rows and no dates after the as-of date. The Total row was not counted as a project, and every calculation below uses the project rows directly.
+
+Headline
+
+- The open portfolio has a budget of 3,340,000 and has spent 2,541,640, a spend rate of 76.1%.
+- Status across the 18 open projects: 9 Green (50.0%) and 3 Red (16.7%), with the rest Amber.
+- 4 open projects are past due, a share of 22.2%. The median is 17 days overdue and the worst is 19 days.
+- 3 open projects have spent more than their budget, a share of 16.7%. Their combined overrun is 62,130.
+- Every finished project closed before its due date, with a median of 1.5 days early.
+- Open projects were last updated a median of 2 days before the as-of date, and at most 4 days before it, so the status is recent.
+
+Schedule slips by department and phase
+
+- The overdue projects all sit in Data, Sales, Finance and IT. Those departments hold 8 open projects, so 50.0% of their open work is overdue. Across the other departments the overdue share is 0.0%.
+- The worst slip is CRM migration at 19 days. Data warehouse, Billing revamp and SSO rollout are also past due.
+- By phase, 3 of 5 Test-phase projects are overdue, a share of 60.0%. None of the 11 Build-phase projects is overdue, a share of 0.0%.
+
+Budget variance
+
+- Over-budget projects are Data warehouse (33,600 over), CRM migration (10,130 over) and Billing revamp (18,400 over).
+- Every over-budget project is also overdue, a share of 100.0%. Every one of them sits in the Test phase, so 60.0% of Test-phase projects are over budget.
+- Spend rates by department: Sales 100.1%, Finance 100.3%, Data 97.9% and IT 89.7%. Sales and Finance have spent more than their budgets while work remains open.
+- Red projects carry a budget of 700,000, have spent 718,950, and show a spend rate of 102.7%.
+- The largest open budget belongs to Warehouse robots pilot, which is 15.6% of open budget, yet only 53.0% of it has been spent.
+- Green open projects have spent an average of 61.8% of their budget, measured per project and then averaged.
+
+Which projects to pause
+
+The rule I propose: pause new spend on any project that is High risk, past due and over budget. Only these projects meet all three tests:
+
+- CRM migration (Omar, Sales, Red): 19 days overdue.
+- Billing revamp (Chris, Finance, Red): 16 days overdue.
+- Data warehouse (Priya, Data, Amber): 16 days overdue.
+
+Together their spend is 106.8% of their budget. Their overrun is the entire portfolio overrun. They account for 38.2% of open spend and 27.2% of open budget.
+
+Keep running, but watch:
+
+- Field sales app (Omar, Sales, Red, High risk) has spent 95.4% of its budget, with 32 days to go. It misses the pause rule only because it is not yet overdue, so the owner should bring a re-plan now.
+- SSO rollout is 18 days overdue but has spent 98.8% of its budget. Close it out rather than pause it.
+- Warehouse robots pilot is High risk, but it is due in 103 days, so it needs a planning check rather than a pause.
+
+Next steps
+
+- Approve a spend freeze on the paused projects until each owner brings a re-baselined plan to the committee. The decision is needed at this meeting, because every week of delay adds spend to projects that are already over budget.
+- Review the 5 open projects due in the next month, a share of 27.8% of open work. Start with Pricing page tests, due in 3 days.
+- Track the 5 High-risk open projects, a share of 27.8%, every week. 3 of them are Red.

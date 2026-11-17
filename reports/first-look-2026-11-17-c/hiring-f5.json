@@ -1,0 +1,357 @@
+[
+ {
+  "quote": "768",
+  "value": 768,
+  "definition": "All data rows in the Candidates sheet below the header row."
+ },
+ {
+  "quote": "12",
+  "value": 12,
+  "definition": "Number of distinct Applied dates (84 consecutive days) divided by seven."
+ },
+ {
+  "quote": "17",
+  "value": 17,
+  "definition": "Rows with Duplicate = Yes."
+ },
+ {
+  "quote": "751",
+  "value": 751,
+  "definition": "All rows minus rows with Duplicate = Yes."
+ },
+ {
+  "quote": "15",
+  "value": 15,
+  "definition": "Rows with Duplicate = Yes whose Stage is Rejected."
+ },
+ {
+  "quote": "34",
+  "value": 34,
+  "definition": "Rows (after removing duplicates) with Stage = Hired."
+ },
+ {
+  "quote": "4.5%",
+  "value": 4.527296937416778,
+  "definition": "Hired rows divided by all 751 de-duplicated rows."
+ },
+ {
+  "quote": "668",
+  "value": 668,
+  "definition": "De-duplicated rows whose Stage is Hired, Rejected or Withdrawn."
+ },
+ {
+  "quote": "5.1%",
+  "value": 5.089820359281437,
+  "definition": "Hired rows divided by de-duplicated rows with a final outcome (Hired, Rejected or Withdrawn)."
+ },
+ {
+  "quote": "70.8%",
+  "value": 70.83888149134488,
+  "definition": "De-duplicated rows with Stage = Rejected divided by all 751 de-duplicated rows."
+ },
+ {
+  "quote": "13.6%",
+  "value": 13.581890812250332,
+  "definition": "De-duplicated rows with Stage = Withdrawn divided by all 751 de-duplicated rows."
+ },
+ {
+  "quote": "83",
+  "value": 83,
+  "definition": "De-duplicated rows whose Stage is Applied, Screen, Interview or Offer."
+ },
+ {
+  "quote": "48",
+  "value": 48,
+  "definition": "De-duplicated rows at Offer, Hired, or with Offer accepted = No."
+ },
+ {
+  "quote": "77.3%",
+  "value": 77.27272727272727,
+  "definition": "Hired rows divided by hired plus Offer accepted = No rows (pending offers excluded)."
+ },
+ {
+  "quote": "367",
+  "value": 367,
+  "definition": "De-duplicated rows with Applied in the first 42 days of the export period; all of them have a final outcome."
+ },
+ {
+  "quote": "6.0%",
+  "value": 5.994550408719346,
+  "definition": "Hired rows divided by all de-duplicated rows that applied in the first 42 days."
+ },
+ {
+  "quote": "6.8%",
+  "value": 6.779661016949152,
+  "definition": "Hired rows divided by de-duplicated rows for the Data Analyst role."
+ },
+ {
+  "quote": "118",
+  "value": 118,
+  "definition": "De-duplicated rows for the Data Analyst role."
+ },
+ {
+  "quote": "5.6%",
+  "value": 5.555555555555555,
+  "definition": "Hired rows divided by de-duplicated rows for the Product Designer role."
+ },
+ {
+  "quote": "108",
+  "value": 108,
+  "definition": "De-duplicated rows for the Product Designer role."
+ },
+ {
+  "quote": "4.4%",
+  "value": 4.430379746835443,
+  "definition": "Hired rows divided by de-duplicated rows for the Account Executive role."
+ },
+ {
+  "quote": "158",
+  "value": 158,
+  "definition": "De-duplicated rows for the Account Executive role."
+ },
+ {
+  "quote": "63.6%",
+  "value": 63.63636363636363,
+  "definition": "Account Executive hired rows divided by Account Executive hired plus Offer accepted = No rows."
+ },
+ {
+  "quote": "4.1%",
+  "value": 4.117647058823529,
+  "definition": "Hired rows divided by de-duplicated rows for the Support Specialist role."
+ },
+ {
+  "quote": "170",
+  "value": 170,
+  "definition": "De-duplicated rows for the Support Specialist role."
+ },
+ {
+  "quote": "197",
+  "value": 197,
+  "definition": "De-duplicated rows for the Backend Engineer role."
+ },
+ {
+  "quote": "3.0%",
+  "value": 3.0456852791878175,
+  "definition": "Hired rows divided by de-duplicated rows for the Backend Engineer role."
+ },
+ {
+  "quote": "60.0%",
+  "value": 60.0,
+  "definition": "Backend Engineer hired rows divided by Backend Engineer hired plus Offer accepted = No rows."
+ },
+ {
+  "quote": "3.7",
+  "value": 3.7339757377613347,
+  "definition": "Data Analyst hire rate minus Backend Engineer hire rate, in percentage points, on de-duplicated rows."
+ },
+ {
+  "quote": "4.7%",
+  "value": 4.705882352941177,
+  "definition": "Lowest role hire rate among de-duplicated rows that applied in the first 42 days (Support Specialist)."
+ },
+ {
+  "quote": "7.8%",
+  "value": 7.8431372549019605,
+  "definition": "Highest role hire rate among de-duplicated rows that applied in the first 42 days (Product Designer)."
+ },
+ {
+  "quote": "105",
+  "value": 105,
+  "definition": "De-duplicated rows with Source = Referral."
+ },
+ {
+  "quote": "14.0%",
+  "value": 13.981358189081226,
+  "definition": "Referral rows divided by all 751 de-duplicated rows."
+ },
+ {
+  "quote": "55.9%",
+  "value": 55.88235294117647,
+  "definition": "Referral hires divided by all hires."
+ },
+ {
+  "quote": "18.1%",
+  "value": 18.095238095238095,
+  "definition": "Hired rows divided by de-duplicated Referral rows."
+ },
+ {
+  "quote": "2.3%",
+  "value": 2.321981424148607,
+  "definition": "Hired rows divided by de-duplicated rows from all sources except Referral."
+ },
+ {
+  "quote": "27.6%",
+  "value": 27.61904761904762,
+  "definition": "Referral rows that reached an offer (Offer, Hired, or Offer accepted = No) divided by Referral rows."
+ },
+ {
+  "quote": "30.8%",
+  "value": 30.76923076923077,
+  "definition": "Hired rows divided by de-duplicated Product Designer rows with Source = Referral."
+ },
+ {
+  "quote": "2.1%",
+  "value": 2.1052631578947367,
+  "definition": "Hired rows divided by de-duplicated Product Designer rows from non-referral sources."
+ },
+ {
+  "quote": "20.8%",
+  "value": 20.833333333333336,
+  "definition": "Hired rows divided by de-duplicated Account Executive rows with Source = Referral."
+ },
+ {
+  "quote": "1.5%",
+  "value": 1.4925373134328357,
+  "definition": "Hired rows divided by de-duplicated Account Executive rows from non-referral sources."
+ },
+ {
+  "quote": "8.0%",
+  "value": 8.0,
+  "definition": "Hired rows divided by de-duplicated Backend Engineer rows with Source = Referral."
+ },
+ {
+  "quote": "8",
+  "value": 8,
+  "definition": "De-duplicated Referral rows with Offer accepted = No."
+ },
+ {
+  "quote": "10",
+  "value": 10,
+  "definition": "De-duplicated rows with Offer accepted = No."
+ },
+ {
+  "quote": "70.4%",
+  "value": 70.37037037037037,
+  "definition": "Referral hired rows divided by Referral hired plus Offer accepted = No rows."
+ },
+ {
+  "quote": "88.2%",
+  "value": 88.23529411764706,
+  "definition": "Non-referral hired rows divided by non-referral hired plus Offer accepted = No rows."
+ },
+ {
+  "quote": "281",
+  "value": 281,
+  "definition": "De-duplicated rows with Source = LinkedIn."
+ },
+ {
+  "quote": "2.1%",
+  "value": 2.135231316725979,
+  "definition": "Hired rows divided by de-duplicated LinkedIn rows."
+ },
+ {
+  "quote": "2.3%",
+  "value": 2.28310502283105,
+  "definition": "Hired rows divided by de-duplicated Careers page rows."
+ },
+ {
+  "quote": "4.2%",
+  "value": 4.166666666666666,
+  "definition": "Hired rows divided by de-duplicated Agency rows."
+ },
+ {
+  "quote": "7.5%",
+  "value": 7.547169811320755,
+  "definition": "Hired rows divided by de-duplicated Agency rows that applied in the first 42 days."
+ },
+ {
+  "quote": "77.1%",
+  "value": 77.08333333333334,
+  "definition": "Rejected rows divided by de-duplicated Agency rows."
+ },
+ {
+  "quote": "50",
+  "value": 50,
+  "definition": "De-duplicated rows with Source = Job board."
+ },
+ {
+  "quote": "6",
+  "value": 6.0,
+  "definition": "Median days from Applied to Stage changed for de-duplicated Rejected rows."
+ },
+ {
+  "quote": "62.0%",
+  "value": 62.03007518796993,
+  "definition": "Share of de-duplicated Rejected rows with 7 or fewer days from Applied to Stage changed."
+ },
+ {
+  "quote": "20.5%",
+  "value": 20.48872180451128,
+  "definition": "Share of de-duplicated Rejected rows with more than 14 days from Applied to Stage changed."
+ },
+ {
+  "quote": "32.7%",
+  "value": 32.72727272727273,
+  "definition": "Share of de-duplicated Referral Rejected rows with more than 14 days from Applied to Stage changed."
+ },
+ {
+  "quote": "27.0%",
+  "value": 27.027027027027028,
+  "definition": "Share of de-duplicated Agency Rejected rows with more than 14 days from Applied to Stage changed."
+ },
+ {
+  "quote": "24",
+  "value": 24.0,
+  "definition": "Median days from Applied to Stage changed for de-duplicated Hired rows."
+ },
+ {
+  "quote": "5",
+  "value": 5.0,
+  "definition": "Median days from Applied to Stage changed for de-duplicated Withdrawn rows without Offer accepted = No."
+ },
+ {
+  "quote": "28",
+  "value": 28.0,
+  "definition": "Median days from Applied to Stage changed for de-duplicated rows with Offer accepted = No."
+ },
+ {
+  "quote": "32",
+  "value": 32,
+  "definition": "De-duplicated rows with Stage = Applied."
+ },
+ {
+  "quote": "27",
+  "value": 27,
+  "definition": "De-duplicated rows with Stage = Screen."
+ },
+ {
+  "quote": "20",
+  "value": 20,
+  "definition": "De-duplicated rows with Stage = Interview."
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "De-duplicated rows with Stage = Offer."
+ },
+ {
+  "quote": "2",
+  "value": 2,
+  "definition": "Median days from Stage changed to the export date (latest date in the file) for de-duplicated open rows."
+ },
+ {
+  "quote": "7",
+  "value": 7,
+  "definition": "De-duplicated open rows with more than 7 days between Stage changed and the export date."
+ },
+ {
+  "quote": "6",
+  "value": 6,
+  "definition": "Of the open rows waiting more than 7 days in stage, those at Interview."
+ },
+ {
+  "quote": "4.5",
+  "value": 4.5,
+  "definition": "Median days in stage (export date minus Stage changed) for de-duplicated Interview rows."
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Of the open rows waiting more than 7 days in stage, those for the Product Designer role."
+ },
+ {
+  "quote": "18",
+  "value": 18,
+  "definition": "De-duplicated open rows with Source = Referral."
+ }
+]

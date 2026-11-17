@@ -1,0 +1,2055 @@
+{
+ "label": "first-look-2026-11-17-c-live-checker",
+ "dir": "reports/first-look-2026-11-17-c",
+ "score": {
+  "reports": 6,
+  "numbers": 415,
+  "match": 175,
+  "other": 11,
+  "differs": 19,
+  "unread": 210,
+  "same": 172,
+  "calc": 1,
+  "off": 2,
+  "none": 0
+ },
+ "planted": {
+  "planted": 1466,
+  "passed": 13,
+  "flagged": 37,
+  "caught": 343,
+  "unread": 1073
+ },
+ "scopes": {
+  "projects-f5": {
+   "minus": [
+    "rows where Phase is Done"
+   ]
+  }
+ },
+ "passed": [
+  "hiring-f5 10 → 1: Count of rows where Role is Backend Engineer and Source is Referral and Stage is Offer, leaving out Duplicate",
+  "orders-f5 3.3% → 3.0%: Order total in rows where Status is Refunded, as a share of Order total in all rows, leaving out Test order",
+  "orders-f5 3.2% → 2.3%: Worked out from the numbers in this text: $98.99 ÷ $4,348.23",
+  "orders-f5 1.2% → 1.1%: Sum of Refund amount divided by sum of Order total, as a percentage, in rows where Channel is Marketplace and Region is South, leaving out Test order",
+  "orders-f5 2.9% → 3.0%: Sum of Refund amount divided by sum of Order total, as a percentage, in rows where Customer type is Returning, leaving out Test order",
+  "projects-f5 3 → 4: Count of rows where Due date is before Oct 18 and Done date is empty, leaving out Archived and rows where Phase is Done",
+  "projects-f5 3 → 4: Count of rows where Due date is before Oct 18 and Done date is empty, leaving out Archived and rows where Phase is Done",
+  "projects-f5 3 → 5: Count of rows where Phase is Test and Done date is empty, leaving out Archived and rows where Phase is Done",
+  "projects-f5 61.8% → 61.9%: Sum of Spend divided by sum of Budget, as a percentage, in rows where Status is Green, leaving out Archived and rows where Phase is Done",
+  "signups-f5 67.6% → 66.7%: Rows where Finished setup is Yes, as a share of rows where Created is Oct 12 to Oct 18 and Plan is Team and Source is Direct and Country is US, leaving out Test account",
+  "tickets-f5 46.9% → 47.0%: Rows where CSAT is filled in, as a share of rows where First response (hours) is filled in, leaving out Spam and Merged duplicate",
+  "tickets-f5 72.1% → 64.9%: Rows where SLA breached is Yes, as a share of rows where Agent is Theo, leaving out Spam and Merged duplicate",
+  "tickets-f5 14.7% → 14.8%: Rows where CSAT is Bad, as a share of rows where CSAT is filled in, leaving out Spam and Merged duplicate"
+ ],
+ "notMatched": [
+  {
+   "name": "ads-f5",
+   "raw": "56",
+   "start": 100,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Distinct dates in the non-test rows."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "48.2%",
+   "start": 289,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Search leads as a percent of all non-test leads."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "35.8%",
+   "start": 307,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Search spend as a percent of total non-test spend."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$40.75",
+   "start": 326,
+   "verdict": "differs",
+   "kind": "ratio",
+   "says": "$44.02: Sum of Clicks divided by sum of Leads in all rows, leaving out Test campaign",
+   "agree": null,
+   "writer": "Search total spend divided by total leads over non-test rows (cost per lead)."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$54.81",
+   "start": 350,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Total spend divided by total leads over all non-test rows (cost per lead)."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$49.01",
+   "start": 972,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Sum of Spend over the test rows (QA – Pixel test), which are excluded."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$70,811.16",
+   "start": 1131,
+   "verdict": "other",
+   "kind": "sum",
+   "how": "Sum of Spend in all rows, counting Test campaign rows too",
+   "says": "$70,762.15: Sum of Spend in all rows, leaving out Test campaign",
+   "agree": null,
+   "writer": "Total spend in the full file if the test rows were not excluded."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "0.1%",
+   "start": 1159,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Test-row spend as a percent of spend in the full file, including the test rows."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "7",
+   "start": 1178,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Non-test rows with zero leads."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$54.81",
+   "start": 1473,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Total spend divided by total leads over all non-test rows (cost per lead)."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "24",
+   "start": 1564,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Median of the daily total leads across the non-test rows, one value per date."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "30.6%",
+   "start": 1665,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Brightline Dental spend as a percent of total non-test spend."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$42.03",
+   "start": 1718,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Brightline Dental total spend divided by total leads over non-test rows (cost per lead)."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "4.5%",
+   "start": 1774,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Brightline Dental leads divided by clicks, times 100, over non-test rows (click-to-lead rate)."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "40.0%",
+   "start": 1878,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Harbor & Pine spend as a percent of total non-test spend."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$71.28",
+   "start": 1909,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Harbor & Pine total spend divided by total leads over non-test rows (cost per lead)."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "29.4%",
+   "start": 2076,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Northfield Bikes spend as a percent of total non-test spend."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "29.4%",
+   "start": 2095,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Northfield Bikes leads as a percent of all non-test leads."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$54.93",
+   "start": 2107,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Northfield Bikes total spend divided by total leads over non-test rows (cost per lead)."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "35.8%",
+   "start": 2260,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Search spend as a percent of total non-test spend."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$40.75",
+   "start": 2283,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Search total spend divided by total leads over non-test rows (cost per lead)."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "32.9%",
+   "start": 2291,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Search rows with three or more leads as a percent of all non-test Search rows."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "43.8%",
+   "start": 2383,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Social spend as a percent of total non-test spend."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$66.20",
+   "start": 2406,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Social total spend divided by total leads over non-test rows (cost per lead)."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "20.4%",
+   "start": 2530,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Display spend as a percent of total non-test spend."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$71.80",
+   "start": 2553,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Display total spend divided by total leads over non-test rows (cost per lead)."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$24.07",
+   "start": 2776,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Harbor & Pine – Brand search: spend divided by leads over non-test rows."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$28.01",
+   "start": 2909,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Northfield – Service booking: spend divided by leads over non-test rows."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$39.75",
+   "start": 2950,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Brightline – Emergency care: spend divided by leads over non-test rows."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$35.58",
+   "start": 2969,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Brightline – Emergency care CPL using only October 1-18 rows."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "15.2%",
+   "start": 2993,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Drop in Brightline – Emergency care CPL from rows before October 1 to October 1-18, as a positive percent of the earlier CPL."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$107.48",
+   "start": 3074,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Harbor & Pine – Lookalike: spend divided by leads over non-test rows."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "6",
+   "start": 3087,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Harbor & Pine – Lookalike rows with zero leads."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$99.99",
+   "start": 3155,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Harbor & Pine – Gift guide: spend divided by leads over non-test rows."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$95.63",
+   "start": 3200,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Harbor & Pine – Fall collection: spend divided by leads over non-test rows."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "17.4%",
+   "start": 3287,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Rise in Harbor & Pine – Fall collection CPL from rows before October 1 to October 1-18, as a positive percent of the earlier CPL."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "13.8%",
+   "start": 3357,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Rise in Brightline – Retargeting CPL from rows before October 1 to October 1-18, as a positive percent of the earlier CPL."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$48.88",
+   "start": 3366,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Brightline – Retargeting CPL using only October 1-18 rows."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$1,263.61",
+   "start": 3452,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Total non-test spend divided by the 56 distinct dates."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$37,908.29",
+   "start": 3477,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Average daily spend times 30, a run-rate for a 30-day month (a projection, not a forecast)."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$12,780.97",
+   "start": 3860,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Sum of Spend for Harbor & Pine – Lookalike and Gift guide over non-test rows."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "18.1%",
+   "start": 3872,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Harbor & Pine Lookalike plus Gift guide spend as a percent of total non-test spend."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "$103.07",
+   "start": 3895,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Harbor & Pine Lookalike plus Gift guide combined spend divided by combined leads (cost per lead)."
+  },
+  {
+   "name": "ads-f5",
+   "raw": "18",
+   "start": 4346,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Distinct dates from October 1 through the last date in the export."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "768",
+   "start": 139,
+   "verdict": "other",
+   "kind": "count",
+   "how": "Count of all rows, counting Duplicate rows too",
+   "says": "751: Count of all rows, leaving out Duplicate",
+   "agree": null,
+   "writer": "All data rows in the Candidates sheet below the header row."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "15",
+   "start": 331,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Rows with Duplicate = Yes whose Stage is Rejected."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "668",
+   "start": 1278,
+   "verdict": "differs",
+   "kind": "distinct",
+   "says": "751: Different values of Candidate ID in all rows, leaving out Duplicate",
+   "agree": null,
+   "writer": "De-duplicated rows whose Stage is Hired, Rejected or Withdrawn."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "5.1%",
+   "start": 1321,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Hired rows divided by de-duplicated rows with a final outcome (Hired, Rejected or Withdrawn)."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "83",
+   "start": 1392,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "De-duplicated rows whose Stage is Applied, Screen, Interview or Offer."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "48",
+   "start": 1421,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "De-duplicated rows at Offer, Hired, or with Offer accepted = No."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "367",
+   "start": 1630,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "De-duplicated rows with Applied in the first 42 days of the export period; all of them have a final outcome."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "6.0%",
+   "start": 1663,
+   "verdict": "differs",
+   "kind": "share",
+   "says": "4.5%: Rows where Stage is Hired, as a share of all rows, leaving out Duplicate",
+   "agree": null,
+   "writer": "Hired rows divided by all de-duplicated rows that applied in the first 42 days."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "63.6%",
+   "start": 1936,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Account Executive hired rows divided by Account Executive hired plus Offer accepted = No rows."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "60.0%",
+   "start": 2096,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Backend Engineer hired rows divided by Backend Engineer hired plus Offer accepted = No rows."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "3.7",
+   "start": 2173,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Data Analyst hire rate minus Backend Engineer hire rate, in percentage points, on de-duplicated rows."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "4.7%",
+   "start": 2249,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Lowest role hire rate among de-duplicated rows that applied in the first 42 days (Support Specialist)."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "7.8%",
+   "start": 2258,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Highest role hire rate among de-duplicated rows that applied in the first 42 days (Product Designer)."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "18.1%",
+   "start": 2432,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Hired rows divided by de-duplicated Referral rows."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "2.3%",
+   "start": 2447,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Hired rows divided by de-duplicated rows from all sources except Referral."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "27.6%",
+   "start": 2489,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Referral rows that reached an offer (Offer, Hired, or Offer accepted = No) divided by Referral rows."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "2.1%",
+   "start": 2625,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Hired rows divided by de-duplicated Product Designer rows from non-referral sources."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "1.5%",
+   "start": 2695,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Hired rows divided by de-duplicated Account Executive rows from non-referral sources."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "8",
+   "start": 2808,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "De-duplicated Referral rows with Offer accepted = No."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "10",
+   "start": 2817,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "De-duplicated rows with Offer accepted = No."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "70.4%",
+   "start": 2866,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Referral hired rows divided by Referral hired plus Offer accepted = No rows."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "88.2%",
+   "start": 2881,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Non-referral hired rows divided by non-referral hired plus Offer accepted = No rows."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "2.1%",
+   "start": 2973,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Hired rows divided by de-duplicated LinkedIn rows."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "2.3%",
+   "start": 3010,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Hired rows divided by de-duplicated Careers page rows."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "4.2%",
+   "start": 3047,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Hired rows divided by de-duplicated Agency rows."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "7.5%",
+   "start": 3064,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Hired rows divided by de-duplicated Agency rows that applied in the first 42 days."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "6",
+   "start": 3317,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Median days from Applied to Stage changed for de-duplicated Rejected rows."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "62.0%",
+   "start": 3355,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of de-duplicated Rejected rows with 7 or fewer days from Applied to Stage changed."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "20.5%",
+   "start": 3387,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of de-duplicated Rejected rows with more than 14 days from Applied to Stage changed."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "32.7%",
+   "start": 3478,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of de-duplicated Referral Rejected rows with more than 14 days from Applied to Stage changed."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "27.0%",
+   "start": 3510,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of de-duplicated Agency Rejected rows with more than 14 days from Applied to Stage changed."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "24",
+   "start": 3627,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Median days from Applied to Stage changed for de-duplicated Hired rows."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "5",
+   "start": 3758,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Median days from Applied to Stage changed for de-duplicated Withdrawn rows without Offer accepted = No."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "28",
+   "start": 3799,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Median days from Applied to Stage changed for de-duplicated rows with Offer accepted = No."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "7",
+   "start": 4088,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "De-duplicated open rows with more than 7 days between Stage changed and the export date."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "6",
+   "start": 4155,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Of the open rows waiting more than 7 days in stage, those at Interview."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "4.5",
+   "start": 4216,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Median days in stage (export date minus Stage changed) for de-duplicated Interview rows."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "4",
+   "start": 4256,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Of the open rows waiting more than 7 days in stage, those for the Product Designer role."
+  },
+  {
+   "name": "hiring-f5",
+   "raw": "18",
+   "start": 4328,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "De-duplicated open rows with Source = Referral."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "1,381",
+   "start": 490,
+   "verdict": "other",
+   "kind": "count",
+   "how": "Count of rows where Order date is Oct 1 to Oct 18, counting Test order rows too",
+   "says": "1,377: Count of rows where Order date is Oct 1 to Oct 18, leaving out Test order",
+   "agree": null,
+   "writer": "Order rows in the export excluding the blank and Total lines."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "80",
+   "start": 1166,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Refunded plus cancelled orders."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "5.8%",
+   "start": 1177,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Refunded plus cancelled orders divided by analysed orders."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "3.0%",
+   "start": 1229,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Total refund amount divided by total order value."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "5.5%",
+   "start": 1446,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Refunded Marketplace orders divided by Marketplace orders."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "30.5%",
+   "start": 1556,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Marketplace orders divided by all analysed orders."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "2.4%",
+   "start": 1592,
+   "verdict": "differs",
+   "kind": "ratio",
+   "says": "3.0%: Sum of Refund amount divided by sum of Order total, as a percentage, in all rows, leaving out Test order",
+   "agree": null,
+   "writer": "Refunded Web orders divided by Web orders."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "2.5%",
+   "start": 1610,
+   "verdict": "match",
+   "kind": "share",
+   "how": "Rows where Status is Cancelled, as a share of all rows, leaving out Test order",
+   "agree": "off",
+   "writer": "Cancelled Web orders divided by Web orders."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "1.8%",
+   "start": 1699,
+   "verdict": "differs",
+   "kind": "ratio",
+   "says": "3.0%: Sum of Refund amount divided by sum of Order total, as a percentage, in all rows, leaving out Test order | 3.3%: Rows where Status is Refunded, as a share of all rows, leaving out Test order",
+   "agree": null,
+   "writer": "Refunded Wholesale orders divided by Wholesale orders."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "7.5%",
+   "start": 2028,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Refunded plus cancelled West orders divided by West orders."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "6.2%",
+   "start": 2039,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Refunded plus cancelled East orders divided by East orders."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "5.4%",
+   "start": 2051,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Refunded plus cancelled North orders divided by North orders."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "4.2%",
+   "start": 2063,
+   "verdict": "differs",
+   "kind": "ratio",
+   "says": "3.0%: Sum of Refund amount divided by sum of Order total, as a percentage, in all rows, leaving out Test order",
+   "agree": null,
+   "writer": "Refunded plus cancelled South orders divided by South orders."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "7.4%",
+   "start": 2281,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Refunded orders among Marketplace orders in North or West (17 of 229)."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "$1,464.59",
+   "start": 2318,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Refund amount summed over Marketplace orders in North or West."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "36.3%",
+   "start": 2338,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Refund amount for Marketplace North and West divided by total refund amount."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "7.5%",
+   "start": 2486,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Refunded plus cancelled Web West orders divided by Web West orders (14 of 186)."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "4.3%",
+   "start": 2541,
+   "verdict": "differs",
+   "kind": "share",
+   "says": "2.5%: Rows where Status is Cancelled, as a share of all rows, leaving out Test order",
+   "agree": null,
+   "writer": "Cancelled Web West orders divided by Web West orders (8 of 186)."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "8.8%",
+   "start": 2637,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Refunded plus cancelled orders among new-customer Marketplace orders."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "6.8%",
+   "start": 2678,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Refunded plus cancelled orders among returning-customer Marketplace orders."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "1.6%",
+   "start": 2713,
+   "verdict": "differs",
+   "kind": "ratio",
+   "says": "2.9%: Sum of Refund amount divided by sum of Order total, as a percentage, in rows where Customer type is New, leaving out Test order | 3.0%: Sum of Refund amount divided by sum of Order total, as a percentage, in all rows, leaving out Test order",
+   "agree": null,
+   "writer": "Refunded among new-customer Web orders."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "2.9%",
+   "start": 2744,
+   "verdict": "differs",
+   "kind": "ratio",
+   "says": "3.0%: Sum of Refund amount divided by sum of Order total, as a percentage, in rows where Customer type is Returning, leaving out Test order",
+   "agree": null,
+   "writer": "Refunded among returning-customer Web orders."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "5.9%",
+   "start": 2805,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Cancelled among new-customer Wholesale orders (3 of 51)."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "353",
+   "start": 2882,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Analysed orders with one item."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "25.6%",
+   "start": 2896,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "One-item orders divided by all analysed orders."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "31.1%",
+   "start": 2916,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Refunded one-item orders divided by all refunded orders (14 of 45)."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "4.0%",
+   "start": 2963,
+   "verdict": "differs",
+   "kind": "share",
+   "says": "3.3%: Rows where Status is Refunded, as a share of all rows, leaving out Test order | 3.0%: Sum of Refund amount divided by sum of Order total, as a percentage, in all rows, leaving out Test order",
+   "agree": null,
+   "writer": "Refunded among one-item orders."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "$32.73",
+   "start": 2998,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Mean Order total for one-item orders."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "4.0%",
+   "start": 3103,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Cancelled among two-item orders (12 of 300)."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "1.6%",
+   "start": 3117,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Cancelled among four-item orders (5 of 309)."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "683",
+   "start": 3189,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Analysed orders dated in the first nine days of the month."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "4.7%",
+   "start": 3205,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Refunded among orders in the first nine days."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "7.6%",
+   "start": 3223,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Refunded plus cancelled among orders in the first nine days."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "694",
+   "start": 3284,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Analysed orders dated in the last nine days of the data."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "1.9%",
+   "start": 3301,
+   "verdict": "differs",
+   "kind": "ratio",
+   "says": "3.0%: Sum of Refund amount divided by sum of Order total, as a percentage, in all rows, leaving out Test order | 3.3%: Rows where Status is Refunded, as a share of all rows, leaving out Test order",
+   "agree": null,
+   "writer": "Refunded among orders in the last nine days."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "4.0%",
+   "start": 3319,
+   "verdict": "differs",
+   "kind": "share",
+   "says": "3.3%: Rows where Status is Refunded, as a share of all rows, leaving out Test order | 3.0%: Sum of Refund amount divided by sum of Order total, as a percentage, in all rows, leaving out Test order",
+   "agree": null,
+   "writer": "Refunded plus cancelled among orders in the last nine days."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "308",
+   "start": 3401,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Analysed orders dated in the final four days."
+  },
+  {
+   "name": "orders-f5",
+   "raw": "0.7%",
+   "start": 3419,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Refunded among orders in the final four days (2 of 308)."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "24",
+   "start": 224,
+   "verdict": "other",
+   "kind": "count",
+   "how": "Count of all rows, counting Archived rows too",
+   "agree": null,
+   "writer": "Count of project rows in the export, excluding the Total row."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "3,880,000",
+   "start": 268,
+   "verdict": "other",
+   "kind": "sum",
+   "how": "Sum of Budget in all rows, counting Archived rows too",
+   "agree": null,
+   "writer": "Sum of the Budget column over all 24 project rows, equal to the export Total row (the Total row value itself)."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "3,010,110",
+   "start": 293,
+   "verdict": "other",
+   "kind": "sum",
+   "how": "Sum of Spend in all rows, counting Archived rows too",
+   "agree": null,
+   "writer": "Sum of the Spend column over all 24 project rows, equal to the export Total row (the Total row value itself)."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "22",
+   "start": 545,
+   "verdict": "other",
+   "kind": "distinct",
+   "how": "Different values of Project in all rows, leaving out Archived",
+   "says": "18: Different values of Project in all rows, leaving out Archived and rows where Phase is Done",
+   "agree": null,
+   "writer": "Count of rows with Archived equal to No (the active review set)."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "18",
+   "start": 576,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Count of active rows with no Done date."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "17",
+   "start": 1046,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Median days past due (as-of date minus Due date) over the overdue open active projects."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "19",
+   "start": 1079,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Maximum days past due over the overdue open active projects."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "3",
+   "start": 1090,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Count of active projects with Spend greater than Budget (all are open)."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "16.7%",
+   "start": 1152,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Open active projects with Spend greater than Budget, divided by all open active projects, times 100."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "62,130",
+   "start": 1185,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Sum of (Spend minus Budget) over the active projects where Spend exceeds Budget."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "1.5",
+   "start": 1263,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Median days by which finished active projects closed before their Due date, computed as Due date minus Done date."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "2",
+   "start": 1325,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Median days between the Last update date and the as-of date over the open active projects."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "4",
+   "start": 1367,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Maximum days between the Last update date and the as-of date over the open active projects."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "8",
+   "start": 1537,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Count of open active projects in the Data, Sales, Finance and IT departments."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "50.0%",
+   "start": 1557,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Overdue open projects divided by open projects, both restricted to Data, Sales, Finance and IT, times 100."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "0.0%",
+   "start": 1644,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Overdue open projects divided by open projects, both restricted to departments other than Data, Sales, Finance and IT, times 100."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "19",
+   "start": 1687,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Days past due (as-of date minus Due date) for the CRM migration project."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "0.0%",
+   "start": 1891,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Overdue Build-phase projects divided by all active Build-phase projects, times 100."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "33,600",
+   "start": 1958,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Spend minus Budget for the Data warehouse project."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "10,130",
+   "start": 1987,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Spend minus Budget for the CRM migration project."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "18,400",
+   "start": 2020,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Spend minus Budget for the Billing revamp project."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "100.0%",
+   "start": 2090,
+   "verdict": "differs",
+   "kind": "ratio",
+   "says": "94.1%: Sum of Budget divided by sum of Spend, as a percentage, in rows where Due date is before Oct 18 and Done date is empty, leaving out Archived and rows where Phase is Done",
+   "agree": null,
+   "writer": "Over-budget active projects that are also overdue, divided by all over-budget active projects, times 100."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "718,950",
+   "start": 2404,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Sum of Spend over open active projects with Status Red."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "102.7%",
+   "start": 2438,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Spend divided by Budget over open active projects with Status Red, times 100."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "61.8%",
+   "start": 2622,
+   "verdict": "differs",
+   "kind": "ratio",
+   "says": "61.9%: Sum of Spend divided by sum of Budget, as a percentage, in rows where Status is Green, leaving out Archived and rows where Phase is Done",
+   "agree": null,
+   "writer": "Mean of the per-project Spend-to-Budget percentages over open active projects with Status Green."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "19",
+   "start": 2886,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Days past due (as-of date minus Due date) for the CRM migration project."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "16",
+   "start": 2943,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Days past due (as-of date minus Due date) for the Billing revamp project."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "16",
+   "start": 2999,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Days past due (as-of date minus Due date) for the Data warehouse project."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "106.8%",
+   "start": 3041,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Pause-rule projects total Spend divided by total Budget, times 100."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "38.2%",
+   "start": 3129,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Pause-rule projects total Spend divided by open active Spend, times 100."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "27.2%",
+   "start": 3153,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Pause-rule projects total Budget divided by open active Budget, times 100."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "32",
+   "start": 3286,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Days from the as-of date to the Field sales app Due date."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "18",
+   "start": 3420,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Days past due (as-of date minus Due date) for the SSO rollout project."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "98.8%",
+   "start": 3450,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Spend divided by Budget for the SSO rollout project, times 100."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "5",
+   "start": 3879,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Count of open active projects with a Due date within 30 days after the as-of date."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "27.8%",
+   "start": 3929,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Open active projects due within 30 days, divided by all open active projects, times 100."
+  },
+  {
+   "name": "projects-f5",
+   "raw": "3",
+   "start": 4064,
+   "verdict": "match",
+   "kind": "count",
+   "how": "Count of rows where Status is Red, leaving out Archived and rows where Phase is Done",
+   "agree": "off",
+   "writer": "Days from the as-of date to the Warehouse robots pilot Due date."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "321",
+   "start": 348,
+   "verdict": "other",
+   "kind": "count",
+   "how": "Count of rows where Created is Oct 12 to Oct 18, counting Test account rows too",
+   "says": "317: Count of rows where Created is Oct 12 to Oct 18, leaving out Test account",
+   "agree": null,
+   "writer": "Count of all data rows in the export before any exclusion."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "71.1%",
+   "start": 598,
+   "verdict": "other",
+   "kind": "share",
+   "how": "Rows where Finished setup is Yes, as a share of rows where Created is Oct 12 to Oct 18 and Plan is Team, counting Test account rows too",
+   "says": "67.6%: Rows where Finished setup is Yes, as a share of rows where Created is Oct 12 to Oct 18 and Plan is Team, leaving out Test account",
+   "agree": null,
+   "writer": "Activation rate (Finished setup = Yes) among all Team-plan rows including the 4 test rows (27 of 38)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "137",
+   "start": 1010,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Count of activated rows (Finished setup = Yes) of the 317 signups left after removing the 4 rows flagged Test account = Yes."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "43.2%",
+   "start": 1052,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activated rows divided by all 317 clean signups (137 of 317)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "118",
+   "start": 1061,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Count of the 317 signups left after removing the 4 rows flagged Test account = Yes whose plan is Starter or Team."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "53.4%",
+   "start": 1126,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean Starter or Team signups (63 of 118)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "37.2%",
+   "start": 1141,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean Free-plan signups (74 of 199)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "63",
+   "start": 1172,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Count of clean signups on Starter or Team with Finished setup = Yes."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "42.9%",
+   "start": 1291,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean Organic search signups (42 of 98)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "46.9%",
+   "start": 1335,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean Paid search signups (38 of 81)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "43.3%",
+   "start": 1398,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean Direct signups (26 of 60)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "43.4%",
+   "start": 1439,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean Referral signups (23 of 53)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "45.3%",
+   "start": 1505,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of clean Referral signups that chose Starter or Team (24 of 53)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "32.0%",
+   "start": 1543,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean Partner signups (8 of 25)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "19.0%",
+   "start": 1689,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean Referral signups from the US (4 of 21)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "59.4%",
+   "start": 1768,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean Referral signups from countries other than the US (19 of 32)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "32",
+   "start": 1781,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Count of clean Referral signups with Country other than US."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "43.5%",
+   "start": 1893,
+   "verdict": "differs",
+   "kind": "share",
+   "says": "44.5%: Rows where Country is US, as a share of all rows, leaving out Test account",
+   "agree": null,
+   "writer": "Activation rate among clean Paid search signups from the US (20 of 46)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "51.4%",
+   "start": 1906,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean Paid search signups from outside the US (18 of 35)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "47.6%",
+   "start": 2010,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean Starter signups (40 of 84)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "67.6%",
+   "start": 2047,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean Team signups (23 of 34), repeated from the exclusions section."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "85.7%",
+   "start": 2141,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean signups with Source = Organic search and Plan = Team (6 of 7)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "83.3%",
+   "start": 2168,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean signups with Source = Referral and Plan = Team (5 of 6)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "25.0%",
+   "start": 2200,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean signups with Source = Partner and Plan = Team (1 of 4)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "69.2%",
+   "start": 2278,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean signups with Source = Direct and Plan = Starter (9 of 13)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "30.8%",
+   "start": 2310,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean signups with Source = Direct and Plan = Free (12 of 39), the lowest Free rate of any source."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "57",
+   "start": 2392,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Count of clean signups created on Monday."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "55",
+   "start": 2404,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Count of clean signups created on Tuesday."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "50",
+   "start": 2418,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Count of clean signups created on Wednesday."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "50",
+   "start": 2431,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Count of clean signups created on Thursday."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "54",
+   "start": 2442,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Count of clean signups created on Friday."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "23",
+   "start": 2455,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Count of clean signups created on Saturday."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "28",
+   "start": 2466,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Count of clean signups created on Sunday."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "53.2",
+   "start": 2490,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Clean signups created Monday to Friday divided by 5 days (266 / 5)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "25.5",
+   "start": 2517,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Clean signups created Saturday and Sunday divided by 2 days (51 / 2)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "42.9%",
+   "start": 2640,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean signups created Monday to Friday (114 of 266)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "38.9%",
+   "start": 2698,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean signups created on Friday (21 of 54), the lowest weekday."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "46.0%",
+   "start": 2727,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean signups created on Wednesday (23 of 50), the highest weekday."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "45.1%",
+   "start": 2806,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean signups created Saturday or Sunday (23 of 51)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "47.1%",
+   "start": 2817,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of clean Saturday and Sunday signups that chose Starter or Team (24 of 51)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "35.3%",
+   "start": 2867,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of clean Monday to Friday signups that chose Starter or Team (94 of 266)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "58.8%",
+   "start": 3004,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean Paid search signups created on Monday (10 of 17)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "2",
+   "start": 3030,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Count of clean Paid search signups created on Friday with Finished setup = Yes."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "11",
+   "start": 3035,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Count of clean Paid search signups created on Friday."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "40.4%",
+   "start": 3218,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean US signups (57 of 141)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "33.0%",
+   "start": 3275,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean US signups on the Free plan (30 of 91)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "27",
+   "start": 3304,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Count of clean US signups on Starter or Team with Finished setup = Yes."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "75.0%",
+   "start": 3393,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean US signups on the Team plan (12 of 16)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "58.6%",
+   "start": 3464,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean signups with Country = DE (17 of 29)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "63.6%",
+   "start": 3512,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean Canadian signups on Starter or Team (7 of 11)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "74",
+   "start": 3625,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Count of clean signups with Country = DE, CA or AU."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "52.7%",
+   "start": 3639,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean signups from DE, CA or AU combined (39 of 74)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "60.7%",
+   "start": 3698,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean DE, CA or AU signups on Starter or Team (17 of 28)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "45.5%",
+   "start": 3736,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean signups with Country = FR (15 of 33)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "39.1%",
+   "start": 3813,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean signups with Country = UK (18 of 46)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "34.8%",
+   "start": 3863,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Activation rate among clean signups with Country = KR (8 of 23)."
+  },
+  {
+   "name": "signups-f5",
+   "raw": "52.2%",
+   "start": 3926,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Share of clean Korean signups that chose Starter or Team (12 of 23), the highest of any country."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "2,558",
+   "start": 151,
+   "verdict": "other",
+   "kind": "count",
+   "how": "Count of all rows, counting Spam and Merged duplicate rows too",
+   "says": "2,434: Count of all rows, leaving out Spam and Merged duplicate",
+   "agree": null,
+   "writer": "Total data rows in the export."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "31.2%",
+   "start": 783,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Bad share among Theo's kept rows with CSAT."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "10.5%",
+   "start": 826,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Bad share among Maya's kept rows with CSAT."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "11.2%",
+   "start": 870,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Bad share among Jonah's kept rows with CSAT."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "10.1%",
+   "start": 1000,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Bad share among Hana's kept rows with CSAT."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "24.9%",
+   "start": 1077,
+   "verdict": "differs",
+   "kind": "share",
+   "says": "27.0%: Rows where Agent is Theo, as a share of rows where SLA breached is Yes, leaving out Spam and Merged duplicate",
+   "agree": null,
+   "writer": "Breach rate among kept rows of the five other agents."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "12.1%",
+   "start": 1099,
+   "verdict": "differs",
+   "kind": "share",
+   "says": "14.8%: Rows where CSAT is Bad, as a share of rows where CSAT is filled in, leaving out Spam and Merged duplicate",
+   "agree": null,
+   "writer": "Bad share among kept rows with CSAT of the five other agents."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "6.0",
+   "start": 1199,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Median first response hours, five other agents."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "35.4%",
+   "start": 1299,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Other agents breach rate, Normal priority."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "10.9%",
+   "start": 1373,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Other agents Bad share, Normal rows with CSAT."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "0",
+   "start": 1477,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Other agents Low rows breached."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "455",
+   "start": 1482,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Other agents Low rows."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "0.0%",
+   "start": 1487,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Other agents breach rate, Low priority (0 breaches)."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "23.3%",
+   "start": 1871,
+   "verdict": "differs",
+   "kind": "share",
+   "says": "28.6%: Rows where SLA breached is Yes, as a share of rows where Channel is Chat, leaving out Spam and Merged duplicate | 29.8%: Rows where SLA breached is Yes, as a share of all rows, leaving out Spam and Merged duplicate",
+   "agree": null,
+   "writer": "Breach rate, Chat rows excluding Theo."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "14.0%",
+   "start": 1907,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Bad share, Chat rows with CSAT, excluding Theo."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "22.2%",
+   "start": 2177,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Bad share among kept Urgent rows with CSAT."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "35.4%",
+   "start": 2462,
+   "verdict": "differs",
+   "kind": "share",
+   "says": "40.0%: Rows where SLA breached is Yes, as a share of rows where Priority is Normal, leaving out Spam and Merged duplicate | 29.8%: Rows where SLA breached is Yes, as a share of all rows, leaving out Spam and Merged duplicate",
+   "agree": null,
+   "writer": "dup of othnormal"
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "22.2%",
+   "start": 2598,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Bad share among kept Urgent rows with CSAT."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "20.4%",
+   "start": 2616,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Bad share, Urgent rows with CSAT excluding Theo."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "64.7%",
+   "start": 2727,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "SLA breach rate among Theo's kept Urgent rows."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "17",
+   "start": 2740,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Kept Urgent rows for Theo."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "19.0%",
+   "start": 3039,
+   "verdict": "other",
+   "kind": "share",
+   "how": "Rows where CSAT is Bad, as a share of rows where SLA breached is Yes and CSAT is filled in, leaving out Spam and Merged duplicate",
+   "says": "14.8%: Rows where CSAT is Bad, as a share of rows where CSAT is filled in, leaving out Spam and Merged duplicate",
+   "agree": null,
+   "writer": "Bad share among breached kept rows with CSAT."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "12.9%",
+   "start": 3068,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Bad share among non-breached kept rows with CSAT."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "285",
+   "start": 3183,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Kept rows with no Closed date (Open or Pending)."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "3.8",
+   "start": 3291,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Mean days from Opened to Closed over kept rows with a Closed date."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "22.2%",
+   "start": 3954,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Priya Bad share among Phone rows with CSAT."
+  },
+  {
+   "name": "tickets-f5",
+   "raw": "27",
+   "start": 3967,
+   "verdict": "unread",
+   "agree": null,
+   "writer": "Priya Phone rows with CSAT."
+  }
+ ]
+}

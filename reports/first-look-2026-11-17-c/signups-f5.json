@@ -1,0 +1,367 @@
+[
+  {
+    "quote": "321",
+    "value": 321,
+    "definition": "Count of all data rows in the export before any exclusion."
+  },
+  {
+    "quote": "4",
+    "value": 4,
+    "definition": "Count of rows where Test account = Yes (all on the internal.test domain)."
+  },
+  {
+    "quote": "71.1%",
+    "value": 71.05263157894737,
+    "definition": "Activation rate (Finished setup = Yes) among all Team-plan rows including the 4 test rows (27 of 38)."
+  },
+  {
+    "quote": "67.6%",
+    "value": 67.6470588235294,
+    "definition": "Activation rate among Team-plan signups after removing test rows (23 of 34)."
+  },
+  {
+    "quote": "317",
+    "value": 317,
+    "definition": "Count of rows left after removing the 4 test-account rows."
+  },
+  {
+    "quote": "137",
+    "value": 137,
+    "definition": "Count of activated rows (Finished setup = Yes) of the 317 signups left after removing the 4 rows flagged Test account = Yes."
+  },
+  {
+    "quote": "43.2%",
+    "value": 43.217665615141954,
+    "definition": "Activated rows divided by all 317 clean signups (137 of 317)."
+  },
+  {
+    "quote": "118",
+    "value": 118,
+    "definition": "Count of the 317 signups left after removing the 4 rows flagged Test account = Yes whose plan is Starter or Team."
+  },
+  {
+    "quote": "53.4%",
+    "value": 53.389830508474574,
+    "definition": "Activation rate among clean Starter or Team signups (63 of 118)."
+  },
+  {
+    "quote": "37.2%",
+    "value": 37.185929648241206,
+    "definition": "Activation rate among clean Free-plan signups (74 of 199)."
+  },
+  {
+    "quote": "63",
+    "value": 63,
+    "definition": "Count of clean signups on Starter or Team with Finished setup = Yes."
+  },
+  {
+    "quote": "98",
+    "value": 98,
+    "definition": "Count of clean signups with Source = Organic search."
+  },
+  {
+    "quote": "42.9%",
+    "value": 42.857142857142854,
+    "definition": "Activation rate among clean Organic search signups (42 of 98)."
+  },
+  {
+    "quote": "81",
+    "value": 81,
+    "definition": "Count of clean signups with Source = Paid search."
+  },
+  {
+    "quote": "46.9%",
+    "value": 46.91358024691358,
+    "definition": "Activation rate among clean Paid search signups (38 of 81)."
+  },
+  {
+    "quote": "60",
+    "value": 60,
+    "definition": "Count of clean signups with Source = Direct (test rows excluded)."
+  },
+  {
+    "quote": "43.3%",
+    "value": 43.333333333333336,
+    "definition": "Activation rate among clean Direct signups (26 of 60)."
+  },
+  {
+    "quote": "53",
+    "value": 53,
+    "definition": "Count of clean signups with Source = Referral."
+  },
+  {
+    "quote": "43.4%",
+    "value": 43.39622641509434,
+    "definition": "Activation rate among clean Referral signups (23 of 53)."
+  },
+  {
+    "quote": "45.3%",
+    "value": 45.283018867924525,
+    "definition": "Share of clean Referral signups that chose Starter or Team (24 of 53)."
+  },
+  {
+    "quote": "25",
+    "value": 25,
+    "definition": "Count of clean signups with Source = Partner."
+  },
+  {
+    "quote": "32.0%",
+    "value": 32.0,
+    "definition": "Activation rate among clean Partner signups (8 of 25)."
+  },
+  {
+    "quote": "19.0%",
+    "value": 19.047619047619047,
+    "definition": "Activation rate among clean Referral signups from the US (4 of 21)."
+  },
+  {
+    "quote": "21",
+    "value": 21,
+    "definition": "Count of clean Referral signups with Country = US."
+  },
+  {
+    "quote": "59.4%",
+    "value": 59.375,
+    "definition": "Activation rate among clean Referral signups from countries other than the US (19 of 32)."
+  },
+  {
+    "quote": "32",
+    "value": 32,
+    "definition": "Count of clean Referral signups with Country other than US."
+  },
+  {
+    "quote": "56.8%",
+    "value": 56.79012345679013,
+    "definition": "Share of clean Paid search signups with Country = US (46 of 81)."
+  },
+  {
+    "quote": "43.5%",
+    "value": 43.47826086956522,
+    "definition": "Activation rate among clean Paid search signups from the US (20 of 46)."
+  },
+  {
+    "quote": "51.4%",
+    "value": 51.42857142857143,
+    "definition": "Activation rate among clean Paid search signups from outside the US (18 of 35)."
+  },
+  {
+    "quote": "199",
+    "value": 199,
+    "definition": "Count of clean signups on the Free plan."
+  },
+  {
+    "quote": "84",
+    "value": 84,
+    "definition": "Count of clean signups on the Starter plan."
+  },
+  {
+    "quote": "47.6%",
+    "value": 47.61904761904762,
+    "definition": "Activation rate among clean Starter signups (40 of 84)."
+  },
+  {
+    "quote": "34",
+    "value": 34,
+    "definition": "Count of clean signups on the Team plan."
+  },
+  {
+    "quote": "67.6%",
+    "value": 67.6470588235294,
+    "definition": "Activation rate among clean Team signups (23 of 34), repeated from the exclusions section."
+  },
+  {
+    "quote": "85.7%",
+    "value": 85.71428571428571,
+    "definition": "Activation rate among clean signups with Source = Organic search and Plan = Team (6 of 7)."
+  },
+  {
+    "quote": "83.3%",
+    "value": 83.33333333333333,
+    "definition": "Activation rate among clean signups with Source = Referral and Plan = Team (5 of 6)."
+  },
+  {
+    "quote": "25.0%",
+    "value": 25.0,
+    "definition": "Activation rate among clean signups with Source = Partner and Plan = Team (1 of 4)."
+  },
+  {
+    "quote": "69.2%",
+    "value": 69.23076923076923,
+    "definition": "Activation rate among clean signups with Source = Direct and Plan = Starter (9 of 13)."
+  },
+  {
+    "quote": "30.8%",
+    "value": 30.76923076923077,
+    "definition": "Activation rate among clean signups with Source = Direct and Plan = Free (12 of 39), the lowest Free rate of any source."
+  },
+  {
+    "quote": "57",
+    "value": 57,
+    "definition": "Count of clean signups created on Monday."
+  },
+  {
+    "quote": "55",
+    "value": 55,
+    "definition": "Count of clean signups created on Tuesday."
+  },
+  {
+    "quote": "50",
+    "value": 50,
+    "definition": "Count of clean signups created on Wednesday."
+  },
+  {
+    "quote": "50",
+    "value": 50,
+    "definition": "Count of clean signups created on Thursday."
+  },
+  {
+    "quote": "54",
+    "value": 54,
+    "definition": "Count of clean signups created on Friday."
+  },
+  {
+    "quote": "23",
+    "value": 23,
+    "definition": "Count of clean signups created on Saturday."
+  },
+  {
+    "quote": "28",
+    "value": 28,
+    "definition": "Count of clean signups created on Sunday."
+  },
+  {
+    "quote": "53.2",
+    "value": 53.2,
+    "definition": "Clean signups created Monday to Friday divided by 5 days (266 / 5)."
+  },
+  {
+    "quote": "25.5",
+    "value": 25.5,
+    "definition": "Clean signups created Saturday and Sunday divided by 2 days (51 / 2)."
+  },
+  {
+    "quote": "42.9%",
+    "value": 42.857142857142854,
+    "definition": "Activation rate among clean signups created Monday to Friday (114 of 266)."
+  },
+  {
+    "quote": "38.9%",
+    "value": 38.888888888888886,
+    "definition": "Activation rate among clean signups created on Friday (21 of 54), the lowest weekday."
+  },
+  {
+    "quote": "46.0%",
+    "value": 46.0,
+    "definition": "Activation rate among clean signups created on Wednesday (23 of 50), the highest weekday."
+  },
+  {
+    "quote": "45.1%",
+    "value": 45.09803921568628,
+    "definition": "Activation rate among clean signups created Saturday or Sunday (23 of 51)."
+  },
+  {
+    "quote": "47.1%",
+    "value": 47.05882352941177,
+    "definition": "Share of clean Saturday and Sunday signups that chose Starter or Team (24 of 51)."
+  },
+  {
+    "quote": "35.3%",
+    "value": 35.338345864661655,
+    "definition": "Share of clean Monday to Friday signups that chose Starter or Team (94 of 266)."
+  },
+  {
+    "quote": "58.8%",
+    "value": 58.8235294117647,
+    "definition": "Activation rate among clean Paid search signups created on Monday (10 of 17)."
+  },
+  {
+    "quote": "2",
+    "value": 2,
+    "definition": "Count of clean Paid search signups created on Friday with Finished setup = Yes."
+  },
+  {
+    "quote": "11",
+    "value": 11,
+    "definition": "Count of clean Paid search signups created on Friday."
+  },
+  {
+    "quote": "141",
+    "value": 141,
+    "definition": "Count of clean signups with Country = US."
+  },
+  {
+    "quote": "40.4%",
+    "value": 40.42553191489362,
+    "definition": "Activation rate among clean US signups (57 of 141)."
+  },
+  {
+    "quote": "33.0%",
+    "value": 32.967032967032964,
+    "definition": "Activation rate among clean US signups on the Free plan (30 of 91)."
+  },
+  {
+    "quote": "27",
+    "value": 27,
+    "definition": "Count of clean US signups on Starter or Team with Finished setup = Yes."
+  },
+  {
+    "quote": "75.0%",
+    "value": 75.0,
+    "definition": "Activation rate among clean US signups on the Team plan (12 of 16)."
+  },
+  {
+    "quote": "29",
+    "value": 29,
+    "definition": "Count of clean signups with Country = DE."
+  },
+  {
+    "quote": "58.6%",
+    "value": 58.62068965517241,
+    "definition": "Activation rate among clean signups with Country = DE (17 of 29)."
+  },
+  {
+    "quote": "63.6%",
+    "value": 63.63636363636363,
+    "definition": "Activation rate among clean Canadian signups on Starter or Team (7 of 11)."
+  },
+  {
+    "quote": "5",
+    "value": 5,
+    "definition": "Count of clean Australian signups with Source = Referral, every one of which has Finished setup = Yes."
+  },
+  {
+    "quote": "74",
+    "value": 74,
+    "definition": "Count of clean signups with Country = DE, CA or AU."
+  },
+  {
+    "quote": "52.7%",
+    "value": 52.7027027027027,
+    "definition": "Activation rate among clean signups from DE, CA or AU combined (39 of 74)."
+  },
+  {
+    "quote": "60.7%",
+    "value": 60.714285714285715,
+    "definition": "Activation rate among clean DE, CA or AU signups on Starter or Team (17 of 28)."
+  },
+  {
+    "quote": "45.5%",
+    "value": 45.45454545454545,
+    "definition": "Activation rate among clean signups with Country = FR (15 of 33)."
+  },
+  {
+    "quote": "39.1%",
+    "value": 39.130434782608695,
+    "definition": "Activation rate among clean signups with Country = UK (18 of 46)."
+  },
+  {
+    "quote": "34.8%",
+    "value": 34.78260869565217,
+    "definition": "Activation rate among clean signups with Country = KR (8 of 23)."
+  },
+  {
+    "quote": "52.2%",
+    "value": 52.17391304347826,
+    "definition": "Share of clean Korean signups that chose Starter or Team (12 of 23), the highest of any country."
+  }
+]

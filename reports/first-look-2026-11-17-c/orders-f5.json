@@ -1,0 +1,332 @@
+[
+ {
+  "quote": "1,381",
+  "value": 1381,
+  "definition": "Order rows in the export excluding the blank and Total lines."
+ },
+ {
+  "quote": "1,377",
+  "value": 1377,
+  "definition": "Order rows remaining after removing rows flagged as test orders."
+ },
+ {
+  "quote": "$136,305.15",
+  "value": 136305.15,
+  "definition": "Sum of Order total over the 1,377 analysed orders."
+ },
+ {
+  "quote": "45",
+  "value": 45,
+  "definition": "Analysed orders with status Refunded."
+ },
+ {
+  "quote": "3.3%",
+  "value": 3.2679738562091507,
+  "definition": "Refunded orders divided by analysed orders."
+ },
+ {
+  "quote": "35",
+  "value": 35,
+  "definition": "Analysed orders with status Cancelled."
+ },
+ {
+  "quote": "2.5%",
+  "value": 2.541757443718228,
+  "definition": "Cancelled orders divided by analysed orders."
+ },
+ {
+  "quote": "80",
+  "value": 80,
+  "definition": "Refunded plus cancelled orders."
+ },
+ {
+  "quote": "5.8%",
+  "value": 5.809731299927378,
+  "definition": "Refunded plus cancelled orders divided by analysed orders."
+ },
+ {
+  "quote": "$4,039.29",
+  "value": 4039.29,
+  "definition": "Sum of Refund amount over analysed orders."
+ },
+ {
+  "quote": "3.0%",
+  "value": 2.9634170095553984,
+  "definition": "Total refund amount divided by total order value."
+ },
+ {
+  "quote": "$4,348.23",
+  "value": 4348.23,
+  "definition": "Sum of Order total over cancelled analysed orders."
+ },
+ {
+  "quote": "3.2%",
+  "value": 3.190070221117837,
+  "definition": "Cancelled order value divided by total order value."
+ },
+ {
+  "quote": "$98.99",
+  "value": 98.98703703703704,
+  "definition": "Mean Order total over analysed orders."
+ },
+ {
+  "quote": "$80.97",
+  "value": 80.97,
+  "definition": "Median Order total over analysed orders."
+ },
+ {
+  "quote": "$89.76",
+  "value": 89.762,
+  "definition": "Mean Order total of refunded orders."
+ },
+ {
+  "quote": "420",
+  "value": 420,
+  "definition": "Analysed Marketplace orders."
+ },
+ {
+  "quote": "5.5%",
+  "value": 5.476190476190476,
+  "definition": "Refunded Marketplace orders divided by Marketplace orders."
+ },
+ {
+  "quote": "2.1%",
+  "value": 2.142857142857143,
+  "definition": "Cancelled Marketplace orders divided by Marketplace orders."
+ },
+ {
+  "quote": "$2,006.16",
+  "value": 2006.16,
+  "definition": "Refund amount summed over Marketplace orders."
+ },
+ {
+  "quote": "49.7%",
+  "value": 49.6661542003669,
+  "definition": "Marketplace refund amount divided by total refund amount."
+ },
+ {
+  "quote": "30.5%",
+  "value": 30.501089324618736,
+  "definition": "Marketplace orders divided by all analysed orders."
+ },
+ {
+  "quote": "844",
+  "value": 844,
+  "definition": "Analysed Web orders."
+ },
+ {
+  "quote": "2.4%",
+  "value": 2.3696682464454977,
+  "definition": "Refunded Web orders divided by Web orders."
+ },
+ {
+  "quote": "2.5%",
+  "value": 2.4881516587677726,
+  "definition": "Cancelled Web orders divided by Web orders."
+ },
+ {
+  "quote": "113",
+  "value": 113,
+  "definition": "Analysed Wholesale orders."
+ },
+ {
+  "quote": "1.8%",
+  "value": 1.7699115044247788,
+  "definition": "Refunded Wholesale orders divided by Wholesale orders."
+ },
+ {
+  "quote": "4.4%",
+  "value": 4.424778761061947,
+  "definition": "Cancelled Wholesale orders divided by Wholesale orders."
+ },
+ {
+  "quote": "$2,106.22",
+  "value": 2106.22,
+  "definition": "Order total summed over cancelled Wholesale orders."
+ },
+ {
+  "quote": "48.4%",
+  "value": 48.43856005777064,
+  "definition": "Cancelled Wholesale value divided by all cancelled value."
+ },
+ {
+  "quote": "$305.93",
+  "value": 305.92893805309734,
+  "definition": "Mean Order total for Wholesale orders."
+ },
+ {
+  "quote": "7.5%",
+  "value": 7.457627118644068,
+  "definition": "Refunded plus cancelled West orders divided by West orders."
+ },
+ {
+  "quote": "6.2%",
+  "value": 6.2015503875969,
+  "definition": "Refunded plus cancelled East orders divided by East orders."
+ },
+ {
+  "quote": "5.4%",
+  "value": 5.35279805352798,
+  "definition": "Refunded plus cancelled North orders divided by North orders."
+ },
+ {
+  "quote": "4.2%",
+  "value": 4.225352112676056,
+  "definition": "Refunded plus cancelled South orders divided by South orders."
+ },
+ {
+  "quote": "4.4%",
+  "value": 4.406779661016949,
+  "definition": "Refunded West orders divided by West orders."
+ },
+ {
+  "quote": "1.4%",
+  "value": 1.4084507042253522,
+  "definition": "Refunded South orders divided by South orders."
+ },
+ {
+  "quote": "6.9%",
+  "value": 6.896551724137931,
+  "definition": "Refunded Marketplace North orders divided by Marketplace North orders (10 of 145)."
+ },
+ {
+  "quote": "8.3%",
+  "value": 8.333333333333332,
+  "definition": "Refunded Marketplace West orders divided by Marketplace West orders (7 of 84)."
+ },
+ {
+  "quote": "7.4%",
+  "value": 7.423580786026202,
+  "definition": "Refunded orders among Marketplace orders in North or West (17 of 229)."
+ },
+ {
+  "quote": "$1,464.59",
+  "value": 1464.59,
+  "definition": "Refund amount summed over Marketplace orders in North or West."
+ },
+ {
+  "quote": "36.3%",
+  "value": 36.25859990245811,
+  "definition": "Refund amount for Marketplace North and West divided by total refund amount."
+ },
+ {
+  "quote": "1.2%",
+  "value": 1.2048192771084338,
+  "definition": "Refunded Marketplace South orders divided by Marketplace South orders (1 of 83)."
+ },
+ {
+  "quote": "7.5%",
+  "value": 7.526881720430108,
+  "definition": "Refunded plus cancelled Web West orders divided by Web West orders (14 of 186)."
+ },
+ {
+  "quote": "4.3%",
+  "value": 4.301075268817205,
+  "definition": "Cancelled Web West orders divided by Web West orders (8 of 186)."
+ },
+ {
+  "quote": "8.8%",
+  "value": 8.771929824561402,
+  "definition": "Refunded plus cancelled orders among new-customer Marketplace orders."
+ },
+ {
+  "quote": "6.8%",
+  "value": 6.827309236947792,
+  "definition": "Refunded plus cancelled orders among returning-customer Marketplace orders."
+ },
+ {
+  "quote": "1.6%",
+  "value": 1.639344262295082,
+  "definition": "Refunded among new-customer Web orders."
+ },
+ {
+  "quote": "2.9%",
+  "value": 2.928870292887029,
+  "definition": "Refunded among returning-customer Web orders."
+ },
+ {
+  "quote": "5.9%",
+  "value": 5.88235294117647,
+  "definition": "Cancelled among new-customer Wholesale orders (3 of 51)."
+ },
+ {
+  "quote": "353",
+  "value": 353,
+  "definition": "Analysed orders with one item."
+ },
+ {
+  "quote": "25.6%",
+  "value": 25.635439360929556,
+  "definition": "One-item orders divided by all analysed orders."
+ },
+ {
+  "quote": "31.1%",
+  "value": 31.11111111111111,
+  "definition": "Refunded one-item orders divided by all refunded orders (14 of 45)."
+ },
+ {
+  "quote": "4.0%",
+  "value": 3.9660056657223794,
+  "definition": "Refunded among one-item orders."
+ },
+ {
+  "quote": "$32.73",
+  "value": 32.73416430594901,
+  "definition": "Mean Order total for one-item orders."
+ },
+ {
+  "quote": "4.0%",
+  "value": 4.0,
+  "definition": "Cancelled among two-item orders (12 of 300)."
+ },
+ {
+  "quote": "1.6%",
+  "value": 1.6181229773462782,
+  "definition": "Cancelled among four-item orders (5 of 309)."
+ },
+ {
+  "quote": "683",
+  "value": 683,
+  "definition": "Analysed orders dated in the first nine days of the month."
+ },
+ {
+  "quote": "4.7%",
+  "value": 4.685212298682284,
+  "definition": "Refunded among orders in the first nine days."
+ },
+ {
+  "quote": "7.6%",
+  "value": 7.613469985358712,
+  "definition": "Refunded plus cancelled among orders in the first nine days."
+ },
+ {
+  "quote": "694",
+  "value": 694,
+  "definition": "Analysed orders dated in the last nine days of the data."
+ },
+ {
+  "quote": "1.9%",
+  "value": 1.8731988472622478,
+  "definition": "Refunded among orders in the last nine days."
+ },
+ {
+  "quote": "4.0%",
+  "value": 4.034582132564841,
+  "definition": "Refunded plus cancelled among orders in the last nine days."
+ },
+ {
+  "quote": "308",
+  "value": 308,
+  "definition": "Analysed orders dated in the final four days."
+ },
+ {
+  "quote": "0.7%",
+  "value": 0.6493506493506493,
+  "definition": "Refunded among orders in the final four days (2 of 308)."
+ },
+ {
+  "quote": "$421.24",
+  "value": 421.24399999999997,
+  "definition": "Mean Order total of cancelled Wholesale orders."
+ }
+]

@@ -1,0 +1,63 @@
+To: COO
+From: Talent Operations Lead
+Subject: Recruiting funnel retrospective from the candidate export
+
+Summary
+
+- The export holds 768 candidate rows. After removing 17 duplicate rows, 751 candidates remain for this review.
+- 34 candidates were hired, a hire rate of 4.5%. 532 were rejected (70.8%) and 102 withdrew (13.6%).
+- Referrals are the strongest source. 18.1% of referred candidates were hired, against 2.3% for all other sources. Referrals account for 55.9% of all hires.
+- The median time from application to hire is 24 days. The median rejection comes after 6 days, so most candidates are screened out quickly.
+
+Scope and exclusions
+
+- Included: every row in the sheet, from the earliest application to the export date.
+- Excluded: the rows marked Duplicate = Yes, which is 2.2% of raw rows. 7 of them match a kept row on role, source and application date. The other 10 have no match, but I dropped them on the sheet's own flag alone. Names and emails are not in the export, so I could not confirm duplicates by person.
+- Limit: the export has no stage history, only the current stage and the date of the last change. I cannot measure the drop at each step exactly. I use the last change date as the outcome date for finished candidates, and the time in the current stage for open ones.
+
+Where candidates end up
+
+- Still open: 83 (11.1%), made up of 32 at Applied, 27 at Screen, 20 at Interview and 4 at Offer.
+- Reached an offer: 48 (6.4%), counting hires, declined offers and open offers.
+- Offer acceptance: 34 of 44 decided offers, or 77.3%. 10 candidates declined.
+- Of the 102 withdrawals, 92 had no offer on record (90.2%).
+
+Read together, these figures show a funnel that is narrow at the top and selective at the decision. Most candidates leave quickly, and the few who reach an offer usually accept it. Because the export shows only where each candidate sits today, these counts are an end-state view rather than a conversion funnel. A rejected candidate could have been screened out at any stage, so I do not assign rejections to a stage.
+
+Time in each step
+
+- Application to hire: median 24 days, mean 24.4 days. The two are close, so the typical hire takes about as long as the average one. 94.1% of hires came within a month.
+- Application to rejection: 62.0% of rejections came within a week, and 79.5% within 14 days.
+- Application to withdrawal: median 6 days. Declined offers are the slowest exit, at a median of 28 days.
+- Open candidates have been in their current stage for a median of 2 days. 7 open candidates (8.4%) have been there more than a week.
+- Interviews are where waits pile up. The median is 4.5 days, and 6 of 20 interviews (30.0%) have passed a week.
+
+Department view
+
+- Engineering has 197 applicants, a hire rate of 3.0%, and a median of 25 days to hire.
+- Hire rates by department: Design 5.6%, Operations 6.8%, Sales 4.4%, Support 4.1%.
+- Engineering also loses the most candidates after applying: 30 withdrew (15.2% of its applicants), which is 29.4% of all withdrawals. That gap is the first thing to explain before adding headcount to sourcing.
+
+Source view
+
+- Referral: 105 applicants, hire rate 18.1%.
+- LinkedIn brings 281 applicants but a hire rate of only 2.1%.
+- Careers page hire rate is 2.3%, and Agency is 4.2%. Job board produced 0 hires from 50 applicants, so it adds volume without results in this export.
+- Engineering referrals are a small sample: 2 of 25 were hired (8.0%), so treat that rate as a signal only.
+
+Cohorts
+
+- Applicants who applied in August had a hire rate of 5.9%.
+- Applicants before October: hire rate 5.8%, across 591 candidates. This is the fairest comparison, because these candidates have had time to finish.
+- October applicants: 160, of whom 74 are still open and 0 hired. Their hire rate is not yet meaningful, so I will not compare it with earlier months.
+
+What I recommend
+
+- Ask hiring managers for referrals first. This is the largest lever in this export, and it is cheap to test on the next requisition.
+- Ask the engineering team why candidates withdraw, and record a reason at each withdrawal, so the gap can be explained with data.
+- Clear the interview queue, since interviews are where candidates wait longest.
+- Export stage history from the recruiting tool, so the next review can measure each step's drop and duration directly rather than from the last change date.
+
+Limits
+
+- There is no cost-per-hire data, the job board and engineering referral samples are small, and the October cohort is still open. Treat the segment rates as direction, not as settled facts.

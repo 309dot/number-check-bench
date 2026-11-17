@@ -1,0 +1,66 @@
+Subject: Support staffing proposal, based on the October ticket export
+
+To: Leadership team
+From: Head of Customer Support
+
+Summary
+
+- In the 12 weeks covered by the export we handled 2,434 genuine tickets, and 29.8% of them missed the first-response SLA.
+- Demand is climbing. The last four weeks brought 853 tickets against 796 in the first four, a rise of 7.2%, and the final two weeks were the two busiest of the period.
+- Breaches are concentrated rather than spread evenly. Normal priority accounts for 74.9% of them, and one agent's queue accounts for 27.0% of them while handling only 12.4% of tickets.
+- I am asking for one additional full-time agent, together with three changes that cost nothing.
+
+What the numbers cover
+
+- The export contains 2,558 rows. I removed 52 rows flagged as spam and 74 flagged as merged duplicates. Because 2 rows carried both flags, 124 rows are excluded in total, and everything below uses the remaining tickets only.
+- Of the remaining tickets, 4 (all still open or pending) have no first response recorded. They count toward volume but not toward response times.
+- The breach flag matches first-response time exactly: no ticket is flagged if it was answered within 1.0 hour (Urgent), 4.0 hours (High) or 8.0 hours (Normal), and every ticket answered later is flagged. Low tickets have a longer target. A breach in this note therefore means a late first answer.
+- Satisfaction means the share of rated tickets marked Good.
+
+Volume and mix
+
+- Channels: email 47.3% of tickets, chat 38.4%, phone 14.3%.
+- Priorities: Normal 55.9%, Low 21.2%, High 17.5%, Urgent 5.4%.
+- Weekends are not where we fall behind. Tickets opened on Saturday or Sunday breached at 29.4%, against 29.9% for weekday tickets.
+
+Channels: response time, breaches, satisfaction
+
+- Median first response is 6.2 hours on email, 6.5 hours on chat and 6.7 hours on phone. Chat and phone customers expect a near-live answer, yet they wait as long as email customers do.
+- Breach rates barely differ by channel: email 30.2%, chat 28.6%, phone 31.8%.
+- Satisfaction is lowest on chat at 82.2%, against 87.6% on email and 85.3% on phone. Chat produced 45.6% of all Bad ratings from 38.4% of the volume.
+
+Priorities
+
+- Urgent: the median first response is 0.9 hours, yet 38.6% of Urgent tickets missed the target, and only 77.8% of rated Urgent tickets were Good, the lowest of any priority. Urgent tickets arriving by email are the worst channel-and-priority combination, with 42.2% breached.
+- High: 24.2% breached, with a median first response of 2.9 hours.
+- Normal: 40.0% breached, which is 544 tickets, against a median first response of 7.0 hours. This is the capacity problem. Half of the Normal breaches had their first answer by 10.0 hours, just 2.0 hours past target. The queue sits just beyond the line, so modest extra capacity turns a large number of breaches into on-time answers.
+- Late answers cost us satisfaction. Breached tickets were rated Good 81.0% of the time, versus 87.1% for on-time tickets, a gap of 6.1 points.
+
+Workload by agent
+
+- The team averages 33.8 tickets per agent per week. Individual loads run from 25.2 (Theo) to 44.5 (Maya).
+- Theo's queue breached 64.9% of the time, with a median first response of 10.8 hours and 68.8% of ratings Good. I am treating this as a coaching and routing question until I understand the cause, but it distorts the team picture.
+- The other five agents together breached 24.9% of their tickets and earned 87.9% Good. Maya carries the heaviest load and still breaches only 25.8%, so volume per head is not the only driver.
+- Capacity is still short outside Theo's queue. Normal tickets handled by the other five agents breached 35.4%, against 72.1% in Theo's queue.
+
+Backlog at export
+
+- 285 tickets, 11.7% of the total, were still open or pending. The median one had been open 16 days.
+- 11 of them are Urgent, and the oldest of those had been open 82 days.
+
+Proposal
+
+- Hire one additional full-time agent for weekday Normal-priority email and chat. That is where three quarters of our breaches sit and where the typical miss is small. At the team's current average throughput, one agent covers the weekly increase in volume 2.4 times over, and the remainder goes straight at Normal near-misses.
+- Name an Urgent owner on every shift from existing staff. Their first job is to close or re-prioritise the open Urgent tickets in the backlog, oldest first.
+- Start a coaching and pairing plan for Theo and review how tickets are routed to him. Had his tickets breached at the rest of the team's rate for each priority, we would have logged roughly 120 fewer breaches and a team-wide rate of 24.9%.
+- Set separate, faster response expectations for chat and phone, and measure them apart from email.
+- Run a one-week sweep of the open and pending backlog, starting with the oldest tickets.
+
+How we will judge it
+
+- I will report monthly on the overall breach rate, the Normal and Urgent breach rates, chat satisfaction and backlog age, using the figures in this note as the baseline.
+- The goal for the first quarter after the hire is to bring the overall breach rate down to the level the other five agents already reach today.
+
+Decision requested
+
+- Approval to open one full-time agent requisition now, so the new agent is productive before the volume rise compounds further.

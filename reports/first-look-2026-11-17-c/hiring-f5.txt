@@ -1,0 +1,53 @@
+Hiring pipeline digest: candidate export review
+
+To: Hiring managers
+From: Recruiting coordination
+
+SCOPE AND CLEAN-UP
+
+- The export holds 768 candidate rows covering 12 weeks of applications, with applications on every day of the period.
+- I removed the 17 rows flagged as duplicates, leaving 751 candidates. Of the removed rows, 15 were already rejected; one sits in Interview and one in Applied, so please merge those two records in the ATS.
+- I looked for test or spam rows and found none: candidate IDs run without gaps, every role, source and stage value is a real one, and no stage date falls before its application date. Nothing else was left out.
+- The export has no recruiter or owner column, so I cannot show conversion by recruiter this time. I will ask for that field in the next export.
+- The file only keeps each candidate's current stage, not the stage history. For rejected and withdrawn candidates I cannot tell which step they left at, so conversion below is measured as outcomes: hired, offered, rejected, withdrawn. I count an offer when the candidate is at Offer, was hired, or is marked as having declined an offer. Waiting times use the date of the last stage change.
+
+HEADLINES
+
+- In total, 34 candidates were hired, a 4.5% hire rate. Counting only the 668 candidates with a final outcome, it is 5.1%.
+- Overall, 70.8% of candidates were rejected and 13.6% withdrew; 83 are still open.
+- We made 48 offers. Of the offers that have been answered, 77.3% were accepted.
+- Recent applicants have not had time to finish, so for a fair baseline I also looked at everyone who applied in the first six weeks. All 367 of them have an outcome, and 6.0% were hired.
+
+BY ROLE
+
+- Data Analyst: 6.8% hire rate on 118 candidates, the best of the five roles, and no declined offers.
+- Product Designer: 5.6% on 108 candidates, also with no declined offers.
+- Account Executive: 4.4% on 158 candidates. Offer acceptance is only 63.6%.
+- Support Specialist: 4.1% on 170 candidates.
+- Backend Engineer: our biggest pool at 197 candidates but the lowest hire rate, 3.0%. Offer acceptance is 60.0%, the weakest of any role.
+- The gap between the best and worst role is 3.7 percentage points. In the six-week cohort the spread narrows to between 4.7% and 7.8%, so role is not the main driver. Source is.
+
+BY SOURCE
+
+- Referrals are 105 candidates, only 14.0% of the pool, yet they produced 55.9% of all hires. Their hire rate is 18.1%, against 2.3% for every other source combined, and 27.6% of referrals reached an offer.
+- The referral edge holds inside every role. Product Designer referrals were hired at 30.8% versus 2.1% for other designers; Account Executive referrals at 20.8% versus 1.5%. The smallest edge is Backend Engineer, where referrals convert at 8.0%.
+- The catch: referrals account for 8 of the 10 declined offers. Referral offer acceptance is 70.4%, against 88.2% for other sources.
+- LinkedIn is the largest source at 281 candidates but converts at 2.1%; the careers page is similar at 2.3%.
+- Agency candidates convert at 4.2% overall and 7.5% in the six-week cohort, but 77.1% of them were rejected, the highest rejection share of any source.
+- The job board sent 50 candidates and none received an offer.
+
+HOW LONG CANDIDATES WAIT
+
+- Rejections: the median rejected candidate is closed out 6 days after applying. Within a week, 62.0% of rejections go out, but 20.5% take more than two weeks.
+- Slow rejections land on the people we should treat best: 32.7% of rejected referrals and 27.0% of rejected agency candidates waited more than two weeks.
+- Hires: the median time from application to hire is 24 days, and no hire closed in under two weeks.
+- Withdrawals: candidates who pulled out before any offer did so after a median of 5 days. Offer decliners took a median of 28 days, so a declined offer costs us about four weeks of process.
+- Open pipeline as of the export date: 32 in Applied, 27 in Screen, 20 in Interview and 4 at Offer. The median open candidate has sat in their current stage for 2 days, and nobody has waited more than two weeks.
+- In all, 7 open candidates have waited more than a week in their stage, and 6 of them are at Interview, where the median wait is already 4.5 days. Product Designer accounts for 4 of these.
+
+WHAT I'D ASK OF YOU
+
+- Treat referrals as a priority lane: 18 are open right now. Please aim to give them a decision inside a week and to check their expectations before an offer goes out, since referrals decline more offers than any other source.
+- Product Designer managers, please close out the interview loops that are past a week.
+- Backend Engineer and Account Executive managers, let's review why offers are being turned down before the next ones go out.
+- I suggest we review whether the job board is worth keeping, and I will chase the recruiter field so the next digest can show conversion by recruiter.

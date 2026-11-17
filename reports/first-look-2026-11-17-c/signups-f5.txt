@@ -1,0 +1,69 @@
+Signup activation review: last week, Monday to Sunday
+
+To: founders
+From: lifecycle marketing
+
+This review covers last week's signup export. "Activated" means the row says Finished setup = Yes. I compare sources and plans, walk through the week day by day, and end with the countries I think we should lean into.
+
+WHAT I LEFT OUT
+
+- The export has 321 rows. I removed the 4 rows flagged as test accounts. All of them sit on internal.test, chose Team, came in through Direct from the US and finished setup, so they flatter exactly the segment we care most about: with them in, Team activation reads 71.1% instead of 67.6%.
+- I found nothing else to remove. Signup IDs are unique, and no two rows match on every field other than the ID. Company domains do repeat, but every repeat differs in plan, source, country or signup day, so I treated them as separate people rather than duplicates. The export has no spam marker, so I did not guess at one.
+- Everything below uses the remaining 317 signups.
+
+HEADLINE
+
+- 137 signups activated, an overall rate of 43.2%.
+- 118 people chose Starter or Team. Paid-plan signups activated at 53.4%, against 37.2% on Free.
+- That gives us 63 activated paid signups, the number I would track hardest from week to week.
+
+SOURCES
+
+- Organic search: 98 signups, 42.9% activated.
+- Paid search: 81 signups, 46.9% activated, the best of any source.
+- Direct: 60 signups, 43.3% activated.
+- Referral: 53 signups, 43.4% activated, and the highest paid-plan share of any source at 45.3%.
+- Partner: 25 signups and only 32.0% activated, the weakest source.
+
+Two splits change how I read the source table:
+- Referral is really two channels. US referrals activated at 19.0% across 21 signups, while referrals from every other country activated at 59.4% across 32.
+- Paid search leans on the US, which supplied 56.8% of its signups, yet US paid-search signups activated at 43.5% versus 51.4% elsewhere.
+
+PLANS
+
+- Free: 199 signups, activating at the Free rate above.
+- Starter: 84 signups, 47.6% activated.
+- Team: 34 signups, 67.6% activated.
+
+Source matters most for Team. Team signups from Organic search activated at 85.7% and from Referral at 83.3%, but from Partner at just 25.0%. Direct shows a sharp plan gap too: Direct Starter signups activated at 69.2%, while Direct Free sat at 30.8%, the lowest Free rate of any source.
+
+DAY BY DAY
+
+- Signups per day: Monday 57, Tuesday 55, Wednesday 50, Thursday 50, Friday 54, Saturday 23, Sunday 28.
+- Weekdays averaged 53.2 signups a day against 25.5 on weekend days. Volume eased slightly midweek and recovered on Friday, then roughly halved.
+- Weekday activation was 42.9%, and stayed in a narrow band: no weekday fell below 38.9% (Friday) or rose above 46.0% (Wednesday).
+- The weekend is smaller but better: weekend activation was 45.1%, and 47.1% of weekend signups chose a paid plan versus 35.3% on weekdays. Weekend visitors may be buyers who already know what they want.
+- One drop to check: Paid search signups activated at 58.8% on Monday, but only 2 of 11 finished setup on Friday. If an ad, keyword or landing page changed going into Friday, that is the first place to look.
+
+COUNTRIES
+
+- United States: 141 signups, but activation of 40.4%, below the overall rate, pulled down by US Free at 33.0%. The US still produced 27 activated paid signups, more than any other country, and US Team signups activated at 75.0%.
+- Germany: 29 signups and the best activation of any country at 58.6%.
+- Canada: paid-plan signups activated at 63.6%.
+- Australia: all 5 Australian referrals finished setup.
+- Together, Germany, Canada and Australia brought 74 signups at 52.7% activation, and their paid-plan signups activated at 60.7%.
+- France sits in the middle at 45.5%. The United Kingdom is our second-largest market but activates at only 39.1%.
+- South Korea has the lowest activation at 34.8%, and none of its paid-search signups finished setup. Yet 52.2% of Korean signups chose a paid plan, the highest share of any country, which suggests the intent is there and onboarding is where we lose them.
+
+WHAT I WOULD DO NEXT
+
+- Target Germany, Canada and Australia first. They already activate above our average with small volume, so a modest push in paid search and referral asks there is likely to return activated paid signups faster than more US spend.
+- Fix the US referral path before scaling it. Whatever US referrers send people to is losing most of them before setup; a referral-specific welcome email and checklist is the cheapest test.
+- Keep Partner flat until we understand why its Team signups stall, and ask partners what they promise before the handoff.
+- Look into Friday's paid-search drop this week, before it becomes the new normal.
+- For South Korea, pause paid search and test a localized, Team-first setup flow, since the plan mix says they want the product.
+- Run weekend-only nudges aimed at paid-plan signups; the weekend audience is small but already leans toward paying.
+
+A caution on all of this: it is one week of data, and several of the sharpest cells (the Australian referrals, Korean paid search, Partner Team) rest on single-digit counts. Treat them as leads to test next week, not settled findings.
+
+Happy to walk through any of these segments in more detail.

@@ -1,0 +1,61 @@
+Quarterly Paid Media Audit: Where to Cut and Where to Scale
+
+Summary
+
+I reviewed the daily campaign export for your three accounts covering the full 56 days from August 24 to October 18. I left out the 56 rows flagged as a test campaign (QA - Pixel test), which spent only $49.01 and produced no leads. I found no duplicate rows, so the review covers 672 rows across 12 campaigns.
+
+The accounts spent $70,762.15 and generated 1,291 leads, an average cost per lead (CPL) of $54.81. Overall click-through rate was 1.06% and 2.27% of clicks became leads.
+
+Is performance getting better or worse?
+
+Flat. The first four weeks produced 645 leads at $54.25 CPL. The most recent four weeks produced 646 leads at $55.38 CPL. Nothing is collapsing, but nothing is compounding either. The gains have to come from moving money, not from waiting.
+
+Channel view
+
+- Search: $40.75 CPL, 5.15% click-through, and 5.42% of clicks converting. It took 35.8% of spend but delivered 48.2% of leads.
+- Social: $66.20 CPL, 1.74% click-to-lead rate, and the biggest budget line at 43.8% of spend.
+- Display: $71.80 CPL and a 1.09% click-to-lead rate. Display is cheap per click but the clicks rarely turn into people who contact you.
+
+Client view
+
+- Brightline Dental: $42.03 CPL on $21,646 of spend, with 4.5% of clicks becoming leads. This is your healthiest account.
+- Northfield Bikes: $54.93 CPL and 2.1% click-to-lead. Right around the average.
+- Harbor & Pine: $71.28 CPL, the highest of the three, on the largest budget at $28,296. Only 1.5% of its clicks convert.
+
+What to cut
+
+Four campaigns are doing most of the damage. Harbor & Pine Fall collection, Gift guide and Lookalike, plus Northfield Commuter banner, together took $28,826, which is 40.7% of everything, and returned only 309 leads (23.9% of the total).
+
+- Harbor & Pine Lookalike: $107.48 CPL, the worst in the book. It averaged $97.89 of spend a day for 0.9 leads a day, and it barely improved: its CPL was $105.41 in the last four weeks.
+- Harbor & Pine Gift guide: $99.99 CPL with a 0.80% click-to-lead rate, the weakest conversion of any campaign. It buys 1,304,572 impressions, but the audience is not buying.
+- Harbor & Pine Fall collection: $95.63 CPL overall, and it is getting worse: $90.18 in the first four weeks versus $100.65 in the last four weeks.
+- Northfield Commuter banner: $68.20 CPL and only 0.50% click-through.
+
+Display is not erratic, though. Among Display rows, 0.6% of days ended with zero leads, and across all accounts only 7 account-days had zero leads, so results are steady day to day. The problem is price, not randomness.
+
+Recommendation: cut Lookalike and Gift guide entirely, which frees about $12,781 over the period. Cut Fall collection by half and Commuter banner by half until creative is refreshed. Do not cut Harbor & Pine search; see below.
+
+What to scale
+
+- Harbor & Pine Brand search: $24.07 CPL, the cheapest campaign in the account, with 8.0% click-through. It spent only 5.0% of the budget yet produced 11.5% of leads. Brand search volume is limited, so scale it by widening to close variants, not by raising bids blindly.
+- Northfield Service booking: $28.01 CPL and 5.7% click-to-lead, on the smallest budget of the twelve campaigns.
+- Brightline Emergency care: $39.75 CPL and a 9.1% click-to-lead rate, the best conversion rate in the file, even though its cost per click is $3.60.
+- Brightline New patient offer: $39.47 CPL on social, proof that Social can work when the offer is concrete. Its median daily spend is $112.55.
+
+These four campaigns took only 23.7% of spend, and drove 39.3% of all leads. At their current CPL, moving the $12,781 freed from the two worst campaigns into them would buy roughly 330 extra leads, versus the 124 those two delivered. I would assume diminishing returns and plan for about half of that.
+
+Watch list
+
+- Northfield E-bike search: $74.56 CPL at $2.20 per click, and only 2.95% of clicks convert. The traffic is there (4.0% click-through), so I suspect the landing page or price, not the keywords.
+- Brightline Implants search: $44.70 CPL, acceptable for a high-value treatment, and the largest Brightline line.
+- Brightline Retargeting: $44.71 CPL on display, far better than the Display average, so warm audiences are the only Display worth keeping.
+
+Next steps
+
+1. This week: pause Lookalike and Gift guide, and halve Fall collection and Commuter banner.
+2. Move that budget into Brand search, Service booking, Emergency care and New patient offer in small weekly steps, watching CPL after each step.
+3. Audit the E-bike search landing page, since its click-to-lead rate sits well below the Search channel average.
+4. Keep the QA pixel test out of client reporting; it adds noise and nothing else.
+5. Re-run this audit in a month and compare against the baselines above.
+
+Method notes: all figures come from the export's rows only. CPL is total spend divided by total leads for the group named, not an average of daily CPLs. Click-to-lead rate is leads divided by clicks.

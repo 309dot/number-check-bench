@@ -1,0 +1,58 @@
+To: VP, Customer Experience
+From: Support Operations Analysis
+Subject: Quality and SLA review by agent, channel and priority
+
+SUMMARY
+The export holds 2,558 rows, opened from late July to mid-October. I removed 52 spam rows and 74 merged duplicates, leaving 2,434 real tickets. Of these, 726 breached SLA, a rate of 29.8%. Median first response is 6.4 hours. Only 46.9% of tickets have a CSAT answer, and 14.8% of those are Bad. All rates below use the cleaned set and the CSAT percentages use only tickets with a CSAT answer.
+
+The main finding is that one agent, Theo, accounts for a large part of the gap between where we are and where we should be. The rest is a priority-handling problem that affects the whole team.
+
+BY AGENT
+- Theo: 302 tickets, breach rate 64.9%. Bad CSAT is 31.2%.
+- Maya: breach rate 25.8%, Bad CSAT 10.5%.
+- Jonah: breach rate 28.1%, Bad CSAT 11.2%.
+- Luis: breach rate 23.8%, Bad CSAT 13.9%.
+- Priya: breach rate 24.0%, Bad CSAT 15.4%.
+- Hana: breach rate 21.5%, Bad CSAT 10.1%.
+
+Excluding Theo, the other five agents combined show a breach rate of 24.9% and Bad CSAT of 12.1%. Theo's gap to that group is large, and his median first response of 10.8 hours compares with 6.0 hours for the rest.
+
+THEO IN DETAIL
+- Normal priority: Theo breaches 72.1% of the time, against 35.4% for everyone else. Bad CSAT on Normal tickets is 37.1% for Theo and 10.9% for the others.
+- Low priority: Theo breaches 45.9% of his Low tickets; the other agents breached 0 of 455 (0.0%).
+- Chat: Bad CSAT on Theo's chats is 40.3% across 62 rated tickets.
+- Trend: Theo's breach rate was 63.2% on September tickets and 60.5% on October tickets, so there is some movement but not enough.
+
+BY CHANNEL
+- Chat: breach rate 28.6%, Bad CSAT 17.8%.
+- Email: breach rate 30.2%, Bad CSAT 12.4%.
+- Phone: breach rate 31.8%, Bad CSAT 14.7%.
+Without Theo, Chat breaches fall to 23.3% and Bad CSAT in Chat drops to 14.0%. The channel differences are small once Theo is set aside, so I would not treat channel as the main lever for coaching or staffing. His weak results show up on all three channels.
+
+BY PRIORITY
+- Urgent: median first response 0.9 hours, breach rate 38.6%, Bad CSAT 22.2%.
+- High: breach rate 24.2%.
+- Normal: median 7.0 hours, breach rate 40.0%.
+- Low: breach rate 5.4%.
+
+Two things stand out. First, Normal tickets breach more often than Urgent or High ones, even though their first response is slower by design. Without Theo, Normal still breaches 35.4% of the time, so this is a team-wide gap and not just one person. Second, Urgent tickets carry the worst satisfaction: Bad CSAT is 22.2% overall and 20.4% without Theo,.
+
+URGENT TICKETS BY AGENT
+- Jonah breached 65.0% of his 20 Urgent tickets.
+- Theo breached 64.7% of his 17.
+- Priya: 43.5%. Luis: 36.8%.
+- Maya: 18.8%. Hana: 19.0%.
+Jonah is a surprise here: his overall breach rate looks ordinary next to the rest of the team, yet his Urgent rate is among the worst.
+
+SLA AND SATISFACTION
+Breaching SLA hurts satisfaction. Among 352 breached tickets with a CSAT answer, 19.0% are Bad, compared with 12.9% on tickets that met SLA. CSAT coverage is low, so these figures carry some uncertainty.
+
+BACKLOG AND CLOSURE
+285 tickets have no close date. For tickets that were closed or solved, the mean time from open to close is 3.8 days. Resolution time does not differ much by agent, so Theo's problem is speed of first response and customer-rated quality, not final resolution. I recommend tracking open and pending tickets weekly so the backlog does not hide further breaches.
+
+COACHING PRIORITIES
+1. Theo: pair him with Hana, who has the lowest breach rate at 21.5%, and review his first-response queue habits, especially Normal and Low tickets. Review his chat transcripts, where Bad CSAT is the highest in the data.
+2. Jonah: review Urgent handling and escalation routing, given the 65.0% Urgent breach rate.
+3. Priya: her Bad CSAT of 15.4% is the highest outside Theo. On Phone it is 22.2% across 27 rated tickets, so start with a quality review of her calls.
+4. Team: Normal tickets need a clearer SLA clock and queue ordering. Low tickets almost never breach, so effort can shift to Normal.
+5. Measurement: raise the CSAT response rate before using it for individual performance decisions.

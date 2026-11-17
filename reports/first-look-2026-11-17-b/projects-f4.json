@@ -1,0 +1,367 @@
+[
+ {
+  "quote": "24",
+  "value": 24,
+  "definition": "Project rows in the export excluding the total line."
+ },
+ {
+  "quote": "2",
+  "value": 2,
+  "definition": "Rows with Archived = Yes."
+ },
+ {
+  "quote": "22",
+  "value": 22,
+  "definition": "Non-archived project rows."
+ },
+ {
+  "quote": "$3,790,000",
+  "value": 3790000,
+  "definition": "Sum of Budget over the 22 non-archived projects."
+ },
+ {
+  "quote": "$2,934,920",
+  "value": 2934920,
+  "definition": "Sum of Spend over the 22 non-archived projects."
+ },
+ {
+  "quote": "18",
+  "value": 18,
+  "definition": "Non-archived projects with no Done date."
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Non-archived projects with a Done date."
+ },
+ {
+  "quote": "77.4%",
+  "value": 0.7743852242744064,
+  "definition": "Total Spend / total Budget over the 22 non-archived projects."
+ },
+ {
+  "quote": "$855,080",
+  "value": 855080,
+  "definition": "Total Budget minus total Spend over the 22 non-archived projects."
+ },
+ {
+  "quote": "76.1%",
+  "value": 0.7609700598802395,
+  "definition": "Sum of Spend / sum of Budget over the 18 open non-archived projects."
+ },
+ {
+  "quote": "3",
+  "value": 3,
+  "definition": "Non-archived projects with Spend greater than Budget."
+ },
+ {
+  "quote": "$62,130",
+  "value": 62130,
+  "definition": "Sum of (Spend - Budget) over the 3 over-budget projects."
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Open non-archived projects with due date before today and no done date."
+ },
+ {
+  "quote": "17.3",
+  "value": 17.25,
+  "definition": "Mean days past due (today minus due date) for those 4 projects."
+ },
+ {
+  "quote": "106.2%",
+  "value": 1.0621421319796955,
+  "definition": "Sum of Spend / sum of Budget for the 4 overdue open projects."
+ },
+ {
+  "quote": "6",
+  "value": 6,
+  "definition": "Open projects whose Spend/Budget exceeds schedule elapsed share."
+ },
+ {
+  "quote": "18",
+  "value": 18,
+  "definition": "Open non-archived projects."
+ },
+ {
+  "quote": "33.3%",
+  "value": 0.3333333333333333,
+  "definition": "6 ahead-of-schedule projects divided by 18 open projects."
+ },
+ {
+  "quote": "3.4",
+  "value": 3.4159,
+  "definition": "Absolute value of the median of (Spend/Budget minus schedule elapsed share) over the 18 open projects, in points; the median is negative (behind schedule)."
+ },
+ {
+  "quote": "95.4%",
+  "value": 0.954,
+  "definition": "Field sales app Spend/Budget = 200,420/210,000."
+ },
+ {
+  "quote": "85.0%",
+  "value": 0.85,
+  "definition": "Field sales app schedule elapsed share (181 of 213 days)."
+ },
+ {
+  "quote": "10.5",
+  "value": 0.105,
+  "definition": "Field sales app spend share minus schedule share, in points."
+ },
+ {
+  "quote": "$9,580",
+  "value": 9580,
+  "definition": "Field sales app Budget minus Spend."
+ },
+ {
+  "quote": "32",
+  "value": 32,
+  "definition": "Field sales app due date minus today, in days."
+ },
+ {
+  "quote": "108.0%",
+  "value": 1.08,
+  "definition": "Data warehouse Spend/Budget = 453,600/420,000."
+ },
+ {
+  "quote": "8.0",
+  "value": 0.08,
+  "definition": "Data warehouse spend share minus schedule share (schedule capped at 100%), in points."
+ },
+ {
+  "quote": "108.0%",
+  "value": 1.08,
+  "definition": "Billing revamp Spend/Budget = 248,400/230,000."
+ },
+ {
+  "quote": "$18,400",
+  "value": 18400,
+  "definition": "Billing revamp Spend minus Budget."
+ },
+ {
+  "quote": "103.9%",
+  "value": 1.0389,
+  "definition": "CRM migration Spend/Budget = 270,130/260,000."
+ },
+ {
+  "quote": "$10,130",
+  "value": 10130,
+  "definition": "CRM migration Spend minus Budget."
+ },
+ {
+  "quote": "53.0%",
+  "value": 0.5297,
+  "definition": "Warehouse robots pilot Spend/Budget = 275,440/520,000."
+ },
+ {
+  "quote": "48.5%",
+  "value": 0.4851,
+  "definition": "Warehouse robots pilot schedule elapsed share."
+ },
+ {
+  "quote": "$244,560",
+  "value": 244560,
+  "definition": "Warehouse robots pilot Budget minus Spend."
+ },
+ {
+  "quote": "5",
+  "value": 5,
+  "definition": "Open projects with Risk = High."
+ },
+ {
+  "quote": "88.3%",
+  "value": 0.8829207317073171,
+  "definition": "Sum of Spend / sum of Budget over open High-risk projects."
+ },
+ {
+  "quote": "7.0",
+  "value": 0.0697,
+  "definition": "Mean of (spend share minus schedule share) over open High-risk projects, in points."
+ },
+ {
+  "quote": "3",
+  "value": 3,
+  "definition": "Open High-risk projects past their due date."
+ },
+ {
+  "quote": "5",
+  "value": 5,
+  "definition": "Open High-risk projects."
+ },
+ {
+  "quote": "60.0%",
+  "value": 0.6,
+  "definition": "3 overdue of 5 open High-risk projects."
+ },
+ {
+  "quote": "6",
+  "value": 6,
+  "definition": "Open projects with Risk = Medium."
+ },
+ {
+  "quote": "67.1%",
+  "value": 0.6714137931034483,
+  "definition": "Sum of Spend / sum of Budget over open Medium-risk projects."
+ },
+ {
+  "quote": "7",
+  "value": 7,
+  "definition": "Open projects with Risk = Low."
+ },
+ {
+  "quote": "61.4%",
+  "value": 0.6138795180722891,
+  "definition": "Sum of Spend / sum of Budget over open Low-risk projects."
+ },
+ {
+  "quote": "10.5",
+  "value": 0.1055,
+  "definition": "Absolute mean of (spend share minus schedule share) over open Low-risk projects, in points (behind schedule)."
+ },
+ {
+  "quote": "3",
+  "value": 3,
+  "definition": "Open projects with Status = Red."
+ },
+ {
+  "quote": "102.7%",
+  "value": 1.0270714285714286,
+  "definition": "Sum of Spend / sum of Budget over open Red projects."
+ },
+ {
+  "quote": "6",
+  "value": 6,
+  "definition": "Open projects with Status = Amber."
+ },
+ {
+  "quote": "75.8%",
+  "value": 0.758325925925926,
+  "definition": "Sum of Spend / sum of Budget over open Amber projects."
+ },
+ {
+  "quote": "9",
+  "value": 9,
+  "definition": "Open projects with Status = Green."
+ },
+ {
+  "quote": "61.9%",
+  "value": 0.6193410852713178,
+  "definition": "Sum of Spend / sum of Budget over open Green projects."
+ },
+ {
+  "quote": "5",
+  "value": 5,
+  "definition": "Open projects in Test phase."
+ },
+ {
+  "quote": "97.0%",
+  "value": 0.9702204724409449,
+  "definition": "Sum of Spend / sum of Budget over open Test-phase projects."
+ },
+ {
+  "quote": "3",
+  "value": 3,
+  "definition": "Open Test-phase projects past their due date."
+ },
+ {
+  "quote": "60.0%",
+  "value": 0.6,
+  "definition": "3 overdue of 5 open Test-phase projects."
+ },
+ {
+  "quote": "11",
+  "value": 11,
+  "definition": "Open projects in Build phase."
+ },
+ {
+  "quote": "61.6%",
+  "value": 0.6156675191815857,
+  "definition": "Sum of Spend / sum of Budget over open Build-phase projects."
+ },
+ {
+  "quote": "100.3%",
+  "value": 1.00298,
+  "definition": "Open Finance projects: Spend/Budget = 285,850/285,000."
+ },
+ {
+  "quote": "100.1%",
+  "value": 1.00117,
+  "definition": "Open Sales projects: Spend/Budget = 470,550/470,000."
+ },
+ {
+  "quote": "5",
+  "value": 5,
+  "definition": "Open projects with due date 0 to 30 days from today."
+ },
+ {
+  "quote": "74.7%",
+  "value": 0.7475,
+  "definition": "Sum of Spend / sum of Budget over open projects due within 30 days."
+ },
+ {
+  "quote": "2",
+  "value": 2,
+  "definition": "Projects with Status = Amber among open projects due within 30 days."
+ },
+ {
+  "quote": "5",
+  "value": 5,
+  "definition": "Open projects due within 30 days."
+ },
+ {
+  "quote": "40.0%",
+  "value": 0.4,
+  "definition": "2 Amber of 5 open projects due within 30 days."
+ },
+ {
+  "quote": "12",
+  "value": 12,
+  "definition": "Security audit due date minus today, in days."
+ },
+ {
+  "quote": "93.2%",
+  "value": 0.9318,
+  "definition": "Pricing page tests schedule elapsed share."
+ },
+ {
+  "quote": "79.4%",
+  "value": 0.79375,
+  "definition": "Pricing page tests Spend/Budget = 31,750/40,000."
+ },
+ {
+  "quote": "4.6%",
+  "value": 0.0456,
+  "definition": "Field sales app (Budget - Spend)/Budget = 9,580/210,000."
+ },
+ {
+  "quote": "98.8%",
+  "value": 0.9877,
+  "definition": "SSO rollout Spend/Budget = 74,080/75,000."
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Non-archived projects with a Done date."
+ },
+ {
+  "quote": "87.4%",
+  "value": 0.8739555555555556,
+  "definition": "Done projects: sum of Spend / sum of Budget = 393,280/450,000."
+ },
+ {
+  "quote": "$56,720",
+  "value": 56720,
+  "definition": "Sum of Budget minus sum of Spend over the 4 done projects."
+ },
+ {
+  "quote": "5.3",
+  "value": 5.25,
+  "definition": "Mean days between Done date and due date for the 4 done projects."
+ },
+ {
+  "quote": "47.0%",
+  "value": 0.4703,
+  "definition": "Warehouse robots pilot (Budget - Spend)/Budget = 244,560/520,000."
+ }
+]

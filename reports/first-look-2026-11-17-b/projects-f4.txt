@@ -1,0 +1,37 @@
+BUDGET BURN MEMO: PORTFOLIO STATUS EXPORT
+To: CFO | From: Portfolio Analysis, Finance | Basis: this week's project status export, with today taken as the export date
+
+SCOPE AND METHOD
+- The export holds 24 project rows plus a total line. I left out the total line and 2 archived projects (Intranet refresh and Legacy CMS shutdown), because their work is finished and closed out. That leaves 22 projects with $3,790,000 of budget and $2,934,920 of spend.
+- The file has no percent-complete column. As a progress proxy I use schedule elapsed: days from start date to today, divided by days from start to due date, capped at full. "Burning ahead" below means spend share minus schedule share. This is a proxy, not earned value, so a project's real progress could differ from what the calendar implies.
+- Of those projects, 18 are open and 4 are done. Most comparisons below cover the open ones, since done projects can no longer run late.
+
+HEADLINE
+- The portfolio has used 77.4% of budget, leaving $855,080 to spend. On the open projects alone the burn is 76.1%.
+- 3 projects are already over budget (Data warehouse, CRM migration, Billing revamp), by a combined $62,130.
+- 4 open projects are past their due date with no done date: the over-budget projects plus SSO rollout. They average 17.3 days late and together have spent 106.2% of their budget, which is the clearest sign that money is running out before the work is.
+- 6 of the 18 open projects (33.3%) are burning ahead of schedule. The median open project sits 3.4 points behind its schedule share, so the overspend is concentrated in a few projects rather than general.
+
+WHERE SPEND LEADS SCHEDULE
+- Field sales app (Red): 95.4% spent against 85.0% of schedule, 10.5 points ahead, with only $9,580 left and 32 days to its due date.
+- Data warehouse (Amber): 108.0% spent and 8.0 points ahead of schedule, with no budget left to finish.
+- Billing revamp (Red): 108.0% spent and $18,400 over budget.
+- CRM migration (Red): 103.9% spent and $10,130 over budget.
+- Warehouse robots pilot (Amber): 53.0% spent against 48.5% of schedule. It carries the largest budget in the portfolio, with $244,560 still unspent, so a small lead now can compound.
+
+CUTS THAT MATTER
+- By risk rating (open projects only): the 5 High-risk projects are 88.3% spent and average 7.0 points ahead of schedule. All of them are ahead, and 3 of the 5 (60.0%) are overdue. The 6 Medium-risk projects are 67.1% spent. The 7 Low-risk projects are 61.4% spent and average 10.5 points behind schedule, with none ahead.
+- By status colour: the 3 Red projects are 102.7% spent, the 6 Amber projects 75.8%, and the 9 Green projects 61.9%. The colours track the money well, so Green is a fair signal today.
+- By phase: the 5 projects in Test are 97.0% spent and 3 of them (60.0%) are overdue. The 11 in Build are 61.6% spent and none is overdue. Test is where budget runs out, because fixes and retesting consume spend while the schedule has already expired.
+- By department, Finance (100.3%) and Sales (100.1%) have used essentially all of their open budget,.
+
+AT RISK OF RUNNING LATE
+- 5 open projects are due within the next month, with a combined burn of 74.7%. 2 of the 5 (40.0%) are Amber. Security audit has 12 days left and is spending level with its schedule. Pricing page tests is 93.2% through its schedule and 79.4% spent, which is fine on money but leaves little time.
+- Field sales app is the one to watch: Red, 4.6% of budget left and a month to run. Any slip needs new money.
+- SSO rollout is in Launch, late and 98.8% spent, so it has almost nothing left to finish with.
+- For reference, the 4 completed projects closed at 87.4% of budget, leaving $56,720 unspent, and finished 5.3 days ahead of their due dates on average. Clean finishes are possible here; the overruns are a Test-phase problem.
+
+ASKS
+- Freeze incremental spend on Data warehouse, Billing revamp and CRM migration until owners submit a recovery date and a cost-to-complete.
+- Require a funded cost-to-complete for Field sales app before its due date.
+- Review the Warehouse robots pilot at its next milestone, while 47.0% of its budget is still unspent.

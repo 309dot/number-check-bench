@@ -1,0 +1,59 @@
+ORDER QUALITY: OCTOBER, MONTH TO DATE
+
+This section covers every order placed in the first 18 days of October. All figures come from a single export of our order system, recalculated row by row. Refund and cancellation rates are shares of orders placed, grouped by order date.
+
+Scope and what I left out
+
+- The export holds 1,381 order rows plus a totals footer. I worked from the order rows only.
+- I removed 4 rows flagged as test orders. Each was a $1.00 single-item web order, so keeping them would have slightly inflated order counts and pulled down average order value.
+- I looked for spam and duplicates and found none: no order ID repeats, and no two orders match on date, channel, region, item count and total. Nothing else was removed.
+- Every refunded order was refunded in full, and no cancelled order carries a refund, so refunds and cancellations never overlap.
+- That leaves 1,377 orders and $136,305.15 of gross order value. Average order value (AOV) was $98.99; the median order was $80.97.
+
+Headline
+
+- Refunds: 45 orders, or 3.3% of orders, totalling $4,039.29. That is 3.0% of gross order value.
+- Cancellations: 35 orders (2.5%) worth $4,348.23 of order value.
+- Combined, 5.8% of orders and 6.2% of gross order value did not turn into kept revenue. The dollar share runs above the order share because cancelled orders are larger than average, almost entirely because of wholesale.
+
+Channel mix
+
+- Web: 844 orders, which is 61.3% of orders but only 49.3% of gross value, at an AOV of $79.58.
+- Marketplace: 420 orders at an AOV of $82.30, bringing 25.4% of gross value.
+- Wholesale: just 113 orders (8.2% of the total), but at an AOV of $305.93 it brings 25.4% of gross value, level with marketplace. That is why its cancellations matter more than its order count suggests.
+
+Refunds: marketplace is the problem
+
+- Marketplace refunds 5.5% of its orders, against 2.4% on web and 1.8% on wholesale. It accounts for 51.1% of all refunded orders.
+- It is not a new-customer issue. Within marketplace, new customers refund at 5.8% and returning customers at 5.2%, so the cause looks like the channel itself (we suspect listing accuracy and fulfilment) rather than who is buying.
+- It got worse during the month. Marketplace went from 5.7% in the first week to 7.6% in the second, while web fell from 4.4% to 1.3% over the same weeks. Both channels face the same refund lag, so the widening gap is not a timing artifact.
+
+Cancellations: wholesale
+
+- Wholesale cancels 4.4% of its orders, versus 2.4% across web and marketplace combined.
+- Its 5 cancellations are worth $2,106.22, which is 48.4% of all cancelled order value.
+- New wholesale accounts cancel at 5.9%, against 3.2% for returning ones. The numbers are small, but the risk appears to sit with accounts we have not served before.
+
+Regions
+
+- North is our largest region at 29.8% of orders; South is the smallest at 20.6%.
+- Refund rate by region: West 4.4%, North 3.6%, East 3.4%, South 1.4%.
+- The marketplace problem is concentrated. Marketplace orders refund at 8.3% in the West and 6.9% in the North. Those 17 refunds make up 37.8% of all refunds, from just 16.6% of orders.
+- West also has the highest cancellation rate at 3.1%, led by web orders in the West at 4.3%.
+- South has the lowest refund rate and the highest AOV of any region, at $106.54.
+
+New versus returning customers
+
+- New customers placed 42.7% of orders. Their refund rate is 2.9%, against 3.5% for returning customers, so first-time buyers are not what is driving refunds.
+
+A caution on timing
+
+- Refunds trail orders. By order week the refund rate reads 4.8% for the first week, 3.2% for the second and 0.6% for the last four days, and no order from the final three days has been refunded yet. That slide is mostly orders that have not had time to come back, not an improvement.
+- The fairer read is the 4.0% refund rate on orders from the first two weeks. I expect the month to close nearer that figure than the headline rate above, and I would rather you plan on it.
+- Our busiest order day of the month (103 orders) also produced 9 refunds, an 8.7% refund rate, and those refunds account for 33.8% of month-to-date refund dollars. That includes our largest single refund, a $494.70 wholesale order. One bad day does not explain the marketplace pattern, which shows up in both weeks.
+
+What we are doing about it
+
+- Marketplace: auditing listings, photos and packaging for marketplace orders going to the West and North first. Had marketplace refunded at the web rate this month, we would have had about 13 fewer refunds.
+- Wholesale: adding a confirmation step for new wholesale accounts before we pick and pack, so a cancellation costs us a phone call rather than a pallet.
+- Reporting: I will restate October refunds in next month's update, once every October order has had time to come back, and I will report marketplace and wholesale separately from now on.

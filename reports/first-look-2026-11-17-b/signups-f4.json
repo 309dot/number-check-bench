@@ -1,0 +1,362 @@
+[
+  {
+    "quote": "321",
+    "value": 321,
+    "definition": "Count of all rows in the export before any exclusion."
+  },
+  {
+    "quote": "7",
+    "value": 7,
+    "definition": "Count of distinct Created dates in the export, which run from Monday to Sunday."
+  },
+  {
+    "quote": "4",
+    "value": 4,
+    "definition": "Count of rows marked Test account = Yes, which were excluded."
+  },
+  {
+    "quote": "4",
+    "value": 4,
+    "definition": "Count of excluded test rows whose company domain is internal.test."
+  },
+  {
+    "quote": "67.6%",
+    "value": 67.64705882352942,
+    "definition": "Finished-setup rate of Team rows in the 317-row base (23 finished of 34 Team rows)."
+  },
+  {
+    "quote": "71.1%",
+    "value": 71.05263157894737,
+    "definition": "Finished-setup rate of all Team rows including the 4 test rows (27 of 38)."
+  },
+  {
+    "quote": "317",
+    "value": 317,
+    "definition": "Count of rows left after excluding the 4 test rows."
+  },
+  {
+    "quote": "137",
+    "value": 137,
+    "definition": "Count of rows in the 317-row base with Finished setup = Yes."
+  },
+  {
+    "quote": "43.2%",
+    "value": 43.217665615141954,
+    "definition": "Overall finished-setup rate: 137 finished rows divided by 317 base rows."
+  },
+  {
+    "quote": "317",
+    "value": 317,
+    "definition": "Count of rows in the 317-row base, restated as the total number of signups from companies."
+  },
+  {
+    "quote": "194",
+    "value": 194,
+    "definition": "Count of distinct Company domain values among the 317 base rows."
+  },
+  {
+    "quote": "1",
+    "value": 1.0,
+    "definition": "Median number of base rows per company domain across the 194 domains."
+  },
+  {
+    "quote": "1.6",
+    "value": 1.634020618556701,
+    "definition": "Mean number of base rows per company domain, 317 divided by 194."
+  },
+  {
+    "quote": "317",
+    "value": 317,
+    "definition": "Size of the analysis base used as the denominator for the shares in this report."
+  },
+  {
+    "quote": "199",
+    "value": 199,
+    "definition": "Count of base rows with Plan = Free."
+  },
+  {
+    "quote": "62.8%",
+    "value": 62.77602523659306,
+    "definition": "Share of base rows on the Free plan: 199 of 317."
+  },
+  {
+    "quote": "74",
+    "value": 74,
+    "definition": "Count of Free base rows with Finished setup = Yes."
+  },
+  {
+    "quote": "37.2%",
+    "value": 37.185929648241206,
+    "definition": "Finished-setup rate among Free base rows: 74 of 199."
+  },
+  {
+    "quote": "84",
+    "value": 84,
+    "definition": "Count of base rows with Plan = Starter."
+  },
+  {
+    "quote": "47.6%",
+    "value": 47.61904761904761,
+    "definition": "Finished-setup rate among Starter base rows: 40 of 84."
+  },
+  {
+    "quote": "34",
+    "value": 34,
+    "definition": "Count of base rows with Plan = Team."
+  },
+  {
+    "quote": "67.6%",
+    "value": 67.64705882352942,
+    "definition": "Finished-setup rate among Team base rows: 23 of 34."
+  },
+  {
+    "quote": "53.4%",
+    "value": 53.38983050847458,
+    "definition": "Finished-setup rate among paid-plan (Starter plus Team) base rows: 63 of 118."
+  },
+  {
+    "quote": "37.2%",
+    "value": 37.22397476340694,
+    "definition": "Share of base rows on a paid plan (Starter plus Team): 118 of 317."
+  },
+  {
+    "quote": "46.0%",
+    "value": 45.98540145985402,
+    "definition": "Share of finished base rows that are on a paid plan: 63 of 137."
+  },
+  {
+    "quote": "81",
+    "value": 81,
+    "definition": "Count of base rows with Source = Paid search."
+  },
+  {
+    "quote": "25.6%",
+    "value": 25.55205047318612,
+    "definition": "Share of base rows from Paid search: 81 of 317."
+  },
+  {
+    "quote": "46.9%",
+    "value": 46.913580246913575,
+    "definition": "Finished-setup rate among Paid search base rows: 38 of 81."
+  },
+  {
+    "quote": "60",
+    "value": 60,
+    "definition": "Count of base rows with Source = Direct."
+  },
+  {
+    "quote": "18.9%",
+    "value": 18.92744479495268,
+    "definition": "Share of base rows from Direct: 60 of 317."
+  },
+  {
+    "quote": "43.3%",
+    "value": 43.333333333333336,
+    "definition": "Finished-setup rate among Direct base rows: 26 of 60."
+  },
+  {
+    "quote": "25",
+    "value": 25,
+    "definition": "Count of base rows with Source = Partner."
+  },
+  {
+    "quote": "7.9%",
+    "value": 7.886435331230284,
+    "definition": "Share of base rows from Partner: 25 of 317."
+  },
+  {
+    "quote": "32.0%",
+    "value": 32.0,
+    "definition": "Finished-setup rate among Partner base rows: 8 of 25."
+  },
+  {
+    "quote": "31.2%",
+    "value": 31.25,
+    "definition": "Finished-setup rate among Free base rows from Partner: 5 of 16."
+  },
+  {
+    "quote": "30.9%",
+    "value": 30.909090909090907,
+    "definition": "Finished-setup rate among Free base rows whose source is Direct or Partner: 17 of 55."
+  },
+  {
+    "quote": "44.2%",
+    "value": 44.178082191780824,
+    "definition": "Finished-setup rate among base rows whose source is not Partner: 129 of 292."
+  },
+  {
+    "quote": "50",
+    "value": 50,
+    "definition": "Count of Free base rows with Source = Paid search."
+  },
+  {
+    "quote": "42.0%",
+    "value": 42.0,
+    "definition": "Finished-setup rate among Free base rows from Paid search: 21 of 50."
+  },
+  {
+    "quote": "39",
+    "value": 39,
+    "definition": "Count of Free base rows with Source = Direct."
+  },
+  {
+    "quote": "30.8%",
+    "value": 30.76923076923077,
+    "definition": "Finished-setup rate among Free base rows from Direct: 12 of 39."
+  },
+  {
+    "quote": "30",
+    "value": 30,
+    "definition": "Minimum group size used to choose the Free source segments compared in the report."
+  },
+  {
+    "quote": "9",
+    "value": 9,
+    "definition": "Count of Starter base rows from Direct that finished setup."
+  },
+  {
+    "quote": "13",
+    "value": 13,
+    "definition": "Count of Starter base rows with Source = Direct."
+  },
+  {
+    "quote": "69.2%",
+    "value": 69.23076923076923,
+    "definition": "Finished-setup rate among Starter base rows from Direct: 9 of 13."
+  },
+  {
+    "quote": "141",
+    "value": 141,
+    "definition": "Count of base rows with Country = US."
+  },
+  {
+    "quote": "44.5%",
+    "value": 44.479495268138805,
+    "definition": "Share of base rows from the US: 141 of 317."
+  },
+  {
+    "quote": "40.4%",
+    "value": 40.42553191489361,
+    "definition": "Finished-setup rate among US base rows: 57 of 141."
+  },
+  {
+    "quote": "41.6%",
+    "value": 41.605839416058394,
+    "definition": "Share of finished base rows from the US: 57 of 137."
+  },
+  {
+    "quote": "29",
+    "value": 29,
+    "definition": "Count of base rows with Country = DE."
+  },
+  {
+    "quote": "9.1%",
+    "value": 9.14826498422713,
+    "definition": "Share of base rows from DE: 29 of 317."
+  },
+  {
+    "quote": "58.6%",
+    "value": 58.620689655172406,
+    "definition": "Finished-setup rate among DE base rows: 17 of 29."
+  },
+  {
+    "quote": "57.1%",
+    "value": 57.14285714285714,
+    "definition": "Finished-setup rate among Free base rows from DE: 12 of 21."
+  },
+  {
+    "quote": "23",
+    "value": 23,
+    "definition": "Count of base rows with Country = KR."
+  },
+  {
+    "quote": "7.3%",
+    "value": 7.255520504731862,
+    "definition": "Share of base rows from KR: 23 of 317."
+  },
+  {
+    "quote": "34.8%",
+    "value": 34.78260869565217,
+    "definition": "Finished-setup rate among KR base rows: 8 of 23."
+  },
+  {
+    "quote": "176",
+    "value": 176,
+    "definition": "Count of base rows whose country is not US."
+  },
+  {
+    "quote": "45.5%",
+    "value": 45.45454545454545,
+    "definition": "Finished-setup rate among base rows outside the US: 80 of 176."
+  },
+  {
+    "quote": "33.0%",
+    "value": 32.967032967032964,
+    "definition": "Finished-setup rate among Free base rows from the US: 30 of 91."
+  },
+  {
+    "quote": "30",
+    "value": 30,
+    "definition": "Count of Free base rows from the US that finished setup."
+  },
+  {
+    "quote": "91",
+    "value": 91,
+    "definition": "Count of Free base rows from the US."
+  },
+  {
+    "quote": "42.9%",
+    "value": 42.857142857142854,
+    "definition": "Finished-setup rate among base rows created Monday to Friday: 114 of 266."
+  },
+  {
+    "quote": "45.1%",
+    "value": 45.09803921568628,
+    "definition": "Finished-setup rate among base rows created on Saturday or Sunday: 23 of 51."
+  },
+  {
+    "quote": "51",
+    "value": 51,
+    "definition": "Count of base rows created on Saturday or Sunday."
+  },
+  {
+    "quote": "43.8%",
+    "value": 43.82716049382716,
+    "definition": "Finished-setup rate among base rows created Monday to Wednesday: 71 of 162."
+  },
+  {
+    "quote": "42.6%",
+    "value": 42.58064516129032,
+    "definition": "Finished-setup rate among base rows created Thursday to Sunday: 66 of 155."
+  },
+  {
+    "quote": "38.9%",
+    "value": 38.88888888888889,
+    "definition": "Finished-setup rate among base rows created on Friday: 21 of 54."
+  },
+  {
+    "quote": "125",
+    "value": 125,
+    "definition": "Count of Free base rows that did not finish setup: 199 minus 74."
+  },
+  {
+    "quote": "69.4%",
+    "value": 69.44444444444444,
+    "definition": "Share of unfinished base rows that are on the Free plan: 125 of 180."
+  },
+  {
+    "quote": "180",
+    "value": 180,
+    "definition": "Count of base rows that did not finish setup: 317 minus 137."
+  },
+  {
+    "quote": "33.0%",
+    "value": 32.967032967032964,
+    "definition": "Finished-setup rate among Free base rows from the US, repeated in the next-step paragraph: 30 of 91."
+  },
+  {
+    "quote": "10",
+    "value": 10,
+    "definition": "Group-size threshold below which the report flags a group as small and noisy."
+  }
+]

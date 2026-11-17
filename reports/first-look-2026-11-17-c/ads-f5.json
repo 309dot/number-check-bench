@@ -1,0 +1,347 @@
+[
+  {
+    "quote": "56",
+    "value": 56.0,
+    "definition": "Distinct dates in the non-test rows."
+  },
+  {
+    "quote": "48.2%",
+    "value": 48.17970565453137,
+    "definition": "Search leads as a percent of all non-test leads."
+  },
+  {
+    "quote": "35.8%",
+    "value": 35.822357008655054,
+    "definition": "Search spend as a percent of total non-test spend."
+  },
+  {
+    "quote": "$40.75",
+    "value": 40.75348874598071,
+    "definition": "Search total spend divided by total leads over non-test rows (cost per lead)."
+  },
+  {
+    "quote": "$54.81",
+    "value": 54.81189000774593,
+    "definition": "Total spend divided by total leads over all non-test rows (cost per lead)."
+  },
+  {
+    "quote": "56",
+    "value": 56.0,
+    "definition": "Rows where the Test campaign column is Yes (all are the QA – Pixel test campaign), counted before exclusion."
+  },
+  {
+    "quote": "$49.01",
+    "value": 49.01,
+    "definition": "Sum of Spend over the test rows (QA – Pixel test), which are excluded."
+  },
+  {
+    "quote": "$70,762.15",
+    "value": 70762.15,
+    "definition": "Sum of Spend over all non-test rows."
+  },
+  {
+    "quote": "$70,811.16",
+    "value": 70811.15999999999,
+    "definition": "Total spend in the full file if the test rows were not excluded."
+  },
+  {
+    "quote": "0.1%",
+    "value": 0.06921225411361713,
+    "definition": "Test-row spend as a percent of spend in the full file, including the test rows."
+  },
+  {
+    "quote": "7",
+    "value": 7.0,
+    "definition": "Non-test rows with zero leads."
+  },
+  {
+    "quote": "$70,762.15",
+    "value": 70762.15,
+    "definition": "Sum of Spend over all non-test rows."
+  },
+  {
+    "quote": "5,360,833",
+    "value": 5360833.0,
+    "definition": "Sum of Impressions over all non-test rows."
+  },
+  {
+    "quote": "56,829",
+    "value": 56829.0,
+    "definition": "Sum of Clicks over all non-test rows."
+  },
+  {
+    "quote": "1,291",
+    "value": 1291.0,
+    "definition": "Sum of Leads over all non-test rows."
+  },
+  {
+    "quote": "$54.81",
+    "value": 54.81189000774593,
+    "definition": "Total spend divided by total leads over all non-test rows (cost per lead)."
+  },
+  {
+    "quote": "1.1%",
+    "value": 1.060077790149404,
+    "definition": "Total clicks divided by total impressions, times 100, over all non-test rows."
+  },
+  {
+    "quote": "2.3%",
+    "value": 2.2717274630910276,
+    "definition": "Total leads divided by total clicks, times 100, over all non-test rows (click-to-lead rate)."
+  },
+  {
+    "quote": "24",
+    "value": 24.0,
+    "definition": "Median of the daily total leads across the non-test rows, one value per date."
+  },
+  {
+    "quote": "$21,645.65",
+    "value": 21645.65,
+    "definition": "Sum of Spend for Brightline Dental over non-test rows."
+  },
+  {
+    "quote": "30.6%",
+    "value": 30.58930515819545,
+    "definition": "Brightline Dental spend as a percent of total non-test spend."
+  },
+  {
+    "quote": "515",
+    "value": 515.0,
+    "definition": "Sum of Leads for Brightline Dental over non-test rows."
+  },
+  {
+    "quote": "39.9%",
+    "value": 39.89155693261038,
+    "definition": "Brightline Dental leads as a percent of all non-test leads."
+  },
+  {
+    "quote": "$42.03",
+    "value": 42.03038834951457,
+    "definition": "Brightline Dental total spend divided by total leads over non-test rows (cost per lead)."
+  },
+  {
+    "quote": "4.5%",
+    "value": 4.462351615977818,
+    "definition": "Brightline Dental leads divided by clicks, times 100, over non-test rows (click-to-lead rate)."
+  },
+  {
+    "quote": "$28,296.36",
+    "value": 28296.36,
+    "definition": "Sum of Spend for Harbor & Pine over non-test rows."
+  },
+  {
+    "quote": "40.0%",
+    "value": 39.98798792857481,
+    "definition": "Harbor & Pine spend as a percent of total non-test spend."
+  },
+  {
+    "quote": "397",
+    "value": 397.0,
+    "definition": "Sum of Leads for Harbor & Pine over non-test rows."
+  },
+  {
+    "quote": "30.8%",
+    "value": 30.75135553834237,
+    "definition": "Harbor & Pine leads as a percent of all non-test leads."
+  },
+  {
+    "quote": "$71.28",
+    "value": 71.27546599496222,
+    "definition": "Harbor & Pine total spend divided by total leads over non-test rows (cost per lead)."
+  },
+  {
+    "quote": "$20,820.14",
+    "value": 20820.14,
+    "definition": "Sum of Spend for Northfield Bikes over non-test rows."
+  },
+  {
+    "quote": "29.4%",
+    "value": 29.422706913229746,
+    "definition": "Northfield Bikes spend as a percent of total non-test spend."
+  },
+  {
+    "quote": "379",
+    "value": 379.0,
+    "definition": "Sum of Leads for Northfield Bikes over non-test rows."
+  },
+  {
+    "quote": "29.4%",
+    "value": 29.35708752904725,
+    "definition": "Northfield Bikes leads as a percent of all non-test leads."
+  },
+  {
+    "quote": "$54.93",
+    "value": 54.934406332453825,
+    "definition": "Northfield Bikes total spend divided by total leads over non-test rows (cost per lead)."
+  },
+  {
+    "quote": "$25,348.67",
+    "value": 25348.670000000002,
+    "definition": "Sum of Spend for the Search channel over non-test rows."
+  },
+  {
+    "quote": "35.8%",
+    "value": 35.822357008655054,
+    "definition": "Search spend as a percent of total non-test spend."
+  },
+  {
+    "quote": "622",
+    "value": 622.0,
+    "definition": "Sum of Leads for the Search channel over non-test rows."
+  },
+  {
+    "quote": "$40.75",
+    "value": 40.75348874598071,
+    "definition": "Search total spend divided by total leads over non-test rows (cost per lead)."
+  },
+  {
+    "quote": "32.9%",
+    "value": 32.857142857142854,
+    "definition": "Search rows with three or more leads as a percent of all non-test Search rows."
+  },
+  {
+    "quote": "$30,982.17",
+    "value": 30982.17,
+    "definition": "Sum of Spend for the Social channel over non-test rows."
+  },
+  {
+    "quote": "43.8%",
+    "value": 43.78353399380884,
+    "definition": "Social spend as a percent of total non-test spend."
+  },
+  {
+    "quote": "468",
+    "value": 468.0,
+    "definition": "Sum of Leads for the Social channel over non-test rows."
+  },
+  {
+    "quote": "$66.20",
+    "value": 66.20121794871794,
+    "definition": "Social total spend divided by total leads over non-test rows (cost per lead)."
+  },
+  {
+    "quote": "$14,431.31",
+    "value": 14431.31,
+    "definition": "Sum of Spend for the Display channel over non-test rows."
+  },
+  {
+    "quote": "20.4%",
+    "value": 20.394108997536115,
+    "definition": "Display spend as a percent of total non-test spend."
+  },
+  {
+    "quote": "201",
+    "value": 201.0,
+    "definition": "Sum of Leads for the Display channel over non-test rows."
+  },
+  {
+    "quote": "$71.80",
+    "value": 71.79756218905473,
+    "definition": "Display total spend divided by total leads over non-test rows (cost per lead)."
+  },
+  {
+    "quote": "$24.07",
+    "value": 24.067905405405405,
+    "definition": "Harbor & Pine – Brand search: spend divided by leads over non-test rows."
+  },
+  {
+    "quote": "37,213",
+    "value": 37213.0,
+    "definition": "Sum of Impressions for Harbor & Pine – Brand search over non-test rows."
+  },
+  {
+    "quote": "$28.01",
+    "value": 28.00835164835165,
+    "definition": "Northfield – Service booking: spend divided by leads over non-test rows."
+  },
+  {
+    "quote": "$39.75",
+    "value": 39.74591304347826,
+    "definition": "Brightline – Emergency care: spend divided by leads over non-test rows."
+  },
+  {
+    "quote": "$35.58",
+    "value": 35.57525,
+    "definition": "Brightline – Emergency care CPL using only October 1-18 rows."
+  },
+  {
+    "quote": "15.2%",
+    "value": 15.237016999336046,
+    "definition": "Drop in Brightline – Emergency care CPL from rows before October 1 to October 1-18, as a positive percent of the earlier CPL."
+  },
+  {
+    "quote": "$107.48",
+    "value": 107.48470588235294,
+    "definition": "Harbor & Pine – Lookalike: spend divided by leads over non-test rows."
+  },
+  {
+    "quote": "6",
+    "value": 6.0,
+    "definition": "Harbor & Pine – Lookalike rows with zero leads."
+  },
+  {
+    "quote": "56",
+    "value": 56.0,
+    "definition": "Non-test rows for Harbor & Pine – Lookalike."
+  },
+  {
+    "quote": "$99.99",
+    "value": 99.98972602739725,
+    "definition": "Harbor & Pine – Gift guide: spend divided by leads over non-test rows."
+  },
+  {
+    "quote": "$95.63",
+    "value": 95.62672,
+    "definition": "Harbor & Pine – Fall collection: spend divided by leads over non-test rows."
+  },
+  {
+    "quote": "$11,953.34",
+    "value": 11953.34,
+    "definition": "Sum of Spend for Harbor & Pine – Fall collection over non-test rows."
+  },
+  {
+    "quote": "17.4%",
+    "value": 17.43228951592261,
+    "definition": "Rise in Harbor & Pine – Fall collection CPL from rows before October 1 to October 1-18, as a positive percent of the earlier CPL."
+  },
+  {
+    "quote": "13.8%",
+    "value": 13.775777882298188,
+    "definition": "Rise in Brightline – Retargeting CPL from rows before October 1 to October 1-18, as a positive percent of the earlier CPL."
+  },
+  {
+    "quote": "$48.88",
+    "value": 48.884,
+    "definition": "Brightline – Retargeting CPL using only October 1-18 rows."
+  },
+  {
+    "quote": "$1,263.61",
+    "value": 1263.6098214285714,
+    "definition": "Total non-test spend divided by the 56 distinct dates."
+  },
+  {
+    "quote": "$37,908.29",
+    "value": 37908.294642857145,
+    "definition": "Average daily spend times 30, a run-rate for a 30-day month (a projection, not a forecast)."
+  },
+  {
+    "quote": "$12,780.97",
+    "value": 12780.97,
+    "definition": "Sum of Spend for Harbor & Pine – Lookalike and Gift guide over non-test rows."
+  },
+  {
+    "quote": "18.1%",
+    "value": 18.061873473318716,
+    "definition": "Harbor & Pine Lookalike plus Gift guide spend as a percent of total non-test spend."
+  },
+  {
+    "quote": "$103.07",
+    "value": 103.07233870967741,
+    "definition": "Harbor & Pine Lookalike plus Gift guide combined spend divided by combined leads (cost per lead)."
+  },
+  {
+    "quote": "18",
+    "value": 18.0,
+    "definition": "Distinct dates from October 1 through the last date in the export."
+  }
+]

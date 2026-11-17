@@ -1,0 +1,55 @@
+Signup funnel deep-dive: onboarding by plan, source, country and signup day
+
+Scope and data cleaning
+- The export has 321 signup rows across 7 days, Monday to Sunday. Each row is one signup with a plan, a source, a country and a finished-setup flag.
+- I removed 4 rows marked Test account = Yes. All 4 use the internal.test domain, sit on Team, came in as Direct, are US-based and show finished setup. Keeping them would lift the Team onboarding rate from 67.6% to 71.1%, so they would flatter the paid tier.
+- The analysis base is therefore 317 signups. 137 of them finished setup, an overall onboarding rate of 43.2%. "Finished setup" is the only later funnel step in the export, so every rate here measures signup-to-completion.
+- Same-company, same-day pairs have different signup IDs and are not identical rows, so I counted each one as its own signup.
+
+Overall shape
+- The 317 signups come from 194 company domains. The median is 1 signup per domain and the mean is 1.6, so most companies signed up once and a few teams drove a lot of volume. Because of that, a company-level view would mostly repeat the signup-level one, so the rest of this report counts signups, not companies.
+
+How to read this
+- Each rate is the number of signups in a group that finished setup, divided by all signups in that same group. Shares are a group's signups divided by the full base of 317.
+- Groups are cut by one dimension at a time unless a line says otherwise. The small groups are flagged in the caveats.
+
+Plan
+- Free: 199 signups (62.8% of the base), 74 finished, a 37.2% onboarding rate.
+- Starter: 84 signups, a 47.6% rate.
+- Team: 34 signups, a 67.6% rate. It is the smallest plan but the best one to onboard.
+- Paid plans together finish at 53.4%. They are 37.2% of signups but 46.0% of finishers.
+
+Source
+- Paid search: 81 signups (25.6%), 46.9% finished, the highest of the five sources.
+- Direct: 60 signups (18.9%), 43.3% finished.
+- Partner: 25 signups (7.9%), 32.0% finished, the lowest source.
+- Free is most of Partner volume, and those Free signups finish at 31.2%. The Partner problem is mostly a Free-plan problem.
+- Free signups from Direct and Partner finish at 30.9%, against 44.2% for all non-Partner signups.
+
+Plan by source
+- Free from Paid search: 50 signups, 42.0% finished, the best Free source.
+- Free from Direct: 39 signups, 30.8% finished, the lowest Free segment with at least 30 signups.
+- Starter from Direct: 9 of 13 finished, a 69.2% rate. The group is small, so treat it as a lead, not a finding.
+
+Country
+- US: 141 signups (44.5%), 40.4% finished. The US is 41.6% of finishers, so its rate sits near the overall average.
+- DE: 29 signups (9.1%), 58.6% finished, the highest rate of any country in the table. German Free signups finish at 57.1%.
+- KR: 23 signups (7.3%), 34.8% finished.
+- Outside the US, 176 signups finish at 45.5%, above the US rate.
+- US Free signups finish at 33.0% (30 of 91). That is the largest Free country segment in the export.
+
+Signup day
+- Weekdays finish at 42.9%, and weekends at 45.1% (51 signups). Weekends do not look worse, so the funnel is not a weekday-only problem.
+- Monday to Wednesday finish at 43.8%, and Thursday to Sunday at 42.6%. The gap is small, so the day alone does not explain the funnel.
+- Friday is the weakest weekday at 38.9%, enough volume to take seriously.
+
+Where to look first
+- Free onboarding is the largest leak. 125 Free signups did not finish, which is 69.4% of the 180 unfinished signups in the base.
+- Free signups from Direct and Partner are the first place to check for setup friction, since they finish at the lowest rates.
+- US Free (33.0%) and Korean Free are the two Free segments to walk through step by step on a fresh account.
+- Proposed next step: run a fresh Free sign-up from a Direct link and from a Partner link, and time each setup step. The export cannot show where people stop, so this test is the fastest way to find the drop.
+
+Caveats
+- This is one week of data. Finished setup is a yes or no flag with no timestamp, so it measures completion, not time to finish.
+- Groups under 10 signups, such as Team from Partner, are noisy and should not drive a decision on their own.
+- Source and country describe where a signup came from, not who converts later.

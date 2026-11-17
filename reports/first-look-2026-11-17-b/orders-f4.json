@@ -1,0 +1,362 @@
+[
+  {
+    "quote": "18",
+    "value": 18,
+    "definition": "Number of distinct order dates in the export (2026-10-01 through 2026-10-18)."
+  },
+  {
+    "quote": "1,381",
+    "value": 1381,
+    "definition": "Count of order rows in the export (rows with an order ID), excluding the blank row and the Total footer row."
+  },
+  {
+    "quote": "4",
+    "value": 4,
+    "definition": "Count of rows with Test order = Yes, which were removed from all other figures."
+  },
+  {
+    "quote": "$1.00",
+    "value": 1.0,
+    "definition": "Order total of each of the test-order rows (all four are 1 item, Web, total 1)."
+  },
+  {
+    "quote": "1,377",
+    "value": 1377,
+    "definition": "Count of order rows after removing the test orders (the analysis base)."
+  },
+  {
+    "quote": "$136,305.15",
+    "value": 136305.15,
+    "definition": "Sum of Order total over all non-test orders, including refunded and cancelled ones (gross order value)."
+  },
+  {
+    "quote": "$98.99",
+    "value": 98.98703703703703,
+    "definition": "Mean Order total over all non-test orders."
+  },
+  {
+    "quote": "$80.97",
+    "value": 80.97,
+    "definition": "Median Order total over all non-test orders."
+  },
+  {
+    "quote": "45",
+    "value": 45,
+    "definition": "Count of non-test orders with Status = Refunded."
+  },
+  {
+    "quote": "3.3%",
+    "value": 3.2679738562091507,
+    "definition": "Refunded orders as a percent of all non-test orders (45 / 1,377)."
+  },
+  {
+    "quote": "$4,039.29",
+    "value": 4039.29,
+    "definition": "Sum of Refund amount over non-test refunded orders."
+  },
+  {
+    "quote": "3.0%",
+    "value": 2.9634170095553984,
+    "definition": "Total refund amount as a percent of gross order value of non-test orders."
+  },
+  {
+    "quote": "35",
+    "value": 35,
+    "definition": "Count of non-test orders with Status = Cancelled."
+  },
+  {
+    "quote": "2.5%",
+    "value": 2.541757443718228,
+    "definition": "Cancelled orders as a percent of all non-test orders (35 / 1,377)."
+  },
+  {
+    "quote": "$4,348.23",
+    "value": 4348.23,
+    "definition": "Sum of Order total over non-test cancelled orders."
+  },
+  {
+    "quote": "5.8%",
+    "value": 5.809731299927378,
+    "definition": "Refunded plus cancelled orders as a percent of all non-test orders (80 / 1,377)."
+  },
+  {
+    "quote": "6.2%",
+    "value": 6.153487230673236,
+    "definition": "Refund amount plus cancelled order value as a percent of gross order value of non-test orders."
+  },
+  {
+    "quote": "844",
+    "value": 844,
+    "definition": "Count of non-test orders with Channel = Web."
+  },
+  {
+    "quote": "61.3%",
+    "value": 61.29266521423384,
+    "definition": "Web orders as a percent of all non-test orders."
+  },
+  {
+    "quote": "49.3%",
+    "value": 49.27873231495655,
+    "definition": "Web gross order value as a percent of total non-test gross order value."
+  },
+  {
+    "quote": "$79.58",
+    "value": 79.58465639810426,
+    "definition": "Mean Order total among non-test Web orders."
+  },
+  {
+    "quote": "420",
+    "value": 420,
+    "definition": "Count of non-test orders with Channel = Marketplace."
+  },
+  {
+    "quote": "$82.30",
+    "value": 82.29935714285715,
+    "definition": "Mean Order total among non-test Marketplace orders."
+  },
+  {
+    "quote": "25.4%",
+    "value": 25.359078508772413,
+    "definition": "Marketplace gross order value as a percent of total non-test gross order value."
+  },
+  {
+    "quote": "113",
+    "value": 113,
+    "definition": "Count of non-test orders with Channel = Wholesale."
+  },
+  {
+    "quote": "8.2%",
+    "value": 8.206245461147423,
+    "definition": "Wholesale orders as a percent of all non-test orders."
+  },
+  {
+    "quote": "$305.93",
+    "value": 305.92893805309734,
+    "definition": "Mean Order total among non-test Wholesale orders."
+  },
+  {
+    "quote": "25.4%",
+    "value": 25.362189176271038,
+    "definition": "Wholesale gross order value as a percent of total non-test gross order value."
+  },
+  {
+    "quote": "5.5%",
+    "value": 5.476190476190476,
+    "definition": "Refunded orders as a percent of non-test Marketplace orders (23 / 420)."
+  },
+  {
+    "quote": "2.4%",
+    "value": 2.3696682464454977,
+    "definition": "Refunded orders as a percent of non-test Web orders (20 / 844)."
+  },
+  {
+    "quote": "1.8%",
+    "value": 1.7699115044247788,
+    "definition": "Refunded orders as a percent of non-test Wholesale orders (2 / 113)."
+  },
+  {
+    "quote": "51.1%",
+    "value": 51.11111111111111,
+    "definition": "Marketplace refunded orders as a percent of all non-test refunded orders (23 / 45)."
+  },
+  {
+    "quote": "5.8%",
+    "value": 5.847953216374268,
+    "definition": "Refund rate among non-test Marketplace orders from New customers (10 / 171)."
+  },
+  {
+    "quote": "5.2%",
+    "value": 5.220883534136546,
+    "definition": "Refund rate among non-test Marketplace orders from Returning customers (13 / 249)."
+  },
+  {
+    "quote": "5.7%",
+    "value": 5.660377358490567,
+    "definition": "Refund rate among non-test Marketplace orders dated Oct 1-7 (9 / 159)."
+  },
+  {
+    "quote": "7.6%",
+    "value": 7.647058823529412,
+    "definition": "Refund rate among non-test Marketplace orders dated Oct 8-14 (13 / 170)."
+  },
+  {
+    "quote": "4.4%",
+    "value": 4.373177842565598,
+    "definition": "Refund rate among non-test Web orders dated Oct 1-7 (15 / 343)."
+  },
+  {
+    "quote": "1.3%",
+    "value": 1.2987012987012987,
+    "definition": "Refund rate among non-test Web orders dated Oct 8-14 (4 / 308)."
+  },
+  {
+    "quote": "4.4%",
+    "value": 4.424778761061947,
+    "definition": "Cancelled orders as a percent of non-test Wholesale orders (5 / 113)."
+  },
+  {
+    "quote": "2.4%",
+    "value": 2.3734177215189876,
+    "definition": "Cancelled orders as a percent of non-test Web and Marketplace orders combined (30 / 1,264)."
+  },
+  {
+    "quote": "5",
+    "value": 5,
+    "definition": "Count of non-test Wholesale orders with Status = Cancelled."
+  },
+  {
+    "quote": "$2,106.22",
+    "value": 2106.22,
+    "definition": "Sum of Order total over non-test cancelled Wholesale orders."
+  },
+  {
+    "quote": "48.4%",
+    "value": 48.43856005777064,
+    "definition": "Cancelled Wholesale order value as a percent of all non-test cancelled order value."
+  },
+  {
+    "quote": "5.9%",
+    "value": 5.88235294117647,
+    "definition": "Cancellation rate among non-test Wholesale orders from New customers (3 / 51)."
+  },
+  {
+    "quote": "3.2%",
+    "value": 3.225806451612903,
+    "definition": "Cancellation rate among non-test Wholesale orders from Returning customers (2 / 62)."
+  },
+  {
+    "quote": "29.8%",
+    "value": 29.847494553376908,
+    "definition": "North orders as a percent of all non-test orders (411 / 1,377)."
+  },
+  {
+    "quote": "20.6%",
+    "value": 20.62454611474219,
+    "definition": "South orders as a percent of all non-test orders (284 / 1,377)."
+  },
+  {
+    "quote": "4.4%",
+    "value": 4.406779661016949,
+    "definition": "Refunded orders as a percent of non-test West orders (13 / 295)."
+  },
+  {
+    "quote": "3.6%",
+    "value": 3.64963503649635,
+    "definition": "Refunded orders as a percent of non-test North orders (15 / 411)."
+  },
+  {
+    "quote": "3.4%",
+    "value": 3.359173126614987,
+    "definition": "Refunded orders as a percent of non-test East orders (13 / 387)."
+  },
+  {
+    "quote": "1.4%",
+    "value": 1.4084507042253522,
+    "definition": "Refunded orders as a percent of non-test South orders (4 / 284)."
+  },
+  {
+    "quote": "8.3%",
+    "value": 8.333333333333332,
+    "definition": "Refund rate among non-test Marketplace orders in the West region (7 / 84)."
+  },
+  {
+    "quote": "6.9%",
+    "value": 6.896551724137931,
+    "definition": "Refund rate among non-test Marketplace orders in the North region (10 / 145)."
+  },
+  {
+    "quote": "17",
+    "value": 17,
+    "definition": "Count of refunded non-test Marketplace orders in the West or North regions."
+  },
+  {
+    "quote": "37.8%",
+    "value": 37.77777777777778,
+    "definition": "Refunded Marketplace orders in West or North as a percent of all non-test refunded orders (17 / 45)."
+  },
+  {
+    "quote": "16.6%",
+    "value": 16.63035584604212,
+    "definition": "Marketplace orders in West or North as a percent of all non-test orders (229 / 1,377)."
+  },
+  {
+    "quote": "3.1%",
+    "value": 3.050847457627119,
+    "definition": "Cancelled orders as a percent of non-test West orders (9 / 295)."
+  },
+  {
+    "quote": "4.3%",
+    "value": 4.301075268817205,
+    "definition": "Cancellation rate among non-test Web orders in the West region (8 / 186)."
+  },
+  {
+    "quote": "$106.54",
+    "value": 106.54137323943662,
+    "definition": "Mean Order total among non-test South orders (highest of the four regions)."
+  },
+  {
+    "quote": "42.7%",
+    "value": 42.70152505446623,
+    "definition": "Orders from New customers as a percent of all non-test orders (588 / 1,377)."
+  },
+  {
+    "quote": "2.9%",
+    "value": 2.891156462585034,
+    "definition": "Refund rate among non-test orders from New customers (17 / 588)."
+  },
+  {
+    "quote": "3.5%",
+    "value": 3.5487959442332064,
+    "definition": "Refund rate among non-test orders from Returning customers (28 / 789)."
+  },
+  {
+    "quote": "4.8%",
+    "value": 4.805914972273567,
+    "definition": "Refund rate among non-test orders dated Oct 1-7 (26 / 541)."
+  },
+  {
+    "quote": "3.2%",
+    "value": 3.2196969696969697,
+    "definition": "Refund rate among non-test orders dated Oct 8-14 (17 / 528)."
+  },
+  {
+    "quote": "0.6%",
+    "value": 0.6493506493506493,
+    "definition": "Refund rate among non-test orders dated Oct 15-18 (2 / 308)."
+  },
+  {
+    "quote": "4.0%",
+    "value": 4.022450888681011,
+    "definition": "Refund rate among non-test orders dated Oct 1-14 (43 / 1,069)."
+  },
+  {
+    "quote": "103",
+    "value": 103,
+    "definition": "Count of non-test orders dated 2026-10-03, the order date with the most orders."
+  },
+  {
+    "quote": "9",
+    "value": 9,
+    "definition": "Count of refunded non-test orders dated 2026-10-03, the date with the most orders."
+  },
+  {
+    "quote": "8.7%",
+    "value": 8.737864077669903,
+    "definition": "Refunded orders as a percent of non-test orders dated 2026-10-03 (9 / 103)."
+  },
+  {
+    "quote": "33.8%",
+    "value": 33.836392039195005,
+    "definition": "Refund amount on orders dated 2026-10-03 as a percent of all non-test refund amount."
+  },
+  {
+    "quote": "$494.70",
+    "value": 494.7,
+    "definition": "Largest single Refund amount (a Wholesale East order dated 2026-10-03)."
+  },
+  {
+    "quote": "13",
+    "value": 13.04739336492891,
+    "definition": "Marketplace refunds minus the refunds expected if Marketplace orders refunded at the Web rate (23 - 420 x 20/844)."
+  }
+]
