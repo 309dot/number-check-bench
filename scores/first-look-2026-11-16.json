@@ -1,0 +1,1607 @@
+{
+ "label": "first-look-2026-11-16",
+ "dir": "reports/first-look-2026-11-16",
+ "score": {
+  "reports": 6,
+  "numbers": 390,
+  "match": 175,
+  "other": 7,
+  "differs": 15,
+  "unread": 193,
+  "same": 0,
+  "calc": 2,
+  "off": 0,
+  "none": 173
+ },
+ "planted": {
+  "planted": 1320,
+  "passed": 13,
+  "flagged": 18,
+  "caught": 201,
+  "unread": 1088
+ },
+ "scopes": {
+  "orders-f2": {
+   "minus": [
+    "rows where Status is Cancelled"
+   ]
+  },
+  "tickets-f2": {
+   "minus": [],
+   "period": "Jul 27 to Oct 18"
+  }
+ },
+ "passed": [
+  "hiring-f2 16 → 14: Count of rows where Role is Account Executive and Applied is Oct 12 to Oct 18, leaving out Duplicate",
+  "hiring-f2 6 → 8: Count of rows where Role is Data Analyst and Stage is Hired, leaving out Duplicate",
+  "orders-f2 3.4% → 3.1%: Order total in rows where Status is Refunded, as a share of Order total in rows where Order date is Oct 1 to Oct 18, leaving out Test order and rows where Status is Cancelled",
+  "orders-f2 1.4% → 1.5%: Sum of Refund amount divided by sum of Order total, as a percentage, in rows where Region is South, leaving out Test order and rows where Status is Cancelled",
+  "orders-f2 5.6% → 5.8%: Refund amount in rows where Channel is Web, as a share of Refund amount in rows where Order date is Oct 12 to Oct 18, leaving out Test order and rows where Status is Cancelled",
+  "projects-f2 4% → 5%: Rows where Project is CRM migration, as a share of all rows, leaving out Archived",
+  "projects-f2 $470K → $471K: Sum of Spend in rows where Owner is Omar and Department is Sales, leaving out Archived",
+  "signups-f2 48% → 43%: Rows where Finished setup is Yes, as a share of all rows, leaving out Test account",
+  "signups-f2 42 → 38: Count of rows where Source is Paid search and Finished setup is Yes, leaving out Test account",
+  "signups-f2 7 → 8: Count of rows where Source is Partner and Finished setup is Yes, leaving out Test account",
+  "signups-f2 7 → 9: Count of rows where Plan is Team and Source is Paid search, leaving out Test account",
+  "signups-f2 38 → 34: Count of rows where Plan is Team, leaving out Test account",
+  "tickets-f2 10 → 1: Worked out from the numbers in this text: 7.6 − 6.4"
+ ],
+ "notMatched": [
+  {
+   "name": "ads-f2",
+   "raw": "56",
+   "start": 107,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$49",
+   "start": 292,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "0",
+   "start": 309,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$70,762",
+   "start": 413,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "1,291",
+   "start": 430,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$54.81",
+   "start": 459,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$53.13",
+   "start": 567,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$57.23",
+   "start": 578,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$55.38",
+   "start": 608,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "4",
+   "start": 651,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$54.25",
+   "start": 654,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$34,988",
+   "start": 664,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$42.03",
+   "start": 726,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$54.93",
+   "start": 796,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$71.28",
+   "start": 845,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$24.07",
+   "start": 937,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$28.01",
+   "start": 992,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$39.47",
+   "start": 1072,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$107.48",
+   "start": 1133,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$99.99",
+   "start": 1159,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$95.63",
+   "start": 1189,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$11,953",
+   "start": 1216,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$40.75",
+   "start": 1291,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$66.20",
+   "start": 1311,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$71.80",
+   "start": 1327,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "48%",
+   "start": 1374,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "622",
+   "start": 1388,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$483",
+   "start": 1470,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$572",
+   "start": 1478,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "18%",
+   "start": 1485,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$69.70",
+   "start": 1514,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$75.59",
+   "start": 1524,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$90.89",
+   "start": 1559,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "ads-f2",
+   "raw": "$106.89",
+   "start": 1569,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "6",
+   "start": 49,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "2",
+   "start": 68,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "83",
+   "start": 132,
+   "verdict": "differs",
+   "kind": "distinct",
+   "says": "67: Different values of Candidate ID in rows where Applied is Oct 12 to Oct 18, leaving out Duplicate",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "24",
+   "start": 369,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "16",
+   "start": 384,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "31",
+   "start": 390,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "100",
+   "start": 517,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "44",
+   "start": 583,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "62",
+   "start": 589,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "18.1%",
+   "start": 734,
+   "verdict": "differs",
+   "kind": "share",
+   "says": "14.0%: Rows where Source is Referral, as a share of all rows, leaving out Duplicate",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "0%",
+   "start": 809,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "50",
+   "start": 818,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "8",
+   "start": 886,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "27",
+   "start": 891,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "29.6%",
+   "start": 925,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "10",
+   "start": 953,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "44",
+   "start": 959,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "22.7%",
+   "start": 991,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "21",
+   "start": 1024,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "20",
+   "start": 1036,
+   "verdict": "differs",
+   "kind": "count",
+   "says": "19: Count of rows where Department is Support and Applied is Oct 12 to Oct 18, leaving out Duplicate",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "16",
+   "start": 1058,
+   "verdict": "differs",
+   "kind": "count",
+   "says": "14: Count of rows where Role is Account Executive and Applied is Oct 12 to Oct 18, leaving out Duplicate",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "16",
+   "start": 1079,
+   "verdict": "differs",
+   "kind": "count",
+   "says": "12: Count of rows where Role is Product Designer and Applied is Oct 12 to Oct 18, leaving out Duplicate",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "10",
+   "start": 1096,
+   "verdict": "differs",
+   "kind": "count",
+   "says": "8: Count of rows where Role is Data Analyst and Applied is Oct 12 to Oct 18, leaving out Duplicate",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "7",
+   "start": 1142,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "7",
+   "start": 1153,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "6",
+   "start": 1164,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "6",
+   "start": 1184,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "21.5",
+   "start": 1226,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "22.5",
+   "start": 1250,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "25",
+   "start": 1264,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "27",
+   "start": 1286,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "27",
+   "start": 1298,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "2",
+   "start": 1333,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "85",
+   "start": 1523,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "hiring-f2",
+   "raw": "27",
+   "start": 1673,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "$1",
+   "start": 114,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "$4,348.23",
+   "start": 148,
+   "verdict": "differs",
+   "kind": "sum",
+   "says": "$4,039.29: Sum of Refund amount in rows where Order date is Oct 1 to Oct 18, leaving out Test order and rows where Status is Cancelled",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "$136,309.15",
+   "start": 184,
+   "verdict": "differs",
+   "kind": "sum",
+   "says": "$131,956.92: Sum of Order total in rows where Order date is Oct 1 to Oct 18, leaving out Test order and rows where Status is Cancelled",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "$8,391.52",
+   "start": 272,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "$127,918",
+   "start": 325,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "3.4",
+   "start": 383,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "2.5%",
+   "start": 484,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "91",
+   "start": 521,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "$9,117",
+   "start": 535,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "66",
+   "start": 555,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "$6,438",
+   "start": 569,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "2.4%",
+   "start": 656,
+   "verdict": "differs",
+   "kind": "ratio",
+   "says": "3.1%: Sum of Refund amount divided by sum of Order total, as a percentage, in all rows, leaving out Test order and rows where Status is Cancelled | 3.4%: Rows where Status is Refunded, as a share of all rows, leaving out Test order and rows where Status is Cancelled",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "5.6%",
+   "start": 710,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "31%",
+   "start": 722,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "$300.59",
+   "start": 825,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "5",
+   "start": 838,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "$2,106",
+   "start": 860,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "48%",
+   "start": 868,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "404",
+   "start": 947,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "4.5%",
+   "start": 1037,
+   "verdict": "differs",
+   "kind": "ratio",
+   "says": "3.8%: Sum of Refund amount divided by sum of Order total, as a percentage, in rows where Region is West, leaving out Test order and rows where Status is Cancelled",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "1.4%",
+   "start": 1062,
+   "verdict": "differs",
+   "kind": "ratio",
+   "says": "1.5%: Sum of Refund amount divided by sum of Order total, as a percentage, in rows where Region is South, leaving out Test order and rows where Status is Cancelled",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "$98.95",
+   "start": 1170,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "$97.49",
+   "start": 1180,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "$101.75",
+   "start": 1297,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "$98.06",
+   "start": 1310,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "19%",
+   "start": 1331,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "28%",
+   "start": 1394,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "4.5%",
+   "start": 1622,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "9",
+   "start": 1688,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "$1,367",
+   "start": 1704,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "34%",
+   "start": 1712,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "$494.70",
+   "start": 1782,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "orders-f2",
+   "raw": "5.6%",
+   "start": 1891,
+   "verdict": "differs",
+   "kind": "sumshare",
+   "says": "5.8%: Refund amount in rows where Channel is Web, as a share of Refund amount in rows where Order date is Oct 12 to Oct 18, leaving out Test order and rows where Status is Cancelled",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "$90K",
+   "start": 182,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "$75K",
+   "start": 195,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "$3.88M",
+   "start": 282,
+   "verdict": "other",
+   "kind": "sum",
+   "how": "Sum of Budget in all rows, counting Archived rows too",
+   "says": "$3,790,000: Sum of Budget in all rows, leaving out Archived",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "$3.01M",
+   "start": 300,
+   "verdict": "other",
+   "kind": "sum",
+   "how": "Sum of Spend in all rows, counting Archived rows too",
+   "says": "$2,934,920: Sum of Spend in all rows, leaving out Archived",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "$90K",
+   "start": 385,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "$75K",
+   "start": 394,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "3",
+   "start": 514,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "$700K",
+   "start": 575,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "$719K",
+   "start": 589,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "17",
+   "start": 746,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "19",
+   "start": 790,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "18",
+   "start": 828,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "16",
+   "start": 873,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "16",
+   "start": 921,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "$985K",
+   "start": 953,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "$1.05M",
+   "start": 984,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "$62K",
+   "start": 1018,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "8%",
+   "start": 1066,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "8%",
+   "start": 1099,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "4%",
+   "start": 1131,
+   "verdict": "other",
+   "kind": "share",
+   "how": "Rows where Project is CRM migration, as a share of all rows, counting Archived rows too",
+   "says": "4.5%: Rows where Project is CRM migration, as a share of all rows, leaving out Archived",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "99%",
+   "start": 1156,
+   "verdict": "differs",
+   "kind": "ratio",
+   "says": "101.2%: Sum of Budget divided by sum of Spend, as a percentage, in rows where Project is SSO rollout and Department is IT and Phase is Launch, leaving out Archived",
+   "agree": null
+  },
+  {
+   "name": "projects-f2",
+   "raw": "$470K",
+   "start": 1440,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "12",
+   "start": 95,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "137",
+   "start": 118,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "43%",
+   "start": 131,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "118",
+   "start": 154,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "37%",
+   "start": 167,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "57",
+   "start": 233,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "55",
+   "start": 241,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "50",
+   "start": 249,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "50",
+   "start": 257,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "54",
+   "start": 265,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "23",
+   "start": 273,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "28",
+   "start": 281,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "53.2",
+   "start": 305,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "25.5",
+   "start": 347,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "39%",
+   "start": 413,
+   "verdict": "other",
+   "kind": "share",
+   "how": "Rows where Finished setup is Yes, as a share of rows where Country is UK, leaving out Test account",
+   "says": "43.2%: Rows where Finished setup is Yes, as a share of all rows, leaving out Test account",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "21",
+   "start": 423,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "54",
+   "start": 429,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "50%",
+   "start": 436,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "14",
+   "start": 446,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "28",
+   "start": 452,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "68%",
+   "start": 574,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "81",
+   "start": 780,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "43%",
+   "start": 796,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "42",
+   "start": 801,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "98",
+   "start": 807,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "7",
+   "start": 928,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "23",
+   "start": 1132,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "78",
+   "start": 1178,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "201",
+   "start": 1227,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "63%",
+   "start": 1240,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "7",
+   "start": 1269,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "321",
+   "start": 1492,
+   "verdict": "other",
+   "kind": "count",
+   "how": "Count of all rows, counting Test account rows too",
+   "says": "317: Count of all rows, leaving out Test account",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "38",
+   "start": 1508,
+   "verdict": "other",
+   "kind": "count",
+   "how": "Count of rows where Plan is Team, counting Test account rows too",
+   "says": "34: Count of rows where Plan is Team, leaving out Test account",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "4",
+   "start": 1541,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "signups-f2",
+   "raw": "4",
+   "start": 1556,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "12",
+   "start": 16,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "18",
+   "start": 70,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "2,558",
+   "start": 154,
+   "verdict": "other",
+   "kind": "count",
+   "how": "Count of rows where Opened is Jul 27 to Oct 18, counting Spam and Merged duplicate rows too",
+   "says": "2,434: Count of rows where Opened is Jul 27 to Oct 18, leaving out Spam and Merged duplicate",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "2",
+   "start": 200,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "28",
+   "start": 246,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "29.0",
+   "start": 328,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "34.7",
+   "start": 348,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "14.6",
+   "start": 369,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "36.3",
+   "start": 408,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "226",
+   "start": 443,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "14.0%",
+   "start": 455,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "198",
+   "start": 485,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "44",
+   "start": 515,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "30.7",
+   "start": 542,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "29.0",
+   "start": 569,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "30.1%",
+   "start": 607,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "30.5%",
+   "start": 624,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "3.2",
+   "start": 698,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "4.7",
+   "start": 727,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "82.2%",
+   "start": 776,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "87.6%",
+   "start": 789,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "10",
+   "start": 851,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "15.3",
+   "start": 880,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "29.8%",
+   "start": 899,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "726",
+   "start": 917,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "1",
+   "start": 980,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "4",
+   "start": 983,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "24",
+   "start": 992,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "40.0%",
+   "start": 1028,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "38.6%",
+   "start": 1042,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "51",
+   "start": 1049,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "132",
+   "start": 1055,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "5.4%",
+   "start": 1065,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "88.3%",
+   "start": 1085,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "2,149",
+   "start": 1101,
+   "verdict": "differs",
+   "kind": "count",
+   "says": "2,434: Count of rows where Opened is Jul 27 to Oct 18, leaving out Spam and Merged duplicate",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "92.6%",
+   "start": 1109,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "4",
+   "start": 1153,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "13.8%",
+   "start": 1161,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "54.5%",
+   "start": 1187,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "1,142",
+   "start": 1237,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "53.1%",
+   "start": 1254,
+   "verdict": "differs",
+   "kind": "share",
+   "says": "47.0%: Rows where CSAT is filled in, as a share of rows where Opened is Jul 27 to Oct 18 and First response (hours) is filled in, leaving out Spam and Merged duplicate | 46.9%: Rows where CSAT is filled in, as a share of rows where Opened is Jul 27 to Oct 18, leaving out Spam and Merged duplicate",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "27.0%",
+   "start": 1354,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "196",
+   "start": 1375,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "64.9%",
+   "start": 1421,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "24.9%",
+   "start": 1435,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "10.8",
+   "start": 1487,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "6.0",
+   "start": 1500,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "68.8%",
+   "start": 1524,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "87.9%",
+   "start": 1538,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "28",
+   "start": 1596,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "162",
+   "start": 1678,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "285",
+   "start": 1689,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "83",
+   "start": 1754,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "11",
+   "start": 1773,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "22",
+   "start": 1787,
+   "verdict": "unread",
+   "agree": null
+  },
+  {
+   "name": "tickets-f2",
+   "raw": "8",
+   "start": 1832,
+   "verdict": "unread",
+   "agree": null
+  }
+ ]
+}

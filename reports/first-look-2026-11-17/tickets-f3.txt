@@ -1,0 +1,59 @@
+Quarterly business review: outsourced support vendor
+Prepared by Support Operations. Period covered: tickets opened 27 July to 18 October 2026.
+
+Scope and exclusions
+The export holds 2,558 tickets. I left out 52 flagged as spam and 74 flagged as merged duplicates. Some carry both flags, so 124 tickets are out in total and 2,434 real tickets remain. Everything below uses only those, so no one is graded on junk or double-counted work.
+July (starting 27 July) and October (ending 18 October) are partial months, so I compare August and September, the two full months, and show July and October only for volume.
+
+Volume
+- Tickets opened: 173 in July (partial), 839 in August, 870 in September, 552 in October (to the 18th).
+- September volume was 3.7% above August.
+- Chat made up 42.2% of August tickets and 36.6% of September tickets.
+- Over the whole period: 1,151 email, 934 chat and 349 phone tickets.
+
+SLA performance overall
+- 726 of them breached the SLA, a breach rate of 29.8%.
+- The monthly breach rate was 28.8% in August and 30.5% in September, a move of 1.6 points.
+- Median first response across all tickets was 6.4 hours and the average 7.6 hours. 4 tickets have no first response recorded and are left out of those two figures.
+- Median first response was 6.1 hours in August against 6.7 in September.
+
+SLA by priority
+- Urgent: 132 tickets, breach rate 38.6%, median first response 0.9 hours.
+- High: 426 tickets, breach rate 24.2%, median first response 2.9 hours.
+- Normal: 1,360 tickets, breach rate 40.0%, median first response 7.0 hours.
+- Low: 516 tickets, breach rate 5.4%, median first response 13.5 hours.
+- Urgent is the first thing I would like to discuss.
+
+SLA by channel
+- Email: breach rate 30.2%, median first response 6.2 hours.
+- Chat: breach rate 28.6%, median first response 6.5 hours.
+- Phone: breach rate 31.8%, median first response 6.7 hours.
+- Urgent chat tickets alone (47) breached at 34.0%.
+
+Satisfaction (CSAT)
+- 1,142 tickets carry a rating, a response rate of 46.9%. Of those, 85.2% were Good. Unrated tickets are ignored in satisfaction figures.
+By agent (share of rated tickets that were Good, then number of rated tickets):
+- Hana: 89.9% on 169 rated tickets.
+- Maya: 89.5% on 220 rated tickets.
+- Jonah: 88.8% on 224 rated tickets.
+- Luis: 86.1% on 187 rated tickets.
+- Priya: 84.6% on 182 rated tickets.
+- Theo: 68.8% on 160 rated tickets.
+- The gap between Hana and Theo is 21.2 points.
+- Worth noting: Theo's own SLA breach rate is 64.9%, against 29.8% overall.
+- Tickets that breached SLA were rated Good 81.0% of the time, against 87.1% for tickets within SLA.
+
+Resolution
+- 2,149 tickets are resolved (88.3% of all).
+- Median time from opening to closing was 4 days and the average 3.8 days.
+
+Open backlog
+- 285 tickets are still open or pending, 11.7% of the total.
+- Urgent-priority tickets in the backlog: 11.
+- 81 backlog tickets were opened before September.
+- Maya holds the largest share of the backlog with 61 tickets, 21.4% of it.
+
+Asks for the vendor
+- Explain the Urgent breach pattern and agree a recovery plan with dates.
+- Review coaching for the lowest-rated agent and share the plan next quarter.
+- Clear the oldest open tickets before the next review.

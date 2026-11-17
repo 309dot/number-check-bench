@@ -1,0 +1,48 @@
+Weekly memo: revenue quality, October month to date
+To: Head of Operations
+From: Finance
+Period: 1 to 18 October 2026
+
+What I left out
+The export has one row per order plus a Total line. I dropped the Total line so nothing is counted twice. I also dropped 4 rows flagged as test orders: each is a one-dollar web order from the East region for a new customer, and none was refunded or cancelled. That leaves 1,377 real orders, which is the base for everything below. I kept cancelled and refunded orders in the base, because they are what this memo is about.
+
+Headline
+- Booked order value is $136,305.15 across all the real orders, an average order value of $98.99.
+- 35 orders were cancelled, 2.5% of orders, carrying $4,348.23 of booked value (3.2% of the total).
+- 45 orders were refunded, 3.3% of orders. Refund payouts total $4,039.29, which is 3.0% of booked value.
+- Every refund was for the full order value, so there are no partial refunds to explain. The average refund is $89.76.
+- Taking out cancelled orders and refund payouts, retained revenue is $127,917.63, or 93.8% of what was booked. The rest leaked out through cancellations and refunds.
+
+Week by week
+I split the month into three periods: the first week (1 to 7 October), the second week (8 to 14 October) and a partial third week (15 to 18 October, four days).
+- First week: 541 orders, average order value $94.62, cancellation rate 2.8%, refund rate 4.8%.
+- Second week: 528 orders, average order value $99.98, cancellation rate 2.7%, refund rate 3.2%.
+- Third period (four days): 308 orders, average order value $104.96, cancellation rate 1.9%, refund rate 0.6%.
+- Refund payouts fell from $2,519.18 in the first week to $1,409.19 in the second, a drop of 44.1%. The latest four days show very little so far.
+- Average order value is higher in the latest four days than in the first week, by 10.9%.
+- Caution: the low refund rate in the latest period is probably timing, not improvement. Refunds usually arrive days after the order, so I would not treat that number as final.
+
+Customer types
+- New customers: 588 orders, average order value $98.55, cancellation rate 2.7%, refund rate 2.9%.
+- Returning customers: 789 orders, average order value $99.31, cancellation rate 2.4%, refund rate 3.5%.
+- Returning customers refund at 22.7% more than the rate for new customers; new customers cancel slightly more often. The gap in order value between the two groups is only $0.76.
+
+Channels
+- Web: 844 orders (49.3% of booked value), average order value $79.58, refund rate 2.4%.
+- Marketplace: 420 orders (25.4% of booked value), average order value $82.30, refund rate 5.5%.
+- Wholesale: 113 orders (25.4% of booked value), average order value $305.93, refund rate 1.8%.
+- Marketplace is the refund problem: its refunded orders are 51.1% of all refunded orders, and its payouts are 49.7% of all refund money, on a much smaller share of orders.
+- Wholesale is the opposite: it is few orders but a quarter of booked value, with very large baskets. It also cancels most: its cancellation rate is 4.4%, against 2.5% on Web.
+
+Regions
+- North: cancellation rate 1.7%, refund rate 3.6%.
+- East: cancellation rate 2.8%, refund rate 3.4%.
+- West: cancellation rate 3.1%, refund rate 4.4%.
+- South: cancellation rate 2.8%, refund rate 1.4%.
+- West has the highest refund rate and also the highest cancellation rate, so 7.5% of West orders ended up cancelled or refunded, against 4.2% in South.
+- South refunds least, 1.4%, and has the highest average order value, $106.54. North cancels least.
+
+What I would do
+- Ask the Marketplace team why 5.5% of its orders come back. Bringing it down to the Web rate of 2.4% would have saved roughly $1,138.05 in refunds so far this month.
+- Review wholesale cancellations case by case: a small channel is over-represented in cancellations.
+- Re-run the refund rates for the latest period next week, once refunds have had time to arrive.

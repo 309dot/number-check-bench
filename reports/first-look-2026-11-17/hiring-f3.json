@@ -1,0 +1,342 @@
+[
+ {
+  "quote": "34",
+  "value": 34,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), count of rows with Stage = Hired."
+ },
+ {
+  "quote": "751",
+  "value": 751,
+  "definition": "Count of rows in the export after removing the 17 rows flagged Yes in the Duplicate column."
+ },
+ {
+  "quote": "4.5%",
+  "value": 4.527296937416778,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), rows with Stage = Hired divided by all 751 rows."
+ },
+ {
+  "quote": "77.3%",
+  "value": 77.27272727272727,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), rows with Offer accepted = Yes divided by rows with Offer accepted = Yes or No (34 of 44)."
+ },
+ {
+  "quote": "24",
+  "value": 24.0,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), median of (Stage changed minus Applied) in days over the 34 rows with Stage = Hired."
+ },
+ {
+  "quote": "14.0%",
+  "value": 13.981358189081226,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), rows with Source = Referral divided by all 751 rows."
+ },
+ {
+  "quote": "55.9%",
+  "value": 55.88235294117647,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), Referral rows with Stage = Hired divided by all rows with Stage = Hired (19 of 34)."
+ },
+ {
+  "quote": "768",
+  "value": 768,
+  "definition": "Count of all candidate rows below the header row in the export, before any exclusion."
+ },
+ {
+  "quote": "17",
+  "value": 17,
+  "definition": "Count of rows with Duplicate = Yes."
+ },
+ {
+  "quote": "532",
+  "value": 532,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), count of rows with Stage = Rejected."
+ },
+ {
+  "quote": "83",
+  "value": 83,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), count of rows whose Stage is Applied, Screen, Interview or Offer (still in process)."
+ },
+ {
+  "quote": "68",
+  "value": 68,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), count of rows with Stage in Interview, Offer or Hired, plus rows with Offer accepted = No (20 + 4 + 34 + 10)."
+ },
+ {
+  "quote": "9.1%",
+  "value": 9.054593874833555,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), the 68 rows at Interview, Offer, Hired or with a declined offer divided by all 751 rows."
+ },
+ {
+  "quote": "48",
+  "value": 48,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), rows with Offer accepted = Yes or No plus rows with Stage = Offer (34 + 10 + 4)."
+ },
+ {
+  "quote": "6.4%",
+  "value": 6.391478029294274,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), the 48 offer rows divided by all 751 rows."
+ },
+ {
+  "quote": "5.1%",
+  "value": 5.089820359281437,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), rows with Stage = Hired divided by the 668 rows whose Stage is Hired, Rejected or Withdrawn."
+ },
+ {
+  "quote": "6",
+  "value": 6.0,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), median of (Stage changed minus Applied) in days over the 532 rows with Stage = Rejected."
+ },
+ {
+  "quote": "92",
+  "value": 92,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), count of rows with Stage = Withdrawn and Offer accepted blank (withdrew before any offer)."
+ },
+ {
+  "quote": "12.3%",
+  "value": 12.250332889480692,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), the 92 rows withdrawn without an offer divided by all 751 rows."
+ },
+ {
+  "quote": "5",
+  "value": 5.0,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), median of (Stage changed minus Applied) in days over the 92 rows with Stage = Withdrawn and Offer accepted blank."
+ },
+ {
+  "quote": "20",
+  "value": 20,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), count of rows with Stage = Interview."
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), count of rows with Stage = Offer (offer out, no answer yet)."
+ },
+ {
+  "quote": "367",
+  "value": 367,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), count of rows with Applied on or before 2026-09-06."
+ },
+ {
+  "quote": "22",
+  "value": 22,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), rows with Applied on or before 2026-09-06 and Stage = Hired."
+ },
+ {
+  "quote": "6.0%",
+  "value": 5.994550408719346,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), the 22 hired rows divided by the 367 rows with Applied on or before 2026-09-06."
+ },
+ {
+  "quote": "78.6%",
+  "value": 78.57142857142857,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), rows with Applied on or before 2026-09-06 and Offer accepted = Yes divided by those with Offer accepted = Yes or No (22 of 28)."
+ },
+ {
+  "quote": "384",
+  "value": 384,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), count of rows with Applied after 2026-09-06."
+ },
+ {
+  "quote": "12",
+  "value": 12,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), rows with Applied after 2026-09-06 and Stage = Hired."
+ },
+ {
+  "quote": "75.0%",
+  "value": 75.0,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), rows with Applied after 2026-09-06 and Offer accepted = Yes divided by those with Offer accepted = Yes or No (12 of 16)."
+ },
+ {
+  "quote": "13.1%",
+  "value": 13.079019073569482,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), rows with Applied on or before 2026-09-06 and Source = Referral divided by all 367 rows in that half."
+ },
+ {
+  "quote": "14.8%",
+  "value": 14.84375,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), rows with Applied after 2026-09-06 and Source = Referral divided by all 384 rows in that half."
+ },
+ {
+  "quote": "105",
+  "value": 105,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), count of rows with Source = Referral."
+ },
+ {
+  "quote": "19",
+  "value": 19,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), count of rows with Source = Referral and Stage = Hired."
+ },
+ {
+  "quote": "18.1%",
+  "value": 18.095238095238095,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), Referral rows with Stage = Hired divided by all 105 Referral rows."
+ },
+ {
+  "quote": "32.4%",
+  "value": 32.38095238095238,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), Referral rows at Interview, Offer, Hired or with Offer accepted = No (34) divided by all 105 Referral rows."
+ },
+ {
+  "quote": "2.3%",
+  "value": 2.321981424148607,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), rows with Source other than Referral and Stage = Hired (15) divided by all 646 non-Referral rows."
+ },
+ {
+  "quote": "7.8",
+  "value": 7.7930158730158725,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), the Referral applicant-to-hire rate (19/105) divided by the non-Referral applicant-to-hire rate (15/646)."
+ },
+ {
+  "quote": "281",
+  "value": 281,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), count of rows with Source = LinkedIn."
+ },
+ {
+  "quote": "37.4%",
+  "value": 37.416777629826896,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), LinkedIn rows divided by all 751 rows."
+ },
+ {
+  "quote": "2.1%",
+  "value": 2.1352313167259784,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), LinkedIn rows with Stage = Hired (6) divided by all 281 LinkedIn rows."
+ },
+ {
+  "quote": "219",
+  "value": 219,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), count of rows with Source = Careers page."
+ },
+ {
+  "quote": "5",
+  "value": 5,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), count of rows with Source = Careers page and Stage = Hired."
+ },
+ {
+  "quote": "96",
+  "value": 96,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), count of rows with Source = Agency."
+ },
+ {
+  "quote": "4.2%",
+  "value": 4.166666666666667,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), Agency rows with Stage = Hired (4) divided by all 96 Agency rows."
+ },
+ {
+  "quote": "50",
+  "value": 50,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), count of rows with Source = Job board."
+ },
+ {
+  "quote": "4.0%",
+  "value": 4.0,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), Job board rows at Interview, Offer, Hired or with Offer accepted = No (2) divided by all 50 Job board rows."
+ },
+ {
+  "quote": "16.0%",
+  "value": 16.0,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), Job board rows with Stage = Withdrawn and Offer accepted blank (8) divided by all 50 Job board rows."
+ },
+ {
+  "quote": "10",
+  "value": 10,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), count of rows with Offer accepted = No (declined offers)."
+ },
+ {
+  "quote": "8",
+  "value": 8,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), count of rows with Source = Referral and Offer accepted = No."
+ },
+ {
+  "quote": "77.8%",
+  "value": 77.77777777777777,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), Support rows with Offer accepted = Yes divided by Support rows with Offer accepted = Yes or No (7 of 9)."
+ },
+ {
+  "quote": "63.6%",
+  "value": 63.63636363636363,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), Sales rows with Offer accepted = Yes divided by Sales rows with Offer accepted = Yes or No (7 of 11)."
+ },
+ {
+  "quote": "60.0%",
+  "value": 60.0,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), Engineering rows with Offer accepted = Yes divided by Engineering rows with Offer accepted = Yes or No (6 of 10)."
+ },
+ {
+  "quote": "70.4%",
+  "value": 70.37037037037037,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), Referral rows with Offer accepted = Yes divided by Referral rows with Offer accepted = Yes or No (19 of 27)."
+ },
+ {
+  "quote": "88.2%",
+  "value": 88.23529411764706,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), non-Referral rows with Offer accepted = Yes divided by non-Referral rows with Offer accepted = Yes or No (15 of 17)."
+ },
+ {
+  "quote": "2",
+  "value": 2,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), rows with Source = Referral, Department = Engineering and Offer accepted = Yes."
+ },
+ {
+  "quote": "5",
+  "value": 5,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), rows with Source = Referral, Department = Engineering and Offer accepted = Yes or No."
+ },
+ {
+  "quote": "28",
+  "value": 28.0,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), median of (Stage changed minus Applied) in days over the 10 rows with Offer accepted = No."
+ },
+ {
+  "quote": "21.5",
+  "value": 21.5,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), median of (Stage changed minus Applied) in days over the 6 Design rows with Stage = Hired."
+ },
+ {
+  "quote": "22.5",
+  "value": 22.5,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), median of (Stage changed minus Applied) in days over the 8 Operations rows with Stage = Hired."
+ },
+ {
+  "quote": "25",
+  "value": 25.0,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), median of (Stage changed minus Applied) in days over the 6 Engineering rows with Stage = Hired."
+ },
+ {
+  "quote": "27",
+  "value": 27.0,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), median of (Stage changed minus Applied) in days over the 7 Sales rows with Stage = Hired."
+ },
+ {
+  "quote": "27",
+  "value": 27.0,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), median of (Stage changed minus Applied) in days over the 7 Support rows with Stage = Hired."
+ },
+ {
+  "quote": "26",
+  "value": 26.0,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), median of (Stage changed minus Applied) in days over the 6 LinkedIn rows with Stage = Hired."
+ },
+ {
+  "quote": "24",
+  "value": 24.0,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), median of (Stage changed minus Applied) in days over the 19 Referral rows with Stage = Hired."
+ },
+ {
+  "quote": "12.0%",
+  "value": 12.037037037037036,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), Design rows at Interview, Offer, Hired or with Offer accepted = No (13) divided by all 108 Design rows."
+ },
+ {
+  "quote": "8.1%",
+  "value": 8.121827411167512,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), Engineering rows at Interview, Offer, Hired or with Offer accepted = No (16) divided by all 197 Engineering rows."
+ },
+ {
+  "quote": "6.8%",
+  "value": 6.779661016949152,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), Operations rows with Stage = Hired (8) divided by all 118 Operations rows."
+ },
+ {
+  "quote": "32",
+  "value": 32,
+  "definition": "Among the 751 non-duplicate rows (Duplicate column not 'Yes'), count of rows with Stage = Applied (not yet screened)."
+ }
+]

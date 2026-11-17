@@ -1,0 +1,31 @@
+Portfolio status, week ending Oct 18, 2026
+
+Scope: 22 active projects, $3.79M budget, $2.93M spent (77%). I left out two archived projects (Intranet refresh and Legacy CMS shutdown, $90K budget, $75K spend, both finished in May and June) and the sheet's Total row. The Total row of $3.88M budget and $3.01M spend still includes the archived two, so it overstates the live portfolio by $90K and $75K.
+
+Status
+- Green: 13 projects, $1.74M budget, $1.19M spent
+- Amber: 6 projects, $1.35M budget, $1.02M spent
+- Red: 3 projects (CRM migration, Billing revamp, Field sales app), $700K budget, $719K spent
+4 projects are finished: Vendor portal, Office move, Help center and Supplier onboarding.
+
+Late (due date passed, not done), 4 projects, average 17 days late
+- CRM migration (Omar, Sales): 19 days late
+- SSO rollout (Kim, IT): 18 days late
+- Data warehouse (Priya, Data): 16 days late
+- Billing revamp (Chris, Finance): 16 days late
+Together they hold $985K of budget and have spent $1.05M.
+
+Over budget: 3 projects, $62K over in total
+- Data warehouse: $34K over (8%)
+- Billing revamp: $18K over (8%)
+- CRM migration: $10K over (4%)
+SSO rollout has used 99% of its budget with its launch still open.
+
+Watch list
+- Field sales app is Red, 95% spent, due Nov 19, 32 days out.
+- Pricing page tests is due in 3 days (Oct 21) and has used 79% of budget.
+- Security audit is due Oct 30 and is Amber.
+
+By team
+- Sales (Omar) has spent 100.1% of $470K, and Data (Priya) 98% of $515K. Both are the most stretched teams.
+- All 5 High-risk projects hold $1.64M, 43% of budget.

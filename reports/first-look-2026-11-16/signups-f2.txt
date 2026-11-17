@@ -1,0 +1,34 @@
+Monday update: signups, week of 12-18 October 2026
+
+Headline
+- 317 real signups this week (Mon 12 to Sun 18 October). 137 of them (43%) finished setup.
+- 118 signups (37%) chose a paid plan: 84 Starter and 34 Team.
+
+Day by day
+- Mon 57, Tue 55, Wed 50, Thu 50, Fri 54, Sat 23, Sun 28.
+- Weekdays averaged 53.2 signups a day. Weekend days averaged 25.5, about half the weekday pace.
+- Setup completion ranged from 39% (Fri, 21 of 54) to 50% (Sun, 14 of 28).
+
+Plans
+- Free: 199 signups (63%), 37% finished setup.
+- Starter: 84 signups, 48% finished setup.
+- Team: 34 signups, 68% finished setup. Smallest group, most complete.
+
+Channels
+- Organic search 98 (31%), paid search 81 (26%), direct 60 (19%), referral 53 (17%), partner 25 (8%).
+- Paid search finished setup at 47% (38 of 81), organic at 43% (42 of 98). Partner was lowest at 32% (8 of 25).
+- Paid search brought 9 Team signups, the most of any channel. Organic brought 7.
+
+Countries
+- US 141 (44%), UK 46, France 33, Germany 29, Korea 23, Canada 23, Australia 22.
+- Germany had the highest setup rate among the larger markets, 59% (17 of 29). Korea was lowest at 35% (8 of 23).
+
+Companies
+- 194 unique company domains. 78 domains with more than one signup account for 201 signups (63%).
+- brightstudio.com has 7 signups. Confirm these are separate people before counting them as separate accounts.
+
+Data notes
+- Left out 4 rows on internal.test with the test flag set. All were Team and all finished setup. Including them would show 321 signups and 38 Team.
+- quillstudio.com shows 4 signups from 4 countries (KR, US, AU, DE). It may be a shared or generic domain. I have not merged or removed it.
+- Country codes use UK, not GB. Left as exported.
+- Signup IDs run S-104780 to S-105100 with no gaps, no duplicates and no blank fields.

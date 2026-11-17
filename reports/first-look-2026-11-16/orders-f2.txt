@@ -1,0 +1,27 @@
+Month-to-date operations summary, Oct 1-18, 2026
+
+Clean-up first: I left out 4 test orders (flagged in the sheet, $1 each) and 35 cancelled orders ($4,348.23). The export's Total row ($136,309.15) includes both and does not subtract refunds, so it overstates net sales by $8,391.52.
+
+Headline
+- 1,342 orders, $131,957 gross, $127,918 net after refunds.
+- Average order value $98.33; 3.4 items per order.
+- Refunds: 45 orders, $4,039 (3.4% of orders, 3.1% of sales). Cancellation rate 2.5%.
+- Weekends carry the business: 91 orders and $9,117 a day versus 66 orders and $6,438 on weekdays.
+
+Channels
+- Web: 823 orders, $65,608 (49.7% of sales), refund rate 2.4%.
+- Marketplace: 411 orders, $33,885, refund rate 5.6%. It is 31% of orders but 23 of the 45 refunds.
+- Wholesale: 108 orders (8%) but $32,464 (24.6% of sales), AOV $300.59. Its 5 cancellations total $2,106, 48% of all cancelled value.
+
+Regions and customers
+- North leads with $40,398 (404 orders); East $33,458, South $29,538, West $28,563. West has the highest refund rate (4.5%), South the lowest (1.4%).
+- Returning customers: 770 orders (57%), $76,191. New: 572 orders, $55,765. AOV is almost identical ($98.95 vs $97.49).
+
+Last week (Oct 12-18 vs Oct 5-11)
+- Orders 500 vs 525 (-4.8%); gross $50,874 vs $51,483 (-1.2%); AOV up to $101.75 from $98.06.
+- North rose 19% to 163 orders; South fell from 122 to 91 orders (-25%) and 28% in sales.
+
+Things to watch
+- Last week's refund rate of 1.4% (vs 4.2% the week before) is not an improvement. Refunds lag: orders from Oct 14-18 have only 2 refunds across 361 orders, while orders through Oct 11 refunded at 4.5%. Expect last week's net to come down.
+- Oct 3 alone produced 9 refunds worth $1,367, 34% of the month's refund value, including the largest single refund ($494.70, wholesale, East). Worth checking what shipped that day.
+- Marketplace refunds need a root cause; at 5.6% they run more than double Web.

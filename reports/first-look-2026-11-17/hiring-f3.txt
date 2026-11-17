@@ -1,0 +1,51 @@
+Hiring update to the board, quarter through Oct 18
+From the VP of People
+
+Summary
+We made 34 hires this quarter from 751 applicants, an applicant-to-hire rate of 4.5%. Candidates accepted 77.3% of the offers they have answered, and the median hire took 24 days from application to hire. The clearest finding is that referrals work: they were 14.0% of applicants but 55.9% of hires. The weak spot is closing those same referred candidates, especially in Engineering and Sales.
+
+What these numbers cover
+- The source is our applicant-tracking export of everyone who applied between Jul 27 and Oct 18, 768 rows in all. There is no total row in the file.
+- I left out the 17 rows the system flags as duplicate applications, so nobody is counted twice. None of them was a hire.
+- The export only records each candidate's current stage. For the 532 people rejected we cannot see whether they were turned down at screen or after an interview, so any "reached interview" figure below counts only people we can see at interview or later (currently at interview, holding an offer, hired, or declined an offer). Treat it as a floor.
+- Where a rate is stated against decided candidates, it leaves out the 83 people still in process.
+- Each team hired for a single role in this export (Engineering for Backend Engineer, Sales for Account Executive, Support for Support Specialist, Operations for Data Analyst, Design for Product Designer), so team and role figures are the same thing.
+
+The funnel
+- Reached interview or later (floor): 68 people, 9.1% of applicants.
+- Offers made: 48, or 6.4% of applicants.
+- Hires: 5.1% of candidates with a final outcome.
+- Most exits are quick. Rejections came a median of 6 days after applying, and 92 people withdrew before any offer (12.3% of applicants), a median of 5 days in.
+- Still open on Oct 18: 20 candidates at interview and 4 holding offers, with the rest at application or screen.
+
+First half of the quarter against the second
+- Everyone who applied by Sep 6 now has a final outcome: 367 applicants, 22 hires, a hire rate of 6.0%, and 78.6% of offers accepted.
+- The second half brought more applicants, 384, and 12 hires so far; most of the open pipeline sits here. Acceptance in this group is 75.0%, a little below the first half.
+- Referrals rose from 13.1% of applicants in the first half to 14.8% in the second.
+
+Which sources work
+- Referral: 105 applicants and 19 hires, an applicant-to-hire rate of 18.1%. 32.4% of referred candidates reached interview or later. The other four sources together turned applicants into hires at 2.3%, so a referral is about 7.8 times as likely to end in a hire.
+- LinkedIn: our biggest channel at 281 applicants, 37.4% of the total, but its hire rate was only 2.1%. Every LinkedIn offer was accepted.
+- Careers page: 219 applicants and 5 hires.
+- Agency: 96 applicants, with a hire rate of 4.2%, second only to referrals.
+- Job board: 50 applicants and no hires. Only 4.0% reached interview, and 16.0% withdrew, the highest withdrawal rate of any source.
+
+Offer acceptance
+- Of the 10 offers turned down this quarter, 8 went to referred candidates.
+- By team, Operations and Design accepted every offer, while Support stood at 77.8%, Sales at 63.6% and Engineering at 60.0%.
+- By source, referrals accepted 70.4% of offers against 88.2% for everyone else. Referred engineers accepted just 2 of 5 offers.
+- Declines come late: the median declined candidate had been in process 28 days, longer than our median hire. A slower close looks like a bigger risk than an early no.
+
+Time to hire
+- Median days from application to hire by team: Design 21.5, Operations 22.5, Engineering 25, Sales 27 and Support 27.
+- By source, LinkedIn hires took the longest at a median 26 days; referral hires took 24. Referrals are not faster, they are simply far more likely to finish.
+
+By team
+- Design gets the most applicants through to interview: 12.0%, against 8.1% in Engineering, our largest applicant pool.
+- Operations converts best overall, hiring 6.8% of its applicants.
+
+What we are doing next
+- Grow referrals deliberately: a referral drive in Engineering and Sales, where hiring is hardest.
+- Put a closing plan on every referred offer, with the hiring manager on the call and an answer date, because that is where we lose people.
+- Stop posting on job boards next quarter and move that effort to referrals and agency searches.
+- Clear the 32 applications not yet screened within a week, so the second-half pipeline keeps moving.

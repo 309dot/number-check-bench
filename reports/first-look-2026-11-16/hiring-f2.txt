@@ -1,0 +1,32 @@
+Weekly hiring update: Oct 12-18, 2026
+
+Headline: 6 hires last week (2 the week before), 67 new applicants (64 the week before), and 83 candidates active in the pipeline.
+
+Pipeline (751 candidates, after excluding 17 duplicates)
+- Active: Applied 32, Screen 27, Interview 20, Offer 4
+- Hired 34 (4.5%), Rejected 532 (70.8%), Withdrawn 102 (13.6%)
+- Time to hire: median 24 days, range 16 to 31
+
+Last week vs the week before (Oct 12-18 vs Oct 5-11)
+- New applicants: 67 vs 64
+- Stage moves, excluding new applications: 100 vs 84
+- Offers extended: 3 vs 1
+- Hires: 6 vs 2
+- Rejections: 44 vs 62
+
+Sources
+- LinkedIn 281 (37.4%), Careers page 219 (29.2%), Referral 105 (14.0%), Agency 96 (12.8%), Job board 50 (6.7%)
+- Hire rate: Referral 18.1% (19 hires), Agency 4.2%, Careers page 2.3%, LinkedIn 2.1%, Job board 0% (0 of 50)
+- Five of last week's six hires came through referral.
+- Watch: 8 of 27 referral offers were declined (29.6%). Across all sources, 10 of 44 closed offers were declined (22.7%).
+
+Roles
+- Active: Backend 21, Support 20, Account Executive 16, Product Designer 16, Data Analyst 10
+- Hires: Data Analyst 8, Account Executive 7, Support 7, Backend 6, Product Designer 6
+- Median time to hire: Product Designer 21.5 days, Data Analyst 22.5, Backend 25, Account Executive 27, Support 27
+- Open offers: Product Designer 2, Backend 1, Data Analyst 1
+
+Notes
+- 17 rows flagged Duplicate = Yes are excluded. Two are active: C-8104 (Interview) and C-8173 (Applied). If they are not true duplicates, active count is 85.
+- No stale candidates: every active candidate changed stage within the last 11 days.
+- Support and Account Executive take the longest to hire, at 27 days median.

@@ -1,0 +1,377 @@
+[
+ {
+  "quote": "2,558",
+  "value": 2558,
+  "definition": "All data rows in the export."
+ },
+ {
+  "quote": "52",
+  "value": 52,
+  "definition": "Rows with Spam = Yes."
+ },
+ {
+  "quote": "74",
+  "value": 74,
+  "definition": "Rows with Merged duplicate = Yes."
+ },
+ {
+  "quote": "124",
+  "value": 124,
+  "definition": "Rows with Spam = Yes or Merged duplicate = Yes."
+ },
+ {
+  "quote": "2,434",
+  "value": 2434,
+  "definition": "Rows with neither Spam nor Merged duplicate flagged."
+ },
+ {
+  "quote": "173",
+  "value": 173,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Opened in July 2026 (from 27 July)."
+ },
+ {
+  "quote": "839",
+  "value": 839,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Opened in August 2026."
+ },
+ {
+  "quote": "870",
+  "value": 870,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Opened in September 2026."
+ },
+ {
+  "quote": "552",
+  "value": 552,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Opened in October 2026 up to 18 October."
+ },
+ {
+  "quote": "3.7%",
+  "value": 0.03694874851013111,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. (September count - August count) / August count."
+ },
+ {
+  "quote": "42.2%",
+  "value": 0.42193087008343266,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Share of August tickets with Channel = Chat."
+ },
+ {
+  "quote": "36.6%",
+  "value": 0.36551724137931035,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Share of September tickets with Channel = Chat."
+ },
+ {
+  "quote": "1,151",
+  "value": 1151,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Channel = Email."
+ },
+ {
+  "quote": "934",
+  "value": 934,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Channel = Chat."
+ },
+ {
+  "quote": "349",
+  "value": 349,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Channel = Phone."
+ },
+ {
+  "quote": "726",
+  "value": 726,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. SLA breached = Yes."
+ },
+ {
+  "quote": "29.8%",
+  "value": 0.2982744453574363,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Share of tickets with SLA breached = Yes."
+ },
+ {
+  "quote": "28.8%",
+  "value": 0.28843861740166865,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. SLA breached share of August tickets."
+ },
+ {
+  "quote": "30.5%",
+  "value": 0.3045977011494253,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. SLA breached share of September tickets."
+ },
+ {
+  "quote": "1.6",
+  "value": 1.6159083747756653,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. September breach rate minus August breach rate, in percentage points."
+ },
+ {
+  "quote": "6.4",
+  "value": 6.4,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Median of First response (hours) over tickets that have a value."
+ },
+ {
+  "quote": "7.6",
+  "value": 7.6421810699588475,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Mean of First response (hours) over tickets that have a value."
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. First response (hours) is blank."
+ },
+ {
+  "quote": "6.1",
+  "value": 6.1,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Median first response hours, tickets opened in August."
+ },
+ {
+  "quote": "6.7",
+  "value": 6.7,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Median first response hours, tickets opened in September."
+ },
+ {
+  "quote": "132",
+  "value": 132,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Priority = Urgent."
+ },
+ {
+  "quote": "38.6%",
+  "value": 0.38636363636363635,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. SLA breached share inside Priority = Urgent."
+ },
+ {
+  "quote": "0.9",
+  "value": 0.9,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Median first response hours inside Priority = Urgent."
+ },
+ {
+  "quote": "426",
+  "value": 426,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Priority = High."
+ },
+ {
+  "quote": "24.2%",
+  "value": 0.24178403755868544,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. SLA breached share inside Priority = High."
+ },
+ {
+  "quote": "2.9",
+  "value": 2.9,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Median first response hours inside Priority = High."
+ },
+ {
+  "quote": "1,360",
+  "value": 1360,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Priority = Normal."
+ },
+ {
+  "quote": "40.0%",
+  "value": 0.4,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. SLA breached share inside Priority = Normal."
+ },
+ {
+  "quote": "7.0",
+  "value": 7.0,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Median first response hours inside Priority = Normal."
+ },
+ {
+  "quote": "516",
+  "value": 516,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Priority = Low."
+ },
+ {
+  "quote": "5.4%",
+  "value": 0.05426356589147287,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. SLA breached share inside Priority = Low."
+ },
+ {
+  "quote": "13.5",
+  "value": 13.5,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Median first response hours inside Priority = Low."
+ },
+ {
+  "quote": "30.2%",
+  "value": 0.3023457862728063,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. SLA breached share inside Channel = Email."
+ },
+ {
+  "quote": "6.2",
+  "value": 6.2,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Median first response hours inside Channel = Email."
+ },
+ {
+  "quote": "28.6%",
+  "value": 0.28586723768736616,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. SLA breached share inside Channel = Chat."
+ },
+ {
+  "quote": "6.5",
+  "value": 6.5,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Median first response hours inside Channel = Chat."
+ },
+ {
+  "quote": "31.8%",
+  "value": 0.31805157593123207,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. SLA breached share inside Channel = Phone."
+ },
+ {
+  "quote": "6.7",
+  "value": 6.7,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Median first response hours inside Channel = Phone."
+ },
+ {
+  "quote": "47",
+  "value": 47,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Priority = Urgent and Channel = Chat."
+ },
+ {
+  "quote": "34.0%",
+  "value": 0.3404255319148936,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. SLA breached share inside Priority = Urgent and Channel = Chat."
+ },
+ {
+  "quote": "1,142",
+  "value": 1142,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. CSAT is Good or Bad."
+ },
+ {
+  "quote": "46.9%",
+  "value": 0.4691865242399343,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Rated tickets divided by all tickets."
+ },
+ {
+  "quote": "85.2%",
+  "value": 0.852014010507881,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Good / (Good + Bad) over rated tickets."
+ },
+ {
+  "quote": "89.9%",
+  "value": 0.8994082840236687,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Good share of rated tickets for agent Hana."
+ },
+ {
+  "quote": "169",
+  "value": 169,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Rated tickets (Good or Bad) for agent Hana."
+ },
+ {
+  "quote": "89.5%",
+  "value": 0.8954545454545455,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Good share of rated tickets for agent Maya."
+ },
+ {
+  "quote": "220",
+  "value": 220,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Rated tickets (Good or Bad) for agent Maya."
+ },
+ {
+  "quote": "88.8%",
+  "value": 0.8883928571428571,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Good share of rated tickets for agent Jonah."
+ },
+ {
+  "quote": "224",
+  "value": 224,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Rated tickets (Good or Bad) for agent Jonah."
+ },
+ {
+  "quote": "86.1%",
+  "value": 0.8609625668449198,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Good share of rated tickets for agent Luis."
+ },
+ {
+  "quote": "187",
+  "value": 187,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Rated tickets (Good or Bad) for agent Luis."
+ },
+ {
+  "quote": "84.6%",
+  "value": 0.8461538461538461,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Good share of rated tickets for agent Priya."
+ },
+ {
+  "quote": "182",
+  "value": 182,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Rated tickets (Good or Bad) for agent Priya."
+ },
+ {
+  "quote": "68.8%",
+  "value": 0.6875,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Good share of rated tickets for agent Theo."
+ },
+ {
+  "quote": "160",
+  "value": 160,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Rated tickets (Good or Bad) for agent Theo."
+ },
+ {
+  "quote": "21.2",
+  "value": 21.19082840236687,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Difference in Good share between highest and lowest agent, percentage points."
+ },
+ {
+  "quote": "64.9%",
+  "value": 0.6490066225165563,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. SLA breached share inside agent Theo."
+ },
+ {
+  "quote": "29.8%",
+  "value": 0.2982744453574363,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Overall SLA breached share."
+ },
+ {
+  "quote": "81.0%",
+  "value": 0.8096590909090909,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Good share of rated tickets with SLA breached = Yes."
+ },
+ {
+  "quote": "87.1%",
+  "value": 0.8708860759493671,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Good share of rated tickets with SLA breached = No."
+ },
+ {
+  "quote": "2,149",
+  "value": 2149,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Status is Closed or Solved and a Closed date is present."
+ },
+ {
+  "quote": "88.3%",
+  "value": 0.8829087921117502,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Resolved tickets divided by all tickets."
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Median of (Closed - Opened) in days over resolved tickets."
+ },
+ {
+  "quote": "3.8",
+  "value": 3.818054909260121,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Mean of (Closed - Opened) in days over resolved tickets."
+ },
+ {
+  "quote": "285",
+  "value": 285,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Status is Open or Pending."
+ },
+ {
+  "quote": "11.7%",
+  "value": 0.1170912078882498,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Open or Pending divided by all tickets."
+ },
+ {
+  "quote": "11",
+  "value": 11,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Open or Pending with Priority = Urgent."
+ },
+ {
+  "quote": "81",
+  "value": 81,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Open or Pending and Opened before 1 September 2026."
+ },
+ {
+  "quote": "61",
+  "value": 61,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Open or Pending tickets for agent Maya."
+ },
+ {
+  "quote": "21.4%",
+  "value": 0.21403508771929824,
+  "definition": "All counts exclude tickets flagged Spam or Merged duplicate. Agent Maya open/pending tickets divided by all open/pending."
+ }
+]

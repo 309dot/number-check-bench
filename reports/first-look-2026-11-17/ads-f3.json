@@ -1,0 +1,367 @@
+[
+  {
+    "quote": "8",
+    "value": 8.0,
+    "definition": "날짜 열이 8월 24일부터 10월 18일까지 56일이라 7일씩 묶으면 8주예요."
+  },
+  {
+    "quote": "$70,762.15",
+    "value": 70762.15000000002,
+    "definition": "테스트 표시가 Yes가 아닌 672행의 Spend 열을 모두 더한 값이에요."
+  },
+  {
+    "quote": "1,291",
+    "value": 1291.0,
+    "definition": "테스트 표시가 Yes가 아닌 672행의 Leads 열을 모두 더한 값이에요."
+  },
+  {
+    "quote": "$54.81",
+    "value": 54.81189000774595,
+    "definition": "테스트 표시가 Yes가 아닌 672행의 Spend 합계를 Leads 합계로 나눈 값이에요."
+  },
+  {
+    "quote": "4",
+    "value": 4.0,
+    "definition": "8주를 앞 4주와 뒤 4주로 나눌 때 각 묶음의 주 수예요."
+  },
+  {
+    "quote": "4",
+    "value": 4.0,
+    "definition": "8주를 앞 4주와 뒤 4주로 나눌 때 각 묶음의 주 수예요."
+  },
+  {
+    "quote": "2.2%",
+    "value": 2.245583729156886,
+    "definition": "뒤 4주 Spend 합계가 앞 4주 Spend 합계보다 늘어난 퍼센트예요(테스트 제외, 각 336행)."
+  },
+  {
+    "quote": "645",
+    "value": 645.0,
+    "definition": "앞 4주(8월 24일~9월 20일, 테스트 제외 336행)의 Leads 합계예요."
+  },
+  {
+    "quote": "646",
+    "value": 646.0,
+    "definition": "뒤 4주(9월 21일~10월 18일, 테스트 제외 336행)의 Leads 합계예요."
+  },
+  {
+    "quote": "$54.25",
+    "value": 54.24531782945739,
+    "definition": "앞 4주의 Spend 합계를 Leads 합계로 나눈 값이에요."
+  },
+  {
+    "quote": "$55.38",
+    "value": 55.377585139318896,
+    "definition": "뒤 4주의 Spend 합계를 Leads 합계로 나눈 값이에요."
+  },
+  {
+    "quote": "2.1%",
+    "value": 2.0873088317433286,
+    "definition": "뒤 4주 CPL이 앞 4주 CPL보다 올라간 퍼센트예요."
+  },
+  {
+    "quote": "728",
+    "value": 728.0,
+    "definition": "파일 전체 데이터 행 수예요(헤더 제외)."
+  },
+  {
+    "quote": "56",
+    "value": 56.0,
+    "definition": "Test campaign 열이 Yes인 행 수이고 모두 QA – Pixel test 캠페인이에요."
+  },
+  {
+    "quote": "$49.01",
+    "value": 49.010000000000005,
+    "definition": "Test campaign 열이 Yes인 56행의 Spend 합계예요."
+  },
+  {
+    "quote": "50",
+    "value": 50.0,
+    "definition": "Test campaign 열이 Yes인 56행의 Clicks 합계예요."
+  },
+  {
+    "quote": "0",
+    "value": 0.0,
+    "definition": "Test campaign 열이 Yes인 56행의 Leads 합계예요."
+  },
+  {
+    "quote": "672",
+    "value": 672.0,
+    "definition": "Test campaign 열이 Yes가 아닌 나머지 672행 수예요."
+  },
+  {
+    "quote": "1.06%",
+    "value": 1.060077790149404,
+    "definition": "테스트 제외 672행의 Clicks 합계를 Impressions 합계로 나눈 백분율이에요."
+  },
+  {
+    "quote": "$1.25",
+    "value": 1.2451767583452116,
+    "definition": "테스트 제외 672행의 Spend 합계를 Clicks 합계로 나눈 값이에요."
+  },
+  {
+    "quote": "2.27%",
+    "value": 2.2717274630910276,
+    "definition": "테스트 제외 672행의 Leads 합계를 Clicks 합계로 나눈 백분율이에요."
+  },
+  {
+    "quote": "4",
+    "value": 4.0,
+    "definition": "8주를 앞 4주와 뒤 4주로 나눌 때 각 묶음의 주 수예요."
+  },
+  {
+    "quote": "$34,988.23",
+    "value": 34988.23000000002,
+    "definition": "앞 4주(테스트 제외 336행)의 Spend 합계예요."
+  },
+  {
+    "quote": "645",
+    "value": 645.0,
+    "definition": "앞 4주(8월 24일~9월 20일, 테스트 제외 336행)의 Leads 합계예요."
+  },
+  {
+    "quote": "$54.25",
+    "value": 54.24531782945739,
+    "definition": "앞 4주의 Spend 합계를 Leads 합계로 나눈 값이에요."
+  },
+  {
+    "quote": "4",
+    "value": 4.0,
+    "definition": "8주를 앞 4주와 뒤 4주로 나눌 때 각 묶음의 주 수예요."
+  },
+  {
+    "quote": "$35,773.92",
+    "value": 35773.920000000006,
+    "definition": "뒤 4주(테스트 제외 336행)의 Spend 합계예요."
+  },
+  {
+    "quote": "646",
+    "value": 646.0,
+    "definition": "뒤 4주(9월 21일~10월 18일, 테스트 제외 336행)의 Leads 합계예요."
+  },
+  {
+    "quote": "$55.38",
+    "value": 55.377585139318896,
+    "definition": "뒤 4주의 Spend 합계를 Leads 합계로 나눈 값이에요."
+  },
+  {
+    "quote": "$53.13",
+    "value": 53.130421686747,
+    "definition": "첫 주(8월 24일~8월 30일, 테스트 제외 84행)의 Spend 합계를 Leads 합계로 나눈 값이에요."
+  },
+  {
+    "quote": "$57.23",
+    "value": 57.22770186335405,
+    "definition": "여덟째 주(10월 12일~10월 18일, 테스트 제외 84행)의 Spend 합계를 Leads 합계로 나눈 값이에요."
+  },
+  {
+    "quote": "$21,645.65",
+    "value": 21645.650000000005,
+    "definition": "Client가 Brightline Dental인 224행의 Spend 합계예요."
+  },
+  {
+    "quote": "30.6%",
+    "value": 30.589305158195444,
+    "definition": "Brightline Dental의 Spend 합계를 테스트 제외 전체 Spend 합계로 나눈 백분율이에요."
+  },
+  {
+    "quote": "515",
+    "value": 515.0,
+    "definition": "Client가 Brightline Dental인 224행의 Leads 합계예요."
+  },
+  {
+    "quote": "39.9%",
+    "value": 39.89155693261038,
+    "definition": "Brightline Dental의 Leads 합계를 테스트 제외 전체 Leads 합계로 나눈 백분율이에요."
+  },
+  {
+    "quote": "$42.03",
+    "value": 42.030388349514574,
+    "definition": "Brightline Dental 224행의 Spend 합계를 Leads 합계로 나눈 값이에요."
+  },
+  {
+    "quote": "$28,296.36",
+    "value": 28296.359999999997,
+    "definition": "Client가 Harbor & Pine인 224행(테스트 제외)의 Spend 합계예요."
+  },
+  {
+    "quote": "40.0%",
+    "value": 39.98798792857479,
+    "definition": "Harbor & Pine의 Spend 합계를 테스트 제외 전체 Spend 합계로 나눈 백분율이에요."
+  },
+  {
+    "quote": "397",
+    "value": 397.0,
+    "definition": "Client가 Harbor & Pine인 224행(테스트 제외)의 Leads 합계예요."
+  },
+  {
+    "quote": "30.8%",
+    "value": 30.751355538342366,
+    "definition": "Harbor & Pine의 Leads 합계를 테스트 제외 전체 Leads 합계로 나눈 백분율이에요."
+  },
+  {
+    "quote": "$71.28",
+    "value": 71.2754659949622,
+    "definition": "Harbor & Pine 224행(테스트 제외)의 Spend 합계를 Leads 합계로 나눈 값이에요."
+  },
+  {
+    "quote": "$20,820.14",
+    "value": 20820.14,
+    "definition": "Client가 Northfield Bikes인 224행의 Spend 합계예요."
+  },
+  {
+    "quote": "29.4%",
+    "value": 29.422706913229728,
+    "definition": "Northfield Bikes의 Spend 합계를 테스트 제외 전체 Spend 합계로 나눈 백분율이에요."
+  },
+  {
+    "quote": "379",
+    "value": 379.0,
+    "definition": "Client가 Northfield Bikes인 224행의 Leads 합계예요."
+  },
+  {
+    "quote": "29.4%",
+    "value": 29.35708752904725,
+    "definition": "Northfield Bikes의 Leads 합계를 테스트 제외 전체 Leads 합계로 나눈 백분율이에요."
+  },
+  {
+    "quote": "$54.93",
+    "value": 54.934406332453825,
+    "definition": "Northfield Bikes 224행의 Spend 합계를 Leads 합계로 나눈 값이에요."
+  },
+  {
+    "quote": "$25,348.67",
+    "value": 25348.670000000016,
+    "definition": "Channel이 Search인 280행의 Spend 합계예요."
+  },
+  {
+    "quote": "35.8%",
+    "value": 35.82235700865507,
+    "definition": "Search의 Spend 합계를 테스트 제외 전체 Spend 합계로 나눈 백분율이에요."
+  },
+  {
+    "quote": "622",
+    "value": 622.0,
+    "definition": "Channel이 Search인 280행의 Leads 합계예요."
+  },
+  {
+    "quote": "48.2%",
+    "value": 48.17970565453137,
+    "definition": "Search의 Leads 합계를 테스트 제외 전체 Leads 합계로 나눈 백분율이에요."
+  },
+  {
+    "quote": "$40.75",
+    "value": 40.75348874598073,
+    "definition": "Search 280행의 Spend 합계를 Leads 합계로 나눈 값이에요."
+  },
+  {
+    "quote": "$30,982.17",
+    "value": 30982.16999999999,
+    "definition": "Channel이 Social인 224행의 Spend 합계예요."
+  },
+  {
+    "quote": "43.8%",
+    "value": 43.78353399380881,
+    "definition": "Social의 Spend 합계를 테스트 제외 전체 Spend 합계로 나눈 백분율이에요."
+  },
+  {
+    "quote": "468",
+    "value": 468.0,
+    "definition": "Channel이 Social인 224행의 Leads 합계예요."
+  },
+  {
+    "quote": "$66.20",
+    "value": 66.20121794871793,
+    "definition": "Social 224행의 Spend 합계를 Leads 합계로 나눈 값이에요."
+  },
+  {
+    "quote": "$14,431.31",
+    "value": 14431.310000000003,
+    "definition": "Channel이 Display인 168행(테스트 제외)의 Spend 합계예요."
+  },
+  {
+    "quote": "20.4%",
+    "value": 20.394108997536108,
+    "definition": "Display의 Spend 합계를 테스트 제외 전체 Spend 합계로 나눈 백분율이에요."
+  },
+  {
+    "quote": "201",
+    "value": 201.0,
+    "definition": "Channel이 Display인 168행(테스트 제외)의 Leads 합계예요."
+  },
+  {
+    "quote": "$71.80",
+    "value": 71.79756218905474,
+    "definition": "Display 168행(테스트 제외)의 Spend 합계를 Leads 합계로 나눈 값이에요."
+  },
+  {
+    "quote": "$11,953.34",
+    "value": 11953.339999999998,
+    "definition": "Campaign이 Harbor & Pine – Fall collection인 56행의 Spend 합계예요."
+  },
+  {
+    "quote": "16.9%",
+    "value": 16.892279276421075,
+    "definition": "Fall collection의 Spend 합계를 테스트 제외 전체 Spend 합계로 나눈 백분율이에요."
+  },
+  {
+    "quote": "$95.63",
+    "value": 95.62671999999999,
+    "definition": "Fall collection 56행의 Spend 합계를 Leads 합계로 나눈 값이에요."
+  },
+  {
+    "quote": "4",
+    "value": 4.0,
+    "definition": "앞 4주와 뒤 4주 각각을 뜻하는 주 수예요."
+  },
+  {
+    "quote": "$90.18",
+    "value": 90.17983333333332,
+    "definition": "Fall collection 앞 4주 28행의 Spend 합계를 Leads 합계로 나눈 값이에요."
+  },
+  {
+    "quote": "4",
+    "value": 4.0,
+    "definition": "앞 4주와 뒤 4주 각각을 뜻하는 주 수예요."
+  },
+  {
+    "quote": "$100.65",
+    "value": 100.6546153846154,
+    "definition": "Fall collection 뒤 4주 28행의 Spend 합계를 Leads 합계로 나눈 값이에요."
+  },
+  {
+    "quote": "11.6%",
+    "value": 11.615437358997948,
+    "definition": "Fall collection의 뒤 4주 CPL이 앞 4주 CPL보다 올라간 퍼센트예요."
+  },
+  {
+    "quote": "$24.07",
+    "value": 24.067905405405405,
+    "definition": "Harbor & Pine – Brand search 56행의 Spend 합계를 Leads 합계로 나눈 값이에요."
+  },
+  {
+    "quote": "$28.01",
+    "value": 28.00835164835165,
+    "definition": "Northfield – Service booking 56행의 Spend 합계를 Leads 합계로 나눈 값이에요."
+  },
+  {
+    "quote": "$107.48",
+    "value": 107.48470588235293,
+    "definition": "Harbor & Pine – Lookalike 56행의 Spend 합계를 Leads 합계로 나눈 값이에요."
+  },
+  {
+    "quote": "$24,734.31",
+    "value": 24734.309999999994,
+    "definition": "Fall collection, Lookalike, Gift guide 세 캠페인 168행의 Spend 합계예요."
+  },
+  {
+    "quote": "35.0%",
+    "value": 34.95415274973978,
+    "definition": "세 캠페인 Spend 합계를 테스트 제외 전체 Spend 합계로 나눈 백분율이에요."
+  },
+  {
+    "quote": "249",
+    "value": 249.0,
+    "definition": "Fall collection, Lookalike, Gift guide 세 캠페인 168행의 Leads 합계예요."
+  }
+]

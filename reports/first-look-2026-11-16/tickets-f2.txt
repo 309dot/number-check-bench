@@ -1,0 +1,15 @@
+Support
+
+Scope: 12 full weeks, 27 Jul to 18 Oct 2026 (October is only 18 days in), so figures cover the whole window unless marked. I excluded 124 of the 2,558 rows: 52 spam and 74 merged duplicates (2 were both), since they are not real demand; 28 spam tickets even carry a satisfaction rating. Base: 2,434 tickets.
+
+- Volume: 29.0 tickets a day, 34.7 on weekdays and 14.6 at weekends, with Friday busiest (36.3). The last two weeks averaged 226 a week, 14.0% above the previous ten (198); 13 and 14 Oct peaked at 44 each.
+- October so far: 30.7 tickets a day against 29.0 in September; SLA misses flat at 30.1% (September 30.5%).
+- Channels: email 47.3%, chat 38.4%, phone 14.3%. Phone rose from 3.2 calls a day in August to 4.7 in September. Chat satisfaction is lowest at 82.2% (email 87.6%).
+- First reply: median 6.4 hours, mean 7.6 hours; 1 in 10 customers waits more than 15.3 hours.
+- SLA: 29.8% of tickets (726) missed the first-reply target; the flags match targets of 1, 4, 8 and 24 hours by priority. Normal misses 40.0%, Urgent 38.6% (51 of 132), Low 5.4%.
+- Resolution: 88.3% resolved (2,149), 92.6% for tickets older than a week. Median 4 days; 13.8% close the same day, 54.5% for Urgent.
+- Satisfaction: 85.2% good from 1,142 ratings, a 53.1% response rate on resolved tickets.
+
+Needs action:
+- Theo is the outlier: 12.4% of tickets but 27.0% of SLA misses (196) and 29.6% of bad ratings (50). Miss rate 64.9% against 24.9% for the other five agents, median first reply 10.8 against 6.0 hours, satisfaction 68.8% against 87.9%. The gap holds in every month and priority, and all 28 Low-priority misses are Theo's. Review workload and coaching.
+- Stale backlog: 162 of the 285 open or pending tickets are more than a week old, the oldest 83 days, including 11 Urgent and 22 High. No resolved ticket took longer than 8 days, so these look forgotten rather than slow. Each needs an owner this week.

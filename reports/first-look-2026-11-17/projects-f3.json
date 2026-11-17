@@ -1,0 +1,372 @@
+[
+  {
+    "quote": "22",
+    "value": 22.0,
+    "definition": "Counted the rows of the Projects sheet with Archived = No, excluding the Total row and the 2 archived rows (Project column, 22 rows)."
+  },
+  {
+    "quote": "2",
+    "value": 2.0,
+    "definition": "Counted the rows with Archived = Yes (Intranet refresh and Legacy CMS shutdown) in the Projects sheet."
+  },
+  {
+    "quote": "2",
+    "value": 2.0,
+    "definition": "Counted the rows with Archived = Yes (Intranet refresh and Legacy CMS shutdown) in the Projects sheet."
+  },
+  {
+    "quote": "$2.93M",
+    "value": 2934920.0,
+    "definition": "Summed the Spend column over the 22 active rows (Archived = No)."
+  },
+  {
+    "quote": "$3.79M",
+    "value": 3790000.0,
+    "definition": "Summed the Budget column over the 22 active rows (Archived = No)."
+  },
+  {
+    "quote": "77.4%",
+    "value": 77.438522,
+    "definition": "Spend sum divided by Budget sum over the 22 active rows, times 100."
+  },
+  {
+    "quote": "4",
+    "value": 4.0,
+    "definition": "Counted active rows with no Done date and a Due date before Oct 18 (Data warehouse, CRM migration, Billing revamp, SSO rollout)."
+  },
+  {
+    "quote": "106.2%",
+    "value": 106.214213,
+    "definition": "Spend sum divided by Budget sum over the 4 late active rows (Budget and Spend columns), times 100."
+  },
+  {
+    "quote": "3",
+    "value": 3.0,
+    "definition": "Counted the 4 late active rows whose Spend is above Budget (Data warehouse, CRM migration, Billing revamp)."
+  },
+  {
+    "quote": "4",
+    "value": 4.0,
+    "definition": "Counted active rows with no Done date and a Due date before Oct 18 (the 4 late rows)."
+  },
+  {
+    "quote": "76.1%",
+    "value": 76.097006,
+    "definition": "Spend over Budget for the 18 open active rows (blank Done date), times 100."
+  },
+  {
+    "quote": "87.4%",
+    "value": 87.395556,
+    "definition": "Spend over Budget for the 4 done active rows (Done date filled), times 100."
+  },
+  {
+    "quote": "13",
+    "value": 13.0,
+    "definition": "Counted active rows with Status = Green."
+  },
+  {
+    "quote": "68.5%",
+    "value": 68.518966,
+    "definition": "Spend over Budget for the 13 active Green rows, times 100."
+  },
+  {
+    "quote": "6",
+    "value": 6.0,
+    "definition": "Counted active rows with Status = Amber."
+  },
+  {
+    "quote": "75.8%",
+    "value": 75.832593,
+    "definition": "Spend over Budget for the 6 active Amber rows, times 100."
+  },
+  {
+    "quote": "3",
+    "value": 3.0,
+    "definition": "Counted active rows with Status = Red."
+  },
+  {
+    "quote": "102.7%",
+    "value": 102.707143,
+    "definition": "Spend over Budget for the 3 active Red rows, times 100."
+  },
+  {
+    "quote": "9",
+    "value": 9.0,
+    "definition": "Counted active rows with Status = Amber or Red (6 Amber plus 3 Red)."
+  },
+  {
+    "quote": "22",
+    "value": 22.0,
+    "definition": "Counted the 22 active rows (the denominator for the Amber and Red share)."
+  },
+  {
+    "quote": "40.9%",
+    "value": 40.909091,
+    "definition": "Amber or Red rows divided by all 22 active rows, times 100."
+  },
+  {
+    "quote": "3",
+    "value": 3.0,
+    "definition": "Counted active rows with Spend above Budget (Data warehouse, Billing revamp, CRM migration)."
+  },
+  {
+    "quote": "108.0%",
+    "value": 108.0,
+    "definition": "Spend over Budget for the Data warehouse row, times 100."
+  },
+  {
+    "quote": "108.0%",
+    "value": 108.0,
+    "definition": "Spend over Budget for the Billing revamp row, times 100."
+  },
+  {
+    "quote": "103.9%",
+    "value": 103.896154,
+    "definition": "Spend over Budget for the CRM migration row, times 100."
+  },
+  {
+    "quote": "$62,130",
+    "value": 62130.0,
+    "definition": "Summed Spend minus Budget over the 3 active rows where Spend exceeds Budget."
+  },
+  {
+    "quote": "2",
+    "value": 2.0,
+    "definition": "Counted active rows with Department = Sales (CRM migration and Field sales app)."
+  },
+  {
+    "quote": "100.1%",
+    "value": 100.117021,
+    "definition": "Spend over Budget for the 2 active Sales rows, times 100."
+  },
+  {
+    "quote": "100.3%",
+    "value": 100.298246,
+    "definition": "Spend over Budget for the 2 active Finance rows, times 100."
+  },
+  {
+    "quote": "97.9%",
+    "value": 97.867961,
+    "definition": "Spend over Budget for the 2 active Data rows, times 100."
+  },
+  {
+    "quote": "33.5%",
+    "value": 33.509235,
+    "definition": "Budget for the Data, Sales and Finance active rows divided by total active Budget, times 100."
+  },
+  {
+    "quote": "42.9%",
+    "value": 42.945634,
+    "definition": "Spend for the Data, Sales and Finance active rows divided by total active Spend, times 100."
+  },
+  {
+    "quote": "20.3%",
+    "value": 20.316623,
+    "definition": "Budget for the 3 active Operations rows divided by total active Budget, times 100."
+  },
+  {
+    "quote": "64.4%",
+    "value": 64.401299,
+    "definition": "Spend over Budget for the 3 active Operations rows, times 100."
+  },
+  {
+    "quote": "89.7%",
+    "value": 89.707692,
+    "definition": "Spend over Budget for the 2 active IT rows, times 100."
+  },
+  {
+    "quote": "1",
+    "value": 1.0,
+    "definition": "Counted active IT rows with a Due date before Oct 18 and no Done date (SSO rollout)."
+  },
+  {
+    "quote": "11",
+    "value": 11.0,
+    "definition": "Counted distinct Owner values across the 22 active rows."
+  },
+  {
+    "quote": "4",
+    "value": 4.0,
+    "definition": "Counted distinct owners with at least one late active row (Omar, Chris, Priya, Kim)."
+  },
+  {
+    "quote": "2",
+    "value": 2.0,
+    "definition": "Counted active rows with Owner = Omar (CRM migration and Field sales app)."
+  },
+  {
+    "quote": "19",
+    "value": 19.0,
+    "definition": "Days between the CRM migration Due date (Sep 29) and Oct 18, from the Due date column."
+  },
+  {
+    "quote": "$305,000",
+    "value": 305000.0,
+    "definition": "Budget for Lena's 2 active rows (Warehouse robots pilot and Office move, which is Done) divided by 2."
+  },
+  {
+    "quote": "3",
+    "value": 3.0,
+    "definition": "Counted active rows with Owner = Maya (Website redesign, Brand refresh, Pricing page tests)."
+  },
+  {
+    "quote": "$146,667",
+    "value": 146666.666667,
+    "definition": "Budget for Maya's 3 active rows divided by 3."
+  },
+  {
+    "quote": "62.1%",
+    "value": 62.106818,
+    "definition": "Spend over Budget for Maya's 3 active rows, times 100."
+  },
+  {
+    "quote": "18",
+    "value": 18.0,
+    "definition": "Days between the SSO rollout Due date (Sep 30) and Oct 18, from the Due date column."
+  },
+  {
+    "quote": "5",
+    "value": 5.0,
+    "definition": "Counted active rows with Risk = High."
+  },
+  {
+    "quote": "43.3%",
+    "value": 43.271768,
+    "definition": "Budget for the 5 High-risk active rows divided by total active Budget, times 100."
+  },
+  {
+    "quote": "88.3%",
+    "value": 88.292073,
+    "definition": "Spend over Budget for the 5 High-risk active rows, times 100."
+  },
+  {
+    "quote": "3",
+    "value": 3.0,
+    "definition": "Counted High-risk active rows that are late (Data warehouse, CRM migration, Billing revamp)."
+  },
+  {
+    "quote": "5",
+    "value": 5.0,
+    "definition": "Counted active rows with Risk = High (the denominator for the late share)."
+  },
+  {
+    "quote": "60.0%",
+    "value": 60.0,
+    "definition": "Late High-risk rows divided by all High-risk active rows, times 100."
+  },
+  {
+    "quote": "1",
+    "value": 1.0,
+    "definition": "Counted late active rows with Risk = Low or Medium (SSO rollout)."
+  },
+  {
+    "quote": "17",
+    "value": 17.0,
+    "definition": "Counted active rows with Risk = Low or Medium (9 Low plus 8 Medium)."
+  },
+  {
+    "quote": "5.9%",
+    "value": 5.882353,
+    "definition": "Late Low- or Medium-risk rows divided by all 17 Low- or Medium-risk active rows, times 100."
+  },
+  {
+    "quote": "3",
+    "value": 3.0,
+    "definition": "Counted late active rows with Risk = High (Data warehouse, CRM migration, Billing revamp)."
+  },
+  {
+    "quote": "4",
+    "value": 4.0,
+    "definition": "Counted late active rows (the denominator for the High-risk share)."
+  },
+  {
+    "quote": "75.0%",
+    "value": 75.0,
+    "definition": "Late High-risk rows divided by all 4 late active rows, times 100."
+  },
+  {
+    "quote": "$328,000",
+    "value": 328000.0,
+    "definition": "Budget for the 5 High-risk active rows divided by 5."
+  },
+  {
+    "quote": "$114,444",
+    "value": 114444.444444,
+    "definition": "Budget for the 9 active rows with Risk = Low divided by 9."
+  },
+  {
+    "quote": "97.0%",
+    "value": 97.022047,
+    "definition": "Spend over Budget for the 5 active Test-phase rows, times 100."
+  },
+  {
+    "quote": "3",
+    "value": 3.0,
+    "definition": "Counted active Test-phase rows that are late (Data warehouse, CRM migration, Billing revamp)."
+  },
+  {
+    "quote": "17.3",
+    "value": 17.25,
+    "definition": "Average of the days past due (Oct 18 minus Due date) across the 4 late active rows."
+  },
+  {
+    "quote": "22.2%",
+    "value": 22.222222,
+    "definition": "Late active rows divided by the 18 open active rows, times 100."
+  },
+  {
+    "quote": "4",
+    "value": 4.0,
+    "definition": "Counted late active rows (the 4 of 18)."
+  },
+  {
+    "quote": "18",
+    "value": 18.0,
+    "definition": "Counted active rows with no Done date (open rows)."
+  },
+  {
+    "quote": "5",
+    "value": 5.0,
+    "definition": "Counted open active rows with a Due date from Oct 18 to 30 days later (Pricing page tests, Security audit, Staff training, Expense tool, Customer research)."
+  },
+  {
+    "quote": "30",
+    "value": 30.0,
+    "definition": "The 30-day window used to select open active rows by Due date; it is a threshold, not a data count."
+  },
+  {
+    "quote": "74.7%",
+    "value": 74.747541,
+    "definition": "Spend over Budget for the 5 open active rows due within 30 days, times 100."
+  },
+  {
+    "quote": "2.1",
+    "value": 2.136364,
+    "definition": "Average of (Oct 18 minus Last update) in days across the 22 active rows."
+  },
+  {
+    "quote": "6",
+    "value": 6.0,
+    "definition": "Counted active rows with Last update = Oct 14 (Mobile app v2, Partner API, Payroll system, Warehouse robots pilot, Analytics dashboards, Returns process)."
+  },
+  {
+    "quote": "4",
+    "value": 4.0,
+    "definition": "Days between the Last update of those 6 rows (Oct 14) and Oct 18."
+  },
+  {
+    "quote": "$33,600",
+    "value": 33600.0,
+    "definition": "Spend minus Budget for the Data warehouse active row."
+  },
+  {
+    "quote": "8.0%",
+    "value": 8.0,
+    "definition": "Spend minus Budget for the Data warehouse row, divided by its Budget, times 100."
+  },
+  {
+    "quote": "$62,130",
+    "value": 62130.0,
+    "definition": "Summed Spend minus Budget over the 3 active rows where Spend exceeds Budget."
+  }
+]

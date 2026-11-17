@@ -1,0 +1,65 @@
+Capital Projects Review, as of October 18
+
+For the leadership team, from the CFO office
+
+Scope
+
+- This covers the 22 active projects on the portfolio tracker.
+- I left out the 2 archived projects, Intranet refresh and Legacy CMS shutdown. They are closed, and keeping them in would make the spend look better than the live portfolio is.
+- The sheet's own Total line includes those 2 projects, so the totals below will not match it.
+
+Headline
+
+- We have spent $2.93M of the $3.79M active budget, which is 77.4% used.
+- 4 open projects are past their due dates, and together they have spent 106.2% of their combined budget.
+- 3 of those 4 are also over budget, and they sit in Data, Sales and Finance.
+
+Spend against budget
+
+- Open projects have spent 76.1% of their budget.
+- Done projects have spent 87.4% of their budget.
+- By status, Green projects (13) have used 68.5% of budget, Amber (6) 75.8%, and Red (3) 102.7%.
+- Amber and Red together are 9 of 22 projects (40.9%).
+- 3 projects are over budget: Data warehouse at 108.0%, Billing revamp at 108.0%, and CRM migration at 103.9%. Their combined overrun is $62,130.
+
+Departments
+
+- Sales has 2 projects at 100.1% of budget, and both are Red and High risk.
+- Finance is at 100.3% and Data at 97.9%.
+- Data, Sales and Finance hold 33.5% of active budget but account for 42.9% of spend.
+- Operations is the largest department by budget, at 20.3% of the active total. It has spent 64.4% and has no late items.
+- IT is at 89.7% spent, with 1 late item.
+
+Owners
+
+- There are 11 owners, and 4 of them have a late project: Omar, Chris, Priya and Kim.
+- Omar has 2 projects, both High risk and both Red, and CRM migration is 19 days past due.
+- Lena has the largest average budget per project, at $305,000.
+- Maya has 3 projects averaging $146,667 each, at 62.1% spent, with none late.
+- Kim's SSO rollout is 18 days past due.
+
+Risk
+
+- High-risk projects are 5 of the active set. They hold 43.3% of active budget and have used 88.3% of their own budget.
+- 3 of the 5 high-risk projects are late (60.0%), while only 1 of the 17 low- and medium-risk projects is late (5.9%).
+- 3 of the 4 late projects are High risk, which is 75.0%.
+- High-risk projects average $328,000 of budget each, against $114,444 for low-risk projects.
+
+Phase and timing
+
+- Test phase is at 97.0% spent, and 3 of its projects are late.
+- Late projects average 17.3 days past due. They make up 22.2% of open projects (4 of 18).
+
+Coming up
+
+- 5 open projects fall due within 30 days, and 74.7% of their combined budget is spent.
+
+Data freshness
+
+- Projects were last updated 2.1 days before the report date, on average.
+- 6 of the projects have not been updated for 4 days.
+
+What I am asking for
+
+- Data warehouse is $33,600 over budget, which is 8.0%, and it is late. I want a re-baseline or a stop decision on it.
+- Billing revamp and CRM migration make up the rest of the $62,130 overrun. Leadership should approve or recover the full amount.

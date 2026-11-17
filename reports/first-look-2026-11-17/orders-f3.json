@@ -1,0 +1,362 @@
+[
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Rows with Test order = Yes."
+ },
+ {
+  "quote": "1,377",
+  "value": 1377,
+  "definition": "All order rows except the Total line and the rows flagged as test orders."
+ },
+ {
+  "quote": "$136,305.15",
+  "value": 136305.15,
+  "definition": "Sum of Order total over all 1,377 real orders, including cancelled and refunded."
+ },
+ {
+  "quote": "$98.99",
+  "value": 98.98703703703703,
+  "definition": "Booked order value divided by the count of real orders."
+ },
+ {
+  "quote": "35",
+  "value": 35,
+  "definition": "Count of real orders with Status = Cancelled."
+ },
+ {
+  "quote": "2.5%",
+  "value": 2.541757443718228,
+  "definition": "Cancelled real orders divided by all real orders."
+ },
+ {
+  "quote": "$4,348.23",
+  "value": 4348.23,
+  "definition": "Sum of Order total over cancelled real orders."
+ },
+ {
+  "quote": "3.2%",
+  "value": 3.1900702211178373,
+  "definition": "Cancelled order value divided by booked order value."
+ },
+ {
+  "quote": "45",
+  "value": 45,
+  "definition": "Count of real orders with Status = Refunded."
+ },
+ {
+  "quote": "3.3%",
+  "value": 3.2679738562091503,
+  "definition": "Refunded real orders divided by all real orders."
+ },
+ {
+  "quote": "$4,039.29",
+  "value": 4039.29,
+  "definition": "Sum of Refund amount over real orders."
+ },
+ {
+  "quote": "3.0%",
+  "value": 2.9634170095553984,
+  "definition": "Total refund amount divided by booked order value."
+ },
+ {
+  "quote": "$89.76",
+  "value": 89.762,
+  "definition": "Total refund amount divided by the count of refunded orders."
+ },
+ {
+  "quote": "$127,917.63",
+  "value": 127917.63000000002,
+  "definition": "Booked order value minus cancelled order value minus total refund amount."
+ },
+ {
+  "quote": "93.8%",
+  "value": 93.84651276932678,
+  "definition": "Retained revenue divided by booked order value."
+ },
+ {
+  "quote": "541",
+  "value": 541,
+  "definition": "Real orders dated in this period."
+ },
+ {
+  "quote": "$94.62",
+  "value": 94.61687615526803,
+  "definition": "Booked value divided by real orders in this period."
+ },
+ {
+  "quote": "2.8%",
+  "value": 2.7726432532347505,
+  "definition": "Cancelled orders divided by real orders in this period."
+ },
+ {
+  "quote": "4.8%",
+  "value": 4.805914972273568,
+  "definition": "Refunded orders divided by real orders in this period."
+ },
+ {
+  "quote": "528",
+  "value": 528,
+  "definition": "Real orders dated in this period."
+ },
+ {
+  "quote": "$99.98",
+  "value": 99.98178030303029,
+  "definition": "Booked value divided by real orders in this period."
+ },
+ {
+  "quote": "2.7%",
+  "value": 2.6515151515151514,
+  "definition": "Cancelled orders divided by real orders in this period."
+ },
+ {
+  "quote": "3.2%",
+  "value": 3.2196969696969697,
+  "definition": "Refunded orders divided by real orders in this period."
+ },
+ {
+  "quote": "308",
+  "value": 308,
+  "definition": "Real orders dated in this period."
+ },
+ {
+  "quote": "$104.96",
+  "value": 104.95792207792208,
+  "definition": "Booked value divided by real orders in this period."
+ },
+ {
+  "quote": "1.9%",
+  "value": 1.948051948051948,
+  "definition": "Cancelled orders divided by real orders in this period."
+ },
+ {
+  "quote": "0.6%",
+  "value": 0.6493506493506493,
+  "definition": "Refunded orders divided by real orders in this period."
+ },
+ {
+  "quote": "$2,519.18",
+  "value": 2519.18,
+  "definition": "Sum of Refund amount in first week."
+ },
+ {
+  "quote": "$1,409.19",
+  "value": 1409.19,
+  "definition": "Sum of Refund amount in second week."
+ },
+ {
+  "quote": "44.1%",
+  "value": 44.06155971387514,
+  "definition": "First week refund total minus second week refund total, divided by first week refund total."
+ },
+ {
+  "quote": "10.9%",
+  "value": 10.929388437728806,
+  "definition": "Third-period AOV minus first-week AOV, divided by first-week AOV."
+ },
+ {
+  "quote": "588",
+  "value": 588,
+  "definition": "Real orders from this customer type."
+ },
+ {
+  "quote": "$98.55",
+  "value": 98.54996598639455,
+  "definition": "Booked value / orders for this customer type."
+ },
+ {
+  "quote": "2.7%",
+  "value": 2.7210884353741496,
+  "definition": "Cancelled / orders for this customer type."
+ },
+ {
+  "quote": "2.9%",
+  "value": 2.891156462585034,
+  "definition": "Refunded / orders for this customer type."
+ },
+ {
+  "quote": "789",
+  "value": 789,
+  "definition": "Real orders from this customer type."
+ },
+ {
+  "quote": "$99.31",
+  "value": 99.31276299112801,
+  "definition": "Booked value / orders for this customer type."
+ },
+ {
+  "quote": "2.4%",
+  "value": 2.4081115335868186,
+  "definition": "Cancelled / orders for this customer type."
+ },
+ {
+  "quote": "3.5%",
+  "value": 3.5487959442332064,
+  "definition": "Refunded / orders for this customer type."
+ },
+ {
+  "quote": "22.7%",
+  "value": 22.74658912994856,
+  "definition": "Returning refund rate divided by new refund rate, minus one, as a percent."
+ },
+ {
+  "quote": "$0.76",
+  "value": 0.7627970047334571,
+  "definition": "Returning AOV minus new AOV."
+ },
+ {
+  "quote": "844",
+  "value": 844,
+  "definition": "Real orders in this channel."
+ },
+ {
+  "quote": "49.3%",
+  "value": 49.27873231495656,
+  "definition": "Channel booked value / total booked value."
+ },
+ {
+  "quote": "$79.58",
+  "value": 79.58465639810426,
+  "definition": "Booked value / orders in this channel."
+ },
+ {
+  "quote": "2.4%",
+  "value": 2.3696682464454977,
+  "definition": "Refunded / orders in this channel."
+ },
+ {
+  "quote": "420",
+  "value": 420,
+  "definition": "Real orders in this channel."
+ },
+ {
+  "quote": "25.4%",
+  "value": 25.359078508772416,
+  "definition": "Channel booked value / total booked value."
+ },
+ {
+  "quote": "$82.30",
+  "value": 82.29935714285715,
+  "definition": "Booked value / orders in this channel."
+ },
+ {
+  "quote": "5.5%",
+  "value": 5.476190476190476,
+  "definition": "Refunded / orders in this channel."
+ },
+ {
+  "quote": "113",
+  "value": 113,
+  "definition": "Real orders in this channel."
+ },
+ {
+  "quote": "25.4%",
+  "value": 25.362189176271038,
+  "definition": "Channel booked value / total booked value."
+ },
+ {
+  "quote": "$305.93",
+  "value": 305.92893805309734,
+  "definition": "Booked value / orders in this channel."
+ },
+ {
+  "quote": "1.8%",
+  "value": 1.7699115044247788,
+  "definition": "Refunded / orders in this channel."
+ },
+ {
+  "quote": "51.1%",
+  "value": 51.111111111111114,
+  "definition": "Marketplace refunded orders / all refunded orders."
+ },
+ {
+  "quote": "49.7%",
+  "value": 49.6661542003669,
+  "definition": "Marketplace refund amount / total refund amount."
+ },
+ {
+  "quote": "4.4%",
+  "value": 4.424778761061947,
+  "definition": "Wholesale cancelled / wholesale orders."
+ },
+ {
+  "quote": "2.5%",
+  "value": 2.4881516587677726,
+  "definition": "Web cancelled / web orders."
+ },
+ {
+  "quote": "1.7%",
+  "value": 1.70316301703163,
+  "definition": "Cancelled / orders in this region."
+ },
+ {
+  "quote": "3.6%",
+  "value": 3.6496350364963503,
+  "definition": "Refunded / orders in this region."
+ },
+ {
+  "quote": "2.8%",
+  "value": 2.842377260981912,
+  "definition": "Cancelled / orders in this region."
+ },
+ {
+  "quote": "3.4%",
+  "value": 3.359173126614987,
+  "definition": "Refunded / orders in this region."
+ },
+ {
+  "quote": "3.1%",
+  "value": 3.0508474576271185,
+  "definition": "Cancelled / orders in this region."
+ },
+ {
+  "quote": "4.4%",
+  "value": 4.406779661016949,
+  "definition": "Refunded / orders in this region."
+ },
+ {
+  "quote": "2.8%",
+  "value": 2.816901408450704,
+  "definition": "Cancelled / orders in this region."
+ },
+ {
+  "quote": "1.4%",
+  "value": 1.408450704225352,
+  "definition": "Refunded / orders in this region."
+ },
+ {
+  "quote": "7.5%",
+  "value": 7.4576271186440675,
+  "definition": "West cancelled plus refunded orders / West orders."
+ },
+ {
+  "quote": "4.2%",
+  "value": 4.225352112676056,
+  "definition": "South cancelled plus refunded orders / South orders."
+ },
+ {
+  "quote": "1.4%",
+  "value": 1.408450704225352,
+  "definition": "South refunded / South orders."
+ },
+ {
+  "quote": "$106.54",
+  "value": 106.54137323943662,
+  "definition": "South booked value / orders."
+ },
+ {
+  "quote": "5.5%",
+  "value": 5.476190476190476,
+  "definition": "Marketplace refunded / Marketplace orders."
+ },
+ {
+  "quote": "2.4%",
+  "value": 2.3696682464454977,
+  "definition": "Web refunded / Web orders."
+ },
+ {
+  "quote": "$1,138.05",
+  "value": 1138.0503770863384,
+  "definition": "Marketplace refund amount minus that amount scaled by Web refund rate / Marketplace refund rate (same average refund)."
+ }
+]

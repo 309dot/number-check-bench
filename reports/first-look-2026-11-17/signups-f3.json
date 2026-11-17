@@ -1,0 +1,352 @@
+[
+  {
+    "quote": "317",
+    "value": 317,
+    "definition": "Count of rows in the 317 non-test rows (Signup ID S-104780 to S-105100, Created 12-18 Oct, Test account blank)."
+  },
+  {
+    "quote": "194",
+    "value": 194,
+    "definition": "Count of distinct values in the Company domain column across the 317 non-test rows (Signup ID S-104780 to S-105100, Created 12-18 Oct, Test account blank)."
+  },
+  {
+    "quote": "137",
+    "value": 137,
+    "definition": "Count of the 317 non-test rows (Signup ID S-104780 to S-105100, Created 12-18 Oct, Test account blank) where Finished setup is Yes."
+  },
+  {
+    "quote": "43.2%",
+    "value": 43.217665615141954,
+    "definition": "Rows with Finished setup = Yes divided by all rows, within the 317 non-test rows (Signup ID S-104780 to S-105100, Created 12-18 Oct, Test account blank). Value is expressed in percent."
+  },
+  {
+    "quote": "4",
+    "value": 4,
+    "definition": "Count of rows where the Test account column is Yes (all with Company domain internal.test)."
+  },
+  {
+    "quote": "321",
+    "value": 321,
+    "definition": "Count of all data rows in the file, test accounts included."
+  },
+  {
+    "quote": "141",
+    "value": 141,
+    "definition": "Count of all data rows with Finished setup = Yes, test accounts included."
+  },
+  {
+    "quote": "43.9%",
+    "value": 43.925233644859816,
+    "definition": "Finished setup = Yes divided by all 321 data rows, test accounts included. Value is expressed in percent."
+  },
+  {
+    "quote": "7",
+    "value": 7,
+    "definition": "Count of the 317 non-test rows (Signup ID S-104780 to S-105100, Created 12-18 Oct, Test account blank) whose Company domain is brightstudio.com."
+  },
+  {
+    "quote": "199",
+    "value": 199,
+    "definition": "Count of the 317 non-test rows (Signup ID S-104780 to S-105100, Created 12-18 Oct, Test account blank) with Plan = Free."
+  },
+  {
+    "quote": "62.8%",
+    "value": 62.77602523659306,
+    "definition": "Rows with Plan = Free divided by all 317 non-test rows. Value is expressed in percent."
+  },
+  {
+    "quote": "37.2%",
+    "value": 37.185929648241206,
+    "definition": "Within non-test rows with Plan = Free: rows with Finished setup = Yes divided by all rows of that plan. Value is expressed in percent."
+  },
+  {
+    "quote": "84",
+    "value": 84,
+    "definition": "Count of the 317 non-test rows (Signup ID S-104780 to S-105100, Created 12-18 Oct, Test account blank) with Plan = Starter."
+  },
+  {
+    "quote": "26.5%",
+    "value": 26.498422712933756,
+    "definition": "Rows with Plan = Starter divided by all 317 non-test rows. Value is expressed in percent."
+  },
+  {
+    "quote": "47.6%",
+    "value": 47.61904761904761,
+    "definition": "Within non-test rows with Plan = Starter: rows with Finished setup = Yes divided by all rows of that plan. Value is expressed in percent."
+  },
+  {
+    "quote": "34",
+    "value": 34,
+    "definition": "Count of the 317 non-test rows (Signup ID S-104780 to S-105100, Created 12-18 Oct, Test account blank) with Plan = Team."
+  },
+  {
+    "quote": "10.7%",
+    "value": 10.725552050473187,
+    "definition": "Rows with Plan = Team divided by all 317 non-test rows. Value is expressed in percent."
+  },
+  {
+    "quote": "67.6%",
+    "value": 67.64705882352942,
+    "definition": "Within non-test rows with Plan = Team: rows with Finished setup = Yes divided by all rows of that plan. Value is expressed in percent."
+  },
+  {
+    "quote": "30.5",
+    "value": 30.46112917528821,
+    "definition": "Team plan setup completion rate minus Free plan setup completion rate, in percentage points, non-test rows."
+  },
+  {
+    "quote": "118",
+    "value": 118,
+    "definition": "Count of non-test rows with Plan = Starter or Team."
+  },
+  {
+    "quote": "53.4%",
+    "value": 53.38983050847458,
+    "definition": "Within non-test rows with Plan = Starter or Team: Finished setup = Yes divided by all such rows. Value is expressed in percent."
+  },
+  {
+    "quote": "16.2",
+    "value": 16.20390086023337,
+    "definition": "Combined Starter+Team setup completion rate minus Free setup completion rate, in percentage points, non-test rows."
+  },
+  {
+    "quote": "54.0%",
+    "value": 54.01459854014598,
+    "definition": "Non-test rows with Plan = Free and Finished setup = Yes divided by all 137 non-test rows with Finished setup = Yes. Value is expressed in percent."
+  },
+  {
+    "quote": "16.8%",
+    "value": 16.78832116788321,
+    "definition": "Non-test rows with Plan = Team and Finished setup = Yes divided by all 137 non-test rows with Finished setup = Yes. Value is expressed in percent."
+  },
+  {
+    "quote": "98",
+    "value": 98,
+    "definition": "Count of non-test rows with Source = Organic search."
+  },
+  {
+    "quote": "30.9%",
+    "value": 30.914826498422716,
+    "definition": "Rows with Source = Organic search divided by all 317 non-test rows. Value is expressed in percent."
+  },
+  {
+    "quote": "42.9%",
+    "value": 42.857142857142854,
+    "definition": "Within non-test rows with Source = Organic search: Finished setup = Yes divided by all rows from that source. Value is expressed in percent."
+  },
+  {
+    "quote": "81",
+    "value": 81,
+    "definition": "Count of non-test rows with Source = Paid search."
+  },
+  {
+    "quote": "25.6%",
+    "value": 25.55205047318612,
+    "definition": "Rows with Source = Paid search divided by all 317 non-test rows. Value is expressed in percent."
+  },
+  {
+    "quote": "46.9%",
+    "value": 46.913580246913575,
+    "definition": "Within non-test rows with Source = Paid search: Finished setup = Yes divided by all rows from that source. Value is expressed in percent."
+  },
+  {
+    "quote": "60",
+    "value": 60,
+    "definition": "Count of non-test rows with Source = Direct."
+  },
+  {
+    "quote": "18.9%",
+    "value": 18.92744479495268,
+    "definition": "Rows with Source = Direct divided by all 317 non-test rows. Value is expressed in percent."
+  },
+  {
+    "quote": "43.3%",
+    "value": 43.333333333333336,
+    "definition": "Within non-test rows with Source = Direct: Finished setup = Yes divided by all rows from that source. Value is expressed in percent."
+  },
+  {
+    "quote": "53",
+    "value": 53,
+    "definition": "Count of non-test rows with Source = Referral."
+  },
+  {
+    "quote": "16.7%",
+    "value": 16.7192429022082,
+    "definition": "Rows with Source = Referral divided by all 317 non-test rows. Value is expressed in percent."
+  },
+  {
+    "quote": "43.4%",
+    "value": 43.39622641509434,
+    "definition": "Within non-test rows with Source = Referral: Finished setup = Yes divided by all rows from that source. Value is expressed in percent."
+  },
+  {
+    "quote": "25",
+    "value": 25,
+    "definition": "Count of non-test rows with Source = Partner."
+  },
+  {
+    "quote": "7.9%",
+    "value": 7.886435331230284,
+    "definition": "Rows with Source = Partner divided by all 317 non-test rows. Value is expressed in percent."
+  },
+  {
+    "quote": "32.0%",
+    "value": 32.0,
+    "definition": "Within non-test rows with Source = Partner: Finished setup = Yes divided by all rows from that source. Value is expressed in percent."
+  },
+  {
+    "quote": "14.9",
+    "value": 14.913580246913577,
+    "definition": "Paid search setup completion rate minus Partner setup completion rate, in percentage points, non-test rows."
+  },
+  {
+    "quote": "64.0%",
+    "value": 64.0,
+    "definition": "Within non-test rows with Source = Partner: rows with Plan = Free divided by all Partner rows. Value is expressed in percent."
+  },
+  {
+    "quote": "1",
+    "value": 1,
+    "definition": "Count of non-test rows with Source = Partner, Plan = Team and Finished setup = Yes."
+  },
+  {
+    "quote": "4",
+    "value": 4,
+    "definition": "Count of non-test rows with Source = Partner and Plan = Team."
+  },
+  {
+    "quote": "22",
+    "value": 22,
+    "definition": "Count of non-test rows with Plan = Team, Source other than Partner, and Finished setup = Yes."
+  },
+  {
+    "quote": "30",
+    "value": 30,
+    "definition": "Count of non-test rows with Plan = Team and Source other than Partner."
+  },
+  {
+    "quote": "30.8%",
+    "value": 30.76923076923077,
+    "definition": "Within non-test rows with Source = Direct and Plan = Free: Finished setup = Yes divided by all such rows. Value is expressed in percent."
+  },
+  {
+    "quote": "69.2%",
+    "value": 69.23076923076923,
+    "definition": "Within non-test rows with Source = Direct and Plan = Starter: Finished setup = Yes divided by all such rows. Value is expressed in percent."
+  },
+  {
+    "quote": "141",
+    "value": 141,
+    "definition": "Count of non-test rows with Country = US."
+  },
+  {
+    "quote": "44.5%",
+    "value": 44.479495268138805,
+    "definition": "Rows with Country = US divided by all 317 non-test rows. Value is expressed in percent."
+  },
+  {
+    "quote": "40.4%",
+    "value": 40.42553191489361,
+    "definition": "Within non-test rows with Country = US: Finished setup = Yes divided by all rows from that country. Value is expressed in percent."
+  },
+  {
+    "quote": "14.5%",
+    "value": 14.511041009463725,
+    "definition": "Rows with Country = UK divided by all 317 non-test rows. Value is expressed in percent."
+  },
+  {
+    "quote": "39.1%",
+    "value": 39.130434782608695,
+    "definition": "Within non-test rows with Country = UK: Finished setup = Yes divided by all rows from that country. Value is expressed in percent."
+  },
+  {
+    "quote": "10.4%",
+    "value": 10.410094637223976,
+    "definition": "Rows with Country = FR divided by all 317 non-test rows. Value is expressed in percent."
+  },
+  {
+    "quote": "45.5%",
+    "value": 45.45454545454545,
+    "definition": "Within non-test rows with Country = FR: Finished setup = Yes divided by all rows from that country. Value is expressed in percent."
+  },
+  {
+    "quote": "9.1%",
+    "value": 9.14826498422713,
+    "definition": "Rows with Country = DE divided by all 317 non-test rows. Value is expressed in percent."
+  },
+  {
+    "quote": "58.6%",
+    "value": 58.620689655172406,
+    "definition": "Within non-test rows with Country = DE: Finished setup = Yes divided by all rows from that country. Value is expressed in percent."
+  },
+  {
+    "quote": "7.3%",
+    "value": 7.255520504731862,
+    "definition": "Rows with Country = CA divided by all 317 non-test rows. Value is expressed in percent."
+  },
+  {
+    "quote": "47.8%",
+    "value": 47.82608695652174,
+    "definition": "Within non-test rows with Country = CA: Finished setup = Yes divided by all rows from that country. Value is expressed in percent."
+  },
+  {
+    "quote": "7.3%",
+    "value": 7.255520504731862,
+    "definition": "Rows with Country = KR divided by all 317 non-test rows. Value is expressed in percent."
+  },
+  {
+    "quote": "34.8%",
+    "value": 34.78260869565217,
+    "definition": "Within non-test rows with Country = KR: Finished setup = Yes divided by all rows from that country. Value is expressed in percent."
+  },
+  {
+    "quote": "6.9%",
+    "value": 6.940063091482649,
+    "definition": "Rows with Country = AU divided by all 317 non-test rows. Value is expressed in percent."
+  },
+  {
+    "quote": "50.0%",
+    "value": 50.0,
+    "definition": "Within non-test rows with Country = AU: Finished setup = Yes divided by all rows from that country. Value is expressed in percent."
+  },
+  {
+    "quote": "45.5%",
+    "value": 45.45454545454545,
+    "definition": "Within non-test rows with Country other than US: Finished setup = Yes divided by all such rows. Value is expressed in percent."
+  },
+  {
+    "quote": "5.0",
+    "value": 5.029013539651839,
+    "definition": "Non-US setup completion rate minus US setup completion rate, in percentage points, non-test rows."
+  },
+  {
+    "quote": "18.2%",
+    "value": 18.181818181818183,
+    "definition": "Within non-test rows with Country = KR and Plan = Free: Finished setup = Yes divided by all such rows. Value is expressed in percent."
+  },
+  {
+    "quote": "33.0%",
+    "value": 32.967032967032964,
+    "definition": "Within non-test rows with Country = US and Plan = Free: Finished setup = Yes divided by all such rows. Value is expressed in percent."
+  },
+  {
+    "quote": "53.2",
+    "value": 53.2,
+    "definition": "Non-test rows created Monday 12 Oct to Friday 16 Oct divided by 5 days."
+  },
+  {
+    "quote": "42.9%",
+    "value": 42.857142857142854,
+    "definition": "Within non-test rows created Monday 12 Oct to Friday 16 Oct: Finished setup = Yes divided by all such rows. Value is expressed in percent."
+  },
+  {
+    "quote": "25.5",
+    "value": 25.5,
+    "definition": "Non-test rows created Saturday 17 Oct and Sunday 18 Oct divided by 2 days."
+  },
+  {
+    "quote": "45.1%",
+    "value": 45.09803921568628,
+    "definition": "Within non-test rows created Saturday 17 Oct or Sunday 18 Oct: Finished setup = Yes divided by all such rows. Value is expressed in percent."
+  }
+]

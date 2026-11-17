@@ -1,0 +1,58 @@
+Weekly activation review: signups for the week of 12-18 October
+
+To: Product team
+From: Growth PM
+
+HEADLINE
+
+- 317 real signups this week, from 194 different company domains.
+- 137 of them finished setup, so the setup completion rate for the week is 43.2%.
+- I can't give you this week versus last week yet. The export I worked from only holds this week's signups (Monday 12 October to Sunday 18 October), so every comparison below is between groups inside this week, or between weekdays and the weekend. I'll add the week-over-week view once last week's export is pulled into the same review.
+
+WHAT I LEFT OUT
+
+- 4 rows marked as test accounts. All of them come from internal.test, sit on the Team plan, came in through Direct and are marked as finished setup, so leaving them in would flatter the Team plan, the Direct source and the US. With them in, the week would read 321 signups and 141 finishers, and the completion rate would read 43.9%.
+- I kept company domains that show up more than once. brightstudio.com alone appears 7 times, but each row has its own signup ID and a different mix of day, plan, source and country, so I read these as separate people from the same company rather than duplicates. No row is a copy of another.
+- One caution on the latest days: people who signed up on Saturday and Sunday have had the least time to finish setup, so some of their "No" answers may still turn into "Yes".
+
+BY PLAN
+
+- Free: 199 signups, 62.8% of the week, and 37.2% finished setup.
+- Starter: 84 signups, 26.5% of the week, and 47.6% finished.
+- Team: 34 signups, 10.7% of the week, and 67.6% finished.
+- Team finishes setup 30.5 points more often than Free.
+- Starter and Team together brought 118 signups and finished at 53.4%, 16.2 points above Free.
+- Free is the majority of signups but only 54.0% of the people who finished setup. Team punches above its size: it supplies 16.8% of finishers.
+
+BY SOURCE
+
+- Organic search: 98 signups, 30.9% of the week, 42.9% finished.
+- Paid search: 81 signups, 25.6% of the week, 46.9% finished. This is the best completion rate of any source.
+- Direct: 60 signups, 18.9% of the week, 43.3% finished.
+- Referral: 53 signups, 16.7% of the week, 43.4% finished.
+- Partner: 25 signups, 7.9% of the week, 32.0% finished. That is the weakest source, 14.9 points behind Paid search.
+- Partner's gap is not a plan-mix story. 64.0% of Partner signups are on Free, close to Free's share of the whole week. The sharpest difference is on Team: 1 of 4 Partner Team signups finished, against 22 of 30 Team signups from every other source.
+- Direct is split by plan: Free signups from Direct finished at only 30.8%, while Starter signups from Direct finished at 69.2%.
+
+BY COUNTRY
+
+- US: 141 signups, 44.5% of the week, 40.4% finished.
+- UK: 14.5% of signups, 39.1% finished.
+- France: 10.4% of signups, 45.5% finished.
+- Germany: 9.1% of signups, 58.6% finished. Best completion rate of any country.
+- Canada: 7.3% of signups, 47.8% finished.
+- Korea: 7.3% of signups, 34.8% finished. Lowest completion rate of any country.
+- Australia: 6.9% of signups, 50.0% finished.
+- Taken together, signups from outside the US finished at 45.5%, which is 5.0 points better than the US.
+- Korea's low rate is heaviest on Free, where only 18.2% of Korean Free signups finished setup. US Free is also soft at 33.0%.
+
+WEEKDAYS VERSUS WEEKEND
+
+- Monday to Friday averaged 53.2 signups a day, and 42.9% of them finished setup.
+- Saturday and Sunday averaged 25.5 signups a day, and 45.1% finished so far.
+
+WHAT I'D LOOK AT NEXT
+
+- Partner onboarding, starting with the Team accounts that came through partners and stalled.
+- Korean Free signups, the weakest plan-and-country group this week, and Free signups that arrive through Direct.
+- Pull last week's export into this review so we can report the week-over-week change on signups, finishers and every group above.

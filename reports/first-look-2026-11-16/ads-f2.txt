@@ -1,0 +1,38 @@
+Subject: Ad performance, Aug 24 to Oct 18 (all three accounts)
+
+Hi team,
+
+Note: the export covers 8 weeks (56 days), not one calendar month, so figures below are for that full window unless stated.
+
+Data note: I excluded 56 rows from the "QA – Pixel test" campaign on Harbor & Pine. It spent $49 and produced 0 leads, so it is not real advertising. Everything below uses the remaining 672 rows.
+
+Overall
+- Spend: $70,762 | Leads: 1,291 | Cost per lead (CPL): $54.81
+- 5.36 million impressions, 56,829 clicks, 1.06% click-through rate
+- Weekly CPL held steady between $53.13 and $57.23, and the last 4 weeks ($55.38 CPL on $35,774) look like the first 4 ($54.25 on $34,988).
+
+By client
+- Brightline Dental: $21,646, 515 leads, $42.03 CPL. Our best account.
+- Northfield Bikes: $20,820, 379 leads, $54.93 CPL.
+- Harbor & Pine: $28,296, 397 leads, $71.28 CPL. Biggest budget, weakest return.
+
+Best campaigns
+- Harbor & Pine – Brand search: $24.07 CPL (148 leads)
+- Northfield – Service booking: $28.01 CPL (91 leads), with only $2,549 spend
+- Brightline – New patient offer: $39.47 CPL
+
+Worst campaigns (all Harbor & Pine)
+- Lookalike: $107.48 CPL
+- Gift guide: $99.99 CPL
+- Fall collection: $95.63 CPL, and it absorbs $11,953, the most of any campaign.
+
+Channel view: Search delivers leads at $40.75 each, Social $66.20, Display $71.80. Search takes 36% of spend but produces 48% of leads (622).
+
+Something to watch: since Oct 5, Harbor & Pine daily spend rose from about $483 to $572 (+18%) while CPL worsened from $69.70 to $75.59. Fall collection moved from $90.89 to $106.89 CPL.
+
+Recommendations
+1. Shift budget from Harbor & Pine's Lookalike and Gift guide to Brand search and Service booking, both of which are small and cheap per lead.
+2. Review Fall collection creative before spending more.
+3. Check that the QA test campaign is paused.
+
+Happy to talk through any of this.
