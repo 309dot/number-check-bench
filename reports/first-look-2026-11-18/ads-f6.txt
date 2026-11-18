@@ -1,0 +1,80 @@
+Subject: Cross-client paid media review, 24 Aug to 18 Oct 2026
+
+To: Partners
+From: Account Director
+
+Summary
+
+Across the three accounts we spent $70,762.15 over the period and booked 1,291 leads, a blended cost per lead (CPL) of $54.81. Click-through rate (CTR) was 1.1% and the click-to-lead rate was 2.3%. The headline is not the blend: it is that Harbor & Pine is the weakest account and two of its campaigns are the clearest cuts.
+
+Scope and exclusions
+
+- The export has 728 daily rows. I excluded the 56 rows flagged as a test campaign (all "QA – Pixel test" on Harbor & Pine Display), which cost $49.01 and produced no leads.
+- That leaves 672 rows covering 12 campaigns across three clients. I found no duplicate rows and no missing values, so nothing else was dropped.
+- Weeks run Monday to Sunday starting 24 Aug and there are eight full weeks.
+
+By client
+
+- Brightline Dental: $21,645.65 spend, 515 leads, CPL $42.03, lead rate 4.5%.
+
+- Harbor & Pine: $28,296.36 spend, 397 leads, CPL $71.28, lead rate 1.5%.
+
+- Northfield Bikes: $20,820.14 spend, 379 leads, CPL $54.93, lead rate 2.1%.
+
+Harbor & Pine's CTR is the best or close to the best of the three, so its problem is after the click: its lead rate is less than a third of Brightline's. Harbor & Pine took 40.0% of spend but delivered only 30.8% of leads.
+
+By channel
+
+- Search: CPL $40.75, CTR 5.1%, lead rate 5.4%.
+
+- Social: CPL $66.20, CTR 1.3%, lead rate 1.7%.
+
+- Display: CPL $71.80, CTR 0.6%, lead rate 1.1%.
+
+Search is the most efficient channel by a wide margin but it is small: 35.8% of spend yet 48.2% of leads.
+
+Client and channel combinations
+
+- Harbor & Pine Display and Social: CPL $99.33 against $24.07 for its Search. Its Search lead rate is 5.0%.
+
+- Northfield Bikes Display has a CTR of 0.5% and CPL of $68.20, versus $51.16 on its Search.
+
+- Brightline Search lead rate is 7.6%, but Brightline Social is cheaper still at $39.47.
+
+Week by week
+
+- Blended CPL stayed in a narrow band. The best week was week 1 at $53.13 and the worst was week 8 at $57.23.
+
+- Weeks 1 to 4 averaged a CPL of $54.25 and weeks 5 to 8 averaged $55.38. Lead rate slipped from 2.3% to 2.2% while CTR was flat.
+
+- Harbor & Pine in the last four weeks: CPL $71.76. Its week 8 CPL was $75.83.
+
+Campaigns to cut
+
+1. Harbor & Pine – Lookalike: CPL $107.48 and a lead rate of 1.2%. It is the most expensive campaign in the book.
+
+2. Harbor & Pine – Gift guide: CPL $99.99, lead rate 0.8%.
+
+3. Northfield – Commuter banner: CTR 0.5%, lead rate 1.0% and CPL $68.20. It is the weakest Northfield campaign on click-through.
+
+Together these three account for $16,873.02 spend, 23.8% of the total, and 184 leads, only 14.3% of all leads. Gift guide and Lookalike alone cost $12,780.97 for 124 leads, a combined CPL of $103.07. In the last four weeks they still ran at $102.35 per lead, so the trend is not improving.
+
+Watch list, not a cut
+
+- Harbor & Pine – Fall collection has a CPL of $95.63 and it is the biggest single budget at the account. Its CTR of 1.5% is healthy, which points to the landing page rather than the ad. I would fix the page and re-test for two weeks before cutting.
+
+- Harbor & Pine – Brand search is the account's bright spot: CPL $24.07, the lowest of any campaign.
+
+Where to move the money
+
+- Northfield – Service booking has a CPL of $28.01 and a lead rate of 5.7% on a small budget. It is the second cheapest campaign and the obvious home for freed budget.
+
+- Brightline – Emergency care converts 9.1% of clicks at $39.75 a lead. Its clicks are expensive, so scale gradually.
+
+Data notes
+- Zero-lead rows were kept in, since they are real spend. Weekend and weekday CPL are near identical, so I do not see a case for day-parting yet.
+- Leads are as reported by the platforms and are not deduplicated across channels. CPL here is the sum of spend over the sum of leads, not the average of daily CPLs.
+
+Next steps
+- Pause Lookalike and Gift guide this week, and cap Commuter banner at its current budget while we test new creative.
+- Reallocate the freed budget to Service booking and Brand search, and review the numbers again in two weeks.

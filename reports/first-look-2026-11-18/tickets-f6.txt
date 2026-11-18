@@ -1,0 +1,68 @@
+Support weekly retro: backlog, first response, SLA and CSAT
+
+Team,
+
+Here is our retro for last week. "Last week" means the final seven days in the ticket export (Monday to Sunday). "Baseline" means the eleven weeks before it, and "over the export" means all twelve weeks.
+
+What I counted
+
+- The export has 2,558 rows. I left out 52 rows flagged as spam and 74 rows flagged as merged duplicates (2 rows carried both flags), which leaves 2,434 real tickets. Every number below uses only those.
+- 4 tickets opened on the last day have no first response yet. They count in the backlog but not in response-time figures.
+- Solved and Closed both count as resolved, since both carry a closed date.
+- The SLA breach flag lines up exactly with the first-response target for each priority, so "breach" here means a late first reply, not a late resolution.
+
+The week at a glance
+
+- We opened 227 tickets against a baseline average of 200.6 a week, so intake ran 13.1% above baseline.
+- We resolved 214, which kept us close to pace but not ahead of it.
+- Median first response was 5.9h, faster than the 6.5h baseline.
+- The breach rate did not improve: 30.4% of last week's tickets breached, against 29.8% in the baseline.
+- Satisfaction held up: 89.1% of ratings on tickets resolved last week were Good, against 84.8% for everything resolved before it.
+
+Backlog
+
+- Open work grew again, from 272 at the start of the week to 285 now.
+- Age is the real problem. The median open ticket is 16 days old, 51.6% of the backlog is older than two weeks, and 40.4% is more than a month old.
+- 9 of the 11 open Urgent tickets are older than two weeks, and the oldest has been open for 82 days. Another 22 High tickets are older than two weeks.
+- 49 of the stale tickets are Pending. They are waiting on the customer and need a nudge-and-close rule more than they need work.
+- 33.3% of open tickets have already breached first response.
+
+First response and SLA by priority
+
+- Normal priority is where we miss. Over the export it accounts for 74.9% of all breaches, and its breach rate is 40.0%.
+- Normal last week: 41.4% breached, with a median first response of 6.9h.
+- Urgent improved: 2 of 12 breached last week, with a median first response of 0.7h, against a 40.8% baseline breach rate. Over the export Urgent still breaches 38.6% of the time, so one good week is not a trend yet.
+- High slipped: 29.8% breached last week against 23.5% in the baseline.
+- Low is mostly fine. All 28 Low breaches over the export sat with one person (see below).
+
+By channel
+
+- Phone was last week's weak spot: 51.6% of phone tickets breached, against 29.9% for phone in the baseline.
+- Email (27.3%) and Chat (26.7%) both beat the team rate.
+- Over the export, Urgent tickets that arrive by email breach 42.2% of the time. They are easy to miss in a long email queue.
+- Chat earns the weakest ratings: 82.2% Good over the export, against 87.6% for Email.
+
+By agent
+
+- Theo's breach rate over the export is 64.9%, against 24.9% for everyone else, and his Normal tickets breach 72.1% of the time. He handled 12.4% of our tickets but received 29.6% of the Bad ratings. Last week he took only 14 tickets, against an average of 26.2 a week in the baseline. I see this as a workload and process problem for Theo and me to fix together, not a blame item. It is here because it moves the team numbers.
+- Luis had a rough week: 38.3% breached against his 21.9% baseline, and 16 of last week's 53 Normal breaches were his.
+- Jonah has breached 65.0% of his Urgent tickets over the export.
+- Maya carried the most volume, 25.1% of last week's intake.
+- Priya had the lowest breach rate last week (21.9%), and Hana the fastest median first response (4.8h).
+
+Satisfaction
+
+- Over the export, 53.1% of resolved tickets got a rating, and 85.2% of ratings were Good.
+- Breaches cost us goodwill. Tickets that breached are rated Good 81.0% of the time, against 87.1% for those that did not. On Normal tickets the gap widens to 8.3 points.
+
+What we change next week
+
+- Urgent sweep on Monday morning. Each owner reviews their stale Urgent tickets and resolves or escalates them by end of day. I will go through each one with its owner.
+- Normal queue midday check. Normal drives three quarters of our breaches, so at midday whoever has the shortest queue picks up any Normal ticket that still has no first reply. Luis, hand Normal overflow to Hana or Maya when your queue backs up.
+- One phone owner per shift. Phone breached on about half of last week's tickets. The phone owner answers phone tickets first and does not take new email until the phone queue is clear.
+- Flag email Urgents. Add a rule that pins Urgent email tickets to the top of the shared view and pings the channel, so they stop waiting behind Normal email.
+- Pending clean-up. For Pending tickets older than two weeks, send one final nudge on Tuesday and close on Friday if there is no reply.
+- Theo and I will review his queue daily, and he will pair with Hana on Normal tickets for the week.
+- Targets for next week: a breach rate under the 29.8% baseline, no Urgent ticket older than two weeks, and a backlog smaller than today's 285.
+
+Thanks all. Intake is up and we nearly kept pace on resolution. Now we need to answer faster on Normal and Phone and close out the old tail.

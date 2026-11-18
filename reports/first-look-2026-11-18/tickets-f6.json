@@ -1,0 +1,342 @@
+[
+  {
+    "quote": "2,558",
+    "value": 2558,
+    "definition": "Count of all data rows in the export."
+  },
+  {
+    "quote": "52",
+    "value": 52,
+    "definition": "Rows with Spam = Yes."
+  },
+  {
+    "quote": "74",
+    "value": 74,
+    "definition": "Rows with Merged duplicate = Yes."
+  },
+  {
+    "quote": "2",
+    "value": 2,
+    "definition": "Rows flagged both Spam = Yes and Merged duplicate = Yes."
+  },
+  {
+    "quote": "2,434",
+    "value": 2434,
+    "definition": "Rows remaining after removing every row with Spam = Yes or Merged duplicate = Yes."
+  },
+  {
+    "quote": "4",
+    "value": 4,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), count with a blank First response (hours); all were opened 2026-10-18."
+  },
+  {
+    "quote": "227",
+    "value": 227,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), count opened in the last 7 days of the export (2026-10-12 to 2026-10-18)."
+  },
+  {
+    "quote": "200.6",
+    "value": 200.63636363636363,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), tickets opened in the 11 baseline weeks (2026-07-27 to 2026-10-11) divided by 11 weeks."
+  },
+  {
+    "quote": "13.1%",
+    "value": 13.140009062075219,
+    "definition": "Last-week opened count (227) divided by the baseline weekly average (200.64), minus 1, as a percentage."
+  },
+  {
+    "quote": "214",
+    "value": 214,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), count with a Closed date between 2026-10-12 and 2026-10-18 (Closed or Solved status)."
+  },
+  {
+    "quote": "5.9h",
+    "value": 5.9,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), median First response (hours) of tickets opened in the last 7 days of the export (2026-10-12 to 2026-10-18), blanks excluded."
+  },
+  {
+    "quote": "6.5h",
+    "value": 6.5,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), median First response (hours) of tickets opened in the 11 baseline weeks (2026-07-27 to 2026-10-11), blanks excluded."
+  },
+  {
+    "quote": "30.4%",
+    "value": 30.396475770925107,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), share with SLA breached = Yes among tickets opened in the last 7 days of the export (2026-10-12 to 2026-10-18) (69 of 227)."
+  },
+  {
+    "quote": "29.8%",
+    "value": 29.768917082011782,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), share with SLA breached = Yes among tickets opened in the 11 baseline weeks (2026-07-27 to 2026-10-11) (657 of 2,207)."
+  },
+  {
+    "quote": "89.1%",
+    "value": 89.10891089108911,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), share of CSAT = Good among rated tickets with a Closed date in the last 7 days (90 of 101)."
+  },
+  {
+    "quote": "84.8%",
+    "value": 84.82228626320845,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), share of CSAT = Good among rated tickets with a Closed date before 2026-10-12 (883 of 1,041)."
+  },
+  {
+    "quote": "272",
+    "value": 272,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), tickets opened before 2026-10-12 that were not closed before 2026-10-12 (backlog at start of last week)."
+  },
+  {
+    "quote": "285",
+    "value": 285,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), tickets with no Closed date (status Open or Pending) at the end of the export."
+  },
+  {
+    "quote": "16",
+    "value": 16,
+    "definition": "Median age in days (2026-10-18 minus Opened) of the 285 unclosed kept tickets."
+  },
+  {
+    "quote": "51.6%",
+    "value": 51.578947368421055,
+    "definition": "Share of the 285 unclosed kept tickets whose age on 2026-10-18 is more than 14 days (147)."
+  },
+  {
+    "quote": "40.4%",
+    "value": 40.35087719298245,
+    "definition": "Share of the 285 unclosed kept tickets whose age on 2026-10-18 is more than 30 days (115)."
+  },
+  {
+    "quote": "9",
+    "value": 9,
+    "definition": "Unclosed kept Urgent tickets older than 14 days on 2026-10-18."
+  },
+  {
+    "quote": "11",
+    "value": 11,
+    "definition": "Unclosed kept tickets with Priority = Urgent."
+  },
+  {
+    "quote": "82",
+    "value": 82,
+    "definition": "Age in days on 2026-10-18 of the oldest unclosed kept Urgent ticket."
+  },
+  {
+    "quote": "22",
+    "value": 22,
+    "definition": "Unclosed kept High tickets older than 14 days on 2026-10-18."
+  },
+  {
+    "quote": "49",
+    "value": 49,
+    "definition": "Unclosed kept tickets older than 14 days with Status = Pending."
+  },
+  {
+    "quote": "33.3%",
+    "value": 33.33333333333333,
+    "definition": "Share of the 285 unclosed kept tickets with SLA breached = Yes (95)."
+  },
+  {
+    "quote": "74.9%",
+    "value": 74.93112947658402,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), Normal-priority breached tickets as a share of all breached tickets (544 of 726)."
+  },
+  {
+    "quote": "40.0%",
+    "value": 40.0,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), breach rate among Normal-priority tickets over the whole export (544 of 1,360)."
+  },
+  {
+    "quote": "41.4%",
+    "value": 41.40625,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), breach rate among Normal tickets opened in the last 7 days of the export (2026-10-12 to 2026-10-18) (53 of 128)."
+  },
+  {
+    "quote": "6.9h",
+    "value": 6.9,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), median First response (hours) among Normal tickets opened in the last 7 days of the export (2026-10-12 to 2026-10-18)."
+  },
+  {
+    "quote": "2",
+    "value": 2,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), breached Urgent tickets opened in the last 7 days of the export (2026-10-12 to 2026-10-18)."
+  },
+  {
+    "quote": "12",
+    "value": 12,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), Urgent tickets opened in the last 7 days of the export (2026-10-12 to 2026-10-18)."
+  },
+  {
+    "quote": "0.7h",
+    "value": 0.7,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), median First response (hours) among Urgent tickets opened in the last 7 days of the export (2026-10-12 to 2026-10-18)."
+  },
+  {
+    "quote": "40.8%",
+    "value": 40.833333333333336,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), breach rate among Urgent tickets opened in the 11 baseline weeks (2026-07-27 to 2026-10-11) (49 of 120)."
+  },
+  {
+    "quote": "38.6%",
+    "value": 38.63636363636363,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), breach rate among Urgent tickets over the whole export (51 of 132)."
+  },
+  {
+    "quote": "29.8%",
+    "value": 29.78723404255319,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), breach rate among High tickets opened in the last 7 days of the export (2026-10-12 to 2026-10-18) (14 of 47)."
+  },
+  {
+    "quote": "23.5%",
+    "value": 23.482849604221638,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), breach rate among High tickets opened in the 11 baseline weeks (2026-07-27 to 2026-10-11) (89 of 379)."
+  },
+  {
+    "quote": "28",
+    "value": 28,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), Low-priority tickets with SLA breached = Yes over the whole export (all 28 assigned to Theo)."
+  },
+  {
+    "quote": "51.6%",
+    "value": 51.61290322580645,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), breach rate among Phone tickets opened in the last 7 days of the export (2026-10-12 to 2026-10-18) (16 of 31)."
+  },
+  {
+    "quote": "29.9%",
+    "value": 29.874213836477985,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), breach rate among Phone tickets opened in the 11 baseline weeks (2026-07-27 to 2026-10-11) (95 of 318)."
+  },
+  {
+    "quote": "27.3%",
+    "value": 27.27272727272727,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), breach rate among Email tickets opened in the last 7 days of the export (2026-10-12 to 2026-10-18) (30 of 110)."
+  },
+  {
+    "quote": "26.7%",
+    "value": 26.744186046511626,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), breach rate among Chat tickets opened in the last 7 days of the export (2026-10-12 to 2026-10-18) (23 of 86)."
+  },
+  {
+    "quote": "42.2%",
+    "value": 42.1875,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), breach rate among Email + Urgent tickets over the whole export (27 of 64)."
+  },
+  {
+    "quote": "82.2%",
+    "value": 82.21709006928405,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), share of CSAT = Good among rated Chat tickets over the whole export (356 of 433)."
+  },
+  {
+    "quote": "87.6%",
+    "value": 87.569573283859,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), share of CSAT = Good among rated Email tickets over the whole export (472 of 539)."
+  },
+  {
+    "quote": "64.9%",
+    "value": 64.90066225165563,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), breach rate among tickets assigned to Theo over the whole export (196 of 302)."
+  },
+  {
+    "quote": "24.9%",
+    "value": 24.859287054409005,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), breach rate among tickets assigned to all agents other than Theo over the whole export (530 of 2,132)."
+  },
+  {
+    "quote": "72.1%",
+    "value": 72.09302325581395,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), breach rate among Theo's Normal-priority tickets over the whole export (124 of 172)."
+  },
+  {
+    "quote": "12.4%",
+    "value": 12.407559572719803,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), Theo's tickets as a share of all kept tickets (302 of 2,434)."
+  },
+  {
+    "quote": "29.6%",
+    "value": 29.585798816568047,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), Theo's share of all CSAT = Bad ratings (50 of 169)."
+  },
+  {
+    "quote": "14",
+    "value": 14,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), tickets assigned to Theo opened in the last 7 days of the export (2026-10-12 to 2026-10-18)."
+  },
+  {
+    "quote": "26.2",
+    "value": 26.181818181818183,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), tickets assigned to Theo opened in the 11 baseline weeks (2026-07-27 to 2026-10-11) divided by 11 weeks."
+  },
+  {
+    "quote": "38.3%",
+    "value": 38.297872340425535,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), breach rate among Luis's tickets opened in the last 7 days of the export (2026-10-12 to 2026-10-18) (18 of 47)."
+  },
+  {
+    "quote": "21.9%",
+    "value": 21.865889212827987,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), breach rate among Luis's tickets opened in the 11 baseline weeks (2026-07-27 to 2026-10-11) (75 of 343)."
+  },
+  {
+    "quote": "16",
+    "value": 16,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), breached Normal tickets assigned to Luis opened in the last 7 days of the export (2026-10-12 to 2026-10-18)."
+  },
+  {
+    "quote": "53",
+    "value": 53,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), breached Normal tickets opened in the last 7 days of the export (2026-10-12 to 2026-10-18) (all agents)."
+  },
+  {
+    "quote": "65.0%",
+    "value": 65.0,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), breach rate among Jonah's Urgent tickets over the whole export (13 of 20)."
+  },
+  {
+    "quote": "25.1%",
+    "value": 25.11013215859031,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), Maya's share of tickets opened in the last 7 days of the export (2026-10-12 to 2026-10-18) (57 of 227)."
+  },
+  {
+    "quote": "21.9%",
+    "value": 21.875,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), breach rate among Priya's tickets opened in the last 7 days of the export (2026-10-12 to 2026-10-18) (7 of 32), the lowest of the six agents."
+  },
+  {
+    "quote": "4.8h",
+    "value": 4.75,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), median First response (hours) among Hana's tickets opened in the last 7 days of the export (2026-10-12 to 2026-10-18) (4.75, the lowest of the six agents)."
+  },
+  {
+    "quote": "53.1%",
+    "value": 53.140995812005585,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), share of resolved tickets (with a Closed date) that have a CSAT rating (1,142 of 2,149)."
+  },
+  {
+    "quote": "85.2%",
+    "value": 85.20140105078809,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), share of CSAT = Good among all rated tickets (973 of 1,142)."
+  },
+  {
+    "quote": "81.0%",
+    "value": 80.9659090909091,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), share of CSAT = Good among rated tickets with SLA breached = Yes (285 of 352)."
+  },
+  {
+    "quote": "87.1%",
+    "value": 87.0886075949367,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), share of CSAT = Good among rated tickets with SLA breached = No (688 of 790)."
+  },
+  {
+    "quote": "8.3",
+    "value": 8.296817686130666,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), Good share among rated non-breached Normal tickets (88.83%) minus Good share among rated breached Normal tickets (80.53%), in percentage points."
+  },
+  {
+    "quote": "29.8%",
+    "value": 29.768917082011782,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), baseline breach rate among tickets opened in the 11 baseline weeks (2026-07-27 to 2026-10-11) (repeated as next week's target)."
+  },
+  {
+    "quote": "285",
+    "value": 285,
+    "definition": "Among the 2,434 kept tickets (spam and merged-duplicate rows removed), unclosed tickets at the end of the export (repeated as next week's target)."
+  }
+]

@@ -1,0 +1,342 @@
+[
+ {
+  "quote": "22",
+  "value": 22,
+  "definition": "Count of non-archived project rows"
+ },
+ {
+  "quote": "$3,790,000",
+  "value": 3790000,
+  "definition": "Sum of Budget, the 22 non-archived project rows"
+ },
+ {
+  "quote": "$2,934,920",
+  "value": 2934920,
+  "definition": "Sum of Spend, the 22 non-archived project rows"
+ },
+ {
+  "quote": "77.4%",
+  "value": 77.43852242744063,
+  "definition": "Total spend / total budget, the 22 non-archived project rows, percent"
+ },
+ {
+  "quote": "$855,080",
+  "value": 855080,
+  "definition": "Budget minus spend, the 22 non-archived project rows"
+ },
+ {
+  "quote": "3",
+  "value": 3,
+  "definition": "Projects with Spend > Budget"
+ },
+ {
+  "quote": "$62,130",
+  "value": 62130,
+  "definition": "Sum of (Spend - Budget) over the 3 overspent projects"
+ },
+ {
+  "quote": "6.8%",
+  "value": 6.827472527472528,
+  "definition": "Combined overrun / combined budget of the 3 overspent projects, percent"
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Projects not Done with Due date before Oct 18"
+ },
+ {
+  "quote": "22.2%",
+  "value": 22.22222222222222,
+  "definition": "Late projects / projects not in Done phase (18), percent"
+ },
+ {
+  "quote": "18",
+  "value": 18,
+  "definition": "Projects with Phase not Done"
+ },
+ {
+  "quote": "13",
+  "value": 13,
+  "definition": "Count of Status = Green"
+ },
+ {
+  "quote": "68.5%",
+  "value": 68.51896551724138,
+  "definition": "Spend/budget, Status Green, percent"
+ },
+ {
+  "quote": "6",
+  "value": 6,
+  "definition": "Count of Status = Amber"
+ },
+ {
+  "quote": "75.8%",
+  "value": 75.83259259259259,
+  "definition": "Spend/budget, Status Amber, percent"
+ },
+ {
+  "quote": "16.7%",
+  "value": 16.666666666666664,
+  "definition": "Share of Amber projects with Spend > Budget, percent"
+ },
+ {
+  "quote": "3",
+  "value": 3,
+  "definition": "Count of Status = Red"
+ },
+ {
+  "quote": "$718,950",
+  "value": 718950,
+  "definition": "Spend sum, Status Red"
+ },
+ {
+  "quote": "$700,000",
+  "value": 700000,
+  "definition": "Budget sum, Status Red"
+ },
+ {
+  "quote": "102.7%",
+  "value": 102.70714285714287,
+  "definition": "Spend/budget, Status Red, percent"
+ },
+ {
+  "quote": "66.7%",
+  "value": 66.66666666666666,
+  "definition": "Share of Red projects with Spend > Budget, percent"
+ },
+ {
+  "quote": "95.4%",
+  "value": 95.4,
+  "definition": "Spend/budget for Field sales app (200,420/210,000), percent"
+ },
+ {
+  "quote": "5",
+  "value": 5,
+  "definition": "Count of Phase = Test"
+ },
+ {
+  "quote": "$1,270,000",
+  "value": 1270000,
+  "definition": "Budget sum, Phase Test"
+ },
+ {
+  "quote": "97.0%",
+  "value": 97.0220472440945,
+  "definition": "Spend/budget, Phase Test, percent"
+ },
+ {
+  "quote": "60.0%",
+  "value": 60.0,
+  "definition": "Share of Test-phase projects with Spend > Budget, percent"
+ },
+ {
+  "quote": "11",
+  "value": 11,
+  "definition": "Count of Phase = Build"
+ },
+ {
+  "quote": "61.6%",
+  "value": 61.566751918158566,
+  "definition": "Spend/budget, Phase Build, percent"
+ },
+ {
+  "quote": "92.0%",
+  "value": 92.02608695652174,
+  "definition": "Spend/budget, Phase Launch, percent"
+ },
+ {
+  "quote": "$920",
+  "value": 920,
+  "definition": "Budget minus spend for SSO rollout (75,000-74,080)"
+ },
+ {
+  "quote": "18",
+  "value": 18,
+  "definition": "Days between SSO due date Sep 30 and Oct 18"
+ },
+ {
+  "quote": "87.4%",
+  "value": 87.39555555555556,
+  "definition": "Spend/budget, Phase Done, percent"
+ },
+ {
+  "quote": "66.2%",
+  "value": 66.24757281553399,
+  "definition": "Spend/budget, Risk Low, percent"
+ },
+ {
+  "quote": "71.8%",
+  "value": 71.8375,
+  "definition": "Spend/budget, Risk Medium, percent"
+ },
+ {
+  "quote": "88.3%",
+  "value": 88.29207317073171,
+  "definition": "Spend/budget, Risk High, percent"
+ },
+ {
+  "quote": "43.3%",
+  "value": 43.27176781002638,
+  "definition": "Budget of High-risk projects / total budget, percent"
+ },
+ {
+  "quote": "60.0%",
+  "value": 60.0,
+  "definition": "Share of High-risk projects with Spend > Budget, percent"
+ },
+ {
+  "quote": "0.0%",
+  "value": 0,
+  "definition": "Share of Low/Medium risk projects with Spend > Budget, percent"
+ },
+ {
+  "quote": "100.3%",
+  "value": 100.29824561403508,
+  "definition": "Spend/budget, Department Finance, percent"
+ },
+ {
+  "quote": "100.1%",
+  "value": 100.11702127659574,
+  "definition": "Spend/budget, Department Sales, percent"
+ },
+ {
+  "quote": "97.9%",
+  "value": 97.86796116504854,
+  "definition": "Spend/budget, Department Data, percent"
+ },
+ {
+  "quote": "58.3%",
+  "value": 58.30408163265306,
+  "definition": "Spend/budget, Department Product, percent"
+ },
+ {
+  "quote": "62.1%",
+  "value": 62.10681818181818,
+  "definition": "Spend/budget, Department Marketing, percent"
+ },
+ {
+  "quote": "$850",
+  "value": 850,
+  "definition": "Finance spend minus budget"
+ },
+ {
+  "quote": "$550",
+  "value": 550,
+  "definition": "Sales spend minus budget"
+ },
+ {
+  "quote": "100.1%",
+  "value": 100.11702127659574,
+  "definition": "Spend/budget, Owner Omar, percent"
+ },
+ {
+  "quote": "100.3%",
+  "value": 100.29824561403508,
+  "definition": "Spend/budget, Owner Chris, percent"
+ },
+ {
+  "quote": "$610,000",
+  "value": 610000,
+  "definition": "Budget sum, Owner Lena"
+ },
+ {
+  "quote": "57.8%",
+  "value": 57.844262295081975,
+  "definition": "Spend/budget, Owner Lena, percent"
+ },
+ {
+  "quote": "55.2%",
+  "value": 55.2,
+  "definition": "Spend/budget, Owner Sam, percent"
+ },
+ {
+  "quote": "$33,600",
+  "value": 33600,
+  "definition": "Spend minus budget for Data warehouse"
+ },
+ {
+  "quote": "108.0%",
+  "value": 108.0,
+  "definition": "Spend/budget for Data warehouse, percent"
+ },
+ {
+  "quote": "$18,400",
+  "value": 18400,
+  "definition": "Spend minus budget for Billing revamp"
+ },
+ {
+  "quote": "108.0%",
+  "value": 108.0,
+  "definition": "Spend/budget for Billing revamp, percent"
+ },
+ {
+  "quote": "$10,130",
+  "value": 10130,
+  "definition": "Spend minus budget for CRM migration"
+ },
+ {
+  "quote": "103.9%",
+  "value": 103.89615384615385,
+  "definition": "Spend/budget for CRM migration, percent"
+ },
+ {
+  "quote": "75.5%",
+  "value": 75.5375,
+  "definition": "Median of per-project Spend/Budget, percent"
+ },
+ {
+  "quote": "76.5%",
+  "value": 76.48721952950483,
+  "definition": "Mean of per-project Spend/Budget, percent"
+ },
+ {
+  "quote": "67.7%",
+  "value": 67.7025974025974,
+  "definition": "Median of per-project Spend/Budget over projects not Done, percent"
+ },
+ {
+  "quote": "$1,046,210",
+  "value": 1046210,
+  "definition": "Spend sum of the 4 late open projects"
+ },
+ {
+  "quote": "$985,000",
+  "value": 985000,
+  "definition": "Budget sum of the 4 late open projects"
+ },
+ {
+  "quote": "106.2%",
+  "value": 106.21421319796956,
+  "definition": "Spend/budget of the 4 late open projects, percent"
+ },
+ {
+  "quote": "16",
+  "value": 16,
+  "definition": "Days overdue for Data warehouse and Billing revamp (due 2026-10-02)"
+ },
+ {
+  "quote": "19",
+  "value": 19,
+  "definition": "Days CRM migration is overdue (due 2026-09-29)"
+ },
+ {
+  "quote": "5",
+  "value": 5,
+  "definition": "Open projects due between Oct 19 and Nov 17 2026 inclusive"
+ },
+ {
+  "quote": "74.7%",
+  "value": 74.74754098360656,
+  "definition": "Spend/budget of open projects due Oct 19-Nov 17, percent"
+ },
+ {
+  "quote": "9",
+  "value": 9,
+  "definition": "Count of non-Green projects"
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Non-Green projects (Amber/Red) past due and not Done: DW, CRM, Billing, SSO"
+ }
+]

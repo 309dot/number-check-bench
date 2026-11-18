@@ -1,0 +1,357 @@
+[
+  {
+    "quote": "321",
+    "value": 321,
+    "definition": "All rows in the export before any exclusions."
+  },
+  {
+    "quote": "4",
+    "value": 4,
+    "definition": "Rows marked Test account = Yes, excluded from every number."
+  },
+  {
+    "quote": "317",
+    "value": 317,
+    "definition": "Rows left after removing test rows; the base for all analysis."
+  },
+  {
+    "quote": "137",
+    "value": 137,
+    "definition": "Base rows with Finished setup = Yes."
+  },
+  {
+    "quote": "317",
+    "value": 317,
+    "definition": "Base rows across all plans, sources and countries (the headline denominator)."
+  },
+  {
+    "quote": "43.2%",
+    "value": 43.2176656151,
+    "definition": "Base rows with Finished setup = Yes divided by all base rows, times 100."
+  },
+  {
+    "quote": "62.8%",
+    "value": 62.7760252366,
+    "definition": "Base rows on the Free plan divided by all base rows, times 100."
+  },
+  {
+    "quote": "69.4%",
+    "value": 69.4444444444,
+    "definition": "Unfinished base rows on the Free plan divided by all unfinished base rows, times 100."
+  },
+  {
+    "quote": "180",
+    "value": 180,
+    "definition": "Base rows with Finished setup = No."
+  },
+  {
+    "quote": "125",
+    "value": 125,
+    "definition": "Unfinished base rows on the Free plan."
+  },
+  {
+    "quote": "37.2%",
+    "value": 37.1859296482,
+    "definition": "Free-plan base rows finished, divided by Free-plan base rows, times 100."
+  },
+  {
+    "quote": "74",
+    "value": 74,
+    "definition": "Free-plan base rows with Finished setup = Yes."
+  },
+  {
+    "quote": "199",
+    "value": 199,
+    "definition": "Free-plan base rows."
+  },
+  {
+    "quote": "47.6%",
+    "value": 47.619047619,
+    "definition": "Starter-plan base rows finished, divided by Starter-plan base rows, times 100."
+  },
+  {
+    "quote": "40",
+    "value": 40,
+    "definition": "Starter-plan base rows with Finished setup = Yes."
+  },
+  {
+    "quote": "84",
+    "value": 84,
+    "definition": "Starter-plan base rows."
+  },
+  {
+    "quote": "67.6%",
+    "value": 67.6470588235,
+    "definition": "Team-plan base rows finished, divided by Team-plan base rows, times 100."
+  },
+  {
+    "quote": "23",
+    "value": 23,
+    "definition": "Team-plan base rows with Finished setup = Yes."
+  },
+  {
+    "quote": "34",
+    "value": 34,
+    "definition": "Team-plan base rows."
+  },
+  {
+    "quote": "30.5",
+    "value": 30.4611291753,
+    "definition": "Team completion rate minus Free completion rate, in percentage points."
+  },
+  {
+    "quote": "42.9%",
+    "value": 42.8571428571,
+    "definition": "Organic search base rows finished, divided by Organic search base rows, times 100."
+  },
+  {
+    "quote": "42",
+    "value": 42,
+    "definition": "Organic search base rows with Finished setup = Yes."
+  },
+  {
+    "quote": "98",
+    "value": 98,
+    "definition": "Organic search base rows."
+  },
+  {
+    "quote": "46.9%",
+    "value": 46.9135802469,
+    "definition": "Paid search base rows finished, divided by Paid search base rows, times 100."
+  },
+  {
+    "quote": "38",
+    "value": 38,
+    "definition": "Paid search base rows with Finished setup = Yes."
+  },
+  {
+    "quote": "81",
+    "value": 81,
+    "definition": "Paid search base rows."
+  },
+  {
+    "quote": "43.4%",
+    "value": 43.3962264151,
+    "definition": "Referral base rows finished, divided by Referral base rows, times 100."
+  },
+  {
+    "quote": "43.3%",
+    "value": 43.3333333333,
+    "definition": "Direct base rows finished, divided by Direct base rows, times 100."
+  },
+  {
+    "quote": "32.0%",
+    "value": 32.0,
+    "definition": "Partner base rows finished, divided by Partner base rows, times 100."
+  },
+  {
+    "quote": "8",
+    "value": 8,
+    "definition": "Partner base rows with Finished setup = Yes."
+  },
+  {
+    "quote": "25",
+    "value": 25,
+    "definition": "Partner base rows."
+  },
+  {
+    "quote": "30.8%",
+    "value": 30.7692307692,
+    "definition": "Free-plan Direct base rows finished, divided by Free-plan Direct base rows, times 100."
+  },
+  {
+    "quote": "12",
+    "value": 12,
+    "definition": "Free-plan Direct base rows with Finished setup = Yes."
+  },
+  {
+    "quote": "39",
+    "value": 39,
+    "definition": "Free-plan Direct base rows."
+  },
+  {
+    "quote": "69.2%",
+    "value": 69.2307692308,
+    "definition": "Starter-plan Direct base rows finished, divided by Starter-plan Direct base rows, times 100."
+  },
+  {
+    "quote": "9",
+    "value": 9,
+    "definition": "Starter-plan Direct base rows with Finished setup = Yes."
+  },
+  {
+    "quote": "13",
+    "value": 13,
+    "definition": "Starter-plan Direct base rows."
+  },
+  {
+    "quote": "40.4%",
+    "value": 40.4255319149,
+    "definition": "US base rows finished, divided by US base rows, times 100."
+  },
+  {
+    "quote": "57",
+    "value": 57,
+    "definition": "US base rows with Finished setup = Yes."
+  },
+  {
+    "quote": "141",
+    "value": 141,
+    "definition": "US base rows."
+  },
+  {
+    "quote": "58.6%",
+    "value": 58.6206896552,
+    "definition": "Germany (DE) base rows finished, divided by Germany base rows, times 100."
+  },
+  {
+    "quote": "17",
+    "value": 17,
+    "definition": "Germany base rows with Finished setup = Yes."
+  },
+  {
+    "quote": "29",
+    "value": 29,
+    "definition": "Germany base rows."
+  },
+  {
+    "quote": "34.8%",
+    "value": 34.7826086957,
+    "definition": "Korea (KR) base rows finished, divided by Korea base rows, times 100."
+  },
+  {
+    "quote": "8",
+    "value": 8,
+    "definition": "Korea base rows with Finished setup = Yes."
+  },
+  {
+    "quote": "23",
+    "value": 23,
+    "definition": "Korea base rows."
+  },
+  {
+    "quote": "33.0%",
+    "value": 32.967032967,
+    "definition": "Free-plan US base rows finished, divided by Free-plan US base rows, times 100."
+  },
+  {
+    "quote": "30",
+    "value": 30,
+    "definition": "Free-plan US base rows with Finished setup = Yes."
+  },
+  {
+    "quote": "91",
+    "value": 91,
+    "definition": "Free-plan US base rows."
+  },
+  {
+    "quote": "61",
+    "value": 61,
+    "definition": "Free-plan US base rows with Finished setup = No."
+  },
+  {
+    "quote": "180",
+    "value": 180,
+    "definition": "Base rows with Finished setup = No (all segments)."
+  },
+  {
+    "quote": "19.0%",
+    "value": 19.0476190476,
+    "definition": "Referral-source US base rows finished, divided by Referral-source US base rows, times 100."
+  },
+  {
+    "quote": "4",
+    "value": 4,
+    "definition": "Referral-source US base rows with Finished setup = Yes."
+  },
+  {
+    "quote": "21",
+    "value": 21,
+    "definition": "Referral-source US base rows."
+  },
+  {
+    "quote": "266",
+    "value": 266,
+    "definition": "Base rows signed up Monday to Friday."
+  },
+  {
+    "quote": "53.2",
+    "value": 53.2,
+    "definition": "Monday-to-Friday base rows divided by 5 weekdays."
+  },
+  {
+    "quote": "51",
+    "value": 51,
+    "definition": "Base rows signed up on Saturday or Sunday."
+  },
+  {
+    "quote": "25.5",
+    "value": 25.5,
+    "definition": "Saturday and Sunday base rows divided by 2 weekend days."
+  },
+  {
+    "quote": "54",
+    "value": 54,
+    "definition": "Median of the five weekday daily signup counts (base rows per day)."
+  },
+  {
+    "quote": "43.9%",
+    "value": 43.8596491228,
+    "definition": "Monday base rows finished, divided by Monday base rows, times 100."
+  },
+  {
+    "quote": "41.8%",
+    "value": 41.8181818182,
+    "definition": "Tuesday base rows finished, divided by Tuesday base rows, times 100 (low end of Tuesday to Thursday range)."
+  },
+  {
+    "quote": "46.0%",
+    "value": 46.0,
+    "definition": "Wednesday base rows finished, divided by Wednesday base rows, times 100 (high end of Tuesday to Thursday range)."
+  },
+  {
+    "quote": "38.9%",
+    "value": 38.8888888889,
+    "definition": "Friday base rows finished, divided by Friday base rows, times 100."
+  },
+  {
+    "quote": "21",
+    "value": 21,
+    "definition": "Friday base rows with Finished setup = Yes."
+  },
+  {
+    "quote": "54",
+    "value": 54,
+    "definition": "Friday base rows."
+  },
+  {
+    "quote": "45.1%",
+    "value": 45.0980392157,
+    "definition": "Saturday and Sunday base rows finished, divided by weekend base rows, times 100."
+  },
+  {
+    "quote": "23",
+    "value": 23,
+    "definition": "Weekend base rows with Finished setup = Yes."
+  },
+  {
+    "quote": "51",
+    "value": 51,
+    "definition": "Weekend base rows."
+  },
+  {
+    "quote": "41.9%",
+    "value": 41.9047619048,
+    "definition": "Friday to Sunday base rows finished, divided by Friday to Sunday base rows, times 100."
+  },
+  {
+    "quote": "44",
+    "value": 44,
+    "definition": "Friday to Sunday base rows with Finished setup = Yes."
+  },
+  {
+    "quote": "105",
+    "value": 105,
+    "definition": "Friday to Sunday base rows."
+  }
+]

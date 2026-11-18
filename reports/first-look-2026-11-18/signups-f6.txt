@@ -1,0 +1,78 @@
+Weekly signup setup-completion review
+
+To: Product team
+From: Growth analysis
+
+Data and exclusions
+
+- The weekly export holds 321 signup rows.
+- We removed 4 rows marked Test account = Yes. All of them used the internal.test domain, the Team plan and the US. The remaining 317 signups are the base for every number below.
+- We found no exact duplicate rows. Teammates who share a company domain stay in as separate signups, because their plan, source or country usually differ.
+- "Finished setup" (Yes or No) is the only completion measure. The export has no finish time, so we cannot measure how long setup takes.
+
+Headline
+
+- 137 of 317 signups finished setup, a completion rate of 43.2%. Everything below is measured against that average.
+- Free accounts are 62.8% of signups but 69.4% of the 180 unfinished signups, which is 125 rows. Most of the work sits with the Free plan.
+
+Completion by plan
+
+- Free: 37.2% finished (74 of 199).
+- Starter: 47.6% finished (40 of 84).
+- Team: 67.6% finished (23 of 34). That is 30.5 percentage points above Free.
+
+Completion by source
+
+- Organic search is the largest source, with 42.9% finished (42 of 98).
+- Paid search finished at 46.9% (38 of 81).
+- Referral (43.4%) and Direct (43.3%) sit close to the average.
+- Partner is the weakest source: 32.0% finished (8 of 25).
+
+Plan and source together
+
+- Free accounts from Direct finished at 30.8% (12 of 39).
+- Starter accounts from Direct finished at 69.2% (9 of 13). The same channel converts far better on a paid plan.
+
+Completion by country
+
+- US: 40.4% finished (57 of 141).
+- Germany: 58.6% finished (17 of 29), the highest of the larger country groups.
+- Korea: 34.8% finished (8 of 23).
+- Free accounts in the US are the biggest gap. They finished at 33.0% (30 of 91) and make up 61 of the 180 unfinished signups.
+
+Hot spot
+
+- Referral from the US finished at 19.0% (4 of 21). That is worth checking, because referred visitors often arrive with more intent.
+
+Weekday pattern
+
+- Monday to Friday brought 266 signups, an average of 53.2 a day. Saturday and Sunday brought 51 signups, an average of 25.5 a day.
+- The median daily signup count is 54 on weekdays.
+- Monday finished at 43.9%. Tuesday to Thursday ranged from 41.8% to 46.0%.
+- Friday was the lowest weekday, at 38.9% (21 of 54).
+- Weekends overall finished at 45.1% (23 of 51). Weekend visitors complete setup at a similar rate to weekdays even though volume is about half.
+- Friday to Sunday finished at 41.9% (44 of 105), slightly below the first four days of the week.
+
+Segments that need onboarding help
+
+Ranked by how far they sit below the average:
+
+- Free accounts in the US. This is the largest pool of unfinished signups. They stall at the first setup step, so the first screen should be the first thing we fix.
+- Free accounts from Direct and Partner. These visitors arrive without a referrer and need more guidance to finish.
+- Referral from the US. This is the weakest group of a useful size, and it is odd because referrals usually convert well. Check the referral landing page and the invite email before blaming the audience.
+- Partner signups overall. The channel brings a steady share of signups, but few of them finish.
+- Korea, especially Free accounts. Korea converts below the average, and the Free group there is very small, so we should watch it before deciding.
+
+Use the Team and Starter-from-Direct groups as the reference for what a finished setup looks like.
+
+Caveats
+
+- Groups with very few rows, such as Korea Free or Team from Organic search, are directional only.
+- Completion is a single Yes or No flag. We cannot tell which step people stopped at, so the next step is to add step-level events.
+- Each row is a signup, not a unique person.
+
+Suggested next steps
+
+- Start with a guided first-step checklist for Free accounts in the US, and measure its completion weekly against the average.
+- Review the Partner and Referral landing pages with the teams that own them.
+- Re-run this review on next week's export before changing anything else, so the weekday and country results can be checked against a second week.

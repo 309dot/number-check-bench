@@ -1,0 +1,362 @@
+[
+ {
+  "quote": "$70,762.15",
+  "value": 70762.15,
+  "definition": "Sum of Spend over all 672 non-test rows"
+ },
+ {
+  "quote": "1,291",
+  "value": 1291,
+  "definition": "Sum of Leads over all non-test rows"
+ },
+ {
+  "quote": "$54.81",
+  "value": 54.81189000774593,
+  "definition": "Total spend divided by total leads, non-test rows"
+ },
+ {
+  "quote": "1.1%",
+  "value": 1.060077790149404,
+  "definition": "Total clicks divided by total impressions, non-test rows"
+ },
+ {
+  "quote": "2.3%",
+  "value": 2.2717274630910276,
+  "definition": "Total leads divided by total clicks, non-test rows"
+ },
+ {
+  "quote": "728",
+  "value": 728,
+  "definition": "Count of all rows in the CSV"
+ },
+ {
+  "quote": "56",
+  "value": 56,
+  "definition": "Count of rows where Test campaign is Yes"
+ },
+ {
+  "quote": "$49.01",
+  "value": 49.01,
+  "definition": "Sum of Spend over test-flagged rows"
+ },
+ {
+  "quote": "672",
+  "value": 672,
+  "definition": "Count of non-test rows"
+ },
+ {
+  "quote": "$21,645.65",
+  "value": 21645.65,
+  "definition": "Spend, Brightline Dental non-test rows"
+ },
+ {
+  "quote": "515",
+  "value": 515,
+  "definition": "Leads, Brightline Dental"
+ },
+ {
+  "quote": "$42.03",
+  "value": 42.03038834951457,
+  "definition": "Spend/Leads, Brightline Dental"
+ },
+ {
+  "quote": "4.5%",
+  "value": 4.462351615977818,
+  "definition": "Leads/Clicks, Brightline Dental"
+ },
+ {
+  "quote": "$28,296.36",
+  "value": 28296.36,
+  "definition": "Spend, Harbor & Pine non-test rows"
+ },
+ {
+  "quote": "397",
+  "value": 397,
+  "definition": "Leads, Harbor & Pine"
+ },
+ {
+  "quote": "$71.28",
+  "value": 71.27546599496222,
+  "definition": "Spend/Leads, Harbor & Pine"
+ },
+ {
+  "quote": "1.5%",
+  "value": 1.4563462949376376,
+  "definition": "Leads/Clicks, Harbor & Pine"
+ },
+ {
+  "quote": "$20,820.14",
+  "value": 20820.14,
+  "definition": "Spend, Northfield Bikes non-test rows"
+ },
+ {
+  "quote": "379",
+  "value": 379,
+  "definition": "Leads, Northfield Bikes"
+ },
+ {
+  "quote": "$54.93",
+  "value": 54.934406332453825,
+  "definition": "Spend/Leads, Northfield Bikes"
+ },
+ {
+  "quote": "2.1%",
+  "value": 2.1022853339250056,
+  "definition": "Leads/Clicks, Northfield Bikes"
+ },
+ {
+  "quote": "40.0%",
+  "value": 39.98798792857481,
+  "definition": "Harbor & Pine spend divided by total spend"
+ },
+ {
+  "quote": "30.8%",
+  "value": 30.75135553834237,
+  "definition": "Harbor & Pine leads divided by total leads"
+ },
+ {
+  "quote": "$40.75",
+  "value": 40.75348874598071,
+  "definition": "Spend/Leads, Search rows"
+ },
+ {
+  "quote": "5.1%",
+  "value": 5.149630693936197,
+  "definition": "Clicks/Impressions, Search rows"
+ },
+ {
+  "quote": "5.4%",
+  "value": 5.423315023105763,
+  "definition": "Leads/Clicks, Search rows"
+ },
+ {
+  "quote": "$66.20",
+  "value": 66.20121794871794,
+  "definition": "Spend/Leads, Social rows"
+ },
+ {
+  "quote": "1.3%",
+  "value": 1.2872056794717561,
+  "definition": "Clicks/Impressions, Social rows"
+ },
+ {
+  "quote": "1.7%",
+  "value": 1.735004078001038,
+  "definition": "Leads/Clicks, Social rows"
+ },
+ {
+  "quote": "$71.80",
+  "value": 71.79756218905473,
+  "definition": "Spend/Leads, Display rows"
+ },
+ {
+  "quote": "0.6%",
+  "value": 0.6042915678878159,
+  "definition": "Clicks/Impressions, Display rows"
+ },
+ {
+  "quote": "1.1%",
+  "value": 1.09322310453606,
+  "definition": "Leads/Clicks, Display rows"
+ },
+ {
+  "quote": "35.8%",
+  "value": 35.822357008655054,
+  "definition": "Search spend / total spend"
+ },
+ {
+  "quote": "48.2%",
+  "value": 48.17970565453137,
+  "definition": "Search leads / total leads"
+ },
+ {
+  "quote": "$99.33",
+  "value": 99.33457831325302,
+  "definition": "Spend/Leads, Harbor & Pine rows in Display or Social"
+ },
+ {
+  "quote": "$24.07",
+  "value": 24.067905405405405,
+  "definition": "Spend/Leads, Harbor & Pine Search rows"
+ },
+ {
+  "quote": "5.0%",
+  "value": 4.973118279569892,
+  "definition": "Leads/Clicks, Harbor & Pine Search"
+ },
+ {
+  "quote": "0.5%",
+  "value": 0.5,
+  "definition": "Clicks/Impressions, Northfield Bikes Display"
+ },
+ {
+  "quote": "$68.20",
+  "value": 68.20083333333334,
+  "definition": "Spend/Leads, Northfield Bikes Display"
+ },
+ {
+  "quote": "$51.16",
+  "value": 51.157292817679554,
+  "definition": "Spend/Leads, Northfield Bikes Search"
+ },
+ {
+  "quote": "7.6%",
+  "value": 7.640156453715775,
+  "definition": "Leads/Clicks, Brightline Dental Search"
+ },
+ {
+  "quote": "$39.47",
+  "value": 39.47071428571429,
+  "definition": "Spend/Leads, Brightline Dental Social"
+ },
+ {
+  "quote": "$53.13",
+  "value": 53.130421686746985,
+  "definition": "Spend/Leads for the best (lowest CPL) week"
+ },
+ {
+  "quote": "$57.23",
+  "value": 57.227701863354035,
+  "definition": "Spend/Leads for the worst (highest CPL) week"
+ },
+ {
+  "quote": "$54.25",
+  "value": 54.24531782945737,
+  "definition": "Spend/Leads, rows in weeks 1-4"
+ },
+ {
+  "quote": "$55.38",
+  "value": 55.37758513931888,
+  "definition": "Spend/Leads, rows in weeks 5-8"
+ },
+ {
+  "quote": "2.3%",
+  "value": 2.3040651568193184,
+  "definition": "Leads/Clicks, weeks 1-4"
+ },
+ {
+  "quote": "2.2%",
+  "value": 2.2403329287324434,
+  "definition": "Leads/Clicks, weeks 5-8"
+ },
+ {
+  "quote": "$71.76",
+  "value": 71.75673170731707,
+  "definition": "Spend/Leads, Harbor & Pine rows in weeks 5-8"
+ },
+ {
+  "quote": "$75.83",
+  "value": 75.8276923076923,
+  "definition": "Spend/Leads, Harbor & Pine week 8"
+ },
+ {
+  "quote": "$107.48",
+  "value": 107.48470588235294,
+  "definition": "Spend/Leads, Lookalike campaign"
+ },
+ {
+  "quote": "1.2%",
+  "value": 1.204534718941899,
+  "definition": "Leads/Clicks, Lookalike"
+ },
+ {
+  "quote": "$99.99",
+  "value": 99.98972602739725,
+  "definition": "Spend/Leads, Gift guide"
+ },
+ {
+  "quote": "0.8%",
+  "value": 0.7993867717915024,
+  "definition": "Leads/Clicks, Gift guide"
+ },
+ {
+  "quote": "0.5%",
+  "value": 0.5,
+  "definition": "Clicks/Impressions, Commuter banner"
+ },
+ {
+  "quote": "1.0%",
+  "value": 1.0221465076660987,
+  "definition": "Leads/Clicks, Commuter banner"
+ },
+ {
+  "quote": "$68.20",
+  "value": 68.20083333333334,
+  "definition": "Spend/Leads, Commuter banner"
+ },
+ {
+  "quote": "$16,873.02",
+  "value": 16873.02,
+  "definition": "Spend over the three cut campaigns"
+ },
+ {
+  "quote": "23.8%",
+  "value": 23.84469663513616,
+  "definition": "Cut-campaign spend / total spend"
+ },
+ {
+  "quote": "184",
+  "value": 184,
+  "definition": "Leads over the three cut campaigns"
+ },
+ {
+  "quote": "14.3%",
+  "value": 14.252517428350115,
+  "definition": "Cut-campaign leads / total leads"
+ },
+ {
+  "quote": "$12,780.97",
+  "value": 12780.97,
+  "definition": "Spend, Gift guide plus Lookalike"
+ },
+ {
+  "quote": "124",
+  "value": 124,
+  "definition": "Leads, Gift guide plus Lookalike"
+ },
+ {
+  "quote": "$103.07",
+  "value": 103.07233870967741,
+  "definition": "Spend/Leads, Gift guide plus Lookalike"
+ },
+ {
+  "quote": "$102.35",
+  "value": 102.34516129032258,
+  "definition": "Spend/Leads, Gift guide plus Lookalike rows in weeks 5-8"
+ },
+ {
+  "quote": "$95.63",
+  "value": 95.62672,
+  "definition": "Spend/Leads, Fall collection"
+ },
+ {
+  "quote": "1.5%",
+  "value": 1.5000054955321325,
+  "definition": "Clicks/Impressions, Fall collection"
+ },
+ {
+  "quote": "$24.07",
+  "value": 24.067905405405405,
+  "definition": "Spend/Leads, Brand search"
+ },
+ {
+  "quote": "$28.01",
+  "value": 28.00835164835165,
+  "definition": "Spend/Leads, Service booking"
+ },
+ {
+  "quote": "5.7%",
+  "value": 5.68039950062422,
+  "definition": "Leads/Clicks, Service booking"
+ },
+ {
+  "quote": "9.1%",
+  "value": 9.05511811023622,
+  "definition": "Leads/Clicks, Emergency care"
+ },
+ {
+  "quote": "$39.75",
+  "value": 39.74591304347826,
+  "definition": "Spend/Leads, Emergency care"
+ }
+]

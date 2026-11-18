@@ -1,0 +1,51 @@
+October month-to-date trading update
+
+Hi all,
+
+Here is where October stands after 18 days of trading, from the first of the month through last Sunday. The short version: net revenue is running slightly ahead week on week, web is steady, marketplace refunds are the main leak, and wholesale is lumpy but valuable.
+
+What I counted
+- The export holds 1,381 order rows. I removed 4 rows flagged as test orders (token-value web orders).
+- I also ignored a blank line and the summary row at the bottom of the sheet. That row shows $136,309.15, which still includes the tests.
+- I looked for duplicates and spam: order IDs run in an unbroken sequence with no repeats, and no two orders match on every other field, so nothing else was removed.
+- That leaves 1,377 real orders. Bookings means the value of every order placed. Net revenue counts only orders still marked Paid: every refund this month was a full refund, and cancelled orders carry no refund, so I treat them as never charged. Order value and refund rates use the 1,342 orders that were not cancelled.
+
+Headline numbers
+- Bookings: $136,305.15.
+- Net revenue: $127,917.63, or 93.8% of bookings, after $4,348.23 of cancellations and $4,039.29 of refunds.
+- Average order value: $98.33. The median is $81.20; the gap is mostly wholesale (below).
+- Cancellations: 35 orders, 2.5% of all orders.
+- Refunds: 45 orders, 3.4% of orders that shipped.
+- New customers' refund rate was 3.0%, against 3.6% for returning customers, so first-time buyers are not the refund problem.
+
+By channel
+Web is half the business, marketplace carries the largest share of refund cost, and wholesale is small in count but large in value.
+- Web: 844 orders and $64,215.29 of net revenue, 50.2% of the total. Average order $79.72, refund rate 2.4%.
+- Marketplace: 420 orders and $31,878.53 net, 24.9% of the total. Its refund rate of 5.6% is the highest of any channel. Marketplace is 30.5% of orders but 49.7% of all refund dollars. The rate is similar for new (6.0%) and returning (5.3%) buyers, which points to listings or fulfilment rather than customer mix.
+- Wholesale: 113 orders, only 8.2% of orders, but $31,823.81 net, also 24.9% of the total and virtually level with marketplace. The average order is $300.59 with 14.2 items. Wholesale has the highest cancellation rate at 4.4%, and its cancellations are 48.4% of all cancelled value. Returning wholesale accounts have a median order of $329.58, against $263.25 for new ones.
+
+By region
+- North is the largest region: 411 orders and $39,249.21 net (30.7% of the total), with the lowest cancellation rate at 1.7%. Its weak spot is marketplace, where 7.0% of shipped orders were refunded.
+- West marketplace has the highest refund rate of any region and channel pair at 8.3%, while West web has the highest web cancellation rate at 4.3%.
+- South has the highest average order at $107.02 and the lowest refund rate at 1.4%.
+- East gives back the most value: refunds took 4.1% of its shipped order value, the highest of the regions.
+
+By week
+Weeks run Monday to Sunday, so the opening week has only 4 days.
+- Opening week: 329 orders, $6,907.74 of net revenue per day.
+- Second week: 537 orders, $7,141.74 per day.
+- Latest week: 511 orders and $50,294.46 net, or $7,184.92 per day.
+- Week on week, net revenue rose 0.6% even though orders fell 4.8%. The average order climbed to $101.75 from $98.06, but bookings still slipped 2.0%. The net gain comes from fewer cancellations and refunds, and the refund part is partly timing, as explained below.
+- Cancellations improved, from 3.6% of orders in the opening week to 2.2% in the latest week.
+- The latest week's refund rate is 1.4%, against 4.2% in the second week. Please read that with care: refunds arrive after the sale, and none of the orders placed from Friday onward is marked refunded yet. I expect this rate to drift up.
+- Weekends are our strongest days. Saturdays and Sundays averaged 93 orders a day against 68.25 on weekdays, and last weekend alone produced 38.1% of the latest week's net revenue.
+
+What I am watching
+- Marketplace refunds. They are the largest leak we can control. The export does not say why orders were refunded, so my next step is to pull refund reasons for West and North marketplace orders and report back.
+- Wholesale cancellations. A few large orders make up nearly half of all cancelled value, so I want to understand what happened on each before the month closes.
+- Refund lag. I will restate the latest week's refund rate once those orders have had time to mature, so you can see the true run rate rather than an early, flattering one.
+
+Happy to go deeper on any of this.
+
+Thanks,
+Founder

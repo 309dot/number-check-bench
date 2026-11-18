@@ -1,0 +1,362 @@
+[
+ {
+  "quote": "751",
+  "value": 751,
+  "definition": "Unique candidate rows after excluding Duplicate = Yes."
+ },
+ {
+  "quote": "34",
+  "value": 34,
+  "definition": "Clean rows with Stage = Hired."
+ },
+ {
+  "quote": "4.5%",
+  "value": 4.527296937416778,
+  "definition": "Clean rows with Stage = Hired divided by all clean rows, in percent."
+ },
+ {
+  "quote": "5.1%",
+  "value": 5.089820359281437,
+  "definition": "Hired rows divided by closed clean rows, in percent."
+ },
+ {
+  "quote": "668",
+  "value": 668,
+  "definition": "Clean rows whose stage is Rejected or Withdrawn (no longer open)."
+ },
+ {
+  "quote": "18.1%",
+  "value": 18.095238095238095,
+  "definition": "Referral-source clean rows with Stage = Hired divided by all Referral-source clean rows, in percent."
+ },
+ {
+  "quote": "2.3%",
+  "value": 2.321981424148607,
+  "definition": "Clean rows whose source is not Referral with Stage = Hired, divided by all non-Referral clean rows, in percent."
+ },
+ {
+  "quote": "768",
+  "value": 768,
+  "definition": "All data rows in the Candidates sheet (rows 5 to 772), before any exclusion."
+ },
+ {
+  "quote": "17",
+  "value": 17,
+  "definition": "Rows with Duplicate = Yes, excluded from every figure."
+ },
+ {
+  "quote": "751",
+  "value": 751,
+  "definition": "Unique candidate rows after excluding Duplicate = Yes."
+ },
+ {
+  "quote": "44",
+  "value": 44,
+  "definition": "Clean rows with Offer accepted = Yes or No (offers decided)."
+ },
+ {
+  "quote": "10",
+  "value": 10,
+  "definition": "Clean rows with Offer accepted = No (offers declined)."
+ },
+ {
+  "quote": "22.7%",
+  "value": 22.727272727272727,
+  "definition": "Declined offers divided by all decided offers, in percent."
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Declined offers for Account Executive."
+ },
+ {
+  "quote": "11",
+  "value": 11,
+  "definition": "Decided offers for Account Executive."
+ },
+ {
+  "quote": "36.4%",
+  "value": 36.36363636363637,
+  "definition": "Declined offers divided by decided offers for Account Executive, in percent."
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Declined offers for Backend Engineer."
+ },
+ {
+  "quote": "10",
+  "value": 10,
+  "definition": "Decided offers for Backend Engineer."
+ },
+ {
+  "quote": "40.0%",
+  "value": 40.0,
+  "definition": "Declined offers divided by decided offers for Backend Engineer, in percent."
+ },
+ {
+  "quote": "2",
+  "value": 2,
+  "definition": "Declined offers for Support Specialist."
+ },
+ {
+  "quote": "9",
+  "value": 9,
+  "definition": "Decided offers for Support Specialist."
+ },
+ {
+  "quote": "22.2%",
+  "value": 22.22222222222222,
+  "definition": "Declined offers divided by decided offers for Support Specialist, in percent."
+ },
+ {
+  "quote": "8",
+  "value": 8,
+  "definition": "Declined offers for Referral-source candidates."
+ },
+ {
+  "quote": "27",
+  "value": 27,
+  "definition": "Decided offers for Referral-source candidates."
+ },
+ {
+  "quote": "29.6%",
+  "value": 29.62962962962963,
+  "definition": "Declined offers divided by decided offers for Referral-source candidates, in percent."
+ },
+ {
+  "quote": "14",
+  "value": 14,
+  "definition": "Decided offers for Data Analyst and Product Designer combined; all were accepted."
+ },
+ {
+  "quote": "8",
+  "value": 8,
+  "definition": "Clean Data Analyst rows with Stage = Hired."
+ },
+ {
+  "quote": "6.8%",
+  "value": 6.779661016949152,
+  "definition": "Clean Data Analyst rows with Stage = Hired divided by all clean Data Analyst rows, in percent."
+ },
+ {
+  "quote": "22.5",
+  "value": 22.5,
+  "definition": "Median days from Applied to Stage changed for Data Analyst hires."
+ },
+ {
+  "quote": "6",
+  "value": 6,
+  "definition": "Clean Product Designer rows with Stage = Hired."
+ },
+ {
+  "quote": "5.6%",
+  "value": 5.555555555555555,
+  "definition": "Clean Product Designer rows with Stage = Hired divided by all clean Product Designer rows, in percent."
+ },
+ {
+  "quote": "21.5",
+  "value": 21.5,
+  "definition": "Median days from Applied to Stage changed for Product Designer hires."
+ },
+ {
+  "quote": "7",
+  "value": 7,
+  "definition": "Clean Account Executive rows with Stage = Hired."
+ },
+ {
+  "quote": "4.4%",
+  "value": 4.430379746835443,
+  "definition": "Clean Account Executive rows with Stage = Hired divided by all clean Account Executive rows, in percent."
+ },
+ {
+  "quote": "27",
+  "value": 27.0,
+  "definition": "Median days from Applied to Stage changed for Account Executive hires."
+ },
+ {
+  "quote": "7",
+  "value": 7,
+  "definition": "Clean Support Specialist rows with Stage = Hired."
+ },
+ {
+  "quote": "4.1%",
+  "value": 4.117647058823529,
+  "definition": "Clean Support Specialist rows with Stage = Hired divided by all clean Support Specialist rows, in percent."
+ },
+ {
+  "quote": "27",
+  "value": 27.0,
+  "definition": "Median days from Applied to Stage changed for Support Specialist hires."
+ },
+ {
+  "quote": "6",
+  "value": 6,
+  "definition": "Clean Backend Engineer rows with Stage = Hired."
+ },
+ {
+  "quote": "3.0%",
+  "value": 3.045685279187817,
+  "definition": "Clean Backend Engineer rows with Stage = Hired divided by all clean Backend Engineer rows, in percent."
+ },
+ {
+  "quote": "25",
+  "value": 25.0,
+  "definition": "Median days from Applied to Stage changed for Backend Engineer hires."
+ },
+ {
+  "quote": "15.2%",
+  "value": 15.228426395939087,
+  "definition": "Clean Backend Engineer rows with Stage = Withdrawn divided by all clean Backend Engineer rows, in percent."
+ },
+ {
+  "quote": "24",
+  "value": 24.0,
+  "definition": "Median days from Applied to Stage changed across all clean hires."
+ },
+ {
+  "quote": "37.4%",
+  "value": 37.416777629826896,
+  "definition": "Clean LinkedIn rows divided by all clean rows, in percent."
+ },
+ {
+  "quote": "2.1%",
+  "value": 2.1352313167259784,
+  "definition": "Clean LinkedIn rows with Stage = Hired divided by all clean LinkedIn rows, in percent."
+ },
+ {
+  "quote": "2.3%",
+  "value": 2.2831050228310503,
+  "definition": "Clean Careers page rows with Stage = Hired divided by all clean Careers page rows, in percent."
+ },
+ {
+  "quote": "4.2%",
+  "value": 4.166666666666667,
+  "definition": "Clean Agency rows with Stage = Hired divided by all clean Agency rows, in percent."
+ },
+ {
+  "quote": "55.9%",
+  "value": 55.88235294117647,
+  "definition": "Clean Referral-source hires divided by all clean hires, in percent."
+ },
+ {
+  "quote": "50",
+  "value": 50,
+  "definition": "Clean Job board rows."
+ },
+ {
+  "quote": "16.0%",
+  "value": 16.0,
+  "definition": "Clean Job board rows with Stage = Withdrawn divided by all clean Job board rows, in percent."
+ },
+ {
+  "quote": "105",
+  "value": 105,
+  "definition": "Clean Referral-source rows."
+ },
+ {
+  "quote": "14.0%",
+  "value": 13.981358189081226,
+  "definition": "Clean Referral-source rows divided by all clean rows, in percent."
+ },
+ {
+  "quote": "19",
+  "value": 19,
+  "definition": "Clean Referral-source rows with Stage = Hired."
+ },
+ {
+  "quote": "7.8",
+  "value": 7.7930158730158725,
+  "definition": "Referral hire rate divided by the non-Referral hire rate (unrounded ratio)."
+ },
+ {
+  "quote": "24",
+  "value": 24.0,
+  "definition": "Median days from Applied to Stage changed for Referral-source hires."
+ },
+ {
+  "quote": "24",
+  "value": 24.0,
+  "definition": "Median days from Applied to Stage changed for non-Referral hires."
+ },
+ {
+  "quote": "23.8%",
+  "value": 23.80952380952381,
+  "definition": "Referral-source Data Analyst rows with Stage = Hired divided by all Referral-source Data Analyst rows, in percent."
+ },
+ {
+  "quote": "20.8%",
+  "value": 20.833333333333332,
+  "definition": "Referral-source Account Executive rows with Stage = Hired divided by all Referral-source Account Executive rows, in percent."
+ },
+ {
+  "quote": "8.0%",
+  "value": 8.0,
+  "definition": "Referral-source Backend Engineer rows with Stage = Hired divided by all Referral-source Backend Engineer rows, in percent."
+ },
+ {
+  "quote": "83",
+  "value": 83,
+  "definition": "Clean rows whose stage is Applied, Screen, Interview or Offer."
+ },
+ {
+  "quote": "2",
+  "value": 2.0,
+  "definition": "Median days from Stage changed to the export date (2026-10-18) for open clean rows."
+ },
+ {
+  "quote": "11",
+  "value": 11,
+  "definition": "Largest days from Stage changed to the export date across open clean rows."
+ },
+ {
+  "quote": "4.5",
+  "value": 4.5,
+  "definition": "Median days from Stage changed to the export date for clean Interview rows."
+ },
+ {
+  "quote": "70.8%",
+  "value": 70.83888149134488,
+  "definition": "Clean Rejected rows divided by all clean rows, in percent."
+ },
+ {
+  "quote": "6",
+  "value": 6.0,
+  "definition": "Median days from Applied to Stage changed for clean Rejected rows."
+ },
+ {
+  "quote": "62.0%",
+  "value": 62.03007518796993,
+  "definition": "Clean Rejected rows whose days from Applied to Stage changed are 7 or fewer, divided by all clean Rejected rows, in percent."
+ },
+ {
+  "quote": "92",
+  "value": 92,
+  "definition": "Clean Withdrawn rows without a declined offer."
+ },
+ {
+  "quote": "5",
+  "value": 5.0,
+  "definition": "Median days from Applied to Stage changed for Withdrawn rows without a declined offer."
+ },
+ {
+  "quote": "5.9%",
+  "value": 5.882352941176471,
+  "definition": "Clean rows applied in August with Stage = Hired, divided by all clean rows applied in August, in percent."
+ },
+ {
+  "quote": "5.5%",
+  "value": 5.514705882352941,
+  "definition": "Clean rows applied in September with Stage = Hired, divided by all clean rows applied in September, in percent."
+ },
+ {
+  "quote": "160",
+  "value": 160,
+  "definition": "Clean rows applied in October."
+ },
+ {
+  "quote": "46.3%",
+  "value": 46.25,
+  "definition": "Clean rows applied in October still open, divided by all clean rows applied in October, in percent."
+ }
+]

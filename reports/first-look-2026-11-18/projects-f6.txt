@@ -1,0 +1,74 @@
+Subject: Project portfolio budget review, week ending Oct 18, 2026
+
+To: COO
+From: Finance Business Partner
+
+SCOPE
+
+The export has 25 rows. I left out the Total row and two archived projects (Intranet refresh and Legacy CMS shutdown, both finished in the first half of the year), which leaves 22 live projects. All figures below use those rows, with Oct 18, 2026 as the as-of date.
+
+HEADLINE
+
+- Approved budget is $3,790,000 and spend to date is $2,934,920, or 77.4% consumed, leaving $855,080 unspent.
+- 3 projects have already spent more than their budget: Data warehouse, CRM migration and Billing revamp. Together they are $62,130 over, which is 6.8% of their combined budget.
+- 4 projects are past due and not complete: Data warehouse, CRM migration, Billing revamp and SSO rollout. That is 22.2% of the 18 projects still open.
+- All three overspent projects are also late, so every overrun is both a cost and a schedule problem.
+
+BY STATUS
+
+- Green: 13 projects, 68.5% of budget spent. None are over budget.
+- Amber: 6 projects, 75.8% of budget spent. One is over budget (Data warehouse), so the overspend rate within Amber is 16.7%.
+- Red: 3 projects, $718,950 spent against $700,000 (102.7%). Two of the three are over budget, a rate of 66.7%. The third, Field sales app, has used 95.4% of its budget with its due date of Nov 19 still ahead.
+
+BY PHASE
+
+- Test phase is the pressure point: 5 projects hold $1,270,000 of budget and have spent 97.0%. Three of the five are over budget, a 60.0% overrun rate, and the same three are past due.
+- Build phase: 11 projects, 61.6% of budget used, no overruns.
+- Launch phase: Two projects (Pricing page tests and SSO rollout) at 92.0% of budget. SSO rollout is $920 under budget but 18 days past due.
+- Done phase: Four projects finished at 87.4% of budget. All four finished on or before their due date.
+
+BY RISK RATING
+
+- Low-risk projects: 66.2% of budget used.
+- Medium-risk projects: 71.8% of budget used.
+- High-risk projects: 88.3% of budget used.
+- High-risk projects carry 43.3% of total budget and all three overspent projects. Among High-risk projects, 60.0% are over budget; among Low and Medium risk projects the rate is 0.0%.
+
+BY DEPARTMENT
+
+Departments ranked by share of budget spent:
+- Finance: 100.3% of budget.
+- Sales: 100.1% of budget.
+- Data: 97.9% of budget.
+- Lowest are Product at 58.3% and Marketing at 62.1%.
+- Finance and Sales are the only departments whose combined spend exceeds combined budget, by $850 and $550 respectively. 
+
+BY OWNER
+
+- Priya, Omar and Chris each own one overspent project. Omar's two projects (CRM migration, Field sales app) together are at 100.1%, and Chris's two (Billing revamp, Expense tool) at 100.3%.
+- Lena holds the largest budget at $610,000 across two projects, mostly the Warehouse robots pilot, and has used 57.8% of it.
+- Sam has the lowest burn at 55.2%, but that is partly because both of Sam's projects started in July or September.
+
+OVERRUNS IN DETAIL
+
+- Data warehouse (Priya, Data): $33,600 over, at 108.0% of budget.
+- Billing revamp (Chris, Finance): $18,400 over, at 108.0% of budget.
+- CRM migration (Omar, Sales): $10,130 over, at 103.9% of budget.
+- Median spend-to-budget ratio across the 22 projects is 75.5%, against a simple average of 76.5%. Among the 18 open projects it is 67.7%.
+
+LATE AND AT-RISK DELIVERY
+
+- The four late projects have spent $1,046,210 against $985,000 of budget, which is 106.2%.
+- Their overdue periods range from 16 days (Data warehouse and Billing revamp) to 19 days (CRM migration).
+- Another 5 open projects fall due within 30 days: Pricing page tests (Oct 21), Security audit (Oct 30), Staff training (Nov 4), Expense tool (Nov 6) and Customer research (Nov 13). Their combined spend is 74.7% of budget, and none is over budget, though Security audit and Expense tool are Amber.
+- Field sales app (Red, due Nov 19) and Website redesign (due Nov 20) are the next two dates.
+- Of the 9 non-Green projects, 4 are late.
+
+RECOMMENDATIONS
+
+- Ask Priya, Omar and Chris for a recovery plan and a re-forecast at completion for the three overspent projects before any further spend is released.
+- Treat SSO rollout as a delivery issue, not a cost issue, and get a new date from Kim.
+- Review the High-risk Warehouse robots pilot early, since it is the largest single budget and still in Build.
+- Ask Omar for a delivery confirmation on Field sales app, the Red project closest to its due date.
+
+Happy to walk through any of these tables.
