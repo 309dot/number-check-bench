@@ -23,6 +23,7 @@ All values in the files are made up. There are no real people, customers or comp
 | [`scores/`](scores) | The scores as JSON, including every wrong number that got through. |
 | [`results/`](results) | What the public API answered for each report on November 14, 2026, with every number it did not confirm. |
 | [`run.mjs`](run.mjs) | Sends the reports to a checker and tallies the verdicts. |
+| [`n8n/`](n8n) | An n8n workflow that checks an AI-written report against its spreadsheet before it is sent, and stops the run if a number differs. |
 
 Every writer could run code on the file and knew nothing about the checker. The requests were ordinary ones, such as a weekly update for a manager or highlights for a quarterly review.
 

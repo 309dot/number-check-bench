@@ -1,0 +1,213 @@
+{
+  "name": "Check AI report numbers before sending",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "a1f0c6e2-0001-4a5e-9a01-000000000001",
+      "name": "Run the example",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "a1f0c6e2-0002-4a5e-9a01-000000000002",
+              "name": "report",
+              "value": "Brightline Dental, weekly ads update\n\nFrom October 12 to October 18, 2026, Brightline Dental spent $2,687.63. From October 12 to October 18, Brightline Dental got 63 leads. From October 12 to October 18, Brightline Dental's cost per lead was $42.66. From October 5 to October 11, Brightline Dental's cost per lead was $38.10, so leads got more expensive.\n\nBy channel, from October 12 to October 18: Brightline Dental's Search ads brought in 36 leads, its Social ads brought in 19 leads, and its Display ads brought in 8 leads. Brightline Dental's Display cost per lead from October 12 to October 18 was $48.42.\n\nNext week we'll move $100 from Display to Search.",
+              "type": "string"
+            },
+            {
+              "id": "a1f0c6e2-0003-4a5e-9a01-000000000003",
+              "name": "file_url",
+              "value": "https://everynumber.app/samples/ads/ad-performance-2026-10-18.csv",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "a1f0c6e2-0004-4a5e-9a01-000000000004",
+      "name": "Report your AI wrote",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        220,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://everynumber.app/api/agents/check?src=n8n-template",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ text: $json.report, file_url: $json.file_url }) }}",
+        "options": {
+          "timeout": 120000
+        }
+      },
+      "id": "a1f0c6e2-0005-4a5e-9a01-000000000005",
+      "name": "Check every number",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        440,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "a1f0c6e2-0006-4a5e-9a01-000000000006",
+              "leftValue": "={{ $json.summary.differs }}",
+              "rightValue": 0,
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "a1f0c6e2-0007-4a5e-9a01-000000000007",
+      "name": "Any number differs?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        660,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "errorMessage": "={{ 'Hold this report: ' + $json.summary.differs + ' of ' + $json.summary.numbers + ' numbers differ from the file. ' + $json.numbers.filter(n => n.verdict === 'differs').map(n => n.text + ' (the file says ' + n.file_says.map(f => f.value).join(' or ') + ')').join('; ') + '. See every number marked: ' + $json.result_url }}"
+      },
+      "id": "a1f0c6e2-0008-4a5e-9a01-000000000008",
+      "name": "Hold the report",
+      "type": "n8n-nodes-base.stopAndError",
+      "typeVersion": 1,
+      "position": [
+        880,
+        -100
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "a1f0c6e2-0009-4a5e-9a01-000000000009",
+      "name": "Send the report",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        880,
+        100
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## Check the numbers before the report goes out\nYour AI writes a report from a spreadsheet. This step re-counts every number in it from the same file and stops the run if one differs.\n\n**Try it:** click *Execute workflow*. The example report has one wrong number on purpose.\n\n**Use it:** replace *Report your AI wrote* with your own steps, so the next node gets `report` (the text) and `file_url` (a link to the file: a Google Sheet shared as 'Anyone with the link', Dropbox, or a public GitHub file). Replace *Send the report* with Gmail, Slack or whatever sends it.\n\nNo account or key. 10 checks every 10 minutes and 40 a day from one place. The file isn't stored; the text and result are deleted after 24 hours. Details: https://everynumber.app/agents",
+        "height": 420,
+        "width": 420
+      },
+      "id": "a1f0c6e2-0010-4a5e-9a01-000000000010",
+      "name": "About this workflow",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -480,
+        -180
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## Make the report checkable\nThe checker reads a number when its sentence says what it counts and for which rows and dates.\n\nAdd this line to your AI step's prompt:\n\n*Write each number in a sentence that names who or what it covers and the dates, for example: \"From October 12 to October 18, Brightline Dental got 63 leads.\"*",
+        "height": 260,
+        "width": 340,
+        "color": 5
+      },
+      "id": "a1f0c6e2-0011-4a5e-9a01-000000000011",
+      "name": "Prompt tip",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        140,
+        180
+      ]
+    }
+  ],
+  "connections": {
+    "Run the example": {
+      "main": [
+        [
+          {
+            "node": "Report your AI wrote",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Report your AI wrote": {
+      "main": [
+        [
+          {
+            "node": "Check every number",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check every number": {
+      "main": [
+        [
+          {
+            "node": "Any number differs?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Any number differs?": {
+      "main": [
+        [
+          {
+            "node": "Hold the report",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Send the report",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "meta": {
+    "templateCredsSetupCompleted": true
+  }
+}
