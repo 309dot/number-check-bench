@@ -1,0 +1,58 @@
+Subject: Weekly signup and activation update, week ending October 18
+
+Summary
+- We received 321 signup rows. I excluded 4 internal test accounts (all on internal.test, all Team plan, all marked as finished setup), leaving 317 real signups.
+- 137 of them finished setup, an overall activation rate of 43.2%.
+- Paid plans (Starter and Team) activate far better than Free: 53.4% across 118 paid signups, versus 37.2% on Free.
+- I did not remove any rows as duplicates: every Signup ID is unique, and a few domains appear more than once on the same day with different IDs, which I read as separate people at one company.
+
+By plan
+- Free: 199 signups (62.8% of the total), 74 finished setup, activation rate 37.2%.
+- Starter: 84 signups (26.5% of the total), 40 finished setup, activation rate 47.6%.
+- Team: 34 signups (10.7% of the total), 23 finished setup, activation rate 67.6%.
+- Team is our strongest plan for activation, but it is small. Of the real Team signups, 9 came from paid search and 66.7% of those finished setup.
+
+By source
+- Organic search: 42.9% of signups activated.
+- Paid search: 46.9% of signups activated.
+- Direct: 43.3% of signups activated.
+- Referral: 43.4% of signups activated.
+- Partner: 32.0% of signups activated.
+- Paid search is not just buying free users: 61.7% of paid search signups chose Free, and those Free users from paid search activated at 42.0%, compared with 38.5% for Free users from organic search.
+- Partner is the weakest channel. Its Starter signups are only 5 rows, of which 40.0% finished setup, so that is too small to judge on its own.
+
+By country
+- US: 40.4% activated.
+- UK: 39.1% activated.
+- FR: 45.5% activated.
+- DE: 58.6% activated.
+- KR: 34.8% activated.
+- CA: 47.8% activated.
+- AU: 50.0% activated.
+- The US supplies 44.5% of signups but activates below the rest of the world: 45.5% outside the US versus the US figure above.
+- Within the US, paid-plan signups (50) activated at 54.0%.
+- Germany stands out: it has the best activation of any country in the list above. Korea is the weak spot, which I would check for an onboarding or language gap, though both countries are small groups.
+
+By weekday
+- Mon: 43.9% activated.
+- Tue: 41.8% activated.
+- Wed: 46.0% activated.
+- Thu: 44.0% activated.
+- Fri: 38.9% activated.
+- Sat: 39.1% activated.
+- Sun: 50.0% activated.
+- Weekdays brought 266 signups and weekends brought 51. Weekend signups activated at 45.1%, slightly above the weekday rate of 42.9%.
+- The weekend edge is not uniform. Free weekend signups activated at only 33.3%, against 37.8% on weekdays, while Starter weekend signups reached 60.0%.
+- First half of the week (Monday to Wednesday) had 162 signups at 43.8%; the second half (Thursday to Sunday) had 155 at 42.6%, so activation drifted down a little.
+
+Caveats
+- Activation here means the Finished setup flag in the export. It says nothing about whether an account kept using the product, so please read it as an early signal rather than retention.
+- Several segments, including Team signups by source, Partner Starter signups and weekend signups by plan, have only a handful of rows. Differences of a few points in those groups can easily be noise, and I would not change spend or staffing on any single one of them.
+- The week runs Monday through Sunday, so the weekend figures cover one Saturday and one Sunday only. I have no prior week in this export, so I cannot say whether any of these rates are rising or falling against last week.
+
+What I would do next
+- Protect the Team plan funnel: it activates well, so the priority is getting more Team signups, not changing its onboarding.
+- Look at the Free-plan setup flow, where the largest group of signups sits and the most people stall.
+- Review the Korea and Partner experience before the next report, and avoid reading too much into groups this small.
+- Ask marketing to compare cost per activated signup for paid search against organic search, since paid search activates a little better but we do not see its cost here.
+- Keep excluding internal test accounts automatically so the weekly numbers do not need manual cleaning.

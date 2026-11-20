@@ -1,0 +1,362 @@
+[
+  {
+    "quote": "1,382",
+    "value": 1382,
+    "definition": "rows with an order ID, including the footer row labeled Total"
+  },
+  {
+    "quote": "4",
+    "value": 4,
+    "definition": "orders flagged Test order = Yes"
+  },
+  {
+    "quote": "1,377",
+    "value": 1377,
+    "definition": "order rows kept: rows with an order ID minus the footer and the test orders"
+  },
+  {
+    "quote": "$136,305.15",
+    "value": 136305.15,
+    "definition": "sum of Order total over kept orders"
+  },
+  {
+    "quote": "$4.00",
+    "value": 4,
+    "definition": "sum of Order total over the test orders, which is the gap to the footer total"
+  },
+  {
+    "quote": "$4,039.29",
+    "value": 4039.29,
+    "definition": "sum of Refund amount over kept orders, equal to the footer refund total"
+  },
+  {
+    "quote": "$136,305.15",
+    "value": 136305.15,
+    "definition": "sum of Order total over kept orders"
+  },
+  {
+    "quote": "$98.99",
+    "value": 98.98703703703703,
+    "definition": "mean Order total over kept orders"
+  },
+  {
+    "quote": "$80.97",
+    "value": 80.97,
+    "definition": "median Order total over kept orders"
+  },
+  {
+    "quote": "80",
+    "value": 80,
+    "definition": "kept orders with Status Refunded or Cancelled"
+  },
+  {
+    "quote": "5.8%",
+    "value": 5.809731299927378,
+    "definition": "refund-or-cancel orders divided by kept orders, percent"
+  },
+  {
+    "quote": "3.3%",
+    "value": 3.2679738562091507,
+    "definition": "Refunded orders divided by kept orders, percent"
+  },
+  {
+    "quote": "2.5%",
+    "value": 2.541757443718228,
+    "definition": "Cancelled orders divided by kept orders, percent"
+  },
+  {
+    "quote": "$4,039.29",
+    "value": 4039.29,
+    "definition": "sum of Refund amount over kept orders"
+  },
+  {
+    "quote": "3.0%",
+    "value": 2.9634170095553984,
+    "definition": "refund dollars divided by order value, percent"
+  },
+  {
+    "quote": "$4,348.23",
+    "value": 4348.23,
+    "definition": "sum of Order total over Cancelled orders"
+  },
+  {
+    "quote": "844",
+    "value": 844,
+    "definition": "kept orders with Channel = Web"
+  },
+  {
+    "quote": "61.3%",
+    "value": 61.29266521423384,
+    "definition": "Web orders divided by kept orders, percent"
+  },
+  {
+    "quote": "4.9%",
+    "value": 4.857819905213271,
+    "definition": "Web refund-or-cancel orders divided by Web orders, percent"
+  },
+  {
+    "quote": "7.6%",
+    "value": 7.6190476190476195,
+    "definition": "Marketplace refund-or-cancel orders divided by Marketplace orders, percent"
+  },
+  {
+    "quote": "49.7%",
+    "value": 49.6661542003669,
+    "definition": "Marketplace refund dollars divided by all refund dollars, percent"
+  },
+  {
+    "quote": "$82.30",
+    "value": 82.29935714285715,
+    "definition": "mean Order total over Marketplace orders"
+  },
+  {
+    "quote": "$305.93",
+    "value": 305.92893805309734,
+    "definition": "mean Order total over Wholesale orders"
+  },
+  {
+    "quote": "6.2%",
+    "value": 6.1946902654867255,
+    "definition": "Wholesale refund-or-cancel orders divided by Wholesale orders, percent"
+  },
+  {
+    "quote": "5",
+    "value": 5,
+    "definition": "Cancelled orders in the Wholesale channel"
+  },
+  {
+    "quote": "7.5%",
+    "value": 7.457627118644068,
+    "definition": "West refund-or-cancel orders divided by West orders, percent"
+  },
+  {
+    "quote": "6.2%",
+    "value": 6.2015503875969,
+    "definition": "East refund-or-cancel orders divided by East orders, percent"
+  },
+  {
+    "quote": "33.9%",
+    "value": 33.875755392655634,
+    "definition": "East refund dollars divided by all refund dollars, percent"
+  },
+  {
+    "quote": "5.4%",
+    "value": 5.35279805352798,
+    "definition": "North refund-or-cancel orders divided by North orders, percent"
+  },
+  {
+    "quote": "$101.52",
+    "value": 101.52155717761558,
+    "definition": "mean Order total over North orders"
+  },
+  {
+    "quote": "4.2%",
+    "value": 4.225352112676056,
+    "definition": "South refund-or-cancel orders divided by South orders, percent"
+  },
+  {
+    "quote": "$106.54",
+    "value": 106.54137323943662,
+    "definition": "mean Order total over South orders"
+  },
+  {
+    "quote": "5.6%",
+    "value": 5.612244897959184,
+    "definition": "New-customer refund-or-cancel orders divided by New-customer orders, percent"
+  },
+  {
+    "quote": "588",
+    "value": 588,
+    "definition": "kept orders with Customer type = New"
+  },
+  {
+    "quote": "6.0%",
+    "value": 5.9569074778200255,
+    "definition": "Returning refund-or-cancel orders divided by Returning orders, percent"
+  },
+  {
+    "quote": "789",
+    "value": 789,
+    "definition": "kept orders with Customer type = Returning"
+  },
+  {
+    "quote": "58.9%",
+    "value": 58.86257238277024,
+    "definition": "Returning refund dollars divided by all refund dollars, percent"
+  },
+  {
+    "quote": "8.5%",
+    "value": 8.51063829787234,
+    "definition": "refund-or-cancel orders divided by kept orders dated October 1 to 4, percent"
+  },
+  {
+    "quote": "$1,969.10",
+    "value": 1969.1,
+    "definition": "sum of Refund amount over orders dated October 1 to 4"
+  },
+  {
+    "quote": "6.4%",
+    "value": 6.44449717310729,
+    "definition": "refund dollars divided by order value for orders dated October 1 to 4, percent"
+  },
+  {
+    "quote": "6.3%",
+    "value": 6.33147113594041,
+    "definition": "refund-or-cancel orders divided by kept orders dated October 5 to 11, percent"
+  },
+  {
+    "quote": "2.8%",
+    "value": 2.7911780718104326,
+    "definition": "refund dollars divided by order value for orders dated October 5 to 11, percent"
+  },
+  {
+    "quote": "3.5%",
+    "value": 3.522504892367906,
+    "definition": "refund-or-cancel orders divided by kept orders dated October 12 to 18, percent"
+  },
+  {
+    "quote": "1.1%",
+    "value": 1.1068624401264766,
+    "definition": "refund dollars divided by order value for orders dated October 12 to 18, percent"
+  },
+  {
+    "quote": "511",
+    "value": 511,
+    "definition": "kept orders dated October 12 to 18"
+  },
+  {
+    "quote": "7.2%",
+    "value": 7.159353348729793,
+    "definition": "refund-or-cancel orders divided by kept orders dated October 1 to 11, percent"
+  },
+  {
+    "quote": "3.5%",
+    "value": 3.522504892367906,
+    "definition": "repeat: event rate for October 12 to 18, percent"
+  },
+  {
+    "quote": "October 3",
+    "value": 3,
+    "definition": "calendar day of the spike, the day with the most refund dollars"
+  },
+  {
+    "quote": "103",
+    "value": 103,
+    "definition": "kept orders dated October 3"
+  },
+  {
+    "quote": "14.8%",
+    "value": 14.83398526532402,
+    "definition": "refund dollars divided by order value for orders dated October 3, percent"
+  },
+  {
+    "quote": "$1,366.75",
+    "value": 1366.75,
+    "definition": "sum of Refund amount over orders dated October 3"
+  },
+  {
+    "quote": "33.8%",
+    "value": 33.836392039195005,
+    "definition": "October 3 refund dollars divided by all refund dollars, percent"
+  },
+  {
+    "quote": "$494.70",
+    "value": 494.7,
+    "definition": "largest single Refund amount, from one wholesale order dated October 3"
+  },
+  {
+    "quote": "12.2%",
+    "value": 12.247201859732774,
+    "definition": "largest single refund divided by all refund dollars, percent"
+  },
+  {
+    "quote": "$872.05",
+    "value": 872.05,
+    "definition": "October 3 refund dollars minus the largest single refund"
+  },
+  {
+    "quote": "8.4%",
+    "value": 8.372093023255815,
+    "definition": "Web refund-or-cancel rate for orders dated October 1 to 4, percent"
+  },
+  {
+    "quote": "2.2%",
+    "value": 2.2222222222222223,
+    "definition": "Web refund-or-cancel rate for orders dated October 12 to 18, percent"
+  },
+  {
+    "quote": "8.7%",
+    "value": 8.670520231213873,
+    "definition": "Marketplace refund-or-cancel rate for orders dated October 5 to 11, percent"
+  },
+  {
+    "quote": "5.9%",
+    "value": 5.88235294117647,
+    "definition": "Marketplace refund-or-cancel rate for orders dated October 12 to 18, percent"
+  },
+  {
+    "quote": "8.8%",
+    "value": 8.771929824561402,
+    "definition": "refund-or-cancel rate for New customers in Marketplace, percent"
+  },
+  {
+    "quote": "15",
+    "value": 15,
+    "definition": "refund-or-cancel orders for New customers in Marketplace"
+  },
+  {
+    "quote": "171",
+    "value": 171,
+    "definition": "orders for New customers in Marketplace"
+  },
+  {
+    "quote": "3.8%",
+    "value": 3.825136612021858,
+    "definition": "refund-or-cancel rate for New customers in Web, percent"
+  },
+  {
+    "quote": "6.8%",
+    "value": 6.827309236947792,
+    "definition": "refund-or-cancel rate for Returning customers in Marketplace, percent"
+  },
+  {
+    "quote": "9.0%",
+    "value": 8.96551724137931,
+    "definition": "refund-or-cancel rate for North Marketplace orders, percent"
+  },
+  {
+    "quote": "3.1%",
+    "value": 3.0837004405286343,
+    "definition": "refund-or-cancel rate for North Web orders, percent"
+  },
+  {
+    "quote": "$200",
+    "value": 200,
+    "definition": "lower threshold of the large-order band, $200"
+  },
+  {
+    "quote": "7.1%",
+    "value": 7.0588235294117645,
+    "definition": "refund-or-cancel rate for orders with Order total of $200 or more, percent"
+  },
+  {
+    "quote": "$50",
+    "value": 50,
+    "definition": "threshold, $50"
+  },
+  {
+    "quote": "6.5%",
+    "value": 6.486486486486487,
+    "definition": "refund-or-cancel rate for orders with Order total under $50, percent"
+  },
+  {
+    "quote": "$79.51",
+    "value": 79.51,
+    "definition": "median Order total over Refunded orders"
+  },
+  {
+    "quote": "$81.30",
+    "value": 81.3,
+    "definition": "median Order total over paid orders"
+  }
+]

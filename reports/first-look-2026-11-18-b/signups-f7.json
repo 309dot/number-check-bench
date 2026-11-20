@@ -1,0 +1,307 @@
+[
+ {
+  "quote": "321",
+  "value": 321,
+  "definition": "All rows in the export."
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Rows with Test account = Yes (all on internal.test)."
+ },
+ {
+  "quote": "317",
+  "value": 317,
+  "definition": "Rows remaining after removing test accounts."
+ },
+ {
+  "quote": "137",
+  "value": 137,
+  "definition": "Real signups with Finished setup = Yes."
+ },
+ {
+  "quote": "43.2%",
+  "value": 43.217665615141954,
+  "definition": "Finished setup = Yes divided by all real signups."
+ },
+ {
+  "quote": "53.4%",
+  "value": 53.389830508474574,
+  "definition": "Activation rate among Starter and Team signups."
+ },
+ {
+  "quote": "118",
+  "value": 118,
+  "definition": "Starter plus Team real signups."
+ },
+ {
+  "quote": "37.2%",
+  "value": 37.185929648241206,
+  "definition": "Activation rate among Free signups."
+ },
+ {
+  "quote": "62.8%",
+  "value": 62.77602523659306,
+  "definition": "Free signups divided by all real signups."
+ },
+ {
+  "quote": "199",
+  "value": 199,
+  "definition": "Real signups on the Free plan."
+ },
+ {
+  "quote": "74",
+  "value": 74,
+  "definition": "Free signups with Finished setup = Yes."
+ },
+ {
+  "quote": "37.2%",
+  "value": 37.185929648241206,
+  "definition": "Finished setup rate among Free signups."
+ },
+ {
+  "quote": "26.5%",
+  "value": 26.498422712933753,
+  "definition": "Starter signups divided by all real signups."
+ },
+ {
+  "quote": "84",
+  "value": 84,
+  "definition": "Real signups on the Starter plan."
+ },
+ {
+  "quote": "40",
+  "value": 40,
+  "definition": "Starter signups with Finished setup = Yes."
+ },
+ {
+  "quote": "47.6%",
+  "value": 47.61904761904762,
+  "definition": "Finished setup rate among Starter signups."
+ },
+ {
+  "quote": "10.7%",
+  "value": 10.725552050473187,
+  "definition": "Team signups divided by all real signups."
+ },
+ {
+  "quote": "34",
+  "value": 34,
+  "definition": "Real signups on the Team plan."
+ },
+ {
+  "quote": "23",
+  "value": 23,
+  "definition": "Team signups with Finished setup = Yes."
+ },
+ {
+  "quote": "67.6%",
+  "value": 67.6470588235294,
+  "definition": "Finished setup rate among Team signups."
+ },
+ {
+  "quote": "9",
+  "value": 9,
+  "definition": "Team signups from Paid search."
+ },
+ {
+  "quote": "66.7%",
+  "value": 66.66666666666667,
+  "definition": "Activation rate among Team signups from Paid search."
+ },
+ {
+  "quote": "42.9%",
+  "value": 42.857142857142854,
+  "definition": "Activation rate among Organic search signups."
+ },
+ {
+  "quote": "46.9%",
+  "value": 46.91358024691358,
+  "definition": "Activation rate among Paid search signups."
+ },
+ {
+  "quote": "43.3%",
+  "value": 43.333333333333336,
+  "definition": "Activation rate among Direct signups."
+ },
+ {
+  "quote": "43.4%",
+  "value": 43.39622641509434,
+  "definition": "Activation rate among Referral signups."
+ },
+ {
+  "quote": "32.0%",
+  "value": 32.0,
+  "definition": "Activation rate among Partner signups."
+ },
+ {
+  "quote": "61.7%",
+  "value": 61.72839506172839,
+  "definition": "Free signups divided by all Paid search signups."
+ },
+ {
+  "quote": "42.0%",
+  "value": 42.0,
+  "definition": "Activation among Free signups from Paid search."
+ },
+ {
+  "quote": "38.5%",
+  "value": 38.46153846153846,
+  "definition": "Activation among Free signups from Organic search."
+ },
+ {
+  "quote": "5",
+  "value": 5,
+  "definition": "Starter signups from Partner."
+ },
+ {
+  "quote": "40.0%",
+  "value": 40.0,
+  "definition": "Activation among Partner Starter signups."
+ },
+ {
+  "quote": "40.4%",
+  "value": 40.42553191489362,
+  "definition": "Activation rate in US."
+ },
+ {
+  "quote": "39.1%",
+  "value": 39.130434782608695,
+  "definition": "Activation rate in UK."
+ },
+ {
+  "quote": "45.5%",
+  "value": 45.45454545454545,
+  "definition": "Activation rate in FR."
+ },
+ {
+  "quote": "58.6%",
+  "value": 58.62068965517241,
+  "definition": "Activation rate in DE."
+ },
+ {
+  "quote": "34.8%",
+  "value": 34.78260869565217,
+  "definition": "Activation rate in KR."
+ },
+ {
+  "quote": "47.8%",
+  "value": 47.82608695652174,
+  "definition": "Activation rate in CA."
+ },
+ {
+  "quote": "50.0%",
+  "value": 50.0,
+  "definition": "Activation rate in AU."
+ },
+ {
+  "quote": "44.5%",
+  "value": 44.4794952681388,
+  "definition": "US signups divided by all real signups."
+ },
+ {
+  "quote": "45.5%",
+  "value": 45.45454545454545,
+  "definition": "Activation rate across all non-US signups."
+ },
+ {
+  "quote": "50",
+  "value": 50,
+  "definition": "US signups on Starter or Team."
+ },
+ {
+  "quote": "54.0%",
+  "value": 54.0,
+  "definition": "Activation among US Starter and Team signups."
+ },
+ {
+  "quote": "43.9%",
+  "value": 43.85964912280702,
+  "definition": "Activation rate for Mon signups."
+ },
+ {
+  "quote": "41.8%",
+  "value": 41.81818181818182,
+  "definition": "Activation rate for Tue signups."
+ },
+ {
+  "quote": "46.0%",
+  "value": 46.0,
+  "definition": "Activation rate for Wed signups."
+ },
+ {
+  "quote": "44.0%",
+  "value": 44.0,
+  "definition": "Activation rate for Thu signups."
+ },
+ {
+  "quote": "38.9%",
+  "value": 38.888888888888886,
+  "definition": "Activation rate for Fri signups."
+ },
+ {
+  "quote": "39.1%",
+  "value": 39.130434782608695,
+  "definition": "Activation rate for Sat signups."
+ },
+ {
+  "quote": "50.0%",
+  "value": 50.0,
+  "definition": "Activation rate for Sun signups."
+ },
+ {
+  "quote": "266",
+  "value": 266,
+  "definition": "Signups created Monday to Friday."
+ },
+ {
+  "quote": "51",
+  "value": 51,
+  "definition": "Signups created Saturday or Sunday."
+ },
+ {
+  "quote": "45.1%",
+  "value": 45.09803921568628,
+  "definition": "Activation among weekend signups."
+ },
+ {
+  "quote": "42.9%",
+  "value": 42.857142857142854,
+  "definition": "Activation among weekday signups."
+ },
+ {
+  "quote": "33.3%",
+  "value": 33.333333333333336,
+  "definition": "Activation among Free signups on Sat/Sun."
+ },
+ {
+  "quote": "37.8%",
+  "value": 37.7906976744186,
+  "definition": "Activation among Free signups Mon-Fri."
+ },
+ {
+  "quote": "60.0%",
+  "value": 60.0,
+  "definition": "Activation among Starter signups on Sat/Sun."
+ },
+ {
+  "quote": "162",
+  "value": 162,
+  "definition": "Signups created October 12 to 14."
+ },
+ {
+  "quote": "43.8%",
+  "value": 43.82716049382716,
+  "definition": "Activation for signups created October 12 to 14."
+ },
+ {
+  "quote": "155",
+  "value": 155,
+  "definition": "Signups created October 15 to 18."
+ },
+ {
+  "quote": "42.6%",
+  "value": 42.58064516129032,
+  "definition": "Activation for signups created October 15 to 18."
+ }
+]

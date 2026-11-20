@@ -1,0 +1,61 @@
+Subject: October refund and cancellation review, month to date
+To: Operations Director
+From: Customer Service Manager
+
+## Scope
+The export has 1,382 rows with an order ID, counting a footer row labeled Total, which I left out. I also removed 4 test orders, leaving 1,377 orders. After removing test orders, the order totals sum to $136,305.15. The footer total is higher by $4.00, the value of the test orders. The refund column sums to $4,039.29, which matches the footer. Duplicate order IDs and duplicate rows with the same content did not occur. Weeks are defined by calendar day within the month, since the export has no week column.
+
+## Headline
+- Kept orders carry $136,305.15 in order value. The average order is $98.99 and the median is $80.97.
+- 80 orders ended in a refund or cancellation, an event rate of 5.8%. 3.3% were refunded and 2.5% were cancelled.
+- Refunds returned $4,039.29, or 3.0% of order value. Cancelled orders hold $4,348.23 with no refund amount recorded, so that amount needs a separate check.
+
+## By channel
+- Web: 844 orders, 61.3% of the total, with an event rate of 4.9%.
+- Marketplace: event rate 7.6%, the highest of the three channels. It holds 49.7% of refund dollars, and its average order is $82.30.
+- Wholesale: average order $305.93, event rate 6.2%, with 5 cancellations.
+Marketplace is where refunds concentrate. Wholesale orders are few but large, so a single cancellation there moves the dollar figures much more than a Web order does.
+
+## By region
+- West has the highest event rate at 7.5%.
+- East has an event rate of 6.2%, and 33.9% of refund dollars.
+- North runs at 5.4% with an average order of $101.52. South is lowest at 4.2% and has the highest average order, $106.54.
+
+## By customer type
+- New customers: event rate 5.6% across 588 orders.
+- Returning customers: event rate 6.0% across 789 orders, and 58.9% of refund dollars.
+Returning customers account for most refund dollars mainly because they place most orders. Their rate is only a little higher than the new-customer rate.
+
+## By week
+I split the month into the opening four days, days five to eleven, and days twelve to eighteen. The opening stretch is short, so read its rates with care.
+- Opening four days: event rate 8.5%, refunds $1,969.10, which is 6.4% of that stretch's value.
+- Days five to eleven: event rate 6.3%, refunds at 2.8% of value.
+- Days twelve to eighteen: event rate 3.5%, refunds at 1.1% of value across 511 orders.
+- Across the first eleven days the event rate is 7.2%, against 3.5% for the last seven days.
+The drop is real in the data, but part of it may be timing, since the last week has had less time for refunds and cancellations to land.
+
+## Spike and concentration
+- The spike day is October 3. It has 103 orders, and 14.8% of that day's value was refunded. Those refunds total $1,366.75, or 33.8% of the month's refunds.
+- A single wholesale refund of $494.70 is 12.2% of all refund dollars. Without it, that day's refunds would be $872.05.
+The rest of that day's refunds are spread across every channel, so the spike is not one channel's problem.
+
+## Channel by week
+- Web falls from 8.4% in the opening four days to 2.2% in the last seven.
+- Marketplace peaks at 8.7% in days five to eleven and is 5.9% in the last seven.
+Marketplace stayed the highest of the three channels in the last seven days, so it is the one to watch.
+
+## Combinations
+- New Marketplace customers have the highest event rate of any customer-channel group, at 8.8% (15 of 171). New Web customers sit at 3.8%, and returning Marketplace customers at 6.8%.
+- In the North, Marketplace runs at 9.0% against 3.1% for Web.
+- Orders of $200 or more run at 7.1%, and small orders under $50 at 6.5%. Order size alone does not separate the problem orders.
+- Median order value is $79.51 for refunded orders and $81.30 for paid orders, so refunds are not mainly the big tickets.
+The cancelled average is higher mainly because the wholesale cancellations sit in that group. The median stays close to a typical order.
+
+## What I suggest
+- Review new Marketplace orders and the North Marketplace group first, since they carry the highest rates.
+- Check the spike day's refunds for a shared cause before the next wholesale batch ships.
+- Ask finance how the cancelled value was settled, and ask the platform team for reason codes and customer IDs. The export has neither, so repeat refunds cannot be told apart from isolated ones.
+- Re-run this review on the full month once the last week closes, and compare the same channel groups.
+
+## Limits
+The opening four days are a partial stretch, and cancellations have no refund amount in the export. Event rates count orders, while dollar shares come from the refund column.

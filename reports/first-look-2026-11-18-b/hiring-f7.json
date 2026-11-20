@@ -1,0 +1,342 @@
+[
+ {
+  "quote": "768",
+  "value": 768,
+  "definition": "All data rows in the export"
+ },
+ {
+  "quote": "17",
+  "value": 17,
+  "definition": "Rows with Duplicate = Yes"
+ },
+ {
+  "quote": "751",
+  "value": 751,
+  "definition": "Rows not flagged as duplicates"
+ },
+ {
+  "quote": "47",
+  "value": 47,
+  "definition": "Unique rows with Applied month 2026-07"
+ },
+ {
+  "quote": "272",
+  "value": 272,
+  "definition": "Unique rows applied 2026-08"
+ },
+ {
+  "quote": "272",
+  "value": 272,
+  "definition": "Unique rows applied 2026-09"
+ },
+ {
+  "quote": "160",
+  "value": 160,
+  "definition": "Unique rows applied 2026-10 (through the export date)"
+ },
+ {
+  "quote": "37.4%",
+  "value": 0.374167776298269,
+  "definition": "LinkedIn rows / unique rows"
+ },
+ {
+  "quote": "532",
+  "value": 532,
+  "definition": "Unique rows with Stage Rejected"
+ },
+ {
+  "quote": "102",
+  "value": 102,
+  "definition": "Unique rows with Stage Withdrawn"
+ },
+ {
+  "quote": "34",
+  "value": 34,
+  "definition": "Unique rows with Stage Hired"
+ },
+ {
+  "quote": "83",
+  "value": 83,
+  "definition": "Unique rows with Stage Applied, Screen, Interview or Offer"
+ },
+ {
+  "quote": "4.5%",
+  "value": 0.045272969374167776,
+  "definition": "Hired / all unique rows"
+ },
+ {
+  "quote": "5.1%",
+  "value": 0.05089820359281437,
+  "definition": "Hired / unique rows no longer in process (Rejected, Withdrawn, Hired)"
+ },
+ {
+  "quote": "668",
+  "value": 668,
+  "definition": "Unique rows with Stage Rejected, Withdrawn or Hired"
+ },
+ {
+  "quote": "160",
+  "value": 160,
+  "definition": "Unique rows applied 2026-10"
+ },
+ {
+  "quote": "32",
+  "value": 32,
+  "definition": "October-applied rows at Stage Applied"
+ },
+ {
+  "quote": "20.0%",
+  "value": 0.2,
+  "definition": "October-applied rows at Applied / October-applied rows"
+ },
+ {
+  "quote": "68",
+  "value": 68,
+  "definition": "Rows at Interview, Offer, Hired plus offers declined (Withdrawn with Offer accepted = No)"
+ },
+ {
+  "quote": "48",
+  "value": 48,
+  "definition": "Hired + offers declined + Stage Offer"
+ },
+ {
+  "quote": "34",
+  "value": 34,
+  "definition": "Hired"
+ },
+ {
+  "quote": "10",
+  "value": 10,
+  "definition": "Offer accepted = No"
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Stage Offer"
+ },
+ {
+  "quote": "70.8%",
+  "value": 0.7083333333333334,
+  "definition": "Hired / offers extended"
+ },
+ {
+  "quote": "77.3%",
+  "value": 0.7727272727272727,
+  "definition": "Hired / (Hired + declined offers)"
+ },
+ {
+  "quote": "44",
+  "value": 44,
+  "definition": "Hired + declined offers"
+ },
+ {
+  "quote": "34",
+  "value": 34,
+  "definition": "Hired"
+ },
+ {
+  "quote": "10",
+  "value": 10,
+  "definition": "Declined"
+ },
+ {
+  "quote": "100.0%",
+  "value": 1.0,
+  "definition": "Operations hired / decided offers"
+ },
+ {
+  "quote": "100.0%",
+  "value": 1.0,
+  "definition": "Design hired / decided offers"
+ },
+ {
+  "quote": "77.8%",
+  "value": 0.7777777777777778,
+  "definition": "Support hired / decided offers"
+ },
+ {
+  "quote": "63.6%",
+  "value": 0.6363636363636364,
+  "definition": "Sales hired / decided offers"
+ },
+ {
+  "quote": "60.0%",
+  "value": 0.6,
+  "definition": "Engineering hired / decided offers"
+ },
+ {
+  "quote": "70.4%",
+  "value": 0.7037037037037037,
+  "definition": "Referral hired / decided offers"
+ },
+ {
+  "quote": "88.2%",
+  "value": 0.8823529411764706,
+  "definition": "Non-referral hired / decided offers"
+ },
+ {
+  "quote": "19",
+  "value": 19,
+  "definition": "Referral hired"
+ },
+ {
+  "quote": "34",
+  "value": 34,
+  "definition": "Hired"
+ },
+ {
+  "quote": "55.9%",
+  "value": 0.5588235294117647,
+  "definition": "Referral hired / all hired"
+ },
+ {
+  "quote": "18.1%",
+  "value": 0.18095238095238095,
+  "definition": "Referral hired / Referral rows"
+ },
+ {
+  "quote": "2.3%",
+  "value": 0.02321981424148607,
+  "definition": "Non-referral hired / non-referral rows"
+ },
+ {
+  "quote": "4.2%",
+  "value": 0.041666666666666664,
+  "definition": "Agency hired / Agency rows"
+ },
+ {
+  "quote": "2.3%",
+  "value": 0.0228310502283105,
+  "definition": "Careers page hired / rows"
+ },
+ {
+  "quote": "2.1%",
+  "value": 0.021352313167259787,
+  "definition": "LinkedIn hired / rows"
+ },
+ {
+  "quote": "0",
+  "value": 0,
+  "definition": "Job board hired"
+ },
+ {
+  "quote": "50",
+  "value": 50,
+  "definition": "Job board rows"
+ },
+ {
+  "quote": "8.0%",
+  "value": 0.08,
+  "definition": "Hired / rows where Department Engineering and Source Referral"
+ },
+ {
+  "quote": "2.3%",
+  "value": 0.023255813953488372,
+  "definition": "Hired / rows where Department Engineering and Source not Referral"
+ },
+ {
+  "quote": "34",
+  "value": 34,
+  "definition": "Hired"
+ },
+ {
+  "quote": "24",
+  "value": 24.0,
+  "definition": "Median days Applied to Stage changed, Hired rows"
+ },
+ {
+  "quote": "24.4",
+  "value": 24.352941176470587,
+  "definition": "Mean days Applied to Stage changed, Hired rows"
+ },
+ {
+  "quote": "16",
+  "value": 16,
+  "definition": "Minimum days to hire"
+ },
+ {
+  "quote": "31",
+  "value": 31,
+  "definition": "Maximum days to hire"
+ },
+ {
+  "quote": "21.5",
+  "value": 21.5,
+  "definition": "Median days to hire, Design"
+ },
+ {
+  "quote": "22.5",
+  "value": 22.5,
+  "definition": "Median days to hire, Operations"
+ },
+ {
+  "quote": "25",
+  "value": 25.0,
+  "definition": "Median days to hire, Engineering"
+ },
+ {
+  "quote": "27",
+  "value": 27,
+  "definition": "Median days to hire, Sales"
+ },
+ {
+  "quote": "27",
+  "value": 27,
+  "definition": "Median days to hire, Support"
+ },
+ {
+  "quote": "24",
+  "value": 24,
+  "definition": "Median days to hire, Referral"
+ },
+ {
+  "quote": "24",
+  "value": 24,
+  "definition": "Median days to hire, Careers page"
+ },
+ {
+  "quote": "25",
+  "value": 25.0,
+  "definition": "Median days to hire, Agency"
+ },
+ {
+  "quote": "26",
+  "value": 26.0,
+  "definition": "Median days to hire, LinkedIn"
+ },
+ {
+  "quote": "27",
+  "value": 27.0,
+  "definition": "Median days to hire, applied 2026-08"
+ },
+ {
+  "quote": "23",
+  "value": 23,
+  "definition": "Median days to hire, applied 2026-09"
+ },
+ {
+  "quote": "4",
+  "value": 4,
+  "definition": "Stage Offer"
+ },
+ {
+  "quote": "15.2%",
+  "value": 0.15228426395939088,
+  "definition": "Withdrawn / rows, Engineering"
+ },
+ {
+  "quote": "11.1%",
+  "value": 0.1111111111111111,
+  "definition": "Withdrawn / rows, Design"
+ },
+ {
+  "quote": "77.1%",
+  "value": 0.7708333333333334,
+  "definition": "Rejected / rows, Agency"
+ },
+ {
+  "quote": "52.4%",
+  "value": 0.5238095238095238,
+  "definition": "Rejected / rows, Referral"
+ }
+]

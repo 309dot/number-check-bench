@@ -1,0 +1,54 @@
+Monthly Recruiting Report: Pipeline, Conversion, Offers and Time to Hire
+
+To: Leadership team
+From: HR Business Partner
+
+Scope and data notes
+- The export holds 768 candidate rows. I excluded 17 rows flagged as duplicates, leaving 751 unique candidates; every figure below uses those rows. No test or spam rows were visible.
+- The export records only each candidate's current stage, not stage-by-stage history. Pass-through rates are therefore built from final outcomes and offer data, and anything about earlier stages is a lower bound.
+- Time to hire is days from application date to the date of the stage change for candidates now marked Hired.
+
+Pipeline volume
+- Applications by month: 47 in July (the export starts late in the month), 272 in August, 272 in September, and 160 so far in October, counted up to the export date.
+- Engineering is the largest department by applications and Design the smallest. LinkedIn is by far the biggest source, bringing in 37.4% of applicants, followed by the Careers page; Job board is the smallest channel and Referral the third largest.
+
+Where candidates stand
+- Rejected: 532. Withdrawn: 102. Hired: 34.
+- Still in process: 83 candidates, spread across Applied, Screen, Interview and Offer, with the largest group still waiting at Applied.
+- Hire rate: 4.5% of all unique candidates, or 5.1% of the 668 candidates whose process has closed.
+- October is mostly still open: of the 160 October applicants, 32 (20.0%) have not moved past Applied, and none has been hired yet.
+
+Pass-through
+- Known to have reached interview or later: at least 68 candidates, a lower bound because rejected candidates' last stage is not kept.
+- Offers extended: 48. Of these, 34 accepted, 10 declined and 4 are pending.
+- Offer to hire: 70.8% of all offers extended have turned into hires so far.
+
+Offer acceptance
+- Overall: 77.3% acceptance across 44 decided offers (34 accepted, 10 declined).
+- By department: Operations 100.0% and Design 100.0% accepted every decided offer. Support was 77.8%, Sales 63.6% and Engineering 60.0%.
+- By source: referral offers were accepted 70.4% of the time, while every other source together reached 88.2%. Referral accounts for most of the declines, so we get more offers from referrals but lose more of them.
+
+Hiring yield by source
+- Referral produced 19 of the 34 hires (55.9%) from a small slice of applicants. Its hire rate is 18.1%.
+- All other sources combined hired at a 2.3% hire rate.
+- Agency 4.2%, Careers page 2.3%, LinkedIn 2.1%. Job board produced 0 hires from 50 candidates.
+- Within Engineering, referral candidates were hired at 8.0% versus 2.3% for other Engineering sources.
+
+Time to hire
+- Across 34 hires the median is 24 days and the mean 24.4 days, with a range of 16 to 31 days.
+- Median by department: Design 21.5, Operations 22.5, Engineering 25, Sales 27, Support 27. Design is the fastest team and Sales and Support the slowest.
+- Median by source: Referral 24, Careers page 24, Agency 25, LinkedIn 26. Source makes little difference to speed; department matters more.
+- Candidates who applied in August were hired in a median of 27 days, against 23 days for September applicants.
+
+Watch items
+- 4 offers are pending, all for candidates who applied in September; closing them would lift the hire total.
+- Withdrawals are highest in Engineering at 15.2% of its applicants, against 11.1% in Design.
+- Agency rejections are 77.1% of agency candidates, against 52.4% for referrals, so agency spend deserves a review.
+
+Takeaways and next steps
+- Referrals are our best channel on both volume of hires and yield, but they also carry the most declined offers. I suggest recruiters confirm compensation expectations and start dates with referred candidates before the offer stage, and that we look at what the declined referral offers have in common.
+- Engineering and Sales have the weakest acceptance among the departments with enough offers to judge. Both are worth a closer look at offer competitiveness and at how quickly offers follow the final interview.
+- Operations and Design close quickly and accept reliably, so they are a useful reference for how a smooth process looks. Their volumes are small, so I would treat the gap as a signal rather than a conclusion.
+- Time to hire is steady across sources. Shortening the process is a matter of scheduling and decision speed inside Sales and Support, not of changing where candidates come from.
+- Job board has produced no hires at all this period. Unless a role-specific reason emerges, I recommend pausing spend there and moving the budget toward the referral program.
+- Because the export keeps only the current stage, I cannot report true stage-to-stage pass-through. I am asking the recruiting systems team to add a stage history field so the next report can show screen, interview and offer conversion directly.

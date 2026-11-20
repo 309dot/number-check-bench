@@ -1,0 +1,60 @@
+Subject: Paid media spend-efficiency audit, eight weeks to 18 October 2026
+
+Hi,
+
+Here is my audit of the ad performance export you shared. It covers eight full Monday-to-Sunday weeks of daily data, from 24 August to 18 October 2026, for Brightline Dental, Harbor & Pine and Northfield Bikes across Search, Social and Display.
+
+The short version: overall spend is under control, but Harbor & Pine's social and display lines are buying leads at more than twice the price of everything else, and a budget increase on Fall collection in the last two weeks made that worse.
+
+WHAT I INCLUDED AND LEFT OUT
+
+- The export has 728 daily campaign rows.
+- I removed the "QA – Pixel test" line under Harbor & Pine Display. It is flagged as a test campaign on all 56 of its rows, spent $49.01 and produced no leads, so it is tracking noise rather than media.
+- I checked for exact duplicates, repeated date-and-campaign pairs, blank cells and impossible values (clicks above impressions, leads above clicks, zero spend) and found none, so nothing else was removed.
+- Everything below uses the remaining 672 rows. CPL means total spend divided by total leads for the group, not an average of daily CPLs. Weeks run Monday to Sunday.
+
+HEADLINE
+
+- Spend was $70,762.15 for 1,291 leads, a blended CPL of $54.81.
+- Click-through rate was 1.1%, and 2.3% of clicks became leads.
+
+BY CLIENT
+
+- Brightline Dental is the most efficient account. It spent $21,645.65 (30.6% of total spend) and delivered 515 leads (39.9% of all leads) at $42.03 each, with 4.5% of clicks converting.
+- Northfield Bikes is in balance: 29.4% of spend, 29.4% of leads, CPL $54.93.
+- Harbor & Pine is where the money leaks. It took $28,296.36, or 40.0% of spend, but returned only 30.8% of leads, for a CPL of $71.28. Just 1.5% of its clicks became leads, and 38.4% of its campaign-days either produced no lead or cost three figures per lead. Brightline had no days like that.
+
+BY CHANNEL
+
+- Search: 35.8% of spend, 48.2% of leads, CPL $40.75.
+- Social: 43.8% of spend, 36.3% of leads, CPL $66.20.
+- Display: 20.4% of spend, 15.6% of leads, CPL $71.80.
+- The channel picture is really a client picture. Harbor & Pine puts 61.6% of its budget into Social, where its leads cost $99.06. Its only Search line, Brand search, takes 12.6% of its budget yet brings in 37.3% of its leads at $24.07, the cheapest lead in the whole account.
+
+CAMPAIGNS: WHERE LEADS COST THE MOST
+
+- The three most expensive lines all belong to Harbor & Pine: Lookalike at $107.48, Gift guide at $99.99 and Fall collection at $95.63. Together they absorbed 35.0% of total spend but produced only 19.3% of leads. The other nine lines averaged $44.17 per lead.
+- Lookalike is the weakest line. It had 6 days with no leads at all, which cost $496.55, or 9.1% of its budget. Only one other campaign-day in the cleaned data ended with zero leads.
+- Northfield's E-bike search is the outlier inside Search at $74.56 per lead, against $35.03 for the other four Search lines combined. Its cost per click is in line with the rest of Search, so the gap is after the click: only 2.9% of its clicks became leads, versus 5.7% on Northfield's own Service booking search, which runs at $28.01 per lead.
+
+WEEKLY TRENDS
+
+- Account CPL moved from $53.13 in the first week to $57.23 in the last, the most expensive week of the eight.
+- That rise comes from one change. From the week starting 5 October, Fall collection's median daily spend went from $194.27 over the first six weeks to $295.18 over the last two; its earlier run rate was $1,333.04 a week. Its CPL rose from $90.89 to $106.89.
+- Excluding Fall collection, account CPL was $50.73 in the first six weeks and $49.59 in the last two, so everything else held steady or improved.
+- Put differently, the extra $1,289.03 spent on Fall collection in those two weeks, above its earlier run rate, bought about 7.7 additional leads, roughly $168 each.
+- Fall collection's share of Harbor & Pine spend rose from 39.4% to 49.4%, and Harbor & Pine's weekly CPL hit $75.83 in the final week, its highest of the period.
+- Brightline is steady: its weekly CPL stayed between $39.93 and $45.57 throughout.
+
+WHAT I RECOMMEND
+
+- Return Fall collection to its pre-October budget. The incremental leads cost far more than any other line in the account.
+- Shift part of Harbor & Pine's social and display budget into Brand search and watch whether volume holds as spend rises; it is your cheapest lead source.
+- Put Lookalike on a CPL cap or pause it, and rebuild the seed audience before relaunching.
+- Review the E-bike search landing page and form before touching bids.
+- Leave Brightline's channel mix alone; it is efficient and stable.
+- Keep pixel and QA campaigns out of client exports, or name them consistently so they can be filtered automatically.
+
+Happy to walk through the workings on a call.
+
+Best regards

@@ -1,0 +1,347 @@
+[
+  {
+    "quote": "728",
+    "value": 728,
+    "definition": "All data rows in the export, before any exclusion."
+  },
+  {
+    "quote": "56",
+    "value": 56,
+    "definition": "Rows where Test campaign = Yes (all are the QA – Pixel test line under Harbor & Pine Display)."
+  },
+  {
+    "quote": "$49.01",
+    "value": 49.01,
+    "definition": "Sum of Spend over the 56 test-flagged rows."
+  },
+  {
+    "quote": "672",
+    "value": 672,
+    "definition": "Rows remaining after removing the 56 test-flagged rows (no duplicates or blanks were found)."
+  },
+  {
+    "quote": "$70,762.15",
+    "value": 70762.15,
+    "definition": "Sum of Spend over all 672 non-test rows."
+  },
+  {
+    "quote": "1,291",
+    "value": 1291,
+    "definition": "Sum of Leads over all 672 non-test rows."
+  },
+  {
+    "quote": "$54.81",
+    "value": 54.8118900077,
+    "definition": "Total Spend divided by total Leads over all non-test rows."
+  },
+  {
+    "quote": "1.1%",
+    "value": 1.0600777901,
+    "definition": "Total Clicks divided by total Impressions over all non-test rows."
+  },
+  {
+    "quote": "2.3%",
+    "value": 2.2717274631,
+    "definition": "Total Leads divided by total Clicks over all non-test rows."
+  },
+  {
+    "quote": "$21,645.65",
+    "value": 21645.65,
+    "definition": "Sum of Spend for Brightline Dental non-test rows."
+  },
+  {
+    "quote": "30.6%",
+    "value": 30.5893051582,
+    "definition": "Brightline Dental spend as a share of total non-test spend."
+  },
+  {
+    "quote": "515",
+    "value": 515,
+    "definition": "Sum of Leads for Brightline Dental non-test rows."
+  },
+  {
+    "quote": "39.9%",
+    "value": 39.8915569326,
+    "definition": "Brightline Dental leads as a share of total non-test leads."
+  },
+  {
+    "quote": "$42.03",
+    "value": 42.0303883495,
+    "definition": "Brightline Dental total spend divided by its total leads."
+  },
+  {
+    "quote": "4.5%",
+    "value": 4.462351616,
+    "definition": "Brightline Dental total leads divided by its total clicks."
+  },
+  {
+    "quote": "29.4%",
+    "value": 29.4227069132,
+    "definition": "Northfield Bikes spend as a share of total non-test spend."
+  },
+  {
+    "quote": "29.4%",
+    "value": 29.357087529,
+    "definition": "Northfield Bikes leads as a share of total non-test leads."
+  },
+  {
+    "quote": "$54.93",
+    "value": 54.9344063325,
+    "definition": "Northfield Bikes total spend divided by its total leads."
+  },
+  {
+    "quote": "$28,296.36",
+    "value": 28296.36,
+    "definition": "Sum of Spend for Harbor & Pine non-test rows (QA – Pixel test excluded)."
+  },
+  {
+    "quote": "40.0%",
+    "value": 39.9879879286,
+    "definition": "Harbor & Pine spend as a share of total non-test spend."
+  },
+  {
+    "quote": "30.8%",
+    "value": 30.7513555383,
+    "definition": "Harbor & Pine leads as a share of total non-test leads."
+  },
+  {
+    "quote": "$71.28",
+    "value": 71.275465995,
+    "definition": "Harbor & Pine total spend divided by its total leads."
+  },
+  {
+    "quote": "1.5%",
+    "value": 1.4563462949,
+    "definition": "Harbor & Pine total leads divided by its total clicks."
+  },
+  {
+    "quote": "38.4%",
+    "value": 38.3928571429,
+    "definition": "Share of the 224 Harbor & Pine non-test campaign-day rows with zero leads or a daily Spend/Leads of $100 or more (86 rows)."
+  },
+  {
+    "quote": "35.8%",
+    "value": 35.8223570087,
+    "definition": "Search spend as a share of total non-test spend."
+  },
+  {
+    "quote": "48.2%",
+    "value": 48.1797056545,
+    "definition": "Search leads as a share of total non-test leads."
+  },
+  {
+    "quote": "$40.75",
+    "value": 40.753488746,
+    "definition": "Search total spend divided by Search total leads, non-test rows."
+  },
+  {
+    "quote": "43.8%",
+    "value": 43.7835339938,
+    "definition": "Social spend as a share of total non-test spend."
+  },
+  {
+    "quote": "36.3%",
+    "value": 36.2509682417,
+    "definition": "Social leads as a share of total non-test leads."
+  },
+  {
+    "quote": "$66.20",
+    "value": 66.2012179487,
+    "definition": "Social total spend divided by Social total leads, non-test rows."
+  },
+  {
+    "quote": "20.4%",
+    "value": 20.3941089975,
+    "definition": "Display spend as a share of total non-test spend (QA – Pixel test excluded)."
+  },
+  {
+    "quote": "15.6%",
+    "value": 15.5693261038,
+    "definition": "Display leads as a share of total non-test leads."
+  },
+  {
+    "quote": "$71.80",
+    "value": 71.7975621891,
+    "definition": "Display total spend divided by Display total leads, non-test rows."
+  },
+  {
+    "quote": "61.6%",
+    "value": 61.6159110218,
+    "definition": "Harbor & Pine Social spend as a share of Harbor & Pine non-test spend."
+  },
+  {
+    "quote": "$99.06",
+    "value": 99.0628409091,
+    "definition": "Harbor & Pine Social spend divided by Harbor & Pine Social leads."
+  },
+  {
+    "quote": "12.6%",
+    "value": 12.5883682566,
+    "definition": "Harbor & Pine Search (Brand search) spend as a share of Harbor & Pine non-test spend."
+  },
+  {
+    "quote": "37.3%",
+    "value": 37.2795969773,
+    "definition": "Harbor & Pine Search (Brand search) leads as a share of Harbor & Pine leads."
+  },
+  {
+    "quote": "$24.07",
+    "value": 24.0679054054,
+    "definition": "Harbor & Pine Brand search spend divided by its leads (lowest campaign CPL)."
+  },
+  {
+    "quote": "$107.48",
+    "value": 107.4847058824,
+    "definition": "Harbor & Pine – Lookalike spend divided by its leads."
+  },
+  {
+    "quote": "$99.99",
+    "value": 99.9897260274,
+    "definition": "Harbor & Pine – Gift guide spend divided by its leads."
+  },
+  {
+    "quote": "$95.63",
+    "value": 95.62672,
+    "definition": "Harbor & Pine – Fall collection spend divided by its leads, all eight weeks."
+  },
+  {
+    "quote": "35.0%",
+    "value": 34.9541527497,
+    "definition": "Combined spend of Lookalike, Gift guide and Fall collection as a share of total non-test spend."
+  },
+  {
+    "quote": "19.3%",
+    "value": 19.2873741286,
+    "definition": "Combined leads of Lookalike, Gift guide and Fall collection as a share of total non-test leads."
+  },
+  {
+    "quote": "$44.17",
+    "value": 44.1725911708,
+    "definition": "Spend divided by leads for the nine non-test campaigns other than Lookalike, Gift guide and Fall collection."
+  },
+  {
+    "quote": "6",
+    "value": 6,
+    "definition": "Count of Harbor & Pine – Lookalike rows (days) with zero leads."
+  },
+  {
+    "quote": "$496.55",
+    "value": 496.55,
+    "definition": "Sum of Spend on the Lookalike days with zero leads."
+  },
+  {
+    "quote": "9.1%",
+    "value": 9.0582882745,
+    "definition": "Spend on zero-lead Lookalike days as a share of all Lookalike spend."
+  },
+  {
+    "quote": "$74.56",
+    "value": 74.5634444444,
+    "definition": "Northfield – E-bike search spend divided by its leads."
+  },
+  {
+    "quote": "$35.03",
+    "value": 35.0337593985,
+    "definition": "Spend divided by leads for the four Search campaigns other than Northfield – E-bike search."
+  },
+  {
+    "quote": "2.9%",
+    "value": 2.945026178,
+    "definition": "Northfield – E-bike search leads divided by its clicks."
+  },
+  {
+    "quote": "5.7%",
+    "value": 5.6803995006,
+    "definition": "Northfield – Service booking leads divided by its clicks."
+  },
+  {
+    "quote": "$28.01",
+    "value": 28.0083516484,
+    "definition": "Northfield – Service booking spend divided by its leads."
+  },
+  {
+    "quote": "$53.13",
+    "value": 53.1304216867,
+    "definition": "Spend divided by leads for all non-test rows dated 24-30 Aug 2026 (week 1, Mon-Sun)."
+  },
+  {
+    "quote": "$57.23",
+    "value": 57.2277018634,
+    "definition": "Spend divided by leads for all non-test rows dated 12-18 Oct 2026 (week 8), the highest of the eight weeks."
+  },
+  {
+    "quote": "$194.27",
+    "value": 194.265,
+    "definition": "Median daily Spend of Fall collection over 24 Aug-4 Oct 2026 (42 days)."
+  },
+  {
+    "quote": "$295.18",
+    "value": 295.18,
+    "definition": "Median daily Spend of Fall collection over 5-18 Oct 2026 (14 days)."
+  },
+  {
+    "quote": "$1,333.04",
+    "value": 1333.0383333333,
+    "definition": "Fall collection spend over 24 Aug-4 Oct divided by six weeks."
+  },
+  {
+    "quote": "$90.89",
+    "value": 90.8889772727,
+    "definition": "Fall collection spend divided by leads, 24 Aug-4 Oct 2026."
+  },
+  {
+    "quote": "$106.89",
+    "value": 106.8948648649,
+    "definition": "Fall collection spend divided by leads, 5-18 Oct 2026."
+  },
+  {
+    "quote": "$50.73",
+    "value": 50.726843318,
+    "definition": "Spend divided by leads for all non-test rows except Fall collection, 24 Aug-4 Oct 2026."
+  },
+  {
+    "quote": "$49.59",
+    "value": 49.5903020134,
+    "definition": "Spend divided by leads for all non-test rows except Fall collection, 5-18 Oct 2026."
+  },
+  {
+    "quote": "$1,289.03",
+    "value": 1289.0333333333,
+    "definition": "Fall collection spend 5-18 Oct minus two times its average weekly spend over 24 Aug-4 Oct."
+  },
+  {
+    "quote": "7.7",
+    "value": 7.6666666667,
+    "definition": "Fall collection leads 5-18 Oct minus two times its average weekly leads over 24 Aug-4 Oct."
+  },
+  {
+    "quote": "$168",
+    "value": 168.1347826087,
+    "definition": "Incremental Fall collection spend divided by incremental leads, 5-18 Oct versus the earlier weekly run rate."
+  },
+  {
+    "quote": "39.4%",
+    "value": 39.4323152286,
+    "definition": "Fall collection spend as a share of Harbor & Pine non-test spend, 24 Aug-4 Oct."
+  },
+  {
+    "quote": "49.4%",
+    "value": 49.3591599567,
+    "definition": "Fall collection spend as a share of Harbor & Pine non-test spend, 5-18 Oct."
+  },
+  {
+    "quote": "$75.83",
+    "value": 75.8276923077,
+    "definition": "Harbor & Pine spend divided by leads for 12-18 Oct 2026 (week 8), its highest weekly CPL."
+  },
+  {
+    "quote": "$39.93",
+    "value": 39.9266176471,
+    "definition": "Lowest weekly Brightline Dental CPL (spend/leads) across the eight Mon-Sun weeks (week 4)."
+  },
+  {
+    "quote": "$45.57",
+    "value": 45.5713559322,
+    "definition": "Highest weekly Brightline Dental CPL (spend/leads) across the eight Mon-Sun weeks (week 3)."
+  }
+]

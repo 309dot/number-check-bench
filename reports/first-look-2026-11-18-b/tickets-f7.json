@@ -1,0 +1,337 @@
+[
+  {
+    "quote": "2,434",
+    "value": 2434,
+    "definition": "Clean tickets: all export rows except those flagged Spam or Merged duplicate."
+  },
+  {
+    "quote": "29.8%",
+    "value": 29.82744453574363,
+    "definition": "Share of clean tickets with SLA breached = Yes."
+  },
+  {
+    "quote": "726",
+    "value": 726,
+    "definition": "Clean tickets with SLA breached = Yes."
+  },
+  {
+    "quote": "2,434",
+    "value": 2434,
+    "definition": "Clean tickets (repeated for the sentence)."
+  },
+  {
+    "quote": "6.4",
+    "value": 6.4,
+    "definition": "Median First response (hours) over clean tickets that have a value."
+  },
+  {
+    "quote": "4",
+    "value": 4,
+    "definition": "Median resolution days (Closed minus Opened) over clean Closed or Solved tickets."
+  },
+  {
+    "quote": "1,142",
+    "value": 1142,
+    "definition": "Clean tickets with a CSAT rating."
+  },
+  {
+    "quote": "85.2%",
+    "value": 85.20140105078809,
+    "definition": "Share of rated clean tickets with CSAT = Good."
+  },
+  {
+    "quote": "12.4%",
+    "value": 12.407559572719803,
+    "definition": "Share of clean tickets assigned to Theo."
+  },
+  {
+    "quote": "27.0%",
+    "value": 26.99724517906336,
+    "definition": "Share of all clean SLA breaches that are on Theo tickets."
+  },
+  {
+    "quote": "2,558",
+    "value": 2558,
+    "definition": "All rows in the export; ticket IDs are unique."
+  },
+  {
+    "quote": "52",
+    "value": 52,
+    "definition": "Rows with Spam = Yes."
+  },
+  {
+    "quote": "2.0%",
+    "value": 2.032838154808444,
+    "definition": "Spam rows divided by all export rows."
+  },
+  {
+    "quote": "74",
+    "value": 74,
+    "definition": "Rows with Merged duplicate = Yes."
+  },
+  {
+    "quote": "2",
+    "value": 2,
+    "definition": "Rows flagged both Spam and Merged duplicate."
+  },
+  {
+    "quote": "124",
+    "value": 124,
+    "definition": "Total excluded rows = export rows minus clean rows."
+  },
+  {
+    "quote": "2,434",
+    "value": 2434,
+    "definition": "Clean tickets (repeated)."
+  },
+  {
+    "quote": "4",
+    "value": 4,
+    "definition": "Clean tickets with a blank First response (hours); they are still open or pending."
+  },
+  {
+    "quote": "1,151",
+    "value": 1151,
+    "definition": "Clean tickets with Channel = Email."
+  },
+  {
+    "quote": "47.3%",
+    "value": 47.288414133114216,
+    "definition": "Email tickets divided by clean tickets."
+  },
+  {
+    "quote": "934",
+    "value": 934,
+    "definition": "Clean tickets with Channel = Chat."
+  },
+  {
+    "quote": "349",
+    "value": 349,
+    "definition": "Clean tickets with Channel = Phone."
+  },
+  {
+    "quote": "14.3%",
+    "value": 14.338537387017256,
+    "definition": "Phone tickets divided by clean tickets."
+  },
+  {
+    "quote": "2,149",
+    "value": 2149,
+    "definition": "Clean tickets with Status Closed or Solved."
+  },
+  {
+    "quote": "285",
+    "value": 285,
+    "definition": "Clean tickets with Status Open or Pending."
+  },
+  {
+    "quote": "552",
+    "value": 552,
+    "definition": "Clean tickets opened in October (Opened date starts with 2026-10)."
+  },
+  {
+    "quote": "30.1%",
+    "value": 30.07246376811594,
+    "definition": "SLA breach rate within clean October-opened tickets."
+  },
+  {
+    "quote": "29.8%",
+    "value": 29.75557917109458,
+    "definition": "SLA breach rate within clean tickets opened before October."
+  },
+  {
+    "quote": "7.6",
+    "value": 7.6421810699588475,
+    "definition": "Mean First response (hours) over clean tickets with a value."
+  },
+  {
+    "quote": "2,430",
+    "value": 2430,
+    "definition": "Clean tickets with a first response value."
+  },
+  {
+    "quote": "6.5",
+    "value": 6.5,
+    "definition": "Median first response hours for clean Chat tickets."
+  },
+  {
+    "quote": "6.2",
+    "value": 6.2,
+    "definition": "Median first response hours for clean Email tickets."
+  },
+  {
+    "quote": "6.7",
+    "value": 6.7,
+    "definition": "Median first response hours for clean Phone tickets."
+  },
+  {
+    "quote": "0.9",
+    "value": 0.9,
+    "definition": "Median first response hours for clean Urgent tickets."
+  },
+  {
+    "quote": "61.4%",
+    "value": 61.36363636363637,
+    "definition": "Share of clean Urgent tickets with first response of 1 hour or less."
+  },
+  {
+    "quote": "13.5",
+    "value": 13.5,
+    "definition": "Median first response hours for clean Low tickets."
+  },
+  {
+    "quote": "28",
+    "value": 28,
+    "definition": "Clean tickets with first response over 24 hours."
+  },
+  {
+    "quote": "9.3%",
+    "value": 9.271523178807946,
+    "definition": "Share of Theo tickets with first response over 24 hours."
+  },
+  {
+    "quote": "3.8",
+    "value": 3.818054909260121,
+    "definition": "Mean resolution days over clean Closed or Solved tickets."
+  },
+  {
+    "quote": "20.8%",
+    "value": 20.75383899488134,
+    "definition": "Share of clean Closed or Solved tickets resolved in 7 days or more."
+  },
+  {
+    "quote": "38.6%",
+    "value": 38.63636363636363,
+    "definition": "SLA breach rate within clean Urgent tickets."
+  },
+  {
+    "quote": "24.2%",
+    "value": 24.178403755868544,
+    "definition": "SLA breach rate within clean High tickets."
+  },
+  {
+    "quote": "40.0%",
+    "value": 40.0,
+    "definition": "SLA breach rate within clean Normal tickets."
+  },
+  {
+    "quote": "5.4%",
+    "value": 5.426356589147287,
+    "definition": "SLA breach rate within clean Low tickets."
+  },
+  {
+    "quote": "74.9%",
+    "value": 74.93112947658402,
+    "definition": "Share of all clean SLA breaches that are Normal priority."
+  },
+  {
+    "quote": "30.2%",
+    "value": 30.234578627280627,
+    "definition": "SLA breach rate within clean Email tickets."
+  },
+  {
+    "quote": "28.6%",
+    "value": 28.58672376873662,
+    "definition": "SLA breach rate within clean Chat tickets."
+  },
+  {
+    "quote": "31.8%",
+    "value": 31.80515759312321,
+    "definition": "SLA breach rate within clean Phone tickets."
+  },
+  {
+    "quote": "33.3%",
+    "value": 33.333333333333336,
+    "definition": "SLA breach rate within clean Open or Pending tickets."
+  },
+  {
+    "quote": "14.8%",
+    "value": 14.79859894921191,
+    "definition": "Share of rated clean tickets with CSAT = Bad."
+  },
+  {
+    "quote": "87.6%",
+    "value": 87.569573283859,
+    "definition": "Share of rated clean Email tickets with CSAT = Good."
+  },
+  {
+    "quote": "82.2%",
+    "value": 82.21709006928407,
+    "definition": "Share of rated clean Chat tickets with CSAT = Good."
+  },
+  {
+    "quote": "85.3%",
+    "value": 85.29411764705883,
+    "definition": "Share of rated clean Phone tickets with CSAT = Good."
+  },
+  {
+    "quote": "77.8%",
+    "value": 77.77777777777777,
+    "definition": "Share of rated clean Urgent tickets with CSAT = Good."
+  },
+  {
+    "quote": "85.5%",
+    "value": 85.47140649149922,
+    "definition": "Share of rated clean Normal tickets with CSAT = Good."
+  },
+  {
+    "quote": "19.0%",
+    "value": 19.03409090909091,
+    "definition": "Share of rated clean SLA-breached tickets with CSAT = Bad."
+  },
+  {
+    "quote": "12.9%",
+    "value": 12.91139240506329,
+    "definition": "Share of rated clean tickets within SLA with CSAT = Bad."
+  },
+  {
+    "quote": "21.5%",
+    "value": 21.485411140583555,
+    "definition": "SLA breach rate for the agent with the lowest breach rate among the five non-Theo agents (Hana)."
+  },
+  {
+    "quote": "28.1%",
+    "value": 28.125,
+    "definition": "SLA breach rate for the agent with the highest breach rate among the five non-Theo agents (Jonah)."
+  },
+  {
+    "quote": "64.9%",
+    "value": 64.90066225165563,
+    "definition": "SLA breach rate within clean Theo tickets."
+  },
+  {
+    "quote": "10.8",
+    "value": 10.8,
+    "definition": "Median first response hours for clean Theo tickets."
+  },
+  {
+    "quote": "6.0",
+    "value": 6.0,
+    "definition": "Median first response hours for clean tickets of the other five agents."
+  },
+  {
+    "quote": "72.1%",
+    "value": 72.09302325581395,
+    "definition": "SLA breach rate within clean Normal tickets assigned to Theo."
+  },
+  {
+    "quote": "35.4%",
+    "value": 35.35353535353536,
+    "definition": "SLA breach rate within clean Normal tickets of the other five agents."
+  },
+  {
+    "quote": "68.8%",
+    "value": 68.75,
+    "definition": "Share of rated clean Theo tickets with CSAT = Good."
+  },
+  {
+    "quote": "87.9%",
+    "value": 87.88187372708758,
+    "definition": "Share of rated clean tickets of the other five agents with CSAT = Good."
+  },
+  {
+    "quote": "29.6%",
+    "value": 29.585798816568047,
+    "definition": "Share of all clean bad ratings that are on Theo tickets."
+  }
+]

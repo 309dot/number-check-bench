@@ -1,0 +1,66 @@
+PORTFOLIO DELIVERY RISK REPORT
+To: The Board
+From: Program Director
+Subject: Budget burn, overruns, slipped dates and completion by department, owner and phase (mid-October status week)
+
+SCOPE AND DATA HANDLING
+- The status export lists 24 project rows plus a closing "Total" line. I dropped the Total line because it only re-adds the project rows and would double-count them.
+- I also dropped the 2 archived projects, Intranet refresh and Legacy CMS shutdown. Both closed in the first half of the year, carried $90,000 of combined budget and hold no live delivery risk.
+- I found no duplicate, test or spam rows: every project name appears once, and every row has an owner, department, budget and spend.
+- That leaves 22 active projects. Below, "burn" is spend divided by budget, "slipped" means not done and past its due date at the export's status date, and "time elapsed" is the share of the planned start-to-due window already used.
+
+HEADLINE
+- Active budget is $3,790,000. Spend to date is $2,934,920, a burn of 77.4%, with $855,080 left.
+- Flags stand at 13 Green, 6 Amber and 3 Red.
+- 3 projects are over budget by a combined $62,130, and 4 open projects have slipped.
+- The risk is concentrated. Finance, Sales, Data and IT account for every overrun and every slip. They hold 38.7% of active budget and have already burned 98.0% of it; all other departments together stand at 64.5%.
+
+OVERRUNS AND BURN
+- Data warehouse (Priya, Data): $33,600 over, 8.0% above budget.
+- Billing revamp (Chris, Finance): $18,400 over, also 8.0% above budget.
+- CRM migration (Omar, Sales): $10,130 over, 3.9% above budget.
+- All of these are High-risk projects in Test that have also slipped. Of the 5 High-risk projects, 60.0% are over budget; no Medium- or Low-risk project is.
+- Next to tip over is Field sales app (Omar, Sales, Red): 95.4% spent with 85.0% of its time elapsed, leaving $9,580 for the rest of build and all of test.
+- Warehouse robots pilot (Lena, Operations), the largest single project, has spent 53.0% with 48.5% of its time elapsed. It and Field sales app are the only Build-phase projects spending faster than the calendar.
+
+SLIPPED DATES
+- 4 of the 18 open projects (22.2%) are past due: CRM migration by 19 days, SSO rollout by 18, Data warehouse by 16 and Billing revamp by 16. The average slip is 17.3 days.
+- The slipped projects have burned 106.2% of their combined budget, so the delays are already costing money, not only time.
+- Flags lag the facts: Data warehouse and SSO rollout are still Amber, although Data warehouse carries the largest overrun in the portfolio.
+- Next wave: 9 more open projects fall due between now and the end of November, and they have burned 72.1% of their budget. The closest call is Security audit (Kim, IT), due later this month with 84.0% spent and spend running just ahead of its calendar.
+
+COMPLETION
+- 4 projects are done, 18.2% of the active portfolio: Vendor portal and Supplier onboarding (Operations), Office move (Facilities) and Help center (Support).
+- All of them finished on or before their due date, by a median of 1.5 days.
+- They burned 87.4% of their budget, leaving $56,720 unspent.
+- No project in Finance, Sales, Data or IT has completed yet.
+
+BY DEPARTMENT (burn)
+- Finance: 100.3%
+- Sales: 100.1% (both projects Red and High risk)
+- Data: 97.9%
+- IT: 89.7%
+- Facilities: 86.0%
+- Support: 69.6%
+- People: 68.1%
+- Operations: 64.4%
+- Marketing: 62.1%
+- Product: 58.3%
+None of the departments from Facilities down has an overrun or a slip.
+
+BY OWNER
+- 4 of the 11 owners (Omar, Chris, Priya and Kim) hold every overrun and every slip. Each runs their department's entire active list, so the department rates above are also theirs.
+- Lena holds the largest book, $610,000, at 57.8% burn, most of it the robots pilot.
+- Jordan has delivered both of his projects, at 88.2% burn.
+- Maya, who carries the most projects, has no overrun or slip.
+
+BY PHASE
+- Test: 5 projects holding 33.5% of active budget. They have burned 97.0% overall, with a median of 103.9%, and 60.0% of them have slipped. This is where the portfolio is losing control.
+- Build: 11 projects at 61.6% burn, with no overrun or slip; Field sales app and the robots pilot are the ones to watch.
+- Launch: 92.0% burn; SSO rollout has slipped and Pricing page tests is due within days.
+
+REQUESTS TO THE BOARD
+- Approve re-baselined budgets and dates for Data warehouse, Billing revamp and CRM migration, each with a fixed exit date from Test.
+- Require a recovery plan for Field sales app before its remaining budget is gone, with an explicit choice between cutting scope and adding funds.
+- Re-flag Data warehouse and SSO rollout as Red so the status report matches the numbers.
+- Hold new spend in Finance, Sales, Data and IT until the slipped work clears, and release headroom from completed projects only against those recovery plans.

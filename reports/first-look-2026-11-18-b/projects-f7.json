@@ -1,0 +1,352 @@
+[
+  {
+    "quote": "24",
+    "value": 24,
+    "definition": "Count of project rows in the Projects sheet, excluding the Total line."
+  },
+  {
+    "quote": "2",
+    "value": 2,
+    "definition": "Count of project rows with Archived = Yes."
+  },
+  {
+    "quote": "$90,000",
+    "value": 90000,
+    "definition": "Sum of Budget over the 2 archived projects."
+  },
+  {
+    "quote": "22",
+    "value": 22,
+    "definition": "Count of project rows with Archived = No (the active set used throughout)."
+  },
+  {
+    "quote": "$3,790,000",
+    "value": 3790000,
+    "definition": "Sum of Budget over the 22 active projects."
+  },
+  {
+    "quote": "$2,934,920",
+    "value": 2934920,
+    "definition": "Sum of Spend over the 22 active projects."
+  },
+  {
+    "quote": "77.4%",
+    "value": 77.43852242744063,
+    "definition": "Total Spend divided by total Budget over the 22 active projects."
+  },
+  {
+    "quote": "$855,080",
+    "value": 855080,
+    "definition": "Total Budget minus total Spend over the 22 active projects."
+  },
+  {
+    "quote": "13",
+    "value": 13,
+    "definition": "Count of active projects with Status = Green."
+  },
+  {
+    "quote": "6",
+    "value": 6,
+    "definition": "Count of active projects with Status = Amber."
+  },
+  {
+    "quote": "3",
+    "value": 3,
+    "definition": "Count of active projects with Status = Red."
+  },
+  {
+    "quote": "3",
+    "value": 3,
+    "definition": "Count of active projects whose Spend exceeds Budget."
+  },
+  {
+    "quote": "$62,130",
+    "value": 62130,
+    "definition": "Sum of (Spend minus Budget) over the active projects whose Spend exceeds Budget."
+  },
+  {
+    "quote": "4",
+    "value": 4,
+    "definition": "Count of active projects with no Done date whose Due date is before the status date 2026-10-18."
+  },
+  {
+    "quote": "38.7%",
+    "value": 38.65435356200528,
+    "definition": "Budget of active projects in Finance, Sales, Data and IT as a share of total active Budget."
+  },
+  {
+    "quote": "98.0%",
+    "value": 97.97610921501706,
+    "definition": "Spend divided by Budget over active projects in Finance, Sales, Data and IT."
+  },
+  {
+    "quote": "64.5%",
+    "value": 64.49763440860215,
+    "definition": "Spend divided by Budget over active projects in all departments other than Finance, Sales, Data and IT."
+  },
+  {
+    "quote": "$33,600",
+    "value": 33600,
+    "definition": "Spend minus Budget for Data warehouse."
+  },
+  {
+    "quote": "8.0%",
+    "value": 8.000000000000007,
+    "definition": "Spend divided by Budget minus 1 for Data warehouse."
+  },
+  {
+    "quote": "$18,400",
+    "value": 18400,
+    "definition": "Spend minus Budget for Billing revamp."
+  },
+  {
+    "quote": "8.0%",
+    "value": 8.000000000000007,
+    "definition": "Spend divided by Budget minus 1 for Billing revamp."
+  },
+  {
+    "quote": "$10,130",
+    "value": 10130,
+    "definition": "Spend minus Budget for CRM migration."
+  },
+  {
+    "quote": "3.9%",
+    "value": 3.896153846153849,
+    "definition": "Spend divided by Budget minus 1 for CRM migration."
+  },
+  {
+    "quote": "5",
+    "value": 5,
+    "definition": "Count of active projects with Risk = High."
+  },
+  {
+    "quote": "60.0%",
+    "value": 60.0,
+    "definition": "Share of the active High-risk projects whose Spend exceeds Budget."
+  },
+  {
+    "quote": "95.4%",
+    "value": 95.43809523809523,
+    "definition": "Spend divided by Budget for Field sales app."
+  },
+  {
+    "quote": "85.0%",
+    "value": 84.97652582159625,
+    "definition": "Days from Start date to 2026-10-18 divided by days from Start date to Due date for Field sales app."
+  },
+  {
+    "quote": "$9,580",
+    "value": 9580,
+    "definition": "Budget minus Spend for Field sales app."
+  },
+  {
+    "quote": "53.0%",
+    "value": 52.96923076923077,
+    "definition": "Spend divided by Budget for Warehouse robots pilot."
+  },
+  {
+    "quote": "48.5%",
+    "value": 48.5,
+    "definition": "Days from Start date to 2026-10-18 divided by days from Start date to Due date for Warehouse robots pilot."
+  },
+  {
+    "quote": "4",
+    "value": 4,
+    "definition": "Count of open (no Done date) active projects whose Due date is before 2026-10-18."
+  },
+  {
+    "quote": "18",
+    "value": 18,
+    "definition": "Count of active projects with no Done date."
+  },
+  {
+    "quote": "22.2%",
+    "value": 22.22222222222222,
+    "definition": "Share of the 18 open active projects whose Due date is before 2026-10-18."
+  },
+  {
+    "quote": "19",
+    "value": 19,
+    "definition": "Days from Due date to 2026-10-18 for CRM migration."
+  },
+  {
+    "quote": "18",
+    "value": 18,
+    "definition": "Days from Due date to 2026-10-18 for SSO rollout."
+  },
+  {
+    "quote": "16",
+    "value": 16,
+    "definition": "Days from Due date to 2026-10-18 for Data warehouse."
+  },
+  {
+    "quote": "16",
+    "value": 16,
+    "definition": "Days from Due date to 2026-10-18 for Billing revamp."
+  },
+  {
+    "quote": "17.3",
+    "value": 17.25,
+    "definition": "Mean days past Due date at 2026-10-18 over the 4 slipped (open, past-due) projects."
+  },
+  {
+    "quote": "106.2%",
+    "value": 106.21421319796956,
+    "definition": "Total Spend divided by total Budget over the 4 slipped projects."
+  },
+  {
+    "quote": "9",
+    "value": 9,
+    "definition": "Count of open active projects not yet past due whose Due date falls on or before 2026-11-30."
+  },
+  {
+    "quote": "72.1%",
+    "value": 72.10610328638498,
+    "definition": "Total Spend divided by total Budget over those 9 projects due by 2026-11-30."
+  },
+  {
+    "quote": "84.0%",
+    "value": 84.04166666666667,
+    "definition": "Spend divided by Budget for Security audit (time elapsed is 83.8%)."
+  },
+  {
+    "quote": "4",
+    "value": 4,
+    "definition": "Count of active projects with a Done date."
+  },
+  {
+    "quote": "18.2%",
+    "value": 18.181818181818183,
+    "definition": "Share of the 22 active projects that have a Done date."
+  },
+  {
+    "quote": "1.5",
+    "value": 1.5,
+    "definition": "Median of (Due date minus Done date) in days over the 4 completed active projects."
+  },
+  {
+    "quote": "87.4%",
+    "value": 87.39555555555556,
+    "definition": "Total Spend divided by total Budget over the 4 completed active projects."
+  },
+  {
+    "quote": "$56,720",
+    "value": 56720,
+    "definition": "Total Budget minus total Spend over the 4 completed active projects."
+  },
+  {
+    "quote": "100.3%",
+    "value": 100.29824561403508,
+    "definition": "Total Spend divided by total Budget over active projects in the Finance department."
+  },
+  {
+    "quote": "100.1%",
+    "value": 100.11702127659574,
+    "definition": "Total Spend divided by total Budget over active projects in the Sales department."
+  },
+  {
+    "quote": "97.9%",
+    "value": 97.86796116504854,
+    "definition": "Total Spend divided by total Budget over active projects in the Data department."
+  },
+  {
+    "quote": "89.7%",
+    "value": 89.70769230769231,
+    "definition": "Total Spend divided by total Budget over active projects in the IT department."
+  },
+  {
+    "quote": "86.0%",
+    "value": 86.01111111111112,
+    "definition": "Total Spend divided by total Budget over active projects in the Facilities department."
+  },
+  {
+    "quote": "69.6%",
+    "value": 69.64615384615385,
+    "definition": "Total Spend divided by total Budget over active projects in the Support department."
+  },
+  {
+    "quote": "68.1%",
+    "value": 68.08823529411765,
+    "definition": "Total Spend divided by total Budget over active projects in the People department."
+  },
+  {
+    "quote": "64.4%",
+    "value": 64.4012987012987,
+    "definition": "Total Spend divided by total Budget over active projects in the Operations department."
+  },
+  {
+    "quote": "62.1%",
+    "value": 62.10681818181818,
+    "definition": "Total Spend divided by total Budget over active projects in the Marketing department."
+  },
+  {
+    "quote": "58.3%",
+    "value": 58.30408163265306,
+    "definition": "Total Spend divided by total Budget over active projects in the Product department."
+  },
+  {
+    "quote": "4",
+    "value": 4,
+    "definition": "Count of distinct owners of the active projects that are over budget or slipped."
+  },
+  {
+    "quote": "11",
+    "value": 11,
+    "definition": "Count of distinct owners across the 22 active projects."
+  },
+  {
+    "quote": "$610,000",
+    "value": 610000,
+    "definition": "Sum of Budget over active projects owned by Lena (the largest owner total)."
+  },
+  {
+    "quote": "57.8%",
+    "value": 57.844262295081975,
+    "definition": "Total Spend divided by total Budget over active projects owned by Lena."
+  },
+  {
+    "quote": "88.2%",
+    "value": 88.18,
+    "definition": "Total Spend divided by total Budget over active projects owned by Jordan (both done)."
+  },
+  {
+    "quote": "5",
+    "value": 5,
+    "definition": "Count of active projects with Phase = Test."
+  },
+  {
+    "quote": "33.5%",
+    "value": 33.50923482849604,
+    "definition": "Budget of active Test-phase projects as a share of total active Budget."
+  },
+  {
+    "quote": "97.0%",
+    "value": 97.0220472440945,
+    "definition": "Total Spend divided by total Budget over active Test-phase projects."
+  },
+  {
+    "quote": "103.9%",
+    "value": 103.89615384615385,
+    "definition": "Median of Spend divided by Budget across the 5 active Test-phase projects."
+  },
+  {
+    "quote": "60.0%",
+    "value": 60.0,
+    "definition": "Share of active Test-phase projects that are open and past due at 2026-10-18."
+  },
+  {
+    "quote": "11",
+    "value": 11,
+    "definition": "Count of active projects with Phase = Build."
+  },
+  {
+    "quote": "61.6%",
+    "value": 61.566751918158566,
+    "definition": "Total Spend divided by total Budget over active Build-phase projects."
+  },
+  {
+    "quote": "92.0%",
+    "value": 92.02608695652174,
+    "definition": "Total Spend divided by total Budget over active Launch-phase projects."
+  }
+]

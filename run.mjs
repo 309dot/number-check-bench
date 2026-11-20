@@ -7,7 +7,7 @@
 //   node run.mjs reports/first-look-2026-11-12 --api https://your-checker.example/check
 //
 // The public API allows 10 checks every 10 minutes and 40 a day from one place, so the default pace is one
-// report every 65 seconds. One folder of 6 takes about 7 minutes; all 57 reports are more than the daily limit,
+// report every 65 seconds. One folder of 6 takes about 7 minutes; all 63 reports are more than the daily limit,
 // so run them over two days. Needs Node 18 or later, no packages.
 import { readdirSync, readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { basename, join } from "node:path";

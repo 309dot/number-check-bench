@@ -1,0 +1,58 @@
+Support Service Level Report
+To: COO | From: Customer Support Director
+Scope: the full ticket export (July through October), reviewed as this month's service-level report. Figures are for the clean ticket set described below. Each figure is computed from the rows of the export; nothing is estimated.
+
+How to read this report
+Rates are shares of the clean set or of the named group. Response and resolution times use medians, because a few very slow tickets would pull a mean upward, and the mean is shown next to it so the gap stays visible. Satisfaction only covers customers who answered the survey, so those figures show direction rather than the whole customer base. The export does not record why a ticket breached, so the causes below come from the pattern in the data and have not been confirmed with the agents.
+
+Bottom line
+- We worked 2,434 tickets. Our SLA breach rate is 29.8% (726 of 2,434), which is the number I would like to move first.
+- Median first response is 6.4 hours. Median resolution for closed or solved tickets is 4 days.
+- Customers rated 1,142 tickets, and 85.2% were good.
+- One agent stands out. Theo holds 12.4% of tickets but 27.0% of breaches.
+
+What I left out
+- The export has 2,558 rows with unique ticket IDs. I removed 52 spam rows (2.0% of the export) and 74 merged duplicates.
+- 2 rows carry both flags, so 124 rows are out in total, and the rest of this report uses the 2,434 remaining tickets.
+- 4 clean tickets have no first response time. They count in volume and breach rates, but they drop out of response averages.
+
+Volume
+- Email carried 1,151 tickets (47.3%), Chat 934, and Phone 349 (14.3%).
+- 2,149 tickets are closed or solved. 285 are still open or pending.
+- October-opened tickets number 552. Their breach rate is 30.1%, against 29.8% for earlier tickets, so the month is roughly flat rather than worse.
+
+Response time
+- Mean first response is 7.6 hours across 2,430 tickets.
+- Medians by channel: Chat 6.5 hours, Email 6.2 hours, Phone 6.7 hours.
+- Urgent tickets have a median of 0.9 hours, and 61.4% got a first response within an hour. Low priority waits longer, with a median of 13.5 hours.
+- 28 tickets waited more than one day, and all of them belong to Theo. That is 9.3% of his tickets.
+
+Resolution time
+- Closed or solved tickets average 3.8 days. 20.8% took seven days or more.
+- October tickets have had less time to close, so their resolution figures are partial until the open work finishes.
+
+SLA misses
+- Breach rate by priority: Urgent 38.6%, High 24.2%, Normal 40.0%, Low 5.4%.
+- Normal priority holds 74.9% of breaches, so the middle queue, not the urgent one, is where most misses land.
+- Breach rate by channel: Email 30.2%, Chat 28.6%, Phone 31.8%. The spread between channels is small, so the channel itself does not explain the misses.
+- Open or pending tickets: 33.3% have already breached, so the breach count will grow before it shrinks.
+
+Satisfaction
+- Bad ratings are 14.8% of the rated set. Good share by channel: Email 87.6%, Chat 82.2%, Phone 85.3%.
+- Good share by priority: Urgent 77.8%, Normal 85.5%.
+- Bad ratings are more common after a breach. 19.0% of rated breached tickets were bad, against 12.9% of rated tickets that met SLA.
+
+By agent
+- The other five agents range from 21.5% (Hana) to 28.1% (Jonah). Theo's breach rate is 64.9%.
+- Theo's median first response is 10.8 hours, against 6.0 hours for the rest of the team.
+- On Normal priority, Theo's breach rate is 72.1%, against 35.4% for everyone else.
+- Theo has the fewest tickets of the six agents, so the gap is not explained by workload volume. It points to how that queue is handled.
+- Good share: Theo 68.8%, the other five 87.9%. Theo's tickets also account for 29.6% of bad ratings.
+
+What I recommend
+- Review Theo's queue, routing and first-response routine with me this week, before we change the policy for everyone.
+- Add a breach-reason field to the export, so queue problems can be separated from staffing or priority-setting problems.
+- Hold judgement on the October resolution figures until the open tickets close.
+
+Next steps
+I will bring the Theo review and the breach-reason plan to the next operations meeting, with the same export re-run on the same clean rules so the numbers can be compared month to month. Any change to queue routing or agent assignment needs your sign-off before it goes into effect.
